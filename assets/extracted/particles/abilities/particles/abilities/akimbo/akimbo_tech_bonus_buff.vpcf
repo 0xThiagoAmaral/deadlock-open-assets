@@ -1,0 +1,36 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/akimbo/akimbo_tech_bonus_buff_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/akimbo/akimbo_tech_bonus_buff_ring_b.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/akimbo/akimbo_tech_bonus_buff_ring_c.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/akimbo/akimbo_tech_bonus_buff_streak.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/akimbo/akimbo_tech_bonus_buff_elec.vpcf"
+		},
+	]
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+}

@@ -1,0 +1,232 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+@define ModTierTopPadding: 10px;
+@define ModTierBottomPadding: 20px;
+CitadelShopModsTier
+{
+	width: 100%;
+	height: fit-children;
+	opacity: 1;
+	transition-property: brightness, background-color, pre-transform-scale2d;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-out;
+	overflow: noclip;
+	tooltip-position: left;
+}
+
+CitadelShopModsTier.canAfford
+{
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes 'float'
+{
+	0%
+	{
+		pre-transform-scale2d: 1;
+		brightness: 1;
+	}
+	
+	50%
+	{
+		pre-transform-scale2d: 1.0001;
+		brightness: 1.2;
+	}
+	
+	100%
+	{
+		pre-transform-scale2d: 1;
+		brightness: 1;
+	}
+	
+}
+
+CitadelShopModsTier.ModTierHovered
+{
+	opacity: 1;
+	wash-color: none;
+	z-index: 2;
+}
+
+.showingFavorites CitadelShopModsTier
+{
+	padding: 20px 0px;
+}
+
+.HoveringItem .ModsContainer CitadelShopMod
+{
+	opacity: 0.5;
+	brightness: 0.5;
+}
+
+.HoveringItem .ModsContainer CitadelShopMod:hover
+{
+	opacity: 1;
+	brightness: 1;
+}
+
+.HoveringItem .ModsContainer CitadelShopMod.HoveredItemIsComponent
+{
+	opacity: 1;
+	z-index: 100;
+	animation-name: itemUpgradeAvailable;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+}
+
+.HoveringItem .ModsContainer CitadelShopMod.HoveredItemIsUpgrade
+{
+	wash-color: white;
+	pre-transform-scale2d: 1.05;
+	opacity: 1;
+	brightness: 2;
+}
+
+@keyframes 'itemUpgradeAvailable'
+{
+	0%
+	{
+		pre-transform-scale2d: 1.1;
+		brightness: 1;
+	}
+	
+	50%
+	{
+		pre-transform-scale2d: 1.25;
+		brightness: 1.5;
+	}
+	
+	100%
+	{
+		pre-transform-scale2d: 1.1;
+		brightness: 1;
+	}
+	
+}
+
+CitadelShopModsTier.canAfford,CitadelHeroDetailsPage CitadelShopModsTier,CitadelHeroDetailsPage CitadelShopModsTier:hover
+{
+	brightness: 1;
+}
+
+CitadelShopModsTier:hover #GoldCostContainer
+{
+	transition: background-color 0.5s ease-in-out 0s;
+}
+
+CitadelShopModsTier:hover .tierBonusContainer
+{
+	transition: opacity 0.15s ease-in-out 0.0s;
+	opacity: 1;
+}
+
+#GoldAndModsContainer
+{
+	width: 100%;
+	height: fit-children;
+	brightness: 1;
+	transition: brightness 0.15s ease-in-out 0.0s;
+	flow-children: down;
+}
+
+#PassiveMods
+{
+	opacity: 1;
+	brightness: 1;
+	pre-transform-scale2d: 1;
+	width: fill-parent-flow( 1.0 );
+	padding: 15px;
+	transition-property: pre-transform-scale2d, background-color;
+	transition-duration: 0.15s;
+}
+
+.showingSearch #PassiveMods
+{
+	margin-top: 0px;
+}
+
+#GoldCostContainer
+{
+	opacity: 0.5;
+	vertical-align: top;
+	horizontal-align: left;
+	flow-children: right;
+	transition: background-color 0.15s ease-in-out 0s;
+	margin: 0%;
+	height: 40px;
+	width: 120px;
+	margin-left: 0px;
+	z-index: 100;
+	margin-right: 0px;
+}
+
+.ModTierHovered #GoldCostContainer
+{
+	opacity: 1;
+}
+
+.goldContain
+{
+	flow-children: right;
+	horizontal-align: left;
+	height: 56px;
+	width: fit-children;
+	vertical-align: middle;
+	overflow: noclip;
+}
+
+#PassiveMods
+{
+	vertical-align: middle;
+	width: 100%;
+}
+
+#PassiveModsContainer
+{
+	width: 100%;
+	flow-children: right-wrap;
+	overflow: noclip;
+}
+
+.goldIcon
+{
+	vertical-align: center;
+	opacity: 0.2;
+	margin-right: 5px;
+	width: 12px;
+	height: 22px;
+}
+
+.canAfford .goldIcon
+{
+	opacity: 1;
+}
+
+.goldCost
+{
+	color: colorEnemy;
+	vertical-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	horizontal-align: center;
+	text-align: center;
+}
+
+.canAfford .goldCost
+{
+	color: shardColor;
+}
+
+.componentPlus
+{
+	margin-top: 2px;
+	margin-left: 2px;
+	visibility: collapse;
+}
+
+#GoldCostContainer
+{
+	visibility: collapse;
+}
+

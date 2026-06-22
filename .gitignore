@@ -1,0 +1,58 @@
+# Build output
+site/
+docs/data/
+
+# Secrets
+deepseek.txt
+api_deepseek.txt
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Downloaded binaries (auto-fetched on first run)
+tools/Source2Viewer-CLI/
+
+# Dev / internal (keep in private umblock fork)
+super_team_umbrella/
+deadlock_scripts/
+localizer/
+assets/docs/agents/
+assets/docs/api/
+assets/docs/builds/
+assets/docs/research/
+assets/extension/
+assets/dump/
+deadlock_gui.json
+assets/JSON.lua
+assets/extracted/catalog/deadlock_knowledge.json
+LoaderKernel.dll
+UmbrellaLoader.exe
+assets.zip
+trace.log
+*.exe
+*.dll
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Large release artifacts (use GitHub Releases instead)
+releases/*.tar.gz
+releases/*.tar.zst
+
+# Config with local paths
+tools/extractor_config.json
+
+# Git submodule internals
+assets/reference/deadlock-open-data/.git/

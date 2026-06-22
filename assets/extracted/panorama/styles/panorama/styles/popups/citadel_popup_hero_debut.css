@@ -1,0 +1,427 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelPopupHeroDebut
+{
+	width: 100%;
+	height: 100%;
+	horizontal-align: center;
+	vertical-align: middle;
+	background-color: #00000090;
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/smoke_bg_psd.vtex");
+	background-size: cover;
+}
+
+#HeroScenePanelBacker
+{
+	width: 100%;
+	height: 100%;
+	horizontal-align: center;
+	margin-right: 00px;
+	margin-left: 130px;
+	margin-bottom: 60px;
+	margin-right: 100px;
+	margin-left: 0px;
+	opacity: 1;
+	blur: gaussian(2px);
+	opacity: .03;
+	pre-transform-scale2d: 1.1;
+}
+
+.AspectRatio21x9 #HeroScenePanelBacker
+{
+	margin-right: 0px;
+}
+
+.clampwidth
+{
+	width: 100%;
+	height: 100%;
+	margin: 100px;
+	horizontal-align: center;
+	max-width: 2200px;
+}
+
+#HeroInfo
+{
+	flow-children: down;
+	width: 600px;
+	padding: 0px;
+	horizontal-align: left;
+	margin: 0px;
+	vertical-align: center;
+	ui-scale: 100%;
+	margin: 20px 0px;
+	overflow: noclip;
+	visibility: collapse;
+}
+
+.ShowingHero #HeroInfo
+{
+	visibility: visible;
+}
+
+#HeroInfo #HeroLogo
+{
+	horizontal-align: center;
+}
+
+#HeroInfo #GunTag
+{
+	horizontal-align: right;
+	visibility: collapse;
+	animation-name: TagGroove2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#HeroInfo #GunTag Label
+{
+	font-family: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: offWhite;
+	padding: 0px 10px;
+}
+
+@keyframes 'TagGroove1'
+{
+	0%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	25%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	26%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	50%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	51%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	75%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	76%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	100%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+}
+
+@keyframes 'TagGroove2'
+{
+	0%
+	{
+		transform: rotateZ(4deg);
+	}
+	
+	25%
+	{
+		transform: rotateZ(4deg);
+	}
+	
+	26%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	50%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	51%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	75%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	76%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	100%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+}
+
+@keyframes 'TagGroove3'
+{
+	0%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	25%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	26%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	50%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	51%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	75%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	76%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	100%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+}
+
+#TitleText
+{
+	flow-children: down;
+	horizontal-align: center;
+	margin: 30px 0px 0px 0px;
+	overflow: noclip;
+}
+
+.mainTitle
+{
+	horizontal-align: center;
+	font-family: block;
+	font-size: 40px;
+	transform: rotateZ(-4deg);
+	background-image: url("s2r://panorama/images/main_menu/hero_release_vote/text_backer_box_psd.vtex");
+	background-size: 100% 100%;
+	padding: 10px 30px;
+	opacity-mask: url("s2r://panorama/images/main_menu/hero_release_vote/text_speckle_mask_psd.vtex");
+	opacity-mask-scale: 96% 96%;
+	text-overflow: shrink;
+	max-height: 80px;
+}
+
+.introTitle
+{
+	font-size: 20px;
+	font-family: block;
+	text-transform: uppercase;
+	horizontal-align: middle;
+	margin-top: 50px;
+	opacity: 0.6;
+}
+
+#ButtonContainer
+{
+	flow-children: right;
+	horizontal-align: middle;
+}
+
+.keyButton
+{
+	flow-children: right;
+	visibility: visible;
+	horizontal-align: middle;
+	padding: 20px 0px;
+	overflow: noclip;
+	margin: 0px 10px;
+}
+
+.keyButton:hover:enabled
+{
+	sound: "UI.HeroCard.Hover";
+}
+
+.keyButton .buttonContent
+{
+	margin-top: 40px;
+	horizontal-align: left vertical-align: middle;
+	z-index: 2;
+	horizontal-align: middle;
+	overflow: noclip;
+}
+
+.keyButton .buttonContent .btn_bg
+{
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	wash-color: rgb(18, 18, 18);
+	transition-property: background-color, transform, background-image, border;
+	transition-duration: 0.2s;
+}
+
+.keyButton .buttonContent .btn_texture
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("s2r://panorama/images/buttons/play/btn_texture_png.vtex");
+	background-size: 100% 100%;
+	wash-color: offWhite;
+	opacity: 0.6;
+	background-image: url("s2r://panorama/images/main_menu/hero_release_vote/text_backer_box_light_psd.vtex");
+	background-size: 100% 100%;
+	padding: 10px 30px;
+	opacity-mask: url("s2r://panorama/images/main_menu/hero_release_vote/text_speckle_mask_psd.vtex");
+	opacity-mask-scale: 96% 96%;
+}
+
+#CloseButton .keyButton .buttonContent .btn_texture
+{
+	wash-color: red;
+}
+
+.keyButton:hover .btn_bg
+{
+	transform: rotateZ(-3deg);
+}
+
+.keyButton:hover .btn_texture
+{
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/temp/play_box_fill_psd.vtex");
+	background-image: url("s2r://panorama/images/main_menu/hero_release_vote/text_backer_box_light_psd.vtex");
+	transform: rotateZ(-3deg);
+	opacity: 1;
+	wash-color: offWhite;
+	border: 3px solid offWhite&00;
+	transform: rotateZ(-2deg);
+}
+
+.keyButton:hover Label
+{
+	font-style: italic;
+	color: offBlack;
+	transform: rotateZ(-2deg);
+}
+
+.keyButton:active
+{
+	sound: "UI.Roster.Confirm";
+}
+
+.keyButton Label
+{
+	font-size: 22px;
+	font-weight: bold;
+	color: offWhite&ee;
+	color: offBlack;
+	font-family: block;
+	text-transform: uppercase;
+	vertical-align: middle;
+	horizontal-align: middle;
+	transition-duration: 0.2s;
+	padding: 10px 20px;
+	text-overflow: shrink;
+	max-width: 300px;
+	max-height: 46px;
+	text-align: center;
+}
+
+.keyButton:disabled
+{
+	opacity: 0.1;
+	saturation: 0;
+}
+
+.keyButton:hover .btn_fx
+{
+	opacity: 1;
+}
+
+#CloseButton .btn_texture
+{
+	wash-color: #686868;
+}
+
+#CloseButton:hover .btn_texture
+{
+	wash-color: #666;
+}
+
+#SwapButton
+{
+	visibility: collapse;
+}
+
+.AllowSwap #SwapButton
+{
+	visibility: visible;
+}
+
+#LoreButton
+{
+	width: 40px;
+	height: 40px;
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin: 10px;
+	border-radius: 50%;
+	border: 2px solid offWhite&20;
+	transition-property: background-color;
+	transition-duration: 0.1s;
+}
+
+#LoreButton:hover
+{
+	background-color: offWhite;
+}
+
+#LoreButton:hover .loreIcon
+{
+	wash-color: offBlack;
+	background-img-opacity: 0.8;
+}
+
+.prereleaseOnly #LoreButton
+{
+	visibility: collapse;
+}
+
+.loreIcon
+{
+	width: 22px;
+	height: 22px;
+	horizontal-align: center;
+	vertical-align: center;
+	background-image: url("s2r://panorama/images/icons/icon_book.vsvg");
+	background-size: contain;
+	background-img-opacity: 0.3;
+}
+

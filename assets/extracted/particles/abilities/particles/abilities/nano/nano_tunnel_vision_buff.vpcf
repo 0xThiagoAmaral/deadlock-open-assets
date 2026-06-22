@@ -1,0 +1,59 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_ConstantColor = [ 248, 223, 66, 255 ]
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "palm_L"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "palm_R"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/nano/nano_v2/nano.vmdl"
+				m_sequenceName = "melee_hold_2"
+				m_hitboxSetName = "default"
+				m_flPlaybackSpeed = 0.0
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_SetParentControlPointsToChildCP"
+			m_nNumControlPoints = 2
+			m_nFirstSourcePoint = 1
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_tunnel_vision_buff_hands_flames.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_tunnel_vision_buff_hands_flames.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_tunnel_vision_buff_body.vpcf"
+		},
+	]
+}

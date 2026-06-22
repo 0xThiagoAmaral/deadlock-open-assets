@@ -1,0 +1,125 @@
+/* Deadlock Open Assets Hub */
+
+:root {
+  --hub-card-bg: #1a1a1f;
+  --hub-card-border: #2d2d35;
+  --hub-accent: #e85d04;
+}
+
+.hub-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.hub-stat {
+  background: var(--hub-card-bg);
+  border: 1px solid var(--hub-card-border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hub-stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--hub-accent);
+  line-height: 1.2;
+}
+
+.hub-stat-label {
+  font-size: 0.75rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.25rem;
+}
+
+.hub-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--hub-card-border);
+  border-radius: 6px;
+  background: var(--hub-card-bg);
+  color: inherit;
+  font-size: 0.95rem;
+}
+
+.hub-search:focus {
+  outline: 2px solid var(--hub-accent);
+  outline-offset: 1px;
+}
+
+.asset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.asset-grid-compact {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.asset-card {
+  background: var(--hub-card-bg);
+  border: 1px solid var(--hub-card-border);
+  border-radius: 8px;
+  padding: 0.75rem;
+  text-align: center;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.asset-card:hover {
+  border-color: var(--hub-accent);
+  transform: translateY(-2px);
+}
+
+.asset-card img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #0d0d10;
+}
+
+.asset-grid-compact .asset-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 6px;
+}
+
+.asset-card-name {
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  word-break: break-word;
+}
+
+.asset-card-meta {
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 0.2rem;
+}
+
+.asset-card-id {
+  font-family: var(--md-code-font, monospace);
+  font-size: 0.65rem;
+  color: #666;
+  margin-top: 0.15rem;
+}
+
+.hub-loading {
+  color: #888;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hub-error {
+  color: #f44336;
+  padding: 1rem;
+  background: #2a1515;
+  border-radius: 6px;
+}

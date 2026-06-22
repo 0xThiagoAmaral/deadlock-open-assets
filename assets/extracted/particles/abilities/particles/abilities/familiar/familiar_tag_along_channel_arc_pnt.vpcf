@@ -1,0 +1,37 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf64:version{c95f3434-dfef-4a35-9913-024beddb416a} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/mirage_v2/mirage.vmdl"
+				m_sequenceName = "bindpose"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/familiar/familiar_tag_along_channel_arc.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/familiar/familiar_tag_along_channel_arc.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/familiar/familiar_tag_along_channel_arc.vpcf"
+		},
+	]
+}

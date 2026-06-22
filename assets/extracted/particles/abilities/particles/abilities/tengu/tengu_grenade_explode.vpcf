@@ -1,0 +1,49 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf65:version{48e806a9-c210-4cd8-811a-38b5ef63b195} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 400.0, 400.0, 400.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/tengu/tengu_grenade_aoe_clouds.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/tengu/tengu_grenade_aoe_rock_impact.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/tengu/tengu_grenade_aoe_dust_kickup.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/tengu/tengu_grenade_aoe_shockwave.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/tengu/tengu_grenade_aoe_rock_debris.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/tengu/tengu_grenade_aoe_impact_flare.vpcf"
+		},
+	]
+}

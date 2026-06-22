@@ -1,0 +1,80 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iControlPoint = 3
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "glasses_r_fx"
+					m_entityName = "self"
+				},
+				{
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "ability_apply"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "glasses_l_fx"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 5
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/archer/archer.vmdl"
+				m_sequenceName = "bindpose"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_SetParentControlPointsToChildCP"
+			m_nChildControlPoint = 5
+			m_nNumControlPoints = 2
+			m_nFirstSourcePoint = 2
+			m_bSetOrientation = true
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_RandomColor"
+			m_ColorMin = [ 115, 155, 156 ]
+			m_ColorMax = [ 146, 217, 219 ]
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_power_jump_buff_rings.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_power_jump_buff_energy.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_power_jump_buff_trail.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_power_jump_buff_rings_up.vpcf"
+		},
+	]
+}

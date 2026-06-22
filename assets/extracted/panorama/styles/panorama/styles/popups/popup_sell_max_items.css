@@ -1,0 +1,339 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+PopupSellMaxItems.PopupPanel
+{
+	flow-children: down;
+	width: 1150px;
+	height: 800px;
+}
+
+PopupSellMaxItems.PopupPanel.ShowOnlyActive
+{
+	height: 650px;
+}
+
+.PopupPanel
+{
+	background-color: rgb(46, 44, 39);
+	border: 0px;
+}
+
+@keyframes 'PopupBackgroundTransitionOn'
+{
+	0%
+	{
+		opacity-mask: url("s2r://panorama/images/buttons/button_nav_mask_threshold_psd.vtex");
+		opacity-mask-threshold: 100% 2%;
+	}
+	
+	100%
+	{
+		opacity-mask: url("s2r://panorama/images/buttons/button_nav_mask_threshold_psd.vtex");
+		opacity-mask-threshold: 2% 2%;
+	}
+	
+}
+
+.PopupPanel
+{
+	min-width: 256px;
+	padding: 0px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 32px 0px;
+	border: 0px;
+	background-color: none;
+	overflow: noclip;
+	opacity-mask: url("s2r://panorama/images/buttons/button_nav_mask_threshold_psd.vtex");
+	opacity-mask-threshold: 0% 2%;
+	animation-name: PopupBackgroundTransitionOn;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+}
+
+.PopupPanel .PopupBackground
+{
+	ignore-parent-flow: true;
+	width: 100%;
+	height: 100%;
+	brightness: 1.25;
+	saturation: 1.25;
+	background-image: url("s2r://panorama/images/textures/paper_tile_1k_02_dark_psd.vtex");
+	opacity-mask: url("s2r://panorama/images/buttons/popup_mask_threshold_psd.vtex");
+	opacity-mask-threshold: 2% 2%;
+	animation-name: PopupBackgroundTransitionOn;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+}
+
+.PopupPanel .PopupBackgroundShadow
+{
+	overflow: noclip;
+	ignore-parent-flow: true;
+	width: 100%;
+	height: 100%;
+	position: 0px 8px 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity-mask: url("s2r://panorama/images/buttons/button_nav_mask_threshold_psd.vtex");
+	opacity-mask-threshold: 2% 2%;
+	animation-name: PopupBackgroundTransitionOn;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+}
+
+#PopupContent
+{
+	flow-children: down;
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+#HeaderContainer
+{
+	height: fit-children;
+	width: 100%;
+	flow-children: right;
+	margin: 30px 40px;
+}
+
+#ItemsFull
+{
+	flow-children: down;
+	vertical-align: middle;
+}
+
+#HeaderLabel
+{
+	color: offWhite;
+	font-size: 42px;
+	font-weight: semibold;
+	font-family: block;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.headerDesc
+{
+	color: #F3F0E788;
+	font-size: 24px;
+	font-weight: semi-bold;
+}
+
+.headerDesc .highlight
+{
+	color: white;
+}
+
+#ModToPurchaseContainer
+{
+	flow-children: right;
+	horizontal-align: right;
+	margin-right: 30px;
+	width: fit-children;
+	padding: 20px;
+	min-width: 430px;
+	background-color: offBlack;
+	border-radius: 3px;
+}
+
+#ModNameAndCostContainer
+{
+	margin-left: 20px;
+	vertical-align: center;
+}
+
+.goldIcon
+{
+	vertical-align: center;
+}
+
+#ModCost
+{
+	margin-left: 5px;
+	color: shardColor;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#modNameToPurchase
+{
+	color: offWhite;
+	font-size: 26px;
+	font-weight: semibold;
+}
+
+.SellingWeaponMod #ModToPurchaseContainer
+{
+	background-color: weaponColorFaded;
+	background-color: courageBrightColor&20;
+}
+
+.SellingArmorMod #ModToPurchaseContainer
+{
+	background-color: armorColorFaded;
+	background-color: fortitudeBrightColor&20;
+}
+
+.SellingTechMod #ModToPurchaseContainer
+{
+	background-color: techColorFaded;
+	background-color: spiritBrightColor&20;
+}
+
+#CompletePurchaseLabel
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#InventorySlots
+{
+	horizontal-align: middle;
+	background-color: offBlack&70;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+#ModsSellContainer
+{
+	flow-children: down;
+	width: 100%;
+}
+
+#ModsContainer
+{
+	flow-children: down-wrap;
+	max-height: 380px;
+}
+
+.ShowOnlyActive #ModsContainer
+{
+	flow-children: right;
+	height: fit-children;
+}
+
+.buttonToSell
+{
+	margin: 4px;
+	padding: 4px;
+	flow-children: down;
+	border-radius: 3px;
+}
+
+.buttonToSell #ModView
+{
+	horizontal-align: center;
+	vertical-align: middle;
+	ui-scale: 120%;
+}
+
+.centerAlign
+{
+	horizontal-align: center;
+}
+
+#ButtonsContainer
+{
+	horizontal-align: center;
+	margin: 18px;
+	flow-children: right;
+}
+
+.sellButton Label
+{
+	font-size: 30px;
+	font-weight: semi-bold;
+}
+
+.buttonToSell.sellRecommended
+{
+	animation-name: recommended_to_sell;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+}
+
+.recommendedToSellLabel
+{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0px 4px;
+	color: shardColor;
+	font-family: sansMono;
+	horizontal-align: center;
+	text-overflow: shrink;
+	max-height: 15px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	opacity: 0;
+	margin-top: 0px;
+}
+
+.sellRecommended .recommendedToSellLabel
+{
+	opacity: 1;
+}
+
+.sellRecommended CitadelShopMod
+{
+	animation-name: card_wiggle;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes 'recommended_to_sell'
+{
+	0%
+	{
+		brightness: 1;
+	}
+	
+	50%
+	{
+		brightness: 2;
+	}
+	
+	100%
+	{
+		brightness: 1;
+	}
+	
+}
+
+@keyframes 'card_wiggle'
+{
+	0%
+	{
+		brightness: 1;
+		pre-transform-scale2d: 1;
+	}
+	
+	50%
+	{
+		brightness: 1.2;
+		pre-transform-scale2d: 1.02;
+		transform: rotateZ(1deg);
+	}
+	
+	100%
+	{
+		brightness: 1;
+		pre-transform-scale2d: 1;
+	}
+	
+}
+
+.modsRow
+{
+	flow-children: right;
+	horizontal-align: center;
+	width: fit-children;
+}
+
+.sellRecommended
+{
+	border: 2px solid shardColor&80;
+	background-color: shardColor&10;
+}
+

@@ -1,0 +1,483 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelRankedBadgeFull
+{
+	width: 150px;
+	height: 190px;
+}
+
+#Badge
+{
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: -20px;
+	visibility: collapse;
+}
+
+#Subrank
+{
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	ignore-parent-flow: true;
+}
+
+.RankName
+{
+	font-size: 18px;
+	text-overflow: shrink;
+	max-width: 100%;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.8;
+	padding: 0px 5px;
+	horizontal-align: center;
+	vertical-align: bottom;
+	margin-bottom: 0px;
+	color: offWhite;
+	letter-spacing: 0.5px;
+}
+
+.hideName .RankName
+{
+	visibility: collapse;
+}
+
+.hideSubrank #Subrank
+{
+	visibility: collapse;
+}
+
+.hideSubrank #Badge
+{
+	visibility: visible;
+}
+
+.badgeRank0 #Badge
+{
+	visibility: visible;
+}
+
+CitadelRankedBadgeFull.badgeRank8,CitadelRankedBadgeFull.badgeRank9,CitadelRankedBadgeFull.badgeRank10,CitadelRankedBadgeFull.badgeRank11
+{
+	width: 300px;
+	height: 230px;
+}
+
+.badgeRank8 #Badge,.badgeRank9 #Badge,.badgeRank10 #Badge,.badgeRank11 #Badge
+{
+	width: 300px;
+	height: 210px;
+	background-size: contain;
+	background-position: center top;
+}
+
+.badgeRank8 #Subrank,.badgeRank9 #Subrank,.badgeRank10 #Subrank,.badgeRank11 #Subrank
+{
+	width: 300px;
+	height: 210px;
+	ignore-parent-flow: true;
+	background-position: center top;
+}
+
+.unranked #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank0/badge_lg_psd.vtex");
+}
+
+.badgeRank1 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank1/badge_lg_psd.vtex");
+}
+
+.badgeRank2 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank2/badge_lg_psd.vtex");
+}
+
+.badgeRank3 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank3/badge_lg_psd.vtex");
+}
+
+.badgeRank4 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank4/badge_lg_psd.vtex");
+}
+
+.badgeRank5 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank5/badge_lg_psd.vtex");
+}
+
+.badgeRank6 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank6/badge_lg_psd.vtex");
+}
+
+.badgeRank7 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank7/badge_lg_psd.vtex");
+}
+
+.badgeRank8 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank8/badge_lg_psd.vtex");
+}
+
+.badgeRank9 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank9/badge_lg_psd.vtex");
+}
+
+.badgeRank10 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank10/badge_lg_psd.vtex");
+}
+
+.badgeRank11 #Badge
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank11/badge_lg_psd.vtex");
+}
+
+.unranked #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank0/badge_lg_psd.vtex");
+}
+
+.badgeRank1.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank1/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank1.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank1/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank1.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank1/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank1.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank1/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank1.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank1/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank1.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank1/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank2.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank2/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank2.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank2/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank2.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank2/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank2.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank2/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank2.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank2/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank2.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank2/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank3.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank3/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank3.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank3/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank3.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank3/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank3.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank3/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank3.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank3/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank3.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank3/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank4.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank4/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank4.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank4/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank4.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank4/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank4.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank4/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank4.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank4/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank4.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank4/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank5.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank5/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank5.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank5/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank5.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank5/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank5.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank5/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank5.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank5/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank5.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank5/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank6.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank6/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank6.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank6/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank6.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank6/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank6.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank6/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank6.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank6/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank6.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank6/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank7.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank7/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank7.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank7/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank7.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank7/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank7.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank7/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank7.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank7/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank7.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank7/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank8.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank8/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank8.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank8/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank8.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank8/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank8.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank8/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank8.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank8/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank8.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank8/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank9.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank9/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank9.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank9/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank9.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank9/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank9.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank9/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank9.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank9/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank9.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank9/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank10.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank10/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank10.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank10/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank10.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank10/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank10.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank10/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank10.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank10/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank10.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank10/badge_lg_subrank6_psd.vtex");
+}
+
+.badgeRank11.badgeTier1 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank11/badge_lg_subrank1_psd.vtex");
+}
+
+.badgeRank11.badgeTier2 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank11/badge_lg_subrank2_psd.vtex");
+}
+
+.badgeRank11.badgeTier3 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank11/badge_lg_subrank3_psd.vtex");
+}
+
+.badgeRank11.badgeTier4 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank11/badge_lg_subrank4_psd.vtex");
+}
+
+.badgeRank11.badgeTier5 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank11/badge_lg_subrank5_psd.vtex");
+}
+
+.badgeRank11.badgeTier6 #Subrank
+{
+	background-image: url("s2r://panorama/images/ranked/badges/rank11/badge_lg_subrank6_psd.vtex");
+}
+

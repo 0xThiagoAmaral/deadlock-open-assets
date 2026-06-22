@@ -1,0 +1,1130 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelPopupRosterSelect
+{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/smoke_bg_psd.vtex");
+	background-size: cover;
+}
+
+#HeroScenePanelBacker
+{
+	width: 100%;
+	height: 100%;
+	horizontal-align: center;
+	margin-right: 00px;
+	margin-left: 130px;
+	margin-bottom: 60px;
+	margin-right: 100px;
+	margin-left: 0px;
+	opacity: 1;
+	blur: gaussian(2px);
+	opacity: .03;
+	pre-transform-scale2d: 1.1;
+}
+
+.AspectRatio21x9 #HeroScenePanelBacker
+{
+	margin-right: 0px;
+}
+
+.clampwidth
+{
+	width: 100%;
+	height: 100%;
+	horizontal-align: center;
+}
+
+#HeroStats
+{
+	flow-children: down;
+	horizontal-align: right;
+	vertical-align: middle;
+}
+
+#HeroStats .statHoverIcon
+{
+	margin: 5px 0px;
+	width: 46px;
+	height: 36px;
+	background-color: offWhite;
+	border-radius: 50px 0px 0px 50px;
+	opacity: 0.1;
+	transition-property: background-color, pre-transform-scale2d, opacity;
+	transition-duration: 0.05s;
+}
+
+#HeroStats .statHoverIcon:hover
+{
+	background-color: offWhite;
+	opacity: 1;
+}
+
+.prereleaseOnly #HeroStats
+{
+	visibility: collapse;
+}
+
+#HeroStats .statIcon
+{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	horizontal-align: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	wash-color: offBlack;
+}
+
+#HeroStats #WeaponStats .statIcon
+{
+	background-image: url("s2r://panorama/images/hud/core/icon_courage.vsvg");
+}
+
+#HeroStats #VitalityStats .statIcon
+{
+	background-image: url("s2r://panorama/images/hud/core/icon_fortitude.vsvg");
+}
+
+#HeroStats #SpiritStats .statIcon
+{
+	background-image: url("s2r://panorama/images/hud/core/icon_spirit.vsvg");
+}
+
+#HeroStats #MiscStats .statIcon
+{
+	wash-color: none;
+	width: 30px;
+	height: 30px;
+}
+
+@keyframes 'HeroMezzotintMotion'
+{
+	0%
+	{
+		transform: translateX(-54px) translateY(-24px);
+	}
+	
+	20%
+	{
+		transform: translateX(44px) translateY(-34px);
+	}
+	
+	30%
+	{
+		transform: translateX(34px) translateY(-44px);
+	}
+	
+	40%
+	{
+		transform: translateX(-24px) translateY(-54px);
+	}
+	
+	50%
+	{
+		transform: translateX(-124px) translateY(-54px);
+	}
+	
+	60%
+	{
+		transform: translateX(-24px) translateY(-154px);
+	}
+	
+	70%
+	{
+		transform: translateX(-84px) translateY(-14px);
+	}
+	
+	80%
+	{
+		transform: translateX(-94px) translateY(-14px);
+	}
+	
+	90%
+	{
+		transform: translateX(-42px) translateY(-76px);
+	}
+	
+	100%
+	{
+		transform: translateX(-0px) translateY(-14px);
+	}
+	
+}
+
+#HeroInfo
+{
+	flow-children: down;
+	width: 600px;
+	padding: 0px;
+	horizontal-align: right;
+	margin: 40px 50px;
+	vertical-align: bottom;
+	overflow: noclip;
+	visibility: collapse;
+}
+
+.ShowingHero #HeroInfo
+{
+	visibility: visible;
+}
+
+#HeroInfo #HeroLogo
+{
+	horizontal-align: center;
+}
+
+#HeroInfo #GunTag
+{
+	horizontal-align: right;
+	visibility: collapse;
+	animation-name: TagGroove2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#HeroInfo #GunTag Label
+{
+	font-family: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: offWhite;
+	padding: 0px 10px;
+}
+
+@keyframes 'TagGroove1'
+{
+	0%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	25%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	26%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	50%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	51%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	75%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	76%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	100%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+}
+
+@keyframes 'TagGroove2'
+{
+	0%
+	{
+		transform: rotateZ(4deg);
+	}
+	
+	25%
+	{
+		transform: rotateZ(4deg);
+	}
+	
+	26%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	50%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	51%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	75%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	76%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	100%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+}
+
+@keyframes 'TagGroove3'
+{
+	0%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	25%
+	{
+		transform: rotateZ(-3deg);
+	}
+	
+	26%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	50%
+	{
+		transform: rotateZ(-1deg);
+	}
+	
+	51%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	75%
+	{
+		transform: rotateZ(2deg);
+	}
+	
+	76%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+	100%
+	{
+		transform: rotateZ(0deg);
+	}
+	
+}
+
+#HeroAbilities
+{
+	visibility: collapse;
+}
+
+.ShowingHero #HeroAbilities
+{
+	visibility: visible;
+}
+
+.prereleaseOnly #HeroAbilities
+{
+	visibility: collapse;
+}
+
+#RosterInfo
+{
+	horizontal-align: right;
+	vertical-align: top;
+	margin-top: 180px;
+	margin-right: 70px;
+	width: 420px;
+	flow-children: down;
+	visibility: collapse;
+}
+
+#RosterInfo #RosterCardImage
+{
+	background-image: url("s2r://panorama/images/main_menu/roster_cards_example_png.vtex");
+	width: 300px;
+	height: 170px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	saturation: 0.9;
+	horizontal-align: middle;
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+
+.selected
+{
+	font-weight: bold;
+	color: offWhite;
+}
+
+.priority
+{
+	color: #f7cf6a;
+	font-weight: bold;
+}
+
+.high_priority
+{
+	color: #a464ff;
+	font-weight: bold;
+}
+
+#RosterInstructions
+{
+	background-color: offWhite&60;
+	width: 100%;
+	flow-children: down;
+	padding: 20px;
+	color: offBlack;
+}
+
+#RosterInstructions #KeybindHints
+{
+	horizontal-align: center;
+	flow-children: down;
+}
+
+#RosterInstructions Label
+{
+	color: offBlack;
+}
+
+#RosterInstructions .title
+{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#RosterInstructions .desc
+{
+	font-weight: semi-bold;
+	font-size: 17px;
+	color: offBlack;
+	opacity: 0.9;
+}
+
+#RosterInstructions .hint
+{
+	font-weight: semi-bold;
+	font-size: 16px;
+	color: offBlack&ea;
+	margin-bottom: 5px;
+}
+
+.space_bottom
+{
+	margin-bottom: 10px;
+}
+
+.InlineGlyph
+{
+	max-height: 26px;
+	max-width: 26px;
+	background-color: offBlack&ee;
+	padding: 3px;
+	border-radius: 3px;
+	opacity: 1;
+	vertical-align: middle;
+}
+
+#NoHeroSelectedContainer
+{
+	width: fit-children;
+	vertical-align: bottom;
+	horizontal-align: center;
+	background-color: #000000;
+	padding: 10px 20px;
+	background-color: rgba(225, 62, 62, 1);
+}
+
+#NoHeroSelectedContainer Label
+{
+	text-align: center;
+	horizontal-align: center;
+}
+
+.HasValidRoster #NoHeroSelectedContainer
+{
+	visibility: collapse;
+}
+
+#NoHeroSelectedContainer .NoHeroDesc
+{
+	font-size: 18px;
+	font-weight: semi-bold;
+	horizontal-align: middle;
+	text-align: center;
+	margin-bottom: 0px;
+	width: fit-children;
+	color: offWhite;
+}
+
+#NoHeroSelectedContainer .NoHeroBottom
+{
+	font-size: 18px;
+	font-weight: medium;
+	color: #ffffff90;
+	visibility: collapse;
+}
+
+#HeroRowContainer
+{
+	flow-children: down;
+	vertical-align: top;
+	horizontal-align: left;
+	background-size: 100% 100%;
+	height: 100%;
+	padding: 50px 0px;
+	padding-left: 50px;
+	max-width: 1800px;
+	z-index: 2;
+}
+
+.AspectRatio21x9 #HeroRowContainer
+{
+	horizontal-align: center;
+	margin-right: 1400px;
+}
+
+#HeroRowContainer #GridContainer
+{
+	width: 740px;
+	height: 710px;
+	flow-children: down;
+	overflow: squish scroll;
+}
+
+#HeroRowContainer #GridContainer #RosterHeroes
+{
+	flow-children: right-wrap;
+	width: 100%;
+	vertical-align: top;
+	horizontal-align: left;
+	padding: 20px;
+	overflow: noclip;
+}
+
+#HeroRowContainer #GridContainer #RosterHeroes .HeroCard
+{
+	tooltip-position: right;
+}
+
+#HeroRowContainer #GridContainer #Categories
+{
+	height: 550px;
+	width: 100%;
+}
+
+#HeroRowContainer #GridContainer .heroCategory
+{
+	flow-children: down;
+}
+
+#HeroRowContainer #GridContainer .heroGroup
+{
+	width: 100%;
+	height: 100%;
+}
+
+#HeroRowContainer #GridContainer .groupTitle
+{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: block;
+	opacity: 0.5;
+}
+
+#HeroRowContainer #GridContainer .HeroPanel
+{
+	overflow: noclip;
+}
+
+#HeroRowContainer #GridContainer #Random
+{
+	width: 50px;
+	height: 60px;
+	background-color: red;
+}
+
+.GridHeader
+{
+	width: 100%;
+}
+
+.GridHeader #PageTitle
+{
+	flow-children: down;
+	height: fit-children;
+}
+
+.GridHeader #TitleArea
+{
+	flow-children: down;
+	width: fill-parent-flow(1.0);
+}
+
+.GridHeader .ModeTitle
+{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: block;
+	letter-spacing: 0px;
+	opacity: 0.2;
+	text-transform: uppercase;
+	color: silvered;
+	margin-bottom: -5px;
+	vertical-align: middle;
+}
+
+.SelectingSingleHero .GridHeader .ModeTitle
+{
+	visibility: collapse;
+}
+
+.GridHeader .PageTitle
+{
+	font-size: 56px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: block;
+	opacity: 0.6;
+	font-family: oracle;
+	color: #7a9392;
+	text-overflow: shrink;
+	max-height: 80px;
+	vertical-align: bottom;
+	horizontal-align: center;
+	text-align: left;
+	width: 100%;
+}
+
+.SelectingSingleHero .GridHeader .PageTitle.Roster
+{
+	visibility: collapse;
+}
+
+.GridHeader .PageTitle.SingleHero
+{
+	visibility: collapse;
+}
+
+.SelectingSingleHero .GridHeader .PageTitle.SingleHero
+{
+	visibility: visible;
+}
+
+.GridHeader .lineBreak
+{
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/temp/linebreak_psd.vtex");
+	width: 60%;
+	horizontal-align: middle;
+	height: 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	wash-color: #7a9392;
+	vertical-align: middle;
+	opacity: 0.2;
+	margin-top: 5px;
+}
+
+.GridHeader #PriorityToken
+{
+	margin-right: 44px;
+	margin-left: 8px;
+	flow-children: down;
+	vertical-align: top;
+	visibility: collapse;
+}
+
+.GridHeader #PriorityToken .PriorityTokenImage
+{
+	width: 60px;
+	height: 60px;
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/ultra_priority_token_psd.vtex");
+	background-size: cover;
+	vertical-align: middle;
+	border-radius: 50%;
+	horizontal-align: center;
+}
+
+.GridHeader #PriorityToken .PriorityTokenImage Label
+{
+	vertical-align: middle;
+	text-overflow: shrink;
+	text-align: center;
+	width: 100%;
+}
+
+.GridHeader #PriorityToken .PriorityTokenImage #PriorityTokenProgressOverlay
+{
+	width: 100%;
+	height: 100%;
+	background-color: #000000ee;
+	clip: radial( 50% 50%, 0deg, 120deg );
+}
+
+.GridHeader #PriorityToken .PriorityTokenImage #PriorityTokenHeroImage
+{
+	width: 48px;
+	height: 48px;
+	horizontal-align: center;
+	vertical-align: middle;
+}
+
+.GridHeader #PriorityToken .PriorityTokenStatus
+{
+	text-transform: uppercase;
+	font-size: 14px;
+	horizontal-align: center;
+	text-align: center;
+	font-weight: bold;
+	opacity: 0.5;
+	margin-top: 2px;
+}
+
+.ShowPriorityToken .GridHeader
+{
+	padding: 0px 20px;
+	flow-children: right;
+}
+
+.ShowPriorityToken .GridHeader .PageTitle
+{
+	horizontal-align: left;
+	text-align: left;
+	width: fill-parent-flow( 1.0 );
+}
+
+.ShowPriorityToken .GridHeader #PriorityToken
+{
+	visibility: visible;
+}
+
+@keyframes 'CardPulse'
+{
+	0%
+	{
+		pre-transform-scale2d: 1;
+		transform: translateX(0px) rotateZ(0deg);
+	}
+	
+	50%
+	{
+		pre-transform-scale2d: 1.02;
+		transform: translateX(0px) rotateZ(0.5deg);
+	}
+	
+	100%
+	{
+		pre-transform-scale2d: 1;
+		transform: translateX(0px) rotateZ(0deg);
+	}
+	
+}
+
+.RandomHeroCard
+{
+	width: 75px;
+	height: 124px;
+	margin: 4px;
+	background-color: offWhite&05;
+}
+
+.RandomActive .RandomHeroCard
+{
+	pre-transform-scale2d: 1.05;
+	border: 4px solid offWhite&90;
+	border-radius: 2px;
+	background-color: #ffffff10;
+	transform: rotateZ(2deg);
+	margin: 2px;
+	padding: 2px;
+}
+
+.RandomHeroCard Label
+{
+	horizontal-align: center;
+	text-align: center;
+	vertical-align: middle;
+	font-family: oracle;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+#ConfirmButtonContainer
+{
+	horizontal-align: middle;
+	vertical-align: bottom;
+	margin-bottom: 0px;
+	height: 220px;
+	z-index: 999;
+	width: 600px;
+}
+
+.SelectingSingleHero:not(.SingleHeroRequiresConfirm) #ConfirmButtonContainer
+{
+	visibility: collapse;
+}
+
+#ConfirmButtonContainer .RosterError
+{
+	font-weight: semi-bold;
+	font-style: italic;
+	margin-bottom: 0px;
+	font-size: 16px;
+	font-family: block;
+	color: #c65f3d;
+	text-transform: uppercase;
+	padding: 2px 10px;
+	border-radius: 3px;
+	horizontal-align: middle;
+}
+
+.HasValidRoster #ConfirmButtonContainer .RosterError
+{
+	visibility: collapse;
+}
+
+#ConfirmButton
+{
+	flow-children: right;
+	opacity: 0.2;
+	width: 100%;
+	height: 100%;
+	visibility: visible;
+}
+
+#ConfirmButton:hover:enabled
+{
+	sound: "UI.HeroCard.Hover";
+}
+
+#ConfirmButton #PlayButtonFX
+{
+	width: 560px;
+	height: 180px;
+	vertical-align: middle;
+	ignore-parent-flow: true;
+	horizontal-align: center;
+	opacity: 0;
+	margin-left: 130px;
+	margin-bottom: 30px;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+}
+
+#ConfirmButton .buttonContent
+{
+	margin-top: 40px;
+	horizontal-align: left vertical-align: middle;
+	z-index: 2;
+	horizontal-align: middle;
+	min-width: 300px;
+}
+
+#ConfirmButton .buttonContent SplitLabel
+{
+	horizontal-align: center;
+}
+
+#ConfirmButton .buttonContent SplitLabel Image
+{
+	transition-property: transform;
+	transition-duration: 0.2s;
+}
+
+#ConfirmButton .buttonContent .btn_bg
+{
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	wash-color: rgb(18, 18, 18);
+	transition-property: background-color, transform, background-image, border;
+	transition-duration: 0.2s;
+}
+
+#ConfirmButton .buttonContent .btn_texture
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/temp/play_box_psd.vtex");
+	background-size: 100% 100%;
+	opacity: 0.2;
+	wash-color: #93aead;
+}
+
+.HasValidRoster #ConfirmButton
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+.HasValidRoster #ConfirmButton:hover .btn_bg
+{
+	transform: rotateZ(-3deg);
+}
+
+.HasValidRoster #ConfirmButton:hover .btn_texture
+{
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/temp/play_box_fill_psd.vtex");
+	transform: rotateZ(-3deg);
+	opacity: 1;
+	wash-color: offWhite;
+}
+
+.HasValidRoster #ConfirmButton:hover Label
+{
+	font-style: italic;
+	color: offBlack;
+}
+
+.HasValidRoster #ConfirmButton:hover #PlayButtonFX
+{
+	opacity: 1;
+}
+
+.HasValidRoster #ConfirmButton:hover #playTest
+{
+	wash-color: offBlack;
+	opacity: 1;
+}
+
+.HasValidRoster #ConfirmButton:hover SplitLabel Image:nth-child(1)
+{
+	transform: rotateZ(-10deg);
+}
+
+.HasValidRoster #ConfirmButton:hover SplitLabel Image:first-child
+{
+	transform: rotateZ(-10deg);
+}
+
+.HasValidRoster #ConfirmButton:hover SplitLabel Image:nth-child(even)
+{
+	transform: translateY(-4px);
+}
+
+.HasValidRoster #ConfirmButton:hover SplitLabel Image:nth-child(odd)
+{
+	transform: translateY(4px);
+}
+
+.HasValidRoster #ConfirmButton:hover SplitLabel Image:last-child
+{
+	transform: rotateZ(6deg);
+}
+
+.HasValidRoster #ConfirmButton:active
+{
+	sound: "UI.Roster.Confirm";
+}
+
+#ConfirmButton Label
+{
+	font-size: 54px;
+	font-weight: bold;
+	color: offWhite&ee;
+	font-family: oracle;
+	text-transform: uppercase;
+	vertical-align: middle;
+	horizontal-align: middle;
+	transition-duration: 0.2s;
+	text-overflow: shrink;
+	max-width: 300px;
+	letter-spacing: 1px;
+	padding: 5px 0px;
+	text-align: center;
+}
+
+#ConfirmButton:disabled
+{
+	opacity: 0.1;
+	saturation: 0;
+}
+
+#ConfirmButton:hover .btn_fx
+{
+	opacity: 1;
+}
+
+.EscapeButton
+{
+	margin: 16px;
+	vertical-align: bottom;
+	opacity: 0.2;
+}
+
+.PartyStatus
+{
+	horizontal-align: right;
+	flow-children: down;
+	margin-top: 16px;
+	visibility: collapse;
+}
+
+.ShowPartyMembers .PartyStatus
+{
+	visibility: visible;
+}
+
+.PartyStatus #PartyMembers
+{
+	flow-children: right;
+	padding-right: 16px;
+}
+
+.PartyStatus #PartyMembers .PartyMember
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 16px;
+}
+
+.PartyStatus #PartyMembers .PartyMember #AvatarImage
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.PartyStatus #PartyMembers .PartyMember .ReadyStatus
+{
+	width: 24px;
+	height: 24px;
+	background-color: #00ff00;
+	horizontal-align: right;
+	vertical-align: bottom;
+	border-radius: 50%;
+	visibility: collapse;
+}
+
+.PartyStatus #PartyMembers .PartyMember.IsReady .ReadyStatus
+{
+	visibility: visible;
+}
+
+.PartyStatus .PartyReadyCount
+{
+	horizontal-align: center;
+	font-family: block;
+	margin-top: 4px;
+}
+
+@define QuickSearchFadeOutTime: 1.0s;
+CitadelQuickSearch
+{
+	vertical-align: middle;
+	width: 100%;
+	transition-property: pre-transform-scale2d, opacity;
+	transition-duration: 0.2s;
+}
+
+CitadelQuickSearch Label
+{
+	width: 100%;
+	text-align: center;
+	text-overflow: clip;
+	font-size: 100px;
+	font-weight: normal;
+	color: white;
+	text-transform: uppercase;
+}
+
+CitadelQuickSearch.Hidden
+{
+	pre-transform-scale2d: 2;
+	wash-color: red;
+}
+
+@keyframes 'QuickSearchFadeOut'
+{
+	0%
+	{
+		opacity: 1.0;
+	}
+	
+	100%
+	{
+		opacity: 0.0;
+	}
+	
+}
+
+.QuickSearchAnimation
+{
+	animation-name: QuickSearchFadeOut;
+	animation-duration: QuickSearchFadeOutTime;
+}
+
+#LoreButton
+{
+	width: 40px;
+	height: 40px;
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin: 10px;
+	border-radius: 50%;
+	border: 2px solid offWhite&20;
+	transition-property: background-color;
+	transition-duration: 0.1s;
+}
+
+#LoreButton:hover
+{
+	background-color: offWhite;
+}
+
+#LoreButton:hover .loreIcon
+{
+	wash-color: offBlack;
+	background-img-opacity: 0.8;
+}
+
+.prereleaseOnly #LoreButton
+{
+	visibility: collapse;
+}
+
+.loreIcon
+{
+	width: 22px;
+	height: 22px;
+	horizontal-align: center;
+	vertical-align: center;
+	background-image: url("s2r://panorama/images/icons/icon_book.vsvg");
+	background-size: contain;
+	background-img-opacity: 0.3;
+}
+
+.DragPriorityToken
+{
+	width: 50px;
+	height: 50px;
+	background-image: url("s2r://panorama/images/main_menu/pick_screen/ultra_priority_token_psd.vtex");
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.DragPriorityToken Label
+{
+	width: 100%;
+	vertical-align: middle;
+	text-overflow: shrink;
+	text-align: center;
+}
+

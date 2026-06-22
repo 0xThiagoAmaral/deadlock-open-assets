@@ -1,0 +1,97 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 2
+	m_ConstantColor = [ 94, 249, 233, 255 ]
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 300.0, 300.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/synth/synth.vmdl"
+				m_sequenceName = "ability_affliction"
+				m_hitboxSetName = "default"
+				m_flPlaybackSpeed = 0.0
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_ground_proj_detail.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_erode.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_sphere_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_smoke_linger.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_body_cast.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_vertical.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_swirl_alpha.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_swirl_bravo.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_swirl_charlie.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_atmospheric.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_ash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_pulse.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_miasma.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_scroll.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_splatter.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_splatter_body.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_liquid.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/pocket/pocket_affliction_aoe_frog_model.vpcf"
+		},
+	]
+}

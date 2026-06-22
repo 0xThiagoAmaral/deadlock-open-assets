@@ -1,0 +1,54 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf63:version{a6e6a69e-52d3-4527-8b9c-ff3bb91aca3e} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_wip/punkgoat/punkgoat.vmdl"
+				m_sequenceName = "tools_preview"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/punkgoat/punkgoat_tether_pulled_impact.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/punkgoat/punkgoat_tether_pulled_spirit_energy.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/punkgoat/punkgoat_tether_pulled_trail.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/punkgoat/punkgoat_tether_pulled_vertical_shaft.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/punkgoat/punkgoat_tether_pulled_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/punkgoat/punkgoat_tether_pulled_spikes.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/punkgoat/punkgoat_tether_pulled_chain_links_bounce.vpcf"
+		},
+	]
+}

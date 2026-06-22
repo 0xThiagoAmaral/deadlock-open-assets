@@ -1,0 +1,134 @@
+{
+  "game": "Deadlock",
+  "last_updated": "2026-06-20",
+  "source_notes": "Extraído de pesquisa.md (jun/2026) e validado contra assets/game/items.json. Agente Pesquisador usa isto como fonte de verdade para economia, fases e counter-building.",
+  "souls_economy": {
+    "core_rule": "Almas (Souls) ditam ritmo de evolução; vantagem 10–15 min define a partida.",
+    "lane_orbs": {
+      "secure_first": "Garantir a própria orbe antes de negar a do adversário.",
+      "deny_when": "Ângulo seguro, inimigo recarregando, ou oponente fora de posição.",
+      "ground_orb_radius_m": 35
+    },
+    "phase_priorities": {
+      "before_10_min": {
+        "primary": "Tropas da rota (lane farm)",
+        "secondary": ["Sinners", "acampamentos selva (pequenos aos 2min, médios aos 5min)", "abates"],
+        "note": "Acampamentos só nas janelas de crash (tropas na torre inimiga)."
+      },
+      "after_10_min": {
+        "primary": ["Tropas", "empurre de ondas"],
+        "secondary": ["caixas centro", "acampamentos difíceis", "torres T1", "abates"],
+        "note": "Objetivos dividem recompensa: 40% proximidade + resto equipa."
+      },
+      "approaching_20_min": {
+        "primary": ["Tropas", "objetivos base"],
+        "secondary": ["abates críticos", "acampamentos difíceis (respawn 8min)"],
+        "note": "Flex Slots ligados à demolição da infraestrutura inimiga."
+      }
+    },
+    "role_economy": {
+      "carry": "Maximizar vagas cedo; loja frequente antes de lutas por objetivo (~10 min).",
+      "frontline": "Receber tropas com segurança; itens de sobrevivência cedo.",
+      "support_utility": "Alto impacto por Alma — estabilizar economia da equipa, não liderar património."
+    }
+  },
+  "item_tiers": {
+    "note": "Valores atuais (2026) — usar SEMPRE estes custos; guias antigos com 500/1250/3000/6200 estão obsoletos.",
+    "tier_1": { "cost": 800, "label": "Early / laning" },
+    "tier_2": { "cost": 1600, "label": "Mid bridge" },
+    "tier_3": { "cost": 3200, "label": "Core power spike" },
+    "tier_4": { "cost": 6400, "label": "Luxury / game-defining" }
+  },
+  "categories": {
+    "Weapon": { "color": "laranja", "scales": "dano balístico e melee percentual" },
+    "Vitality": { "color": "verde", "scales": "vida base e resistências percentuais" },
+    "Spirit": { "color": "roxo", "scales": "Spirit Power — habilidades e itens espirituais" },
+    "Flex": { "color": "flex", "scales": "qualquer slot; até 4 extras via objetivos" }
+  },
+  "inventory": {
+    "base_slots": 12,
+    "max_with_flex": 16,
+    "fixed_per_category": 4,
+    "component_upgrade": "Pagar a diferença — componente inferior deduzido do upgrade; mantém slot.",
+    "sellback_tier_1_2": 0.75,
+    "sellback_in_shop_undo": 1.0,
+    "early_temp_investment": "Itens T1/T2 temporários arriscam pouco (75% sellback) — dominar lane antes do core T3."
+  },
+  "investment_tracks": {
+    "description": "Almas gastas por coluna (Arma/Vitalidade/Espírito) acumulam bónus passivos por faixa (~800 almas por degrau).",
+    "critical_threshold": 4800,
+    "bonuses_at_4800": {
+      "Weapon": "+28% Weapon Damage (percentual — escala com itens T3/T4)",
+      "Vitality": "+18% Max Health",
+      "Spirit": "+19 Spirit Power (fixo — dominante early/mid; salto maior ao cruzar 4800)"
+    },
+    "pro_strategy": "Rush intencional de 4800 numa coluna principal antes de dispersar; late ideal: 4800 nas três colunas, depois especializar no herói."
+  },
+  "flex_slots": {
+    "start_unlocked": 1,
+    "max": 4,
+    "unlock_progression": [
+      "1º flex: início de partida (desbloqueado)",
+      "2º flex: destruição do 1º Walker inimigo",
+      "3º flex: destruição do 2º Walker inimigo",
+      "4º flex: destruição do 3º Walker inimigo"
+    ],
+    "note_patch": "Requisitos recentes enfatizam 3 Guardiões base + 3 Walkers; builds devem reservar itens situacionais para flex slots tardios."
+  },
+  "build_editor": {
+    "quickbuy_key": "G",
+    "sections_recommended": ["Early Game", "Mid Game", "Late / Objetivos", "Situacional (Optional)", "Flex Pick"],
+    "optional_category": "Marcar como Optional — NÃO entra na fila Quickbuy automática; só drag manual.",
+    "sell_priority": "Escala 1–100; Quickbuy sem slot vende item de menor prioridade automaticamente.",
+    "imbue_targets": "Definir habilidade alvo para itens como Compress Cooldown, Duration Extender, Quicksilver Reload — evita popup errado in-game.",
+    "flex_pick": "Categoria para bifurcações defensivas equivalentes (escolha rápida sob pressão)."
+  },
+  "counter_modules": [
+    {
+      "id": "anti_heal",
+      "label": "Anti-Cura / Sustentação",
+      "when": "Abrams, Mo & Krill, Lady Geist, Shiv, frontlines regenerativos",
+      "items": ["Healbane", "Toxic Bullets", "Decay"],
+      "tier_hint": "Healbane T2; Toxic/Decay T3"
+    },
+    {
+      "id": "mobility_lock",
+      "label": "Travar Mobilidade",
+      "when": "Calico, Pocket, Wraith, Lash, dash-heavy",
+      "items": ["Slowing Hex", "Knockdown"],
+      "tier_hint": "Slowing Hex T2 essencial; Knockdown T3 vs voo (Vindicta, Grey Talon, Seven ult)"
+    },
+    {
+      "id": "anti_gun_carry",
+      "label": "Neutralizar Atiradores",
+      "when": "Haze, Infernus, Mirage, Wraith, Venator",
+      "items": ["Rusted Barrel", "Disarming Hex", "Metal Skin"],
+      "tier_hint": "Rusted T1; Disarming Hex T3; Metal Skin T3 vs burst físico"
+    },
+    {
+      "id": "cleanse_cc",
+      "label": "Purificação / Anti-CC",
+      "when": "DoT persistente, stuns em chain, Bebop hook",
+      "items": ["Reactive Barrier", "Debuff Reducer", "Dispel Magic", "Counterspell"],
+      "note": "Purificar ANTES de ficar hard-CC; Counterspell exige timing (0.8s window)."
+    },
+    {
+      "id": "teamfight_immune",
+      "label": "Imunidade Late Teamfight",
+      "when": "Engages decisivos, break objetivos, anti-CC massivo",
+      "items": ["Unstoppable", "Spellbreaker", "Ethereal Shift"],
+      "tier_hint": "Unstoppable T4; Ethereal Shift escape"
+    }
+  ],
+  "meta_sources": [
+    "Mobalytics",
+    "MetaBot.GG",
+    "DeadlockLabs",
+    "Statlocker",
+    "Build gallery in-game (tags: Sustained Damage, Mobile, Suppression, Regen)"
+  ],
+  "build_philosophy": {
+    "reject_static": "Pro builds adaptam por composição — módulos situacionais em Optional/Flex.",
+    "cheat_context_umbrella": "Com Aimbot/Wallhack: menos itens defensivos puramente reativos; mais DPS e burst; counter situacional mantém-se vs heals e CC lockdown."
+  }
+}

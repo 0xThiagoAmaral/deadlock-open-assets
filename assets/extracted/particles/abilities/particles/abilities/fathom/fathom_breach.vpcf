@@ -1,0 +1,61 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 300.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/slork/slork.vmdl"
+				m_sequenceName = "ref"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_ground_projection.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_aoe_shockwave.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_impact_flare.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_aoe_ring_aquatic.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_wake.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_landing_splash_vertical.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fathom/fathom_breach_aoe_edge.vpcf"
+		},
+	]
+}

@@ -1,0 +1,331 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelStatScalingLabel
+{
+	flow-children: right;
+	background-color: #00000000;
+}
+
+.hero_stats CitadelStatScalingLabel
+{
+	background-color: none;
+	ui-scale: 80%;
+}
+
+.displayStatsContainer CitadelStatScalingLabel
+{
+	horizontal-align: right;
+}
+
+CitadelStatScalingLabel.HasScalingStats
+{
+	visibility: visible;
+}
+
+.ScalingStatValue
+{
+	font-size: 14px;
+	font-weight: semi-bold;
+	color: offWhite&aa;
+	margin-left: 5px;
+}
+
+CitadelTooltipModDetails .ScalingStatValue
+{
+	margin-left: -5px;
+}
+
+.hero_stats .ScalingStatValue
+{
+	font-size: 18px;
+	color: offWhite&aa;
+	margin-left: 5px;
+}
+
+.hero_stats .ScalingStatAltMultiply
+{
+	font-size: 18px;
+	margin-right: -5px;
+	margin-left: 0px;
+}
+
+.ScalingStatImage
+{
+	height: 18px;
+	width: 18px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: center;
+	z-index: 2;
+}
+
+#HeaderAttributesContainer .ImageAndMultiplierContainer
+{
+	flow-children: down;
+}
+
+.AbilityPanelStat .ScalingStatImage
+{
+	width: 40px;
+	height: 30px;
+	margin-right: 0px;
+	background-position: right;
+}
+
+.gDetailView .HeaderContainer .AbilityPanelStat .ScalingStatImage,.gScoreboardOpen .HeaderContainer .AbilityPanelStat .ScalingStatImage
+{
+	pre-transform-scale2d: 0.6;
+	margin-top: -6px;
+	margin-bottom: -4px;
+}
+
+#HeaderAttributesContainer .AbilityPanelStat .ScalingStatImage
+{
+	width: 30px;
+	height: 26px;
+}
+
+.ScalingStat_BaseWeaponDamage .ScalingStatImage,.ScalingStat_WeaponPower .ScalingStatImage
+{
+	background-image: url("s2r://panorama/images/shop/keystat_courage_arrow_png.vtex");
+}
+
+.ScalingStat_LevelUpBoons .ScalingStatImage
+{
+	background-image: url("s2r://panorama/images/shop/keystat_boon_arrow_png.vtex");
+}
+
+.ScalingStat_ArmorPower .ScalingStatImage
+{
+	background-image: url("s2r://panorama/images/shop/keystat_fortitude_arrow_png.vtex");
+}
+
+.ScalingStat_TechPower .ScalingStatImage
+{
+	background-image: url("s2r://panorama/images/shop/keystat_spirit_arrow_png.vtex");
+}
+
+.ScalingStat_LightMeleeDamage .ScalingStatImage
+{
+	background-image: url("s2r://panorama/images/shop/keystat_melee_arrow_png.vtex");
+}
+
+.ScalingStat_HeavyMeleeDamage .ScalingStatImage
+{
+	background-image: url("s2r://panorama/images/shop/keystat_melee_arrow_png.vtex");
+}
+
+.AttributeCurrentValue
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-right: 3px;
+}
+
+.AbilityPanelStat Label
+{
+	font-size: 12px;
+	font-weight: semi-bold;
+	font-family: block;
+}
+
+.AbilityPanelStat
+{
+	flow-children: down;
+}
+
+CitadelTooltipModDetails .AbilityPanelStat
+{
+	flow-children: right;
+}
+
+.ScalingStatAltMultiply
+{
+	margin: 0px 0px 2px 0px;
+	font-weight: bold;
+	opacity: 0.8;
+	font-family: oracle;
+}
+
+Label.ScalingStatCurrentValue
+{
+	font-size: 18px;
+	margin-right: 5px;
+	margin-top: -14px;
+	opacity: 0;
+}
+
+CitadelTooltipModDetails Label.ScalingStatCurrentValue
+{
+	margin-right: 0px;
+}
+
+.ScalingStat_WeaponPower .ScalingStatCurrentValue
+{
+	color: courageBrightColor;
+	font-weight: bold;
+}
+
+.ScalingStat_LevelUpBoons .ScalingStatCurrentValue
+{
+	color: shardColor;
+	font-weight: bold;
+}
+
+.ScalingStat_TechPower .ScalingStatCurrentValue
+{
+	color: spiritBrightColor;
+	font-weight: bold;
+}
+
+.ScalingStat_ArmorPower .ScalingStatCurrentValue
+{
+	color: fortitudeLightColor;
+	font-weight: bold;
+}
+
+.ScalingStat_LightMeleeDamage .ScalingStatCurrentValue
+{
+	color: courageBrightColor;
+	font-weight: bold;
+}
+
+.ScalingStat_HeavyMeleeDamage .ScalingStatCurrentValue
+{
+	color: courageBrightColor;
+	font-weight: bold;
+}
+
+.HeaderContainer .ScalingStatCurrentValue
+{
+	margin-right: 5px;
+	margin-top: -1px;
+}
+
+.ScaleModifiedBetterByMode .ScalingStatValue
+{
+	color: rgb(64, 248, 64);
+}
+
+.ScaleModifiedWorseByMode .ScalingStatValue
+{
+	color: rgba(230, 175, 93, 0.788);
+}
+
+.ScalingAmount
+{
+	flow-children: right;
+	z-index: 2;
+	visibility: collapse;
+	text-align: right;
+	vertical-align: middle;
+	horizontal-align: right;
+	margin-right: 3px;
+	margin-top: 15px;
+}
+
+.ScalingAmount Label
+{
+	text-shadow: 0px 0px 3.0 offBlack;
+}
+
+.HeaderContainer .ScalingAmount
+{
+	margin-top: 0px;
+	font-size: 10px;
+	margin-right: 1px;
+}
+
+.gDetailView .ScalingAmount,.gScoreboardOpen .ScalingAmount
+{
+	visibility: visible;
+}
+
+.ScalingStat_WeaponPower Label,.ScalingStat_LightMeleeDamage Label,.ScalingStat_HeavyMeleeDamage Label
+{
+	color: courageBrightColor;
+}
+
+.ScalingStat_LevelUpBoons Label
+{
+	color: #53e1c4;
+}
+
+.ScalingStat_ArmorPower Label
+{
+	color: fortitudeBrightColor;
+}
+
+.ScalingStat_TechPower Label
+{
+	color: spiritBrightColor;
+}
+
+.BaseLabel,.ModsLabel
+{
+	font-weight: bold;
+	color: offWhite&80;
+	font-size: 14px;
+}
+
+.HideModsValue .ModsLabel,.HideModsValue .ModsAddition
+{
+	visibility: collapse;
+}
+
+.StatAddition
+{
+	margin-top: 3px;
+}
+
+.ScalingStatAltMultiply
+{
+	color: #FFFFFF86;
+	font-style: italic;
+}
+
+.ScalingStatCurrentValue
+{
+	visibility: collapse;
+	horizontal-align: right;
+	margin-top: -5px;
+}
+
+CitadelTooltipModDetails .ScalingStatCurrentValue
+{
+	margin-top: 0px;
+	vertical-align: center;
+}
+
+.AbilityPanelStat,.gDetailView AbilityPropertyPanel .ScalingStatCurrentValue,CitadelTooltipModDetails .gDetailView .ScalingStatCurrentValue,.gDetailView .ScalingStatAltMultiply,.gDetailView .ScalingStatValue,.gScoreboardOpen AbilityPropertyPanel .ScalingStatCurrentValue,CitadelTooltipModDetails .gScoreboardOpen .ScalingStatCurrentValue,.gScoreboardOpen .ScalingStatAltMultiply,.gScoreboardOpen .ScalingStatValue
+{
+	visibility: visible;
+}
+
+CitadelTooltipModDetails.HasNoPlayer .gScoreboardOpen .ScalingStatCurrentValue,CitadelTooltipModDetails.HasNoPlayer .gDetailView .ScalingStatCurrentValue
+{
+	visibility: collapse;
+}
+
+.gDetailView .IsReadOnly .ScalingStatCurrentValue,.gScoreboardOpen .IsReadOnly .ScalingStatCurrentValue
+{
+	visibility: collapse;
+}
+
+AbilityPropertyPanel .ScalingStatValue
+{
+	margin-left: 0px;
+}
+
+#HeroImage
+{
+	margin-left: 12px;
+	visibility: visible;
+}
+
+.ScalingStat_ELevelUpBoons #HeroImage
+{
+	visibility: visible;
+}
+

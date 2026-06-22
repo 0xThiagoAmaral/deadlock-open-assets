@@ -1,0 +1,283 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+#Contents
+{
+	height: fit-children;
+	border: 1px solid rgba(255, 255, 255, 0.025);
+	border-radius: 8px;
+	background-color: #181716;
+	flow-children: down;
+	padding: 8px 16px 10px 16px;
+}
+
+#LeftArrow,#RightArrow,#TopArrow,#BottomArrow
+{
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: contain;
+	opacity: 0.1;
+	wash-color: offWhite;
+	z-index: 1;
+	visibility: collapse;
+}
+
+#LeftArrow,#RightArrow
+{
+	width: 24px;
+	height: 24px;
+}
+
+#LeftArrow
+{
+	background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_left.vsvg");
+	margin-right: -8px;
+}
+
+#RightArrow
+{
+	background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_right.vsvg");
+	margin-left: -8px;
+}
+
+#TopArrow,#BottomArrow
+{
+	width: 24px;
+	height: 24px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#TopArrow
+{
+	background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_top.vsvg");
+	margin-bottom: -8px;
+}
+
+#BottomArrow
+{
+	background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_bottom.vsvg");
+	margin-top: -8px;
+}
+
+.TooltipContainer.LeftArrowVisible #LeftArrow
+{
+	visibility: visible;
+}
+
+.TooltipContainer.RightArrowVisible #RightArrow
+{
+	visibility: visible;
+}
+
+.TooltipContainer.TopArrowVisible #TopArrow
+{
+	visibility: visible;
+}
+
+.TooltipContainer.BottomArrowVisible #BottomArrow
+{
+	visibility: visible;
+}
+
+.TooltipContainer.Tooltip_NoArrow.LeftArrowVisible #LeftArrow
+{
+	visibility: collapse;
+}
+
+.TooltipContainer.Tooltip_NoArrow.RightArrowVisible #RightArrow
+{
+	visibility: collapse;
+}
+
+.TooltipContainer.Tooltip_NoArrow.TopArrowVisible #TopArrow
+{
+	visibility: collapse;
+}
+
+.TooltipContainer.Tooltip_NoArrow.BottomArrowVisible #BottomArrow
+{
+	visibility: collapse;
+}
+
+.TooltipContainer.LeftArrowVisible #Contents
+{
+	margin-left: 0px;
+	min-height: 40px;
+}
+
+.TooltipContainer.RightArrowVisible #Contents
+{
+	margin-right: 0px;
+	min-height: 40px;
+}
+
+.TooltipContainer.BottomArrowVisible #Contents
+{
+	margin-bottom: 0px;
+	min-width: 60px;
+}
+
+.TooltipContainer.TopArrowVisible #Contents
+{
+	margin-top: 0px;
+	min-width: 60px;
+}
+
+.TooltipContainer
+{
+	flow-children: down;
+	opacity: 0.0;
+	transition-property: opacity, pre-transform-scale2d;
+	transition-duration: 0.175s, 0.25s;
+}
+
+.TooltipContainer.TooltipVisible
+{
+	opacity: 1.0;
+	transition-delay: 0.0s;
+}
+
+.TooltipRow
+{
+	flow-children: right;
+}
+
+.GameModeTooltip.RightArrowVisible #Contents
+{
+	width: 400px;
+	min-height: 60px;
+	background-color: #3e464b;
+	padding: 10px 10px 10px 15px;
+	border-radius: 0px;
+	border: 1px solid black;
+}
+
+.GameModeTooltip #RightArrow
+{
+	background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_right.vsvg");
+	wash-color: #3e464b;
+	margin-left: -1px;
+}
+
+.SettingsTooltip #Contents
+{
+	max-width: 584px;
+	min-width: 584px;
+	margin-top: 2px;
+}
+
+.SettingsTooltip #TopArrow
+{
+	width: 0px;
+	height: 0px;
+}
+
+.ShortTextTooltip #Contents
+{
+	background-color: #252b30;
+	padding: 8px 10px 6px 10px;
+	border-radius: 0px;
+	border: 1px solid black;
+	box-shadow: fill #000000aa 0px 0px 8px 0px ;
+}
+
+.ShortTextTooltip #RightArrow
+{
+	margin-left: -1px;
+}
+
+.ShortTextTooltip #LeftArrow
+{
+	margin-right: -4px;
+}
+
+.ShortTextTooltip #BottomArrow
+{
+	margin-top: -1px;
+}
+
+.ShortTextTooltip #TopArrow
+{
+	margin-bottom: -1px;
+}
+
+#HeroCardTooltip
+{
+	opacity: 0.0;
+	pre-transform-scale2d: 0.9;
+	transition-property: opacity, pre-transform-scale2d;
+	transition-duration: 0.1s;
+}
+
+#HeroCardTooltip.TooltipVisible
+{
+	opacity: 1.0;
+	pre-transform-scale2d: 1.0;
+}
+
+#CitadelStatsPanelTooltip #Contents
+{
+	box-shadow: none;
+	background-color: none;
+	border: 0px solid #00000000;
+	padding: 0px 0px;
+}
+
+.TooltipContainer.SettingsMenuTooltip
+{
+	overflow: noclip;
+	margin-bottom: -8px;
+	border: 0px;
+	opacity: 0;
+	transition-duration: 0.15s;
+	transition-delay: 0.5s;
+}
+
+.TooltipContainer.SettingsMenuTooltip #Contents
+{
+	margin: 16px;
+	padding: 16px 20px;
+	border: 0px;
+	border-radius: 0px;
+	background-image: url("s2r://panorama/images/textures/paper_tile_1k_01_png.vtex");
+	opacity-mask: url("s2r://panorama/images/masks/rough_edge_02_png.vtex");
+	box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.35);
+	wash-color: brandGreen&88;
+	brightness: 3;
+}
+
+.TooltipContainer.SettingsMenuTooltip #LeftArrow,.TooltipContainer.SettingsMenuTooltip #RightArrow,.TooltipContainer.SettingsMenuTooltip #TopArrow,.TooltipContainer.SettingsMenuTooltip #BottomArrow
+{
+	z-index: -200;
+	opacity: 1;
+	wash-color: brandGreen&88;
+	brightness: 0.5;
+}
+
+.TooltipContainer.SettingsMenuTooltip #LeftArrow
+{
+	margin-right: -26px;
+}
+
+.TooltipContainer.SettingsMenuTooltip #RightArrow
+{
+	margin-left: -26px;
+}
+
+.TooltipContainer.SettingsMenuTooltip #TopArrow
+{
+	margin-bottom: -26px;
+}
+
+.TooltipContainer.SettingsMenuTooltip #BottomArrow
+{
+	margin-top: -26px;
+}
+
+.TooltipContainer.SettingsMenuTooltip.TooltipVisible
+{
+	opacity: 1;
+	transition-duration: 0s;
+	transition-delay: 0s;
+}
+

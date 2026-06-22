@@ -1,0 +1,15 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+.ability_panels_container
+{
+	height: 100%;
+	width: 100%;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.gAbilityUpgradeMenu.ability_panels_container
+{
+	opacity: 0;
+}
+

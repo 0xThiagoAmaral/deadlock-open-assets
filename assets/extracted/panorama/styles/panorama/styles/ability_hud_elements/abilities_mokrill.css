@@ -1,0 +1,134 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+@import url("s2r://panorama/styles/citadel_base_styles.vcss_c");
+@keyframes 'DefaultAnim'
+{
+	0%
+	{
+		transform: translateX( 1px );
+	}
+	
+	50%
+	{
+		transform: translateY( 1px );
+	}
+	
+	100%
+	{
+		transform: translateX( -1px );
+	}
+	
+}
+
+@keyframes 'Zoomies'
+{
+	0%
+	{
+		transform: skew( -10deg ) translate3d( 0px, -2px, 0px );
+	}
+	
+	100%
+	{
+		transform: skew( -10deg ) translate3d( 0px, 2px, 0px );
+	}
+	
+}
+
+.ability_burrow .SplitLabelProgressBar .SplitLabelName Image
+{
+	animation-name: Zoomies;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+.ability_burrow .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n)
+{
+	animation-delay: 0.0s;
+}
+
+.ability_burrow .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+1)
+{
+	animation-delay: 0.1s;
+}
+
+.ability_burrow .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+2)
+{
+	animation-delay: 0.2s;
+}
+
+.ability_burrow .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+3)
+{
+	animation-delay: 0.3s;
+}
+
+.ability_burrow .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+4)
+{
+	animation-delay: 0.4s;
+}
+
+.ability_burrow .SplitLabelProgressBar .SplitLabelProgress
+{
+	wash-color: krillColor;
+}
+
+@keyframes 'Combo1'
+{
+	0%
+	{
+		transform: rotateZ( 0deg );
+		pre-transform-scale2d: 1;
+	}
+	
+	100%
+	{
+		transform: rotateZ( -5deg );
+		pre-transform-scale2d: 0.9;
+	}
+	
+}
+
+.ability_ult_combo .SplitLabelProgressBar
+{
+	ui-scale: 180%;
+}
+
+.ability_ult_combo .SplitLabelProgressBar .SplitLabelName Image
+{
+	animation-name: Combo1;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-frame-time: 200ms;
+}
+
+.ability_ult_combo .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n)
+{
+	animation-direction: alternate-reverse;
+}
+
+.ability_ult_combo .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+1)
+{
+	animation-direction: alternate;
+}
+
+.ability_ult_combo .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+2)
+{
+	animation-direction: alternate-reverse;
+}
+
+.ability_ult_combo .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+3)
+{
+	animation-direction: alternate;
+}
+
+.ability_ult_combo .SplitLabelProgressBar .SplitLabelName Image:nth-child(5n+4)
+{
+	animation-direction: alternate-reverse;
+}
+
+.ability_ult_combo .SplitLabelProgressBar .SplitLabelProgress
+{
+	wash-color: krillColor;
+}
+

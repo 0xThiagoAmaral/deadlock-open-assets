@@ -1,0 +1,74 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf64:version{c95f3434-dfef-4a35-9913-024beddb416a} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "censer_fx"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "smoke_fx"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 3
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "head_fx"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 5
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 1.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_wip/priest/priest.vmdl"
+				m_sequenceName = "models\\heroes_wip\\priest\\clips\\ui_hero_select.vnmclip"
+				m_hitboxSetName = "default"
+				m_flPlaybackSpeed = 0.0
+				m_bSequenceNameIsAnimClipPath = true
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_RemapSpeedtoCP"
+			m_nOutControlPointNumber = 5
+			m_flInputMin = 50.0
+			m_flInputMax = 100.0
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_ambient_censer_smoke_base.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_ambient_censer_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_ambient_smoke_tip.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_ambient_smoke.vpcf"
+		},
+	]
+}

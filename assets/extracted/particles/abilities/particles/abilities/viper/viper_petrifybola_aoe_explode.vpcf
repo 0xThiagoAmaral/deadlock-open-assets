@@ -1,0 +1,51 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_angOffset = [ 90.0, -180.0, -180.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 200.0, 102.552002, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/viper/viper_petrify_aoe_explode_proj_ground.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viper/viper_petrify_aoe_explode_proj_ground_bright.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viper/viper_petrifybola_aoe_explode_aoe_rope.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viper/viper_petrify_aoe_explode_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viper/viper_petrifybola_aoe_explode_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viper/viper_petrifybola_explode_sphere.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viper/viper_petrifybola_rocks.vpcf"
+		},
+	]
+}

@@ -1,0 +1,79 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 8
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 500.0, 300.0, 300.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_decal.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_vapor.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_rays.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_aoe.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_liquid.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_flare.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_flare_horizontal.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_directional.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_sphere.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_fireball.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_flash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_fluid.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/warden/warden_flask_grenade_liquid_ground_contact.vpcf"
+		},
+	]
+}

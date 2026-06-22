@@ -1,0 +1,80 @@
+site_name: Deadlock Open Assets
+site_description: The most complete open Deadlock data hub — icons, vdata, particles, manifests & indexes
+site_url: https://0xthiagoamaral.github.io/deadlock-open-assets/
+repo_url: https://github.com/0xThiagoAmaral/deadlock-open-assets
+repo_name: 0xThiagoAmaral/deadlock-open-assets
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+    - scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/0xThiagoAmaral/deadlock-open-assets
+  hub_version: "1.0.0"
+  cdn_base: "https://cdn.jsdelivr.net/gh/0xThiagoAmaral/deadlock-open-assets@main"
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/hub.js
+
+nav:
+  - Home: index.md
+  - Browse:
+      - Heroes: browse/heroes.md
+      - Items: browse/items.md
+      - Upgrades: browse/upgrades.md
+  - Data:
+      - Catalog: CATALOG.md
+      - Manifests API: api/manifests.md
+      - Codenames: api/codenames.md
+  - Download: download.md
+  - Legal: legal.md
+  - Contributing: contributing.md

@@ -1,0 +1,66 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 350.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_proj_ground.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_dust.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_dust_spear.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_shockwave_dome.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_shockwave_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_gas.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_hot_core.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_bits.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_barrel_explode_pulse.vpcf"
+		},
+	]
+}

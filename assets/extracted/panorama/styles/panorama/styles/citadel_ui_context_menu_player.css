@@ -1,0 +1,233 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+#MenuOptionsContainer
+{
+	flow-children: down;
+}
+
+#Contents.PlayerMenuContents
+{
+	width: 384px;
+	flow-children: down;
+	background-color: #222;
+}
+
+#ProfileCard
+{
+	z-index: 1;
+	background-color: #333;
+}
+
+#MenuOptionsContainer
+{
+	width: 100%;
+}
+
+#MenuOptionsPanel
+{
+	flow-children: down;
+	width: 100%;
+	transform: translateX( -3% );
+	transition-property: transform;
+	transition-duration: 0.05s;
+}
+
+#MenuOptionsPanel Button
+{
+	width: 100%;
+}
+
+#MenuOptionsPanel Button:hover
+{
+	background-color: #ffffff05;
+}
+
+.EntranceAnimation #MenuOptionsPanel
+{
+	transform: translateX( 0px );
+}
+
+.BottomArrowVisible #MenuOptionsPanel
+{
+	transition-duration: 0.0s;
+}
+
+#MenuOptionsPanel Button Label
+{
+	text-align: left;
+	color: #ffffff90;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: semi-bold;
+	transition-duration: 0.2s;
+	transition-property: color;
+}
+
+#MenuOptionsPanel Button:hover
+{
+	color: #ffffff;
+}
+
+#MenuOptionsPanel Button:hover Label
+{
+	color: white;
+}
+
+CitadelContextMenuPlayer #Contents
+{
+	background-color: transparent;
+	padding: 0px;
+	border: 0px solid transparent;
+	box-shadow: none;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+.MenuRow
+{
+	height: 50px;
+	width: 400px;
+	flow-children: right;
+	background-color: offBlack;
+	border-bottom: 2px solid #ffffff05;
+}
+
+.MenuRow #MenuButton,.MenuRow .MenuButton
+{
+	width: 100%;
+	height: 100%;
+	padding: 8px 12px;
+}
+
+.MenuRow #MenuButton Label,.MenuRow .MenuButton Label
+{
+	vertical-align: center;
+	horizontal-align: left;
+	font-weight: semi-bold;
+	color: offWhite&44;
+	font-size: 16px;
+}
+
+.MenuRow:hover:enabled
+{
+	background-color: offWhite&01;
+}
+
+.MenuRow:hover:enabled Label
+{
+	color: offWhite;
+}
+
+.MenuRow:active
+{
+	background-color: offWhite&05;
+}
+
+.MenuRow:active Label
+{
+	color: #fff;
+}
+
+.MenuRow .contextIcon
+{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background-size: contain;
+	wash-color: offWhite;
+	opacity: 0.3;
+}
+
+#MenuOptionsPanel #CommendPlayer
+{
+	vertical-align: center;
+}
+
+.CommendedPlayer .commendLabel
+{
+	visibility: collapse;
+}
+
+.CommendedPlayer .commendedLabel
+{
+	visibility: visible;
+}
+
+.commendedLabel
+{
+	visibility: collapse;
+}
+
+#MenuOptionsPanel #ReportPlayer
+{
+	vertical-align: center;
+}
+
+.PlayerFeedbackButton
+{
+	horizontal-align: left;
+	margin-left: 10px;
+	padding: 0px 10px;
+}
+
+.reportLabel
+{
+	margin-bottom: 0px;
+}
+
+#MenuOptionsPanel Button Label.reportLabel:hover
+{
+	color: rgb(133, 25, 25);
+	color: red;
+}
+
+#reportIcon
+{
+	margin-right: 0px;
+}
+
+.SliderRow
+{
+	height: 50px;
+	width: 400px;
+	background-color: #333;
+	padding: 10px;
+}
+
+.PlayerFeedback
+{
+	visibility: collapse;
+}
+
+.inMatch .PlayerFeedback
+{
+	visibility: visible;
+}
+
+.MenuSlider
+{
+	flow-children: right;
+	vertical-align: center;
+}
+
+.MenuSlider .ItemDescription
+{
+	vertical-align: center;
+}
+
+.MenuSlider .ItemSlider
+{
+	vertical-align: center;
+	margin: 0px;
+}
+
+.inviteToParty.contextIcon
+{
+	background-image: url("s2r://panorama/images/icons/icon_friends.vsvg");
+}
+
+.viewProfile.contextIcon
+{
+	background-image: url("s2r://panorama/images/icons/icon_friends.vsvg");
+}
+

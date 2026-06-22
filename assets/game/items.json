@@ -1,0 +1,1224 @@
+{
+    "game": "Deadlock",
+    "last_updated": "June 2026",
+    "total_items": 173,
+    "categories": {
+        "Weapon": "Items that improve weapon stats",
+        "Vitality": "Defensive items",
+        "Spirit": "Items that improve abilities",
+        "Flex": "Items that can be used in any category slot"
+    },
+    "items": [
+        {
+            "name": "Extra Charge",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "+1 Bonus Ability Charges, +7 Bonus Spirit Power for Charged Abilities"
+        },
+        {
+            "name": "Extra Spirit",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "+10 Spirit Power"
+        },
+        {
+            "name": "Golden Goose Egg",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "+2s Channel Duration, +90 Soul Value per Minute, +1mm Sprint Speed, +1 Out of Combat Regen, -10% Damage Penalty"
+        },
+        {
+            "name": "Mystic Burst",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "+14s Charge-Up Time, 14s Cooldown, +40 Bonus Damage"
+        },
+        {
+            "name": "Mystic Expansion",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "+20% Radius, +20% Ability Range"
+        },
+        {
+            "name": "Mystic Regeneration",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "+50 Bonus Health, +4 HP/s Regeneration, +7s Regeneration Duration"
+        },
+        {
+            "name": "Rusted Barrel",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +32mm Cast Range, 16.0s Cooldown, +5s Duration, +60 Bonus Health, +0.5mm Sprint Speed, -8% Bullet Resist, +32% Fire Rate"
+        },
+        {
+            "name": "Spirit Strike",
+            "tier": 1,
+            "cost": 800,
+            "category": "Spirit",
+            "function": "8.0s Cooldown, +6s Duration, +40 Spirit Damage, -6% Spirit Resist"
+        },
+        {
+            "name": "Arcane Surge",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+7s Cast Window, +15% Ability Duration, +20 Spirit Power, +1 Stamina, +12% Stamina Recovery, +12% Radius, +12% Ability Range"
+        },
+        {
+            "name": "Bullet Resist Shredder",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+8s Duration, +9% Weapon Damage, -10% Bullet Resist, +9% Bullet Resist"
+        },
+        {
+            "name": "Cold Front",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "25.0s Cooldown, +4s Duration, +95 Damage, +10mm End Radius, +60% Move Speed, +6% Spirit Resist"
+        },
+        {
+            "name": "Compress Cooldown",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "18% Ability Cooldown Reduction"
+        },
+        {
+            "name": "Duration Extender",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+22% Ability Duration"
+        },
+        {
+            "name": "Improved Spirit",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+75 Bonus Health, +1mm Sprint Speed, +1.5 Out of Combat Regen, +18 Spirit Power"
+        },
+        {
+            "name": "Mystic Slow",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+2s Duration, +50 Bonus Health, +0.75mm Sprint Speed, -12% Dash Distance, +30% Move Speed"
+        },
+        {
+            "name": "Mystic Vulnerability",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+7s Duration, -8% Spirit Resist, +8% Spirit Resist"
+        },
+        {
+            "name": "Quicksilver Reload",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+18s Charge-Up Time, 18s Cooldown, +100% Bullets Reloaded, +10% Fire Rate, +12s Buff Duration, +44 Damage"
+        },
+        {
+            "name": "Slowing Hex",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +25mm Cast Range, 27s Cooldown, +3.5s Duration, +0.5mm Sprint Speed, -30% Dash Distance, +20% Move Speed"
+        },
+        {
+            "name": "Spirit Sap",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +40mm Cast Range, 18s Cooldown, +12s Duration, +50 Bonus Health, -9% Spirit Resist, -30 Spirit Power"
+        },
+        {
+            "name": "Suppressor",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Spirit",
+            "function": "+5s Duration, +8% Bullet Resist, +28% Fire Rate, +6 Spirit Power"
+        },
+        {
+            "name": "Decay",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +20mm Cast Range, 30.0s Cooldown, +10s Duration, +65 Bonus Health, +2.6%/sec Bleed Damage, -50% Healing Reduction, -50% Healing Reduction, +8 Spirit Power"
+        },
+        {
+            "name": "Disarming Hex",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +32mm Cast Range, 16.0s Cooldown, +4.25s Duration, +75 Bonus Health, +0.75mm Sprint Speed, -13% Bullet Resist"
+        },
+        {
+            "name": "Greater Expansion",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+30% Radius, +30% Ability Range, +10% Spirit Resist"
+        },
+        {
+            "name": "Knockdown",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +45mm Cast Range, 35.0s Cooldown, +75 Bonus Health, +2s Stun Delay, +0.5s Stun Duration, +5% Radius, +5% Ability Range"
+        },
+        {
+            "name": "Radiant Regeneration",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "6.0s Cooldown, +3s Duration, +90 Bonus Health, +1.75m m Move Speed, +70 Healing on Ability Cast, +4 HP/s Regeneration, +7s Regeneration Duration"
+        },
+        {
+            "name": "Rapid Recharge",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+2 Bonus Ability Charges, +14 Bonus Spirit Power for Charged Abilities, +30% Faster Time Between Charges, 14% Cooldown Reduction For Charged Abilities"
+        },
+        {
+            "name": "Silence Wave",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +40mm Cast Range, 42.0s Cooldown, +3s Silence Duration, +50 Bonus Health, +75 Damage"
+        },
+        {
+            "name": "Spirit Snatch",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "6.0s Cooldown, +10s Duration, +75 Bonus Health, +7% Melee Damage, +50 Spirit Damage, -12% Spirit Resist, +12% Spirit Resist Steal, +25 Spirit Power Steal, -25 Spirit Power"
+        },
+        {
+            "name": "Superior Cooldown",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "20% Ability Cooldown Reduction, +4 Out of Combat Regen"
+        },
+        {
+            "name": "Superior Duration",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+28% Ability Duration, +8% Bullet Resist"
+        },
+        {
+            "name": "Surge of Power",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "14.0s Cooldown, +1.75m m Move Speed, +20% Fire Rate Bonus, +28 Imbued Ability Spirit Power, +8s Move Speed Duration"
+        },
+        {
+            "name": "Tankbuster",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "+14s Charge-Up Time, 14s Cooldown, +50 Bonus Health, +8% Current Health Bonus Damage, +40 Damage"
+        },
+        {
+            "name": "Torment Pulse",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Spirit",
+            "function": "1.4s Cooldown, +100 Bonus Health, +25 Pulse Damage, +9mm Pulse Radius, +18% Melee Resist"
+        },
+        {
+            "name": "Arctic Blast",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "24.0s Cooldown, +175 Damage, +16mm End Radius, +1s Freeze Duration, +4s Slow Duration, +60% Move Speed, +10% Spirit Resist"
+        },
+        {
+            "name": "Boundless Spirit",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+75 Bonus Health, +4 Out of Combat Regen, +30 Spirit Power, +15% Spirit Power"
+        },
+        {
+            "name": "Cursed Relic",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +20mm Cast Range, 55.0s Cooldown, +3.25s Duration, -10% Damage Penalty"
+        },
+        {
+            "name": "Echo Shard",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "35.0s Cooldown, +5% Fire Rate, +5% Bullet Resist, +5% Spirit Resist"
+        },
+        {
+            "name": "Escalating Exposure",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+12s Duration, +4.5% Spirit Amp per Stack, +12 Max Stacks, +0.7s Max Frequency Per Target, -8% Spirit Resist On Spirit Damage, +17% Spirit Resist"
+        },
+        {
+            "name": "Ethereal Shift",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "35.0s Cooldown, +4.0s Duration, +3m m Move Speed, +20 Spirit Power, +5s Buff Duration, +2.5m m Float Speed, +30% Spirit Resist"
+        },
+        {
+            "name": "Focus Lens",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+0.1s Cast Delay, +20mm Cast Range, 45s Cooldown, +4.5s Duration, +10% Fire Rate, -9% Spirit Resist, +30% Damage On Expire, +12s Resist Reduction Duration, -30 Spirit Power"
+        },
+        {
+            "name": "Lightning Scroll",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+2s Duration, +50 Bonus Health, +0.75mm Sprint Speed, +150 Damage, +3s Delay Before Effect, -12% Dash Distance, +30% Move Speed on Spirit Damage, +80% Move Speed, +0.75s Stun Duration"
+        },
+        {
+            "name": "Magic Carpet",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+0.2s Cast Delay, 32.0s Cooldown, +12s Duration, +25% Air Control, +15% Ability Duration, +125 Bonus Health, +7mm Bonus Fly Speed, -15% Gravity Scale, +1.3s Summon Duration, +14 Spirit Power"
+        },
+        {
+            "name": "Mercurial Magnum",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+14s Charge-Up Time, 15s Cooldown, +100% Bullets Reloaded, +20% Max Ammo, +22% Fire Rate, +12s Buff Duration, +25% Base Bullet Damage, +60 Damage, +7 Spirit Power"
+        },
+        {
+            "name": "Mystic Reverb",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "6.25s Cooldown, +8% Spirit Lifesteal, +3s Delay Duration, +22% Imbued Lifesteal, +10% Current Health Bonus Damage, +40% Move Speed, +16mm Radius, +50% Damage"
+        },
+        {
+            "name": "Refresher",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+0.6s Cast Delay, 300s Cooldown, +15% Bullet Resist, +14% Spirit Resist"
+        },
+        {
+            "name": "Scourge",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+0.25s Cast Delay, +35mm Cast Range, 35.0s Cooldown, +10s Duration, +10mm Radius, +100 Bonus Health, +3.5% Max Health per second, +17% Debuff Resist, +40% Spirit Resist"
+        },
+        {
+            "name": "Spirit Burn",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "20s Cooldown, +24 Damage Per Second, +500 Damage Threshold, +8s Debuff Duration, +110 Explosion Damage, +12mm Explosion Radius, -70% Healing Reduction, -70% Healing Reduction, +6% Radius, +6% Ability Range"
+        },
+        {
+            "name": "Transcendent Cooldown",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "25% Ability Cooldown Reduction, 25% Item Cooldown Reduction, +4 Out of Combat Regen"
+        },
+        {
+            "name": "Vortex Web",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Spirit",
+            "function": "+0.2s Cast Delay, +30mm Cast Range, 42.0s Cooldown, +4.0s Duration, +0.75mm Sprint Speed, +12mm Capture Radius, -40% Dash Distance, +35% Move Speed, +8% Radius, +8% Ability Range, +0.5s Tether Duration"
+        },
+        {
+            "name": "Frostbite Charm",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Spirit",
+            "function": "10.0s Cooldown, +200 Damage, +1s Freeze Duration, 50% Imbued Ability Cooldown Reduction, +70 Imbued Ability Spirit Power"
+        },
+        {
+            "name": "Mystic Conduit",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Spirit",
+            "function": "25s Cooldown, +50% Ally Percentage, 40% Ability Cooldown Reduction, +300 Damage Threshold, +700 Heal Amount, +35mm Heal Radius, +25mm Radius, +40 Spirit Power, +40% Radius, +40% Ability Range"
+        },
+        {
+            "name": "Mystical Piano",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Spirit",
+            "function": "+0.2s Cast Delay, 23.0s Cooldown, +1.7s Duration, +2.0s Daze Duration, +12mm Radius, +1.7s Stun Delay, +2.0s Stun Duration"
+        },
+        {
+            "name": "Omnicharge Signet",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Spirit",
+            "function": "+4 Charged Ability, +2 Non Charged Ability, +50 Bonus Spirit Power for Charged Abilities, +70% Faster Time Between Charges, 30% Cooldown Reduction For Charged Abilities"
+        },
+        {
+            "name": "Prism Blast",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Spirit",
+            "function": "40.0s Cooldown, +6.0s Duration, +30mm Beam Length, +2.9mm Beam Width, +270 Damage Per Second, +2.5m m Float Speed"
+        },
+        {
+            "name": "Shrink Ray",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Spirit",
+            "function": "+0.2s Cast Delay, +40mm Cast Range, 30s Cooldown, +20% Fire Rate, +5.0m m Move Speed, -50% Model Scale, +60s Shrink Duration"
+        },
+        {
+            "name": "Unstable Concoction",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Spirit",
+            "function": "25.0s Cooldown, +4.0s Duration, +150% Weapon Damage, +3000 Bonus Health, +10m m Move Speed, +30% Max Health Damage, +22mm Radius, +3.0s Stun Duration, +150 Spirit Power"
+        },
+        {
+            "name": "Extra Health",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "+210 Bonus Health"
+        },
+        {
+            "name": "Extra Regen",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "+2.5 Health Regen, +1.5 Out of Combat Regen"
+        },
+        {
+            "name": "Extra Stamina",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "+1 Stamina, +12% Stamina Recovery"
+        },
+        {
+            "name": "Grit",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "60s Cooldown, +4s Barrier Duration, +200 Barrier, +1.0 Out of Combat Regen"
+        },
+        {
+            "name": "Healing Rite",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "+0.2s Cast Delay, +30mm Cast Range, 70s Cooldown, +2mm Sprint Speed, +20s Regen Duration, +300 Total HP Regen"
+        },
+        {
+            "name": "Melee Lifesteal",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "8s Cooldown, +12% Melee Damage, +100 Heal on Melee Hit"
+        },
+        {
+            "name": "Rebuttal",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "+30% Bonus Damage, +75 Bonus Health, +6s Buff Duration, +18% Melee Resist, 1.75s Parry Cooldown, +100% Damage Parried as Heal"
+        },
+        {
+            "name": "Sprint Boots",
+            "tier": 1,
+            "cost": 800,
+            "category": "Vitality",
+            "function": "+2.0mm Sprint Speed, +2 Out of Combat Regen"
+        },
+        {
+            "name": "Battle Vest",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+18% Weapon Damage, +7% Fire Rate, +18% Bullet Resist, +3 Out of Combat Regen"
+        },
+        {
+            "name": "Bullet Lifesteal",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+6% Weapon Damage, +90 Bonus Health, +13% Bullet Lifesteal"
+        },
+        {
+            "name": "Debuff Reducer",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+90 Bonus Health, +25% Debuff Resist"
+        },
+        {
+            "name": "Enchanter's Emblem",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "5% Ability Cooldown Reduction, +2 Out of Combat Regen, +15 Spirit Power, +18% Spirit Resist"
+        },
+        {
+            "name": "Enduring Speed",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+2.0m m Move Speed, +2 Out of Combat Regen, +25% Slow Resist"
+        },
+        {
+            "name": "Guardian Ward",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+0.2s Cast Delay, +40mm Cast Range, 60s Cooldown, +2.75m m Move Speed, +6s Buff Duration, +250 Barrier, +1.5 Out of Combat Regen, +8% Radius, +8% Ability Range"
+        },
+        {
+            "name": "Healbane",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+8s Duration, -35% Healing Reduction, -35% Healing Reduction, +275 Heal On Hero Kill, +7 Spirit Power"
+        },
+        {
+            "name": "Healing Booster",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+3 Health Regen, +20% Healing Effectiveness, +1 Out of Combat Regen"
+        },
+        {
+            "name": "Reactive Barrier",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "55s Cooldown, +10s Duration, +1.0 Out of Combat Regen, +325 Barrier"
+        },
+        {
+            "name": "Restorative Locket",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+0.1s Cast Delay, +35mm Cast Range, 20.0s Cooldown, +16 Heal Per Stack, +25 Max Stacks, +3 Max Stamina Restore, +35mm Radius, +10% Spirit Resist"
+        },
+        {
+            "name": "Return Fire",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "23.0s Cooldown, +6.5s Duration, +65% Bullet Damage Returned, +10% Bullet Resist, +25% Spirit Damage Returned"
+        },
+        {
+            "name": "Spirit Lifesteal",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+13% Spirit Lifesteal, +90 Bonus Health, +6 Spirit Power"
+        },
+        {
+            "name": "Spirit Shielding",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "45s Cooldown, +8s Barrier Duration, +300 Barrier, +225 Damage Threshold, +3.5s Time Frame, +2.5 Out of Combat Regen, +18% Spirit Resist"
+        },
+        {
+            "name": "Trophy Collector",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "+2.0mm Sprint Speed, +16 Max Stacks, -15% Weapon Damage vs. NPCs, +2 Out of Combat Regen, +0.15mm Sprint Speed, +18 Souls per Minute, +0.75% Ability Range"
+        },
+        {
+            "name": "Weapon Shielding",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Vitality",
+            "function": "35s Cooldown, +8s Barrier Duration, +18% Bullet Resist, +300 Barrier, +250 Damage Threshold, +4.0s Time Frame, +2.5 Out of Combat Regen"
+        },
+        {
+            "name": "Bullet Resilience",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "+30% Bullet Resist, +15% Bullet Resist, +3 Out of Combat Regen"
+        },
+        {
+            "name": "Counterspell",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "23.0s Cooldown, +50 Bonus Health, +1.75m m Move Speed, +6s Buff Duration, +150 Healing, +0.8s Spell Parry Duration, +20 Spirit Power, +5 Spirit Power"
+        },
+        {
+            "name": "Dispel Magic",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "45.0s Cooldown, +2mm Move Speed, +3s Buff Duration, +250 HP Healed On Activate, +10% Spirit Resist"
+        },
+        {
+            "name": "Fortitude",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "+375 Bonus Health, +1.5m m Move Speed, +2 % Max Health Regen, +10 s Restore Delay"
+        },
+        {
+            "name": "Fury Trance",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "18.0s Cooldown, +6.5s Duration, +32% Fire Rate, +6% Weapon Damage, +100 Bonus Health, +14% Bullet Lifesteal, +40% Spirit Resist"
+        },
+        {
+            "name": "Healing Nova",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "+0.25s Cast Delay, 60s Cooldown, +18mm Radius, +2s Regen Duration, +8 Spirit Power, +5% Radius, +5% Ability Range, +325 Total HP Regen"
+        },
+        {
+            "name": "Lifestrike",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "4.0s Cooldown, +125 Bonus Health, +16% Melee Damage, +100 Heal on Melee Hit, +30% Melee Hit Heal, +2.5s Slow Duration, +60% Move Speed"
+        },
+        {
+            "name": "Majestic Leap",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "45s Cooldown, +100% Air Control, +50% Air Control, +8s Barrier Duration, +200 Barrier, 5s Interrupt Cooldown, +2.5s Slow Duration, +40% Move Speed"
+        },
+        {
+            "name": "Metal Skin",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "24.0s Cooldown, +5.0s Duration, -1.5mm Active Movespeed Penalty, +12% Bullet Resist, -20% Dash Distance"
+        },
+        {
+            "name": "Rescue Beam",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "+35mm Cast Range, +2.5s Channel Duration, 60.0s Cooldown, +0m m Move Speed, +0.75mm Sprint Speed, +0.2s Heal Interval, +20% Heal Amount, +6% Radius, +6% Ability Range"
+        },
+        {
+            "name": "Spirit Resilience",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "+3 Out of Combat Regen, +30% Spirit Resist, +15% Spirit Resist"
+        },
+        {
+            "name": "Stamina Mastery",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "+23% Air Jump/Dash Distance, +2 Stamina, +18% Stamina Recovery"
+        },
+        {
+            "name": "Veil Walker",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "15.0s Cooldown, +16s Duration, +125 Bonus Health, +3.5mm Invis Move Speed, +2.0mm Sprint Speed, +85 Heal, +8s Invisibility Duration, +0.25s Fade Time, +2 Out of Combat Regen, +10 Spirit Power, +20mm Spot Radius"
+        },
+        {
+            "name": "Warp Stone",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Vitality",
+            "function": "+0.0s Cast Delay, +11mm Teleport Range, 16.0s Cooldown, +30% Bullet Resist, +6s Buff Duration"
+        },
+        {
+            "name": "Cheat Death",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "90.0s Cooldown, +200 Bonus Health, +0m m Move Speed, +15% Bullet Resist, -60% Damage Reduction, +4.5s Death Immunity Duration, -60% Healing Reduction, -60% Healing Reduction"
+        },
+        {
+            "name": "Colossus",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "37.0s Cooldown, +7s Duration, +15% Weapon Damage, +25% Base Health, +30% Melee Damage, +35% Bullet Resist, +35% Spirit Resist, -25% Dash Distance, +20% Model Scale, +14mm Radius, +30% Move Speed"
+        },
+        {
+            "name": "Divine Barrier",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "+0.2s Cast Delay, +40mm Cast Range, 45s Cooldown, +2.75m m Move Speed, +6s Buff Duration, +600 Barrier, +1.5 Out of Combat Regen, +10% Radius, +10% Ability Range"
+        },
+        {
+            "name": "Diviner's Kevlar",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "40.0s Cooldown, +15% Ability Duration, +20s Buff Duration, +1000 Barrier, +35 Spirit Power"
+        },
+        {
+            "name": "Healing Tempo",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "1s Cooldown, +35% Fire Rate, +6 Health Regen, +1.25m m Move Speed, +7s Buff Duration, +25% Healing Effectiveness, +4 Out of Combat Regen, +10% Spirit Resist"
+        },
+        {
+            "name": "Indomitable",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "55s Cooldown, +10s Duration, +10% Bullet Resist, 20s Cooldown Reduction, +2.0 Out of Combat Regen, +10% Spirit Resist, +325 Barrier"
+        },
+        {
+            "name": "Infuser",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "+0.0s Cast Delay, 30.0s Cooldown, +7s Duration, +70% Spirit Lifesteal, +13% Spirit Lifesteal, +100 Bonus Health, +30 Spirit Power, +6 Spirit Power, +10% Spirit Resist"
+        },
+        {
+            "name": "Inhibitor",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "+10% Weapon Damage, +150 Bonus Health, +5s Buildup Decay Time, +0.77% Buildup Per Shot, +5s Debuff Duration, -40% Healing Reduction, -40% Healing Reduction, -30% Damage Penalty"
+        },
+        {
+            "name": "Juggernaut",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "+8 Health Regen, +2.5m m Move Speed, +40% Fire Rate, +4s Duration, +25% Melee Resist, +50% Slow Resist"
+        },
+        {
+            "name": "Leech",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "+25% Spirit Lifesteal, +12% Weapon Damage, +180 Bonus Health, +25% Bullet Lifesteal, +12 Spirit Power"
+        },
+        {
+            "name": "Phantom Strike",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "+0.35s Cast Delay, +25mm Cast Range, 35.0s Cooldown, +15% Weapon Damage, +75 Impact Damage, +3s Debuff Duration, +50% Move Speed, +8 Spirit Power"
+        },
+        {
+            "name": "Plated Armor",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "1s Cooldown, +130 Bonus Health, +50% On-Hit Prevention Percent, +30% Deflection Percent"
+        },
+        {
+            "name": "Siphon Bullets",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "+15% Weapon Damage, +10% Bullet Resist, +2.5% Max HP Steal, +9999 Max Stacks, +1.2s Max Frequency, +17s Steal Duration"
+        },
+        {
+            "name": "Spellbreaker",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "9s Cooldown, +90 Bonus Health, +175 Damage Threshold, +65% Spirit Damage Reduction, +25% Debuff Resist, +18% Spirit Resist"
+        },
+        {
+            "name": "Unstoppable",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "60.0s Cooldown, +5.5s Duration, +125 Bonus Health, +25% Debuff Resist"
+        },
+        {
+            "name": "Vampiric Burst",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "30.0s Cooldown, +5s Duration, +34% Fire Rate, +70% Bullet Lifesteal, +75% Ammo, +6% Weapon Damage, +100 Bonus Health, +13% Bullet Lifesteal, +10% Bullet Resist"
+        },
+        {
+            "name": "Witchmail",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Vitality",
+            "function": "1s Cooldown, 7% Ability Cooldown Reduction, 4s Cooldown Reduction per Hit, +75 Damage Threshold, +14 Spirit Power, +22% Spirit Resist"
+        },
+        {
+            "name": "Celestial Blessing",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Vitality",
+            "function": "30s Cooldown, +6s Buff Duration, +5mm Move Speed, +60% Heal Amount, +400 Min. Heal, +999mm Radius, +100% Stamina Recovery"
+        },
+        {
+            "name": "Cloak of Opportunity",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Vitality",
+            "function": "12.0s Cooldown, +3m m Move Speed, +6s Buff Duration, +500 Barrier, +4s Unstoppable Duration"
+        },
+        {
+            "name": "Electric Slippers",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Vitality",
+            "function": "+100 Damage, +60 Evasion While Sliding, +60% Fire Rate While Sliding, +0.3s Max Frequency, +12mm Radius, +80% Slide Distance, +2 Stamina"
+        },
+        {
+            "name": "Eternal Gift",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Vitality",
+            "function": "165s Cooldown, +2s Buff Frequency, -70% Respawn Time"
+        },
+        {
+            "name": "Nullification Burst",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Vitality",
+            "function": "18.0s Cooldown, +7s Duration, +300 Bonus Health, +250 Damage, +20mm End Radius, +40% Debuff Resist"
+        },
+        {
+            "name": "Seraphim Wings",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Vitality",
+            "function": "+40% In Air Damage, -40% In Air Damage Received, +50% Air Acceleration, +100% Air Control, -70% Gravity Scale, +120% Stamina Recovery"
+        },
+        {
+            "name": "Shadow Strike",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Vitality",
+            "function": "+3s Invisibility Duration, +350 Bonus Health, +125 Damage Per Second, +0.2s Fade Time, +1 Max Stacks, +40% Resist Stolen, +0mm Spot Radius, +3 Stamina, +6s Steal Duration"
+        },
+        {
+            "name": "Close Quarters",
+            "tier": 1,
+            "cost": 800,
+            "category": "Weapon",
+            "function": "+15mm Close Range, +20% Weapon Damage, +20% Melee Resist"
+        },
+        {
+            "name": "Extended Magazine",
+            "tier": 1,
+            "cost": 800,
+            "category": "Weapon",
+            "function": "+8% Weapon Damage, +30% Max Ammo"
+        },
+        {
+            "name": "Headshot Booster",
+            "tier": 1,
+            "cost": 800,
+            "category": "Weapon",
+            "function": "9.0s Cooldown, +30 Bonus Health, +45 Head Shot Bonus Damage, +100% Proc Chance"
+        },
+        {
+            "name": "High-Velocity Rounds",
+            "tier": 1,
+            "cost": 800,
+            "category": "Weapon",
+            "function": "+8% Weapon Damage, +60% Bullet Velocity"
+        },
+        {
+            "name": "Monster Rounds",
+            "tier": 1,
+            "cost": 800,
+            "category": "Weapon",
+            "function": "+25% Weapon Damage vs. NPCs, +25% Bullet Resist vs. NPCs, +1 Out of Combat Regen"
+        },
+        {
+            "name": "Rapid Rounds",
+            "tier": 1,
+            "cost": 800,
+            "category": "Weapon",
+            "function": "+9% Fire Rate"
+        },
+        {
+            "name": "Restorative Shot",
+            "tier": 1,
+            "cost": 800,
+            "category": "Weapon",
+            "function": "6s Cooldown, +6% Weapon Damage, +50 Healing From Heroes, +20 Healing From NPCs / Orbs, +100% Proc Chance, +1mm Radius"
+        },
+        {
+            "name": "Active Reload",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "12s Cooldown, +7s Duration, +20% Max Ammo, +25% Fire Rate, +0.75m m Move Speed, +16% Bullet Lifesteal"
+        },
+        {
+            "name": "Fleetfoot",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "16.0s Cooldown, +5s Duration, +3.0mm Move Speed, +6% Weapon Damage, +6% Bullet Resist, +35% Slide Distance, +40% Slow Resist"
+        },
+        {
+            "name": "Intensifying Magazine",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+% Weapon Damage, +45% Max Weapon Damage, +20% Max Ammo, +2.5s Time for Max Damage"
+        },
+        {
+            "name": "Kinetic Dash",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+7s Duration, +6 Temporary Ammo, +25% Fire Rate, +1 Stamina, +12% Stamina Recovery"
+        },
+        {
+            "name": "Long Range",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+8% Weapon Fall-off Range, +0.75mm Sprint Speed, +40% Weapon Damage, +15mm Min. Distance"
+        },
+        {
+            "name": "Melee Charge",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "5s Cooldown, +25% Bonus Heavy Damage, +10% Melee Damage, +6% Bullet Resist, +50% Heavy Melee Distance"
+        },
+        {
+            "name": "Mystic Shot",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "8s Cooldown, +40 Spirit Damage, +100% Proc Chance, +1s Max Frequency, +1mm Radius, +7 Spirit Power"
+        },
+        {
+            "name": "Opening Rounds",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+8% Weapon Damage, +25% Weapon Damage, +60% Bullet Velocity, +7 Spirit Power"
+        },
+        {
+            "name": "Recharging Rush",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "25s Cooldown, +10% Weapon Damage, +20% Max Ammo, +200 Damage Threshold, +3.5s Time Frame"
+        },
+        {
+            "name": "Slowing Bullets",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+15% Weapon Damage, +5s Buildup Decay Time, +0.7% Buildup Per Shot, -22% Dash Distance, +3.5s Slow Duration, +30% Move Speed"
+        },
+        {
+            "name": "Spirit Shredder Bullets",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+10% Spirit Lifesteal, +8s Debuff Duration, -8% Spirit Resist"
+        },
+        {
+            "name": "Split Shot",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "27s Cooldown, +5s Buff Duration, +5 Weapon Multishot, +5 Max Stacks, +12s Stack Duration, +8% Weapon Damage per Stack"
+        },
+        {
+            "name": "Stalker",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "6s Cooldown, +5s Duration, +50 Bonus Health, +1.5m m Move Speed, -6% Bullet Resist, +17 Damage Per Second, +5s Debuff Duration, +25mm Bonus Radius, +8mm Close Range, -50% Footstep Sound Distance"
+        },
+        {
+            "name": "Swift Striker",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+20% Fire Rate, +0.75mm Sprint Speed"
+        },
+        {
+            "name": "Titanic Magazine",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "+14% Weapon Damage, +100% Max Ammo"
+        },
+        {
+            "name": "Weakening Headshot",
+            "tier": 2,
+            "cost": 1600,
+            "category": "Weapon",
+            "function": "0.0s Cooldown, +60 Bonus Health, -13% Bullet Resist, +12s Debuff Duration"
+        },
+        {
+            "name": "Alchemical Fire",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+0.2s Cast Delay, 30.0s Cooldown, +5s Duration, -7% Bullet Resist, +45 Damage Per Second, +95 Max DPS, +10mm Radius, +10 Spirit Power"
+        },
+        {
+            "name": "Ballistic Enchantment",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+14s Duration, +8 Non-Hero Stack Limit, +22% Radius, +22% Ability Range, +20% Weapon Damage per Stack, +5% Non-Hero Weapon Damage"
+        },
+        {
+            "name": "Berserker",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+8% Bullet Resist, +10s Duration, +120 Damage taken to Stack, +10.0 Max Stacks, +7% Weapon Damage per Stack"
+        },
+        {
+            "name": "Blood Tribute",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+0.0s Cast Delay, 0.0s Cooldown, +35% Fire Rate, +2.0m m Move Speed, +50/s Health Drain, +8% Debuff Resist, +4 Out of Combat Regen, +35% Debuff Resist, +8% Spirit Resist"
+        },
+        {
+            "name": "Burst Fire",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "9.0s Cooldown, +4.5s Duration, +32% Fire Rate, +10% Fire Rate, +1.25m m Move Speed, +50% Slide Distance"
+        },
+        {
+            "name": "Cultist Sacrifice",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+7mm Cast Range, 270s Cooldown, +160s Duration, +10% Weapon Damage, +1 Bonus Ability Charges, +50 Bonus Health, +180% Bonus Souls, +30% Weapon Damage vs. NPCs, +30% Bullet Resist vs. NPCs, +2 Out of Combat Regen, +12% Radius, +12% Ability Range"
+        },
+        {
+            "name": "Escalating Resilience",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+18% Weapon Damage, +35% Max Ammo, +75 Bonus Health, +24s Stack Duration, +2% Bullet Resist per Stack, +30% Max Bullet Resist"
+        },
+        {
+            "name": "Express Shot",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "8s Cooldown, +8% Weapon Damage, +60% Bullet Velocity, +2 Extra Ammo Consumed, +125% Weapon Damage, +40% Secondary Fire Weapon Damage, +100% Bullet Velocity"
+        },
+        {
+            "name": "Headhunter",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "8s Cooldown, +5% Weapon Damage, +50 Bonus Health, +1.75m m Move Speed, +75 Head Shot Bonus Damage, +4% Heal Per Headshot, +3s Move Speed Duration, +100% Proc Chance"
+        },
+        {
+            "name": "Heroic Aura",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "22.0s Cooldown, +7s Duration, +2.25mm Move Speed, +35mm Active Radius, +26% Fire Rate, +1.5mm Sprint Speed, +17% Bullet Resist, +35mm Radius"
+        },
+        {
+            "name": "Hollow Point",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+35% Weapon Damage, +125 Bonus Health, -9% Bullet Resist, +8s Debuff Duration, +4.5 Out of Combat Regen"
+        },
+        {
+            "name": "Hunter's Aura",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+100 Bonus Health, +0.75mm Sprint Speed, -10% Bullet Resist, +15% Fire Rate, +15mm Radius"
+        },
+        {
+            "name": "Point Blank",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+75 Bonus Health, +15mm Close Range, +50% Weapon Damage, +30% Melee Resist, +2s Slow Duration, +25% Move Speed"
+        },
+        {
+            "name": "Shadow Weave",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "45.0s Cooldown, +13s Stealth Duration, +25% Ambush Fire Rate, +25% Ambush Melee Damage, +25 Ambush Spirit Power, +5s Ambush Duration, +1.5mm Sprint Speed, +0.6s Fade Time, +5mm Invis Sprint Speed, +5 Out of Combat Regen, +20mm Spot Radius"
+        },
+        {
+            "name": "Sharpshooter",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+10% Weapon Damage, +20% Weapon Fall-off Range, +60% Bullet Velocity, -0.7m m Move Speed, +1.0mm Sprint Speed, +25% Weapon Zoom, +60% Weapon Damage, +15mm Min. Distance"
+        },
+        {
+            "name": "Spirit Rend",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+10% Spirit Lifesteal, +75 Bonus Health, +8s Debuff Duration, -7% Spirit Resist on Headshot, +4 Max Stacks, +2s Max Frequency, -8% Spirit Resist"
+        },
+        {
+            "name": "Tesla Bullets",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+33 Damage on Jump, +4 Max Jumps, +8mm Jump Radius, +33 Shock Damage, +15% Proc Chance, +0.2s Max Frequency"
+        },
+        {
+            "name": "Toxic Bullets",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+5s Buildup Decay Time, +1.28% Buildup Per Shot, +4s Duration, +1.7%/sec Bleed Damage, -35% Healing Reduction, -35% Healing Reduction"
+        },
+        {
+            "name": "Weighted Shots",
+            "tier": 3,
+            "cost": 3200,
+            "category": "Weapon",
+            "function": "+40% Weapon Damage, -0.5m m Move Speed, +5s Buildup Decay Time, +0.7% Buildup Per Shot, -22% Dash Distance, +3.5s Slow Duration, +30% Move Speed, -14% Stamina Recovery, +22% Debuff Resist"
+        },
+        {
+            "name": "Armor Piercing Rounds",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+8% Weapon Damage, +60% Bullet Velocity, +55% Proc Chance"
+        },
+        {
+            "name": "Capacitor",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+0.2s Cast Delay, 40s Cooldown, +5% Fire Rate, +43 Damage on Jump, +6 Max Jumps, +10mm Jump Radius, +100 Damage, +43 Shock Damage, +75% Max Move Speed, +20% Proc Chance, +0.2s Max Frequency, +3s Slow Duration"
+        },
+        {
+            "name": "Crippling Headshot",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+125 Bonus Health, -16% Bullet Resist, +12s Debuff Duration, -35% Healing Reduction, -35% Healing Reduction, -16% Spirit Resist"
+        },
+        {
+            "name": "Crushing Fists",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "5s Cooldown, +25% Bonus Heavy Damage, +22% Melee Damage, +12% Bullet Resist, -4% Bullet Resist, +8s Debuff Duration, +2x Heavy Melee Bonus, +15% Ammo, +6 Max Stacks, +60% Heavy Melee Distance, +0.5s Stun Duration"
+        },
+        {
+            "name": "Frenzy",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "16s Cooldown, +10s Duration, +15% Fire Rate, +160 Bonus Health, +40% Fire Rate, +4m m/s Move Speed, +40% Debuff Resist, +50% Health Threshold"
+        },
+        {
+            "name": "Glass Cannon",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+80% Weapon Damage, +2 Bonus Ammo Per Kill, +2s Buildup Decay Time, +1.2% Buildup Per Shot, +7% Fire Rate per Kill, -13% Max Health, +8 Max Stacks, +3s Slow Duration, +30% Bullet Slow Proc"
+        },
+        {
+            "name": "Lucky Shot",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+30% Max Ammo, +100% Bonus Weapon Damage, +25% Proc Chance, +1mm Radius"
+        },
+        {
+            "name": "Ricochet",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+18% Fire Rate, +65% Ricochet Damage, +13mm Ricochet Range, +2 Ricochet Targets"
+        },
+        {
+            "name": "Silencer",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+5s Buildup Decay Time, +1.04% Buildup Per Shot, +6s Debuff Duration, +10s Immunity Duration, +2.5s Silence Duration, -25% Spirit Damage Reduction, +12% Spirit Resist"
+        },
+        {
+            "name": "Spellslinger",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+11% Fire Rate, +18s Buff Duration, 5% Ability Cooldown Reduction, +6 Max Stacks, -10% Reload Time"
+        },
+        {
+            "name": "Spiritual Overflow",
+            "tier": 4,
+            "cost": 6400,
+            "category": "Weapon",
+            "function": "+15s Duration, +13% Spirit Lifesteal, +15% Ability Duration, +32% Fire Rate, +90 Bonus Health, +40 Spirit Power, +5s Buildup Decay Time, +0.75% Buildup Per Shot, +6 Spirit Power"
+        },
+        {
+            "name": "Haunting Shot",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Weapon",
+            "function": "2.5s Cooldown, +1.5mm Bullet Radius, +4s Debuff Duration, -40% Dash Distance, -40% Healing Reduction, -40% Healing Reduction, +10% Current Health Damage, +40% Move Speed, -40% Damage Penalty, +100% Proc Chance, +1s Max Frequency, +1mm Radius"
+        },
+        {
+            "name": "Infinite Rounds",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Weapon",
+            "function": "+200% Bullet Velocity, +35% Fire Rate, +65% Proc Chance"
+        },
+        {
+            "name": "Runed Gauntlets",
+            "tier": 5,
+            "cost": 9999,
+            "category": "Weapon",
+            "function": "10s Cooldown, +30% Melee Damage, +4s Min Reduction, 16% Cooldown Reduction on Hit, +150% Heavy Melee Distance, +50% Melee Resist"
+        }
+    ]
+}

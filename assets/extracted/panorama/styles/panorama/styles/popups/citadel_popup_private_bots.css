@@ -1,0 +1,116 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+PopupPrivateBots.PopupPanel
+{
+	min-width: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.MainBody
+{
+	flow-children: down;
+	horizontal-align: center;
+	vertical-align: center;
+	padding: 20px 10px;
+}
+
+.DifficultyChoice
+{
+	width: 120px;
+	height: 120px;
+	background-color: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #555251 ), to( #55525188 ) );
+	margin: 4px;
+	border-radius: 8px;
+	flow-children: down;
+	border: 1px solid #ffffff10;
+	transition-property: brightness;
+	transition-duration: 0.12s;
+	transition-timing-function: ease-in-out;
+}
+
+.DifficultyChoice Label
+{
+	horizontal-align: center;
+	font-weight: semi-bold;
+	font-family: block;
+}
+
+.DifficultyChoice:hover
+{
+	brightness: 1.6;
+}
+
+.Coop.DifficultyChoice
+{
+	width: 100%;
+}
+
+#BotMatchButtons
+{
+	flow-children: down;
+	horizontal-align: center;
+	margin-top: 8px;
+}
+
+.BotTitle
+{
+	color: offWhite&88;
+}
+
+.BotMatchType
+{
+	flow-children: right;
+	margin-top: 4px;
+	margin-bottom: 24px;
+}
+
+.coopSection
+{
+	width: 384px;
+}
+
+.DescText
+{
+	color: offWhite&44;
+	font-size: 15px;
+	font-weight: semi-bold;
+}
+
+.difficultyImg
+{
+	width: 64px;
+	height: 64px;
+	horizontal-align: center;
+	margin: 16px 8px 4px 8px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	wash-color: offWhite;
+}
+
+.Coop .difficultyImg
+{
+	background-image: url("s2r://panorama/images/icons/icon_coop.vsvg");
+}
+
+.Easy .difficultyImg
+{
+	background-image: url("s2r://panorama/images/main_menu/menu_images/bots_easy_png.vtex");
+}
+
+.Medium .difficultyImg
+{
+	background-image: url("s2r://panorama/images/main_menu/menu_images/bots_med_png.vtex");
+}
+
+.Hard .difficultyImg
+{
+	background-image: url("s2r://panorama/images/main_menu/menu_images/bots_hard_png.vtex");
+}
+
+.ButtonRow
+{
+	horizontal-align: center;
+}
+

@@ -1,0 +1,358 @@
+{
+  "version": "1.0.0",
+  "game": "Deadlock",
+  "last_updated": "2026-06-22",
+  "root": "images/deadlock/",
+  "usage": {
+    "menu_icons": "Use panorama_sm paths in Menu:Icon() — nativo do jogo",
+    "overlay_render": "Use local_circle/local_square com Render.LoadImage() ou LIB_RENDER.image()",
+    "shared_dota_ui": "images/MenuIcons/, images/ArcPanel/ — reutilizáveis entre Dota2 e Deadlock"
+  },
+  "panorama_prefixes": {
+    "abilities": "panorama/images/hud/abilities/",
+    "items_spirit": "panorama/images/items/spirit/",
+    "items_weapon": "panorama/images/items/weapon/",
+    "items_vitality": "panorama/images/items/vitality/",
+    "upgrades_tech": "panorama/images/upgrades/mods_tech/"
+  },
+  "shared_ui": [
+    "images/deadlock/ui/umbrellacorp.png",
+    "images/deadlock/ui/umbrellacorpmini.png"
+  ],
+  "heroes": {
+    "abrams": {
+      "id": "abrams",
+      "abilities": {
+        "ability_infernal_resilience": "images/deadlock/abilities/abrams/ability_infernal_resilience.png",
+        "ability_seismic_impact": "images/deadlock/abilities/abrams/ability_seismic_impact.png",
+        "ability_shoulder_charge": "images/deadlock/abilities/abrams/ability_shoulder_charge.png",
+        "ability_siphon_life": "images/deadlock/abilities/abrams/ability_siphon_life.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/abrams.png",
+      "local_square": "images/deadlock/heroes_square/abrams.png",
+      "panorama_sm": "panorama/images/heroes/bull_sm_psd.vtex_c"
+    },
+    "bebop": {
+      "id": "bebop",
+      "abilities": {
+        "ability_exploding_uppercut": "images/deadlock/abilities/bebop/ability_exploding_uppercut.png",
+        "ability_hook": "images/deadlock/abilities/bebop/ability_hook.png",
+        "ability_hyper_beam": "images/deadlock/abilities/bebop/ability_hyper_beam.png",
+        "ability_sticky_bomb": "images/deadlock/abilities/bebop/ability_sticky_bomb.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/bebop.png",
+      "local_square": "images/deadlock/heroes_square/bebop.png",
+      "panorama_sm": "panorama/images/heroes/bebop_sm_psd.vtex_c"
+    },
+    "dynamo": {
+      "id": "dynamo",
+      "abilities": {
+        "ability_kinetic_pulse": "images/deadlock/abilities/dynamo/ability_kinetic_pulse.png",
+        "ability_quantum_entanglement": "images/deadlock/abilities/dynamo/ability_quantum_entanglement.png",
+        "ability_rejuvenating_aurora": "images/deadlock/abilities/dynamo/ability_rejuvenating_aurora.png",
+        "ability_singularity": "images/deadlock/abilities/dynamo/ability_singularity.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/dynamo.png",
+      "local_square": "images/deadlock/heroes_square/dynamo.png",
+      "panorama_sm": "panorama/images/heroes/sumo_sm_psd.vtex_c"
+    },
+    "grey_talon": {
+      "id": "grey_talon",
+      "abilities": {
+        "ability_charged_shot": "images/deadlock/abilities/grey_talon/ability_charged_shot.png",
+        "ability_guided_owl": "images/deadlock/abilities/grey_talon/ability_guided_owl.png",
+        "ability_immobilizing_trap": "images/deadlock/abilities/grey_talon/ability_immobilizing_trap.png",
+        "ability_rain_of_arrows": "images/deadlock/abilities/grey_talon/ability_rain_of_arrows.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/grey_talon.png",
+      "local_square": "images/deadlock/heroes_square/grey_talon.png",
+      "panorama_sm": "panorama/images/heroes/archer_sm_psd.vtex_c"
+    },
+    "haze": {
+      "id": "haze",
+      "abilities": {
+        "ability_bullet_dance": "images/deadlock/abilities/haze/ability_bullet_dance.png",
+        "ability_fixation": "images/deadlock/abilities/haze/ability_fixation.png",
+        "ability_sleep_dagger": "images/deadlock/abilities/haze/ability_sleep_dagger.png",
+        "ability_smoke_bomb": "images/deadlock/abilities/haze/ability_smoke_bomb.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/haze.png",
+      "local_square": "images/deadlock/heroes_square/haze.png",
+      "panorama_sm": "panorama/images/heroes/haze_sm_psd.vtex_c"
+    },
+    "infernus": {
+      "id": "infernus",
+      "abilities": {
+        "ability_afterburn": "images/deadlock/abilities/infernus/ability_afterburn.png",
+        "ability_catalyst": "images/deadlock/abilities/infernus/ability_catalyst.png",
+        "ability_concussive_combustion": "images/deadlock/abilities/infernus/ability_concussive_combustion.png",
+        "ability_flame_dash": "images/deadlock/abilities/infernus/ability_flame_dash.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/infernus.png",
+      "local_square": "images/deadlock/heroes_square/infernus.png",
+      "panorama_sm": "panorama/images/heroes/inferno_sm_psd.vtex_c"
+    },
+    "ivy": {
+      "id": "ivy",
+      "abilities": {
+        "ability_air_drop": "images/deadlock/abilities/ivy/ability_air_drop.png",
+        "ability_kudzu_bomb": "images/deadlock/abilities/ivy/ability_kudzu_bomb.png",
+        "ability_stone_form": "images/deadlock/abilities/ivy/ability_stone_form.png",
+        "ability_watcher%27s_covenant": "images/deadlock/abilities/ivy/ability_watcher%27s_covenant.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/ivy.png",
+      "local_square": "images/deadlock/heroes_square/ivy.png",
+      "panorama_sm": "panorama/images/heroes/tengu_sm_psd.vtex_c"
+    },
+    "kelvin": {
+      "id": "kelvin",
+      "abilities": {
+        "ability_arctic_beam": "images/deadlock/abilities/kelvin/ability_arctic_beam.png",
+        "ability_frost_grenade": "images/deadlock/abilities/kelvin/ability_frost_grenade.png",
+        "ability_frozen_shelter": "images/deadlock/abilities/kelvin/ability_frozen_shelter.png",
+        "ability_ice_path": "images/deadlock/abilities/kelvin/ability_ice_path.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/kelvin.png",
+      "local_square": "images/deadlock/heroes_square/kelvin.png",
+      "panorama_sm": "panorama/images/heroes/kelvin_sm_psd.vtex_c"
+    },
+    "lady_geist": {
+      "id": "lady_geist",
+      "abilities": {
+        "ability_essence_bomb": "images/deadlock/abilities/lady_geist/ability_essence_bomb.png",
+        "ability_life_drain": "images/deadlock/abilities/lady_geist/ability_life_drain.png",
+        "ability_malice": "images/deadlock/abilities/lady_geist/ability_malice.png",
+        "ability_soul_exchange": "images/deadlock/abilities/lady_geist/ability_soul_exchange.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/lady_geist.png",
+      "local_square": "images/deadlock/heroes_square/lady_geist.png",
+      "panorama_sm": "panorama/images/heroes/spectre_sm_psd.vtex_c"
+    },
+    "lash": {
+      "id": "lash",
+      "abilities": {
+        "ability_death_slam": "images/deadlock/abilities/lash/ability_death_slam.png",
+        "ability_flog": "images/deadlock/abilities/lash/ability_flog.png",
+        "ability_grapple": "images/deadlock/abilities/lash/ability_grapple.png",
+        "ability_ground_strike": "images/deadlock/abilities/lash/ability_ground_strike.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/lash.png",
+      "local_square": "images/deadlock/heroes_square/lash.png",
+      "panorama_sm": "panorama/images/heroes/lash_sm_psd.vtex_c"
+    },
+    "mcginnis": {
+      "id": "mcginnis",
+      "abilities": {
+        "ability_heavy_barrage": "images/deadlock/abilities/mcginnis/ability_heavy_barrage.png",
+        "ability_medicinal_specter": "images/deadlock/abilities/mcginnis/ability_medicinal_specter.png",
+        "ability_mini_turret": "images/deadlock/abilities/mcginnis/ability_mini_turret.png",
+        "ability_spectral_wall": "images/deadlock/abilities/mcginnis/ability_spectral_wall.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/mcginnis.png",
+      "local_square": "images/deadlock/heroes_square/mcginnis.png",
+      "panorama_sm": "panorama/images/heroes/mcginnis_sm_psd.vtex_c"
+    },
+    "mo_and_krill": {
+      "id": "mo_and_krill",
+      "abilities": {
+        "ability_burrow": "images/deadlock/abilities/mo_and_krill/ability_burrow.png",
+        "ability_combo": "images/deadlock/abilities/mo_and_krill/ability_combo.png",
+        "ability_sand_blast": "images/deadlock/abilities/mo_and_krill/ability_sand_blast.png",
+        "ability_scorn": "images/deadlock/abilities/mo_and_krill/ability_scorn.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/mo_and_krill.png",
+      "local_square": "images/deadlock/heroes_square/mo_and_krill.png",
+      "panorama_sm": "panorama/images/heroes/digger_sm_psd.vtex_c"
+    },
+    "paradox": {
+      "id": "paradox",
+      "abilities": {
+        "ability_kinetic_carbine": "images/deadlock/abilities/paradox/ability_kinetic_carbine.png",
+        "ability_paradoxical_swap": "images/deadlock/abilities/paradox/ability_paradoxical_swap.png",
+        "ability_pulse_grenade": "images/deadlock/abilities/paradox/ability_pulse_grenade.png",
+        "ability_time_wall": "images/deadlock/abilities/paradox/ability_time_wall.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/paradox.png",
+      "local_square": "images/deadlock/heroes_square/paradox.png",
+      "panorama_sm": "panorama/images/heroes/chrono_sm_psd.vtex_c"
+    },
+    "pocket": {
+      "id": "pocket",
+      "abilities": {
+        "ability_affliction": "images/deadlock/abilities/pocket/ability_affliction.png",
+        "ability_barrage": "images/deadlock/abilities/pocket/ability_barrage.png",
+        "ability_enchanter%27s_satchel": "images/deadlock/abilities/pocket/ability_enchanter%27s_satchel.png",
+        "ability_flying_cloak": "images/deadlock/abilities/pocket/ability_flying_cloak.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/pocket.png",
+      "local_square": "images/deadlock/heroes_square/pocket.png",
+      "panorama_sm": "panorama/images/heroes/synth_sm_psd.vtex_c"
+    },
+    "seven": {
+      "id": "seven",
+      "abilities": {
+        "ability_lightning_ball": "images/deadlock/abilities/seven/ability_lightning_ball.png",
+        "ability_power_surge": "images/deadlock/abilities/seven/ability_power_surge.png",
+        "ability_static_charge": "images/deadlock/abilities/seven/ability_static_charge.png",
+        "ability_storm_cloud": "images/deadlock/abilities/seven/ability_storm_cloud.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/seven.png",
+      "local_square": "images/deadlock/heroes_square/seven.png",
+      "panorama_sm": "panorama/images/heroes/gigawatt_sm_psd.vtex_c"
+    },
+    "shiv": {
+      "id": "shiv",
+      "abilities": {
+        "ability_bloodletting": "images/deadlock/abilities/shiv/ability_bloodletting.png",
+        "ability_killing_blow": "images/deadlock/abilities/shiv/ability_killing_blow.png",
+        "ability_serrated_knives": "images/deadlock/abilities/shiv/ability_serrated_knives.png",
+        "ability_slice_and_dice": "images/deadlock/abilities/shiv/ability_slice_and_dice.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/shiv.png",
+      "local_square": "images/deadlock/heroes_square/shiv.png",
+      "panorama_sm": "panorama/images/heroes/shiv_sm_psd.vtex_c"
+    },
+    "vindicta": {
+      "id": "vindicta",
+      "abilities": {
+        "ability_assassinate": "images/deadlock/abilities/vindicta/ability_assassinate.png",
+        "ability_crow_familiar": "images/deadlock/abilities/vindicta/ability_crow_familiar.png",
+        "ability_flight": "images/deadlock/abilities/vindicta/ability_flight.png",
+        "ability_stake": "images/deadlock/abilities/vindicta/ability_stake.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/vindicta.png",
+      "local_square": "images/deadlock/heroes_square/vindicta.png",
+      "panorama_sm": "panorama/images/heroes/hornet_sm_psd.vtex_c"
+    },
+    "viscous": {
+      "id": "viscous",
+      "abilities": {
+        "ability_goo_ball": "images/deadlock/abilities/viscous/ability_goo_ball.png",
+        "ability_puddle_punch": "images/deadlock/abilities/viscous/ability_puddle_punch.png",
+        "ability_splatter": "images/deadlock/abilities/viscous/ability_splatter.png",
+        "ability_the_cube": "images/deadlock/abilities/viscous/ability_the_cube.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/viscous.png",
+      "local_square": "images/deadlock/heroes_square/viscous.png",
+      "panorama_sm": "panorama/images/heroes/viscous_sm_psd.vtex_c"
+    },
+    "warden": {
+      "id": "warden",
+      "abilities": {
+        "ability_alchemical_flask": "images/deadlock/abilities/warden/ability_alchemical_flask.png",
+        "ability_binding_word": "images/deadlock/abilities/warden/ability_binding_word.png",
+        "ability_last_stand": "images/deadlock/abilities/warden/ability_last_stand.png",
+        "ability_willpower": "images/deadlock/abilities/warden/ability_willpower.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/warden.png",
+      "local_square": "images/deadlock/heroes_square/warden.png",
+      "panorama_sm": "panorama/images/heroes/warden_sm_psd.vtex_c"
+    },
+    "wraith": {
+      "id": "wraith",
+      "abilities": {
+        "ability_card_trick": "images/deadlock/abilities/wraith/ability_card_trick.png",
+        "ability_full_auto": "images/deadlock/abilities/wraith/ability_full_auto.png",
+        "ability_project_mind": "images/deadlock/abilities/wraith/ability_project_mind.png",
+        "ability_telekinesis": "images/deadlock/abilities/wraith/ability_telekinesis.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/wraith.png",
+      "local_square": "images/deadlock/heroes_square/wraith.png",
+      "panorama_sm": "panorama/images/heroes/wraith_sm_psd.vtex_c"
+    },
+    "yamato": {
+      "id": "yamato",
+      "abilities": {
+        "ability_crimson_slash": "images/deadlock/abilities/yamato/ability_crimson_slash.png",
+        "ability_flying_strike": "images/deadlock/abilities/yamato/ability_flying_strike.png",
+        "ability_power_slash": "images/deadlock/abilities/yamato/ability_power_slash.png",
+        "ability_shadow_transformation": "images/deadlock/abilities/yamato/ability_shadow_transformation.png"
+      },
+      "local_circle": "images/deadlock/heroes_circle/yamato.png",
+      "local_square": "images/deadlock/heroes_square/yamato.png",
+      "panorama_sm": "panorama/images/heroes/yamato_sm_psd.vtex_c"
+    },
+    "billy": {
+      "id": "billy",
+      "panorama_sm": "panorama/images/heroes/punkgoat_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "calico": {
+      "id": "calico",
+      "panorama_sm": "panorama/images/heroes/nano_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "celeste": {
+      "id": "celeste",
+      "panorama_sm": "panorama/images/heroes/celestial_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "doorman": {
+      "id": "doorman",
+      "panorama_sm": "panorama/images/heroes/doorman_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "drifter": {
+      "id": "drifter",
+      "panorama_sm": "panorama/images/heroes/drifter_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "holliday": {
+      "id": "holliday",
+      "panorama_sm": "panorama/images/heroes/astro_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "mina": {
+      "id": "mina",
+      "panorama_sm": "panorama/images/heroes/mina_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "mirage": {
+      "id": "mirage",
+      "panorama_sm": "panorama/images/heroes/mirage_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "paige": {
+      "id": "paige",
+      "panorama_sm": "panorama/images/heroes/bookworm_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "rem": {
+      "id": "rem",
+      "panorama_sm": "panorama/images/heroes/familiar_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "sinclair": {
+      "id": "sinclair",
+      "panorama_sm": "panorama/images/heroes/magician_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "venator": {
+      "id": "venator",
+      "panorama_sm": "panorama/images/heroes/priest_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "victor": {
+      "id": "victor",
+      "panorama_sm": "panorama/images/heroes/frank_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "vyper": {
+      "id": "vyper",
+      "panorama_sm": "panorama/images/heroes/viper_sm_psd.vtex_c",
+      "abilities": {}
+    },
+    "apollo": {
+      "id": "apollo",
+      "panorama_sm": "panorama/images/heroes/fencer_sm_psd.vtex_c",
+      "abilities": {}
+    }
+  },
+  "dota_parity_folders": {
+    "heroes_circle": "images/heroes_circle/ (Dota2) → images/deadlock/heroes_circle/",
+    "items_square": "images/items_square/ (Dota2) → images/deadlock/items/ (pendente)",
+    "MenuIcons": "images/MenuIcons/ (compartilhado)",
+    "DmgIndicator": "images/DmgIndicator/ (compartilhado — adaptar cores)",
+    "ArcPanel": "images/ArcPanel/ (compartilhado)"
+  }
+}

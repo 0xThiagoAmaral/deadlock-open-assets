@@ -1,0 +1,213 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelPlayerLevelUpBonuses
+{
+	margin: 20px;
+	horizontal-align: center;
+	height: fit-children;
+	flow-children: right;
+}
+
+.deathReplayActive CitadelPlayerLevelUpBonuses,.wants_scoreboard CitadelPlayerLevelUpBonuses
+{
+	opacity: 0;
+}
+
+CitadelPlayerLevelUpBonuses Label
+{
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+CitadelPlayerLevelUpBonuses.ToastVisible
+{
+	animation-name: LevelUpMoment;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+
+@keyframes 'LevelUpMoment'
+{
+	0%
+	{
+		pre-transform-scale2d: 1;
+		opacity: 0;
+		brightness: 1;
+	}
+	
+	50%
+	{
+		pre-transform-scale2d: 1.1;
+		opacity: 1;
+		brightness: 2;
+	}
+	
+	100%
+	{
+		pre-transform-scale2d: 1;
+		opacity: 1;
+		brightness: 1;
+	}
+	
+}
+
+.LevelUpTitle
+{
+	font-size: 30px;
+	color: shardColor;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-shadow: 0px 0px 4.0 offBlack;
+	text-transform: uppercase;
+	font-family: oracle;
+}
+
+#SoulsGatheredContainer
+{
+	flow-children: down;
+	height: fit-children;
+}
+
+#AwardsContainer
+{
+	flow-children: right;
+	height: fit-children;
+	width: fit-children;
+	horizontal-align: middle;
+}
+
+.LevelUpBlock
+{
+	width: fit-children;
+	flow-children: down;
+	vertical-align: center;
+	padding: 0px 10px;
+}
+
+.LevelUpContent
+{
+	flow-children: right;
+	vertical-align: middle;
+	horizontal-align: middle;
+}
+
+.AbilityPointIcon
+{
+	background-image: url("s2r://panorama/images/hud/ap_icon.vsvg");
+	height: 80px;
+	width: 80px;
+	wash-color: spiritLightColor;
+}
+
+.AbilityUnlockIcon
+{
+	background-image: url("s2r://panorama/images/hud/unlock_icon.vsvg");
+	wash-color: spiritLightColor;
+}
+
+.PowerIncreaseImages
+{
+	flow-children: right;
+	horizontal-align: center;
+}
+
+.HeroImageAndPowerText
+{
+	flow-children: right;
+}
+
+.LevelUpIcon
+{
+	height: 20px;
+	width: 20px;
+	background-size: 100% 100%;
+	horizontal-align: center;
+	vertical-align: middle;
+	img-shadow: 0px 0px 4.0 offBlack;
+}
+
+.LevelUpTypeLabel
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: offWhite;
+	margin-left: 8px;
+	text-shadow: 0px 0px 4.0 offBlack;
+}
+
+#HeroImage
+{
+	width: 30px;
+	visibility: collapse;
+}
+
+.HealthImage,.BulletDamageImage,.MagicDamageImage,.BulletResistImage,.WeaponRangeImage
+{
+	visibility: collapse;
+}
+
+.healthUpgrade .HealthImage
+{
+	visibility: visible;
+	background-image: url("s2r://panorama/images/upgrades/mods_armor/health_psd.vtex");
+	wash-color: offWhite;
+	opacity: 0.5;
+	margin-right: 2px;
+}
+
+.weaponUpgrade .BulletDamageImage
+{
+	visibility:visible;
+	background-image: url("s2r://panorama/images/hud/core/icon_damage_bullet.vsvg");
+	wash-color: offWhite;
+	margin-right: 2px;
+	opacity: 0.5;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.techUpgrade .MagicDamageImage
+{
+	visibility:visible;
+	background-image: url("s2r://panorama/images/hud/core/icon_damage_mystic.vsvg");
+	wash-color: offWhite;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.5;
+}
+
+.bulletResistUpgrade .BulletResistImage
+{
+	visibility:visible;
+	background-image: url("s2r://panorama/images/hud/core/icon_armor_force.vsvg");
+	wash-color: offWhite;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.5;
+}
+
+.techResistUpgrade .TechResistImage
+{
+	visibility: visible;
+	background-image: url("s2r://panorama/images/hud/core/icon_armor_mystic.vsvg");
+	wash-color: offWhite;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.5;
+}
+
+.weaponRangeUpgrade .WeaponRangeImage
+{
+	visibility: visible;
+	background-image: url("s2r://panorama/images/upgrades/mods_weapon/long_range_psd.vtex");
+	wash-color: offWhite;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.5;
+}
+

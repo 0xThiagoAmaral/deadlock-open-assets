@@ -1,0 +1,68 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 0
+	m_BoundingBoxMin = [ -128.0, -128.0, -32.0 ]
+	m_BoundingBoxMax = [ 128.0, 128.0, 128.0 ]
+	m_flMaximumSimTime = 0.033
+	m_flMinimumSimTime = 0.016
+	m_nMinimumFrames = 2
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 5
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 500.0, 500.0, 500.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_proj.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_miasma.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_dust_linger.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_pulse.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_shockwave.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_glow.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_debris.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_ribbon.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/nano/nano_ultimate_shadow_explosion_energy.vpcf"
+		},
+	]
+}

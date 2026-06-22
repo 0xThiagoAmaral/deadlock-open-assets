@@ -1,0 +1,64 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_nInitialParticles = 1
+	m_flConstantRadius = 0.0
+	m_ConstantColor = [ 0, 0, 0, 255 ]
+	m_nConstantSequenceNumber = 1
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_RampScalarLinearSimple"
+			m_flEndTime = 99999.0
+			m_Rate = -2.0
+			m_nOpEndCapState = "PARTICLE_ENDCAP_ENDCAP_OFF"
+			m_flOpEndFadeOutTime = 0.5
+			m_flOpStartFadeOutTime = 0.25
+		},
+		{
+			_class = "C_OP_RampScalarLinearSimple"
+			m_flEndTime = 999999.0
+			m_Rate = -1.0
+			m_nField = 4
+			m_nOpEndCapState = "PARTICLE_ENDCAP_ENDCAP_ON"
+		},
+		{
+			_class = "C_OP_Decay"
+			m_nOpEndCapState = "PARTICLE_ENDCAP_ENDCAP_ON"
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_StatusEffectCitadel"
+			m_flSFXColorWarpAmount = 2.0
+			m_flSFXMetalnessAmount = 3.0
+			m_flSFXRoughnessAmount = 2.0
+			m_flSFXSScale = 75.0
+		},
+	]
+	m_nBehaviorVersion = 12
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderStatusEffectCitadel"
+			m_pTextureColorWarp = resource:"materials/models/statuseffects/colorwarp_desaturate.vtex"
+			m_pTextureMetalness = resource:"materials/particle/status_fx/white.vtex"
+			m_pTextureRoughness = resource:"materials/models/statuseffects/frozen.vtex"
+		},
+	]
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/gigawatt_prisoner/gigawatt_prisoner.vmdl"
+				m_sequenceName = "ref"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+}

@@ -1,0 +1,16 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelPlayerLevelDisplayTooltip
+{
+	width: 700px;
+	visibility: collapse;
+	margin-left: 10px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+CitadelPlayerLevelDisplayTooltip.TooltipVisible
+{
+	visibility: visible;
+}
+

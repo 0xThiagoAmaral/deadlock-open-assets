@@ -1,0 +1,67 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 8
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 250.0, 250.0, 250.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_aoe.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_liquid.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_spray.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_splash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_blobs.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_steam.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_bits.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_mesh_erode.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_droplets.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_flash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_chargeup_detonation_shockwave.vpcf"
+		},
+	]
+}

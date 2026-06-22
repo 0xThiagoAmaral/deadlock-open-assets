@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "name": "deadlock-open-assets",
+  "game": "Deadlock",
+  "generated": "2026-06-22T17:24:28.988288",
+  "extraction": {
+    "tier": "complete",
+    "dump_date": "2026-06-22T17:02:46.000818",
+    "tool": "Source2Viewer-CLI 19.2 + extract_deadlock_assets.py",
+    "vpk_files": 129814
+  },
+  "stats": {
+    "heroes": 73,
+    "items": 173,
+    "upgrades": 209,
+    "pngs": 1771,
+    "vdata_files": 76,
+    "particles_vpcf": 9463,
+    "panorama_layout": 412,
+    "panorama_styles": 420,
+    "particles_indexed": 9463
+  },
+  "manifests": {
+    "hub": "manifests/hub.json",
+    "heroes": "manifests/heroes.json",
+    "items": "manifests/items.json",
+    "images": "manifests/images.json",
+    "codenames": "manifests/codenames.json",
+    "assets_index": "manifests/assets_index.json",
+    "particles_index": "assets/extracted/indexes/particles_index.json",
+    "sounds_index": "assets/extracted/indexes/sounds_index.json",
+    "models_index": "assets/extracted/indexes/models_index.json"
+  },
+  "data_sources": {
+    "vpk_extraction": "Local Steam install via Source2Viewer-CLI",
+    "gametracking": "SteamDatabase/GameTracking-Deadlock",
+    "live_meta": "deadlock-api.com (optional)",
+    "reference": "deadlock-open-data community repo"
+  },
+  "legal": {
+    "game_assets": "Deadlock assets are property of Valve. Provided for research, modding, and tool development under Valve fan content guidelines.",
+    "tooling": "MIT License — see LICENSE"
+  }
+}

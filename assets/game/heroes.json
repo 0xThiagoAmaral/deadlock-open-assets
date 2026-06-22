@@ -1,0 +1,552 @@
+{
+  "game": "Deadlock",
+  "last_updated": "2026-06-20",
+  "roster_count": 38,
+  "source_notes": "Roster e kits ancorados em deadlock.wiki (38 heróis jogáveis, jun/2026) e guias Mobalytics. Slots Q/F/C/E = habilidades 1–4 in-game. Agentes DEVEM usar isto como fonte de verdade — nunca inventar habilidades.",
+  "bind_map": {
+    "Q": { "slot": 1, "enum": "ESlot_Signature_1", "mask": "IN_ABILITY1" },
+    "F": { "slot": 2, "enum": "ESlot_Signature_2", "mask": "IN_ABILITY2" },
+    "C": { "slot": 3, "enum": "ESlot_Signature_3", "mask": "IN_ABILITY3" },
+    "E": { "slot": 4, "enum": "ESlot_Signature_4", "mask": "IN_ABILITY4" }
+  },
+  "heroes": {
+    "Abrams": {
+      "internal_names": ["atlas", "abrams", "hero_abrams"],
+      "role": "Tank / brawler — sustain e CC corpo a corpo",
+      "tags": ["Tank", "Brawler", "Bull-Headed"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Siphon Life", "summary": "Dreno de vida em cone frontal (lifesteal)" },
+        "F": { "name": "Shoulder Charge", "summary": "Investida; stun se bater na parede" },
+        "C": { "name": "Infernal Resilience", "summary": "Passiva — regenera parte do dano recebido" },
+        "E": { "name": "Seismic Impact", "summary": "Salto aéreo — smash AoE com stun" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Apollo": {
+      "internal_names": ["fencer", "apollo", "hero_apollo"],
+      "role": "Assassino finesse — mobilidade e riposte",
+      "tags": ["Finesse", "Mobility", "A Cut Above"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Disengaging Sigil", "summary": "Sigilo de desengajamento / dano" },
+        "F": { "name": "Riposte", "summary": "Contra-ataque defensivo" },
+        "C": { "name": "Flawless Advance", "summary": "Avanço ofensivo" },
+        "E": { "name": "Itani Lo Sahn", "summary": "Ult — sequência de esgrima" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Bebop": {
+      "internal_names": ["bebop", "hero_bebop"],
+      "role": "Brawler hook — uppercut e hyper beam",
+      "tags": ["Hook", "Bomb", "Punch"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Exploding Uppercut", "summary": "Uppercut explosivo" },
+        "F": { "name": "Sticky Bomb", "summary": "Bomba grudente" },
+        "C": { "name": "Grapple Arm", "summary": "Gancho / pull" },
+        "E": { "name": "Hyper Beam", "summary": "Feixe contínuo de dano" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Billy": {
+      "internal_names": ["punkgoat", "billy", "hero_billy"],
+      "role": "Brawler CC — batida, ram e chain",
+      "tags": ["Punk", "Chaotic", "G.O.A.T."],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Bashdown", "summary": "Slam no chão — pull + shockwave knockup" },
+        "F": { "name": "Rising Ram", "summary": "Charge head-first — lança inimigo no ar" },
+        "C": { "name": "Blasted", "summary": "Passiva wrecked + ativo amp de dano de arma" },
+        "E": { "name": "Chain Gang", "summary": "Correntes — bloqueia movimento e puxa AoE" }
+      },
+      "combo_notes": "Rising Ram → Bashdown → Blasted ativo → Chain Gang para lockdown.",
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Calico": {
+      "internal_names": ["calico", "hero_calico"],
+      "role": "Assassina sombras — burst e posse Ava",
+      "tags": ["Tricksy", "Slippery", "Burst Damage"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Gloom Bombs", "summary": "Bombas sombrias em área" },
+        "F": { "name": "Leaping Slash", "summary": "Dash + slash circular; heal se acertar" },
+        "C": { "name": "Ava", "summary": "Possui gato Ava — stealth no minimap, sem atacar" },
+        "E": { "name": "Return to Shadows", "summary": "Untargetable + dano AoE ao entrar/sair das sombras" }
+      },
+      "combo_notes": "Leaping Slash → Gloom Bombs → Return to Shadows.",
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Celeste": {
+      "internal_names": ["celeste", "hero_celeste"],
+      "role": "Marksman performer — luz e debuffs",
+      "tags": ["Performer", "Disruptive", "Dazzling"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Light Eater", "summary": "Consome/absorve luz — dano espiritual" },
+        "F": { "name": "Dazzling Trick", "summary": "Truque ofuscante / controle" },
+        "C": { "name": "Radiant Daggers", "summary": "Adagas radiantes" },
+        "E": { "name": "Shining Wonder", "summary": "Ult — espetáculo AoE" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "The Doorman": {
+      "internal_names": ["doorman", "hero_doorman"],
+      "role": "Mystic controle mapa — portas e hotel",
+      "tags": ["Disorienting", "Map Control", "Mind Games"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Call Bell", "summary": "Sino — chama / marca alvos" },
+        "F": { "name": "Doorway", "summary": "Portal entre duas portas" },
+        "C": { "name": "Luggage Cart", "summary": "Carrinho de bagagem — controle de área" },
+        "E": { "name": "Hotel Guest", "summary": "Ult — convidado do hotel (banish/isolamento)" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Drifter": {
+      "internal_names": ["drifter", "hero_drifter"],
+      "role": "Assassino isolamento — mark + blink atrás do alvo",
+      "tags": ["Stalker", "Bloodthirsty", "Cruel"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Rend", "summary": "Swipe melee em cone; bônus espiritual em curta distância" },
+        "F": { "name": "Stalker's Mark", "summary": "Marca bleed — reativar teleporta atrás do alvo. NÃO é teleporte livre." },
+        "C": { "name": "Bloodscent", "summary": "Passiva — dano amplificado vs heróis isolados; stacks permanentes" },
+        "E": { "name": "Eternal Night", "summary": "Escuridão AoE — reduz visão inimiga; sprint + procs espirituais" }
+      },
+      "combo_notes": "Stalker's Mark (F) → Rend (Q) → Eternal Night (E). NÃO confundir com Grey Talon/Venator.",
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Dynamo": {
+      "internal_names": ["priest", "dynamo", "hero_dynamo"],
+      "role": "Mystic suporte — aurora e buraco negro",
+      "tags": ["Teamplay", "Initiator", "Clutch"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Kinetic Pulse", "summary": "Pulso cinético" },
+        "F": { "name": "Quantum Entanglement", "summary": "Entrelaçamento — link com aliado" },
+        "C": { "name": "Rejuvenating Aurora", "summary": "Aura de cura/regeneração" },
+        "E": { "name": "Singularity", "summary": "Ult — buraco negro que puxa inimigos" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Graves": {
+      "internal_names": ["graves", "hero_graves"],
+      "role": "Mystic necro — summons e negação de área",
+      "tags": ["Morbid", "Area Denial", "Necromancer"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Jar of Dead", "summary": "Passiva coleta mortes; ativo lança Deadheads espirituais" },
+        "F": { "name": "Grasping Hands", "summary": "Muro de mãos — immobilize" },
+        "C": { "name": "Essence Theft", "summary": "Arma rouba weapon damage e spirit resist do alvo" },
+        "E": { "name": "Borrowed Decree", "summary": "Lápide invoca ghouls que explodem" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Grey Talon": {
+      "internal_names": ["tengu", "orion", "grey_talon", "hero_grey_talon"],
+      "role": "Marksman sniper — longo alcance e armadilhas",
+      "tags": ["Precision", "Hunter", "Area Denial"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Charged Shot", "summary": "Flecha carregada perfurante" },
+        "F": { "name": "Rain of Arrows", "summary": "Salto + glide aéreo com multishot. NÃO é teleporte." },
+        "C": { "name": "Spirit Snare", "summary": "Armadilha: curse, silence, disarm" },
+        "E": { "name": "Guided Owl", "summary": "Coruja controlável — stun + dano em área" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Haze": {
+      "internal_names": ["haze", "hero_haze"],
+      "role": "Assassina stealth — sleep e bullet dance",
+      "tags": ["Assassin", "Stealthy", "Lethal"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Sleep Dagger", "summary": "Adaga — sleep" },
+        "F": { "name": "Smoke Bomb", "summary": "Fumaça / stealth" },
+        "C": { "name": "Fixation", "summary": "Fixação no alvo — tracking" },
+        "E": { "name": "Bullet Dance", "summary": "Ult — dança de balas AoE (NÃO é Smoke Screen)" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Holliday": {
+      "internal_names": ["astro", "holliday", "hero_holliday"],
+      "role": "Marksman crackshot — barris e laço",
+      "tags": ["Crackshot", "Explosive", "Apprehender"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Powder Keg", "summary": "Barril explosivo armável" },
+        "F": { "name": "Bounce Pad", "summary": "Trampolim — lança heróis; stomp ao pousar" },
+        "C": { "name": "Crackshot", "summary": "Headshots bônus + slow (sem falloff)" },
+        "E": { "name": "Spirit Lasso", "summary": "Laço espiritual — stun e arrasta inimigo" }
+      },
+      "combo_notes": "Bounce Pad → Powder Keg no ar → Crackshot headshot → Spirit Lasso.",
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Infernus": {
+      "internal_names": ["inferno", "infernus", "hero_infernus"],
+      "role": "Marksman arsonist — burn e dash horizontal",
+      "tags": ["Arsonist", "Explosive", "Burn Rubber"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Napalm", "summary": "Cone napalm — slow + amp de dano Infernus" },
+        "F": { "name": "Flame Dash", "summary": "Dash de fogo com trilha queimando" },
+        "C": { "name": "Afterburn", "summary": "Passiva — balas aplicam burn stackável" },
+        "E": { "name": "Concussive Combustion", "summary": "Ult — bomba viva AoE stun (NÃO se chama Inferno)" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Ivy": {
+      "internal_names": ["ivy", "hero_ivy"],
+      "role": "Marksman support — vinhas e air drop",
+      "tags": ["Team-up", "Disruptor", "Rock Solid"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Entangling Thorns", "summary": "Espinhos — root/slow" },
+        "F": { "name": "Kudzu Connection", "summary": "Conexão com aliado — buff/link" },
+        "C": { "name": "Stone Form", "summary": "Forma de pedra — defesa/tanque temporário" },
+        "E": { "name": "Air Drop", "summary": "Ult — lança aliado ou bombardeio aéreo" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Kelvin": {
+      "internal_names": ["kelvin", "hero_kelvin"],
+      "role": "Brawler gelo — path e dome",
+      "tags": ["Protector", "Explorer", "Ice Cold"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Frost Grenade", "summary": "Granada de gelo — slow/freeze" },
+        "F": { "name": "Ice Path", "summary": "Caminho de gelo — mobilidade" },
+        "C": { "name": "Arctic Beam", "summary": "Feixe congelante contínuo" },
+        "E": { "name": "Frozen Shelter", "summary": "Ult — domo de gelo protetor" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Lady Geist": {
+      "internal_names": ["ghost", "lady_geist", "hero_lady_geist"],
+      "role": "Mystic lifesteal — troca de vida e malice",
+      "tags": ["Lifesteal", "Self Damage", "Fatale"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Essence Bomb", "summary": "Bomba espiritual AoE" },
+        "F": { "name": "Life Drain", "summary": "Canaliza roubo de vida" },
+        "C": { "name": "Malice", "summary": "Debuff ofensivo / amp de dano recebido" },
+        "E": { "name": "Soul Exchange", "summary": "Ult — troca HP com alvo" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Lash": {
+      "internal_names": ["lash", "hero_lash"],
+      "role": "Assassino aéreo — grapple e death slam",
+      "tags": ["Initiator", "High Flying", "Arrogant"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Ground Strike", "summary": "Golpe ao solo AoE" },
+        "F": { "name": "Grapple", "summary": "Gancho — puxa para alvo ou terreno" },
+        "C": { "name": "Flog", "summary": "Chicote — slow/dano" },
+        "E": { "name": "Death Slam", "summary": "Ult — slam aéreo single/multi target" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "McGinnis": {
+      "internal_names": ["forge", "mcginnis", "hero_mcginnis"],
+      "role": "Mystic inventor — torretas e wall",
+      "tags": ["Inventor", "Support", "Disruption"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Mini Turret", "summary": "Torreta deployável" },
+        "F": { "name": "Medicinal Specter", "summary": "Espectro curativo" },
+        "C": { "name": "Spectral Wall", "summary": "Muro espectral bloqueando projéteis" },
+        "E": { "name": "Heavy Barrage", "summary": "Ult — barragem de foguetes" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Mina": {
+      "internal_names": ["vampirebat", "mina", "hero_mina"],
+      "role": "Marksman burst — mobilidade de morcego",
+      "tags": ["Harasser", "Nimble", "Vexing"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Rake", "summary": "Slash guarda-chuva espiritual; scale missing HP; heal on kill" },
+        "F": { "name": "Sanguine Retreat", "summary": "Dispersa em morcegos — untargetable dash (NÃO Bat Blink)" },
+        "C": { "name": "Love Bites", "summary": "Stacks de dano espiritual em hits" },
+        "E": { "name": "Nox Nostra", "summary": "Ult — nuvem de morcegos silence (NÃO Nightfall)" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Mirage": {
+      "internal_names": ["mirage", "hero_mirage"],
+      "role": "Assassino bodyguard — tornado e teleporte global",
+      "tags": ["Bodyguard", "Traveller", "Focused"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Fire Scarabs", "summary": "Escaravelhos — roubo max HP + bullet resist shred" },
+        "F": { "name": "Dust Devil", "summary": "Tornado forward — lift + bullet evasion (NÃO Sandstorm)" },
+        "C": { "name": "Djinn's Mark", "summary": "Multiplicador em hits; consume para burst espiritual" },
+        "E": { "name": "Traveler", "summary": "Ult — teleporte via minimap para herói visível" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Mo & Krill": {
+      "internal_names": ["krill", "mo_and_krill", "hero_mo_and_krill"],
+      "role": "Brawler tag-team — burrow e combo ult",
+      "tags": ["Tag-Team", "Initiator", "Burrower"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Scorn", "summary": "Desprezo — debuff/dano" },
+        "F": { "name": "Burrow", "summary": "Escava — mobilidade/stealth subterrâneo" },
+        "C": { "name": "Sand Blast", "summary": "Rajada de areia — disarm/slow" },
+        "E": { "name": "Combo", "summary": "Ult — sequência conjunta Mo+Krill single target" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Paige": {
+      "internal_names": ["bookworm", "paige", "hero_paige"],
+      "role": "Mystic support — livros e plot armor",
+      "tags": ["Helpful", "Protector", "Booksmart"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Bookwyrm", "summary": "Dragão-livro — dano/controle" },
+        "F": { "name": "Plot Armor", "summary": "Armadura narrativa — proteção aliada" },
+        "C": { "name": "Captivating Read", "summary": "Leitura cativante — charm/focus" },
+        "E": { "name": "Rallying Charge", "summary": "Ult — carga inspiradora AoE" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Paradox": {
+      "internal_names": ["chrono", "paradox", "hero_paradox"],
+      "role": "Marksman tactician — time wall e swap",
+      "tags": ["Calculated", "Disruptor", "Tactician"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Pulse Grenade", "summary": "Granada pulsante — slow + amp stacks" },
+        "F": { "name": "Time Wall", "summary": "Muro para projéteis + time stop (NÃO Time Swap)" },
+        "C": { "name": "Kinetic Carbine", "summary": "Tiro carregado — time stop no alvo" },
+        "E": { "name": "Paradoxical Swap", "summary": "Ult — troca posição com inimigo" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Pocket": {
+      "internal_names": ["pocket", "hero_pocket"],
+      "role": "Assassino trickster — frogs e affliction",
+      "tags": ["Trickster", "Burst Damage", "Frogs"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Barrage", "summary": "Rajada mágica" },
+        "F": { "name": "Flying Cloak", "summary": "Capa voadora — mobilidade/fuga" },
+        "C": { "name": "Enchanter's Satchel", "summary": "Maleta — utilidade/burst setup" },
+        "E": { "name": "Affliction", "summary": "Ult — maldição AoE / briefcase burst" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Rem": {
+      "internal_names": ["rem", "hero_rem"],
+      "role": "Suporte tiny — helpers e naptime",
+      "tags": ["Helpful", "Tiny", "zZzzZ"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Pillow Toss", "summary": "Travesseiro — dano/knock" },
+        "F": { "name": "Tag Along", "summary": "Acompanha aliado — link/mobilidade" },
+        "C": { "name": "Lil Helpers", "summary": "Minions auxiliares" },
+        "E": { "name": "Naptime", "summary": "Ult — sleep AoE" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Seven": {
+      "internal_names": ["gigawatt", "seven", "hero_seven"],
+      "role": "Mystic lightning — storm cloud AoE",
+      "tags": ["High Voltage", "Merciless", "Area Denial"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Lightning Ball", "summary": "Bola de relâmpago" },
+        "F": { "name": "Static Charge", "summary": "Carga estática — setup elétrico" },
+        "C": { "name": "Power Surge", "summary": "Surto de poder — amp elétrico" },
+        "E": { "name": "Storm Cloud", "summary": "Ult — tempestade AoE persistente" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Shiv": {
+      "internal_names": ["nano", "shiv", "hero_shiv"],
+      "role": "Brawler bleed — knives e killing blow",
+      "tags": ["Rage", "Bleed", "Repeat"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Serrated Knives", "summary": "Facas serrilhadas — bleed" },
+        "F": { "name": "Slice and Dice", "summary": "Dash cortante" },
+        "C": { "name": "Bloodletting", "summary": "Sangria — amp bleed/sustain" },
+        "E": { "name": "Killing Blow", "summary": "Ult — execute burst melee" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Silver": {
+      "internal_names": ["silver", "hero_silver"],
+      "role": "Marksman feral — transformação lycan",
+      "tags": ["Feral", "Hot Mess", "Transformation"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Slam Fire", "summary": "Disparo slam — shotgun burst" },
+        "F": { "name": "Boot Kick", "summary": "Chute — knockback/mobilidade" },
+        "C": { "name": "Entangling Bola", "summary": "Bola — immobilize" },
+        "E": { "name": "Lycan Curse", "summary": "Ult — transformação lobisomem" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Sinclair": {
+      "internal_names": ["magician", "sinclair", "hero_sinclair"],
+      "role": "Mystic trickster — coelho e audience",
+      "tags": ["Trickster", "Copycat", "Versatile"],
+      "complexity": 4,
+      "abilities": {
+        "Q": { "name": "Vexing Bolt", "summary": "Raio vexante — burst espiritual" },
+        "F": { "name": "Spectral Assistant", "summary": "Assistente espectral" },
+        "C": { "name": "Rabbit Hex", "summary": "Hex transforma em coelho" },
+        "E": { "name": "Audience Participation", "summary": "Ult — participação da plateia AoE" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Venator": {
+      "internal_names": ["venator", "hero_venator"],
+      "role": "Marksman weapon carry — escala Weapon Damage, sem mobilidade",
+      "tags": ["Devout", "Arms Expert", "Tactical"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Consecrating Grenade", "summary": "Granada ricocheteia, dano de arma, queima, redução de cura" },
+        "F": { "name": "Gutshot", "summary": "Shotgun knockback; stun + dano bônus se bater na parede. NÃO é teleporte." },
+        "C": { "name": "Hex-Lined Snap Trap", "summary": "Armadilha: immobilize, reveal, dano espiritual" },
+        "E": { "name": "Ira Domini", "summary": "3 estacas de besta; última abençoada (pure + execute low HP)" }
+      },
+      "combo_notes": "Gutshot na parede → Trap (C) → Ira Domini (E). Q para anti-cura antes do engage.",
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Victor": {
+      "internal_names": ["frank", "victor", "hero_victor"],
+      "role": "Brawler attrition — pain battery e reanimation",
+      "tags": ["You", "Can't", "Kill Me"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Pain Battery", "summary": "Acumula/sofre dano para liberar burst" },
+        "F": { "name": "Jumpstart", "summary": "Impulso elétrico — mobilidade" },
+        "C": { "name": "Aura of Suffering", "summary": "Aura de sofrimento — dano AoE" },
+        "E": { "name": "Shocking Reanimation", "summary": "Ult — revives/reanima com choque" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Vindicta": {
+      "internal_names": ["hornet", "vindicta", "hero_vindicta"],
+      "role": "Marksman sniper aéreo — stake e assassinate",
+      "tags": ["Sniper", "Soaring", "One Shot Kill"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Stake", "summary": "Estaca — marca/dano à distância" },
+        "F": { "name": "Flight", "summary": "Voo / mobilidade aérea" },
+        "C": { "name": "Crow Familiar", "summary": "Corvo — visão/dano" },
+        "E": { "name": "Assassinate", "summary": "Ult sniper — dano massivo single target" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Viscous": {
+      "internal_names": ["synth", "goo", "viscous", "hero_viscous"],
+      "role": "Mystic goo — cube e goo ball",
+      "tags": ["Evasive", "Disruptor", "Gooey"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Splatter", "summary": "Respingo de gosma — slow/dano" },
+        "F": { "name": "The Cube", "summary": "Cubo protetor — invulnerabilidade aliada" },
+        "C": { "name": "Puddle Punch", "summary": "Soco na poça — knockup" },
+        "E": { "name": "Goo Ball", "summary": "Ult — bola rolando — dano/controle" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Vyper": {
+      "internal_names": ["viper", "vyper", "hero_vyper"],
+      "role": "Assassino gunner — veneno e petrify",
+      "tags": ["Gunner", "Slippery", "Rat-a-Tat"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Screwjab Dagger", "summary": "Adaga — bleed/anti-heal" },
+        "F": { "name": "Lethal Venom", "summary": "Veneno letal — debuff" },
+        "C": { "name": "Slither", "summary": "Deslize — mobilidade baixa" },
+        "E": { "name": "Petrifying Bola", "summary": "Ult — bola petrificante immobilize" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Warden": {
+      "internal_names": ["cop", "warden", "hero_warden"],
+      "role": "Brawler initiator — flask e last stand",
+      "tags": ["Initiator", "Fearless", "One Man Army"],
+      "complexity": 2,
+      "abilities": {
+        "Q": { "name": "Alchemical Flask", "summary": "Frasco — dano/slow AoE" },
+        "F": { "name": "Willpower", "summary": "Força de vontade — resist/escudo" },
+        "C": { "name": "Binding Word", "summary": "Palavra vinculante — silence/root" },
+        "E": { "name": "Last Stand", "summary": "Ult — último suspiro tanky" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes 2026-06"
+    },
+    "Wraith": {
+      "internal_names": ["wraith", "hero_wraith"],
+      "role": "Marksman duelist — teleporte e telekinesis",
+      "tags": ["Duelist", "Isolator", "Telekinetic"],
+      "complexity": 1,
+      "abilities": {
+        "Q": { "name": "Card Trick", "summary": "Cartas arremessáveis — poke/burst" },
+        "F": { "name": "Project Mind", "summary": "Teletransporte para local alvo (ÚNICO teleporte livre do kit)" },
+        "C": { "name": "Full Auto", "summary": "Buff fire rate — aliados próximos ganham metade" },
+        "E": { "name": "Telekinesis", "summary": "Ult — lift stun + slam; silence e disarm depois" }
+      },
+      "combo_notes": "Card Trick → Telekinesis (E) → Full Auto (C). Project Mind (F) para escape.",
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    },
+    "Yamato": {
+      "internal_names": ["yakuza", "yamato", "hero_yamato"],
+      "role": "Assassino duelist — shadow transformation invencível",
+      "tags": ["Relentless", "Acrobatics", "Pursuer"],
+      "complexity": 3,
+      "abilities": {
+        "Q": { "name": "Power Slash", "summary": "Corte carregado — dano crescente" },
+        "F": { "name": "Flying Slash", "summary": "Gancho — puxa para inimigo" },
+        "C": { "name": "Crimson Slash", "summary": "Slash AoE — heal se acertar herói; slow fire rate" },
+        "E": { "name": "Shadow Transformation", "summary": "Ult — invencível, refresh cooldowns, imortal temporário" }
+      },
+      "verified": true,
+      "verified_source": "deadlock.wiki/Heroes, mobalytics 2026-06"
+    }
+  }
+}

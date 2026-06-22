@@ -1,0 +1,211 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelHeroAbilities
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+	width: 450px;
+	height: 120px;
+	flow-children: right;
+	ui-scale: 90%;
+	opacity: 1;
+}
+
+CitadelHeroAbilities.hero_atlas
+{
+	wash-color: abramsColor;
+}
+
+CitadelHeroAbilities.hero_bebop
+{
+	wash-color: bebopColor;
+}
+
+CitadelHeroAbilities.hero_bookworm
+{
+	wash-color: bookwormColor;
+}
+
+CitadelHeroAbilities.hero_nano
+{
+	wash-color: nanoColor;
+}
+
+CitadelHeroAbilities.hero_doorman
+{
+	wash-color: doormanColor;
+}
+
+CitadelHeroAbilities.hero_drifter
+{
+	wash-color: drifterColor;
+}
+
+CitadelHeroAbilities.hero_dynamo
+{
+	wash-color: dynamoColor;
+}
+
+CitadelHeroAbilities.hero_frank
+{
+	wash-color: frankColor;
+}
+
+CitadelHeroAbilities.hero_orion
+{
+	wash-color: orionColor;
+}
+
+CitadelHeroAbilities.hero_haze
+{
+	wash-color: hazeColor;
+}
+
+CitadelHeroAbilities.hero_astro
+{
+	wash-color: astroColor;
+}
+
+CitadelHeroAbilities.hero_inferno
+{
+	wash-color: infernoColor;
+}
+
+CitadelHeroAbilities.hero_tengu
+{
+	wash-color: tenguColor;
+}
+
+CitadelHeroAbilities.hero_kelvin
+{
+	wash-color: kelvinColor;
+}
+
+CitadelHeroAbilities.hero_ghost
+{
+	wash-color: ghostColor;
+}
+
+CitadelHeroAbilities.hero_lash
+{
+	wash-color: lashColor;
+}
+
+CitadelHeroAbilities.hero_forge
+{
+	wash-color: forgeColor;
+}
+
+CitadelHeroAbilities.hero_mirage
+{
+	wash-color: mirageColor;
+}
+
+CitadelHeroAbilities.hero_krill
+{
+	wash-color: krillColor;
+}
+
+CitadelHeroAbilities.hero_chrono
+{
+	wash-color: chronoColor;
+}
+
+CitadelHeroAbilities.hero_synth
+{
+	wash-color: synthColor;
+}
+
+CitadelHeroAbilities.hero_priest
+{
+	wash-color: priestColor;
+}
+
+CitadelHeroAbilities.hero_punkgoat
+{
+	wash-color: punkgoatColor;
+}
+
+CitadelHeroAbilities.hero_gigawatt
+{
+	wash-color: gigawattColor;
+}
+
+CitadelHeroAbilities.hero_shiv
+{
+	wash-color: shivColor;
+}
+
+CitadelHeroAbilities.hero_magician
+{
+	wash-color: magicianColor;
+}
+
+CitadelHeroAbilities.hero_vampirebat
+{
+	wash-color: vampirebatColor;
+}
+
+CitadelHeroAbilities.hero_hornet
+{
+	wash-color: hornetColor;
+}
+
+CitadelHeroAbilities.hero_viscous
+{
+	wash-color: viscousColor;
+}
+
+CitadelHeroAbilities.hero_viper
+{
+	wash-color: viperColor;
+}
+
+CitadelHeroAbilities.hero_warden
+{
+	wash-color: wardenColor;
+}
+
+CitadelHeroAbilities.hero_wraith
+{
+	wash-color: wraithColor;
+}
+
+CitadelHeroAbilities.hero_yamato
+{
+	wash-color: yamatoColor;
+}
+
+CitadelHeroAbilities.hero_necro
+{
+	wash-color: necroColor;
+}
+
+CitadelHeroAbilities.hero_fencer
+{
+	wash-color: fencerColor;
+}
+
+CitadelHeroAbilities.hero_werewolf
+{
+	wash-color: werewolfColor;
+}
+
+CitadelHeroAbilities.hero_unicorn
+{
+	wash-color: unicornColor;
+}
+
+CitadelHeroAbilities.hero_familiar
+{
+	wash-color: familiarColor;
+}
+
+CitadelHeroAbilities CitadelAbilityIcon
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+	tooltip-position: top;
+	overflow: noclip;
+}
+

@@ -1,0 +1,24 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+.DiffArrow
+{
+	height: 12px;
+	width: 12px;
+	margin-top: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+	vertical-align: center;
+	wash-color: colorCommonOffWhite;
+	opacity: 0.25;
+}
+
+.TierBonusType
+{
+	font-size: 16px;
+}
+
+.PrefixValue,.PostfixValue
+{
+	color: #ffffff50;
+}
+

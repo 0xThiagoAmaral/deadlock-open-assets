@@ -1,0 +1,27 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+.WindowRoot
+{
+	width: 100%;
+	height: 100%;
+}
+
+#UnitStatus
+{
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+	flow-children: up;
+}
+
+.name
+{
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	font-family: oracle;
+	font-weight: semi-bold;
+	text-overflow: shrink;
+}
+

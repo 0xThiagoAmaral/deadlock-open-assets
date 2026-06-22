@@ -1,0 +1,76 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf65:version{48e806a9-c210-4cd8-811a-38b5ef63b195} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 8
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 500.0, 300.0, 300.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_decal.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_vapor.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_rays.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_aoe.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_flare.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_flare_horizontal.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_directional.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explode_sphere.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_fireball.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_flash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_fluid.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_sigil_explo_shockwave.vpcf"
+		},
+	]
+}

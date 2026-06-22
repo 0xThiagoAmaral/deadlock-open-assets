@@ -1,0 +1,64 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf63:version{a6e6a69e-52d3-4527-8b9c-ff3bb91aca3e} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_flConstantRadius = 15.0
+	m_ConstantColor = [ 189, 189, 189, 222 ]
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 80.0, 20.0, 50.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_silencebomb_proj_edge.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_silencebomb_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_silencebomb_aura_edgerope.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_silencebomb_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_silencebomb_smokeinner.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/upgrades/silence_glyph_projectile_preview_glow.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_silencebomb_sparksinner.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_silencebomb_grenademodel.vpcf"
+		},
+	]
+}

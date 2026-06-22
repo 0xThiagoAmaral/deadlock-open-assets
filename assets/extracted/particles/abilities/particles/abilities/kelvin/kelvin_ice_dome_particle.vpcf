@@ -1,0 +1,62 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 400.0, 1.0, 1.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_proj.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_proj_edge.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_aoe_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_end_smoke.vpcf"
+			m_bEndCap = true
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_edge.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/kelvin/kelvin_ice_dome_particle_frost.vpcf"
+		},
+	]
+}

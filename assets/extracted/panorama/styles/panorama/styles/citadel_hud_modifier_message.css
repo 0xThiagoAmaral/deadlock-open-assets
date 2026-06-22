@@ -1,0 +1,119 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelModifierMessage
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+	width: 400px;
+	margin-right: 150px;
+	margin-bottom: 200px;
+	visibility: visible;
+	flow-children: up;
+	margin-right: 0px;
+}
+
+#MessagesContainer
+{
+	height: 100%;
+	width: 100%;
+}
+
+@keyframes 'ShowMessage'
+{
+	0%
+	{
+		pre-transform-scale2d: 1;
+		transform: rotateZ(0deg);
+		opacity: 0;
+	}
+	
+	20%
+	{
+		opacity: 1;
+	}
+	
+	30%
+	{
+		transform: rotateZ(-1deg) translateX(10px);
+	}
+	
+	100%
+	{
+		pre-transform-scale2d: 1;
+		transform: rotateZ(0deg);
+	}
+	
+}
+
+#MessageLabel
+{
+	font-size: 16px;
+	max-width: 260px;
+	max-height: 30px;
+	text-overflow: shrink;
+	opacity: 1;
+	color: offWhite;
+	font-family: oracle;
+	text-shadow: 0px 0px 0px 4.0 rgb(255, 94, 94);
+	font-weight: bold;
+	width: fit-children;
+	vertical-align: middle;
+	horizontal-align: right;
+	z-index: 3;
+}
+
+.MessageContainer.ShowingModifierMessage
+{
+	animation-name: ShowMessage;
+	animation-duration: 1.1s;
+	animation-iteration-count: 1;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	animation-timing-function: ease-out;
+	opacity: 1;
+}
+
+.IsBuff #MessageLabel
+{
+	color: offWhite;
+	text-shadow: 0px 0px 0px 4.0 offBlack;
+}
+
+.MessageContainer
+{
+	opacity: 0;
+	flow-children: right;
+	horizontal-align: center;
+	padding: 4px;
+	transform: rotateZ(0deg);
+	vertical-align: bottom;
+	padding-right: 0px;
+}
+
+#HeroImage
+{
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	horizontal-align: left;
+	background-size: contain;
+	vertical-align: middle;
+}
+
+#AbilityIcon
+{
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	border: 1px solid #000000;
+	opacity: 1;
+	wash-color: offWhite;
+	opacity: 0.7;
+	margin-right: 5px;
+}
+
+.NoCaster #HeroImage,.NoAbilityImage #AbilityIcon
+{
+	visibility: collapse;
+}
+

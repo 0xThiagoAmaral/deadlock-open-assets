@@ -1,0 +1,21 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf63:version{a6e6a69e-52d3-4527-8b9c-ff3bb91aca3e} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 8
+	m_nSnapshotControlPoint = 6
+	m_hSnapshot = resource:"particles/models/heroes_wip/bookworm/bookworm/bookworm_page_trace_fx_02.vsnap"
+	m_nGroupID = 1
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/bookworm/bookworm_ultimate_channel_cast_book_page_left_text.vpcf"
+		},
+	]
+}

@@ -1,0 +1,271 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+.team1
+{
+	background-color: #534716;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #2b250c ), to( #534716 ) );
+}
+
+.team2
+{
+	background-color: #2D3C70;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #0f1941 ), to( #2D3C70 ) );
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #000000 ), to( #183d27 ) );
+}
+
+.not_scored
+{
+	opacity: 0.75;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #000000 ), to( #707070 ) );
+}
+
+.loss
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #000000 ), to( #2c1111 ) );
+}
+
+.win
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #000000 ), to( #0e2518 ) );
+}
+
+.teamStripe
+{
+	height: 6px;
+	width: 100%;
+}
+
+.team1 .teamStripe
+{
+	background-color: team1Color;
+}
+
+.team2 .teamStripe
+{
+	background-color: team2Color;
+}
+
+.win .teamStripe
+{
+	background-color: rgb(82, 172, 82);
+	background-color: rgb(80, 194, 80);
+}
+
+.loss .teamStripe
+{
+	background-color: rgb(96, 41, 41);
+}
+
+.gameContent
+{
+	flow-children: right;
+	width: 100%;
+}
+
+.gameInfo
+{
+	flow-children: down;
+	padding: 10px;
+	width: fill-parent-flow(1.0);
+}
+
+#gameResultRow
+{
+	width: 100%;
+	flow-children: right;
+}
+
+.gameMode
+{
+	font-weight: semi-bold;
+	font-size: 16px;
+	margin-left: 8px;
+	opacity: 0.3;
+	max-height: 25px;
+	max-width: 120px;
+	text-overflow: shrink;
+	vertical-align: middle;
+}
+
+.gameResult
+{
+	font-weight: bold;
+	font-size: 16px;
+	text-overflow: shrink;
+	vertical-align: middle;
+}
+
+.win .gameResult
+{
+	color: rgb(97, 231, 97);
+}
+
+.loss .gameResult
+{
+	color: rgb(200, 84, 84);
+}
+
+.disbanded .gameResult
+{
+	color: rgb(134, 134, 134);
+}
+
+.gameNetworth
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: shardColor;
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin: 10px;
+	ignore-parent-flow: true;
+	z-index: 10;
+}
+
+.GameModeBrawl .gameNetworth
+{
+	opacity: 0;
+}
+
+.heroName
+{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.gameDuration
+{
+	font-weight: medium;
+	font-size: 16px;
+	opacity: 0.7;
+}
+
+.GameModeBrawl .gameDuration
+{
+	visibility: collapse;
+}
+
+#brawl_score
+{
+	flow-children: right;
+	margin-top: 0px;
+	visibility: collapse;
+}
+
+.GameModeBrawl #brawl_score
+{
+	visibility: visible;
+}
+
+#brawl_score Label
+{
+	font-size: 20px;
+	font-family: oracle;
+	font-weight: bold;
+	margin-right: 6px;
+}
+
+#brawl_score Label.enemy_score
+{
+	color: rgb(200, 84, 84);
+	opacity: 0.3;
+}
+
+.FeaturedMatch #brawl_score Label
+{
+	font-size: 36px;
+}
+
+#brawl_score .brawlAvgDuration
+{
+	font-family: sans;
+	font-size: 14px;
+	vertical-align: middle;
+	font-weight: normal;
+	opacity: 0.5;
+	color: offWhite;
+}
+
+#brawl_score .brawlAvgDuration.subtext
+{
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+#brawl_score .dash
+{
+	opacity: 0.5;
+}
+
+.NonFeaturedMatch #brawl_score
+{
+	margin-top: 3px;
+}
+
+#BrawlAvg
+{
+	flow-children: right;
+	visibility: collapse;
+}
+
+.GameModeBrawl #BrawlAvg
+{
+	visibility: visible;
+}
+
+#BrawlAvg Label
+{
+	font-family: sans;
+	font-size: 13px;
+	vertical-align: middle;
+	font-weight: bold;
+	opacity: 0.2;
+	color: offWhite;
+	text-transform: uppercase;
+}
+
+#BrawlAvg Label.subtext
+{
+	font-weight: semi-bold;
+	margin-left: 5px;
+}
+
+.gameDate
+{
+	font-weight: normal;
+	font-size: 14px;
+	opacity: 0.1;
+	vertical-align: bottom;
+	horizontal-align: left;
+}
+
+.matchBlock:hover #Overlay
+{
+	opacity: 1;
+}
+
+#Overlay
+{
+	width: 100%;
+	height: 100%;
+	background-color: #000000f1;
+	ignore-parent-flow: true;
+	z-index: 100;
+	opacity: 0;
+}
+
+.viewDetails
+{
+	horizontal-align: center;
+	vertical-align: middle;
+	flow-children: right;
+}
+
+.viewDetails Label
+{
+	text-transform: uppercase;
+	opacity: 0.6;
+	font-size: 20px;
+	font-weight: semi-bold;
+}
+

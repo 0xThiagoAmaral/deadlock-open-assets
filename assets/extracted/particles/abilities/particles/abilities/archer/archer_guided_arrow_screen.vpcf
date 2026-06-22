@@ -1,0 +1,78 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf64:version{c95f3434-dfef-4a35-9913-024beddb416a} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 1
+	m_BoundingBoxMin = [ -16384.0, -16384.0, -16384.0 ]
+	m_BoundingBoxMax = [ 16384.0, 16384.0, 16384.0 ]
+	m_flConstantRadius = 40.0
+	m_bScreenSpaceEffect = true
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 6
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iControlPoint = 3
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ -100.0, 100.0, 10.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ -100.0, -100.0, 10.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 4
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 100.0, 100.0, 10.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 5
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 100.0, -100.0, 10.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/grey_talon/grey_talon_owl.vmdl"
+				m_sequenceName = "bindpose"
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_SetControlPointPositions"
+			m_bUseWorldLocation = true
+			m_nCP1 = 2
+			m_nCP2 = 3
+			m_nCP3 = 4
+			m_nCP4 = 5
+			m_vecCP1Pos = [ -100.0, -100.0, 10.0 ]
+			m_vecCP2Pos = [ -100.0, 100.0, 10.0 ]
+			m_vecCP3Pos = [ 100.0, 100.0, 10.0 ]
+			m_vecCP4Pos = [ 100.0, -100.0, 10.0 ]
+			m_flOpStartFadeOutTime = 0.1
+			m_flOpEndFadeOutTime = 0.1
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_screen_pattern_top.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_screen_pattern_left.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_screen_pattern_right.vpcf"
+		},
+	]
+}

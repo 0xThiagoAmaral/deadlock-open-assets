@@ -1,0 +1,1806 @@
+{
+  "Language": {
+    "display_name": "english",
+    "internal": "Language"
+  },
+  "upgrade_ammo_scavenger_desc": {
+    "display_name": "Any time you secure or deny a Soul from an entity you <span class=\\",
+    "internal": "upgrade_ammo_scavenger_desc"
+  },
+  ">Spirit Power</span>.<br>At Max Stacks, gain bonus Sprint speed": {
+    "display_name": "AmmoPerSoul_prefix",
+    "internal": ">Spirit Power</span>.<br>At Max Stacks, gain bonus Sprint speed"
+  },
+  "+": {
+    "display_name": "AmbushBonusFireRate_label",
+    "internal": "+"
+  },
+  "Ammo Per Soul": {
+    "display_name": "SpiritPowerPerSoul_prefix",
+    "internal": "Ammo Per Soul"
+  },
+  "Spirit Power Per Soul": {
+    "display_name": "AmmoScavengerDuration_label",
+    "internal": "Spirit Power Per Soul"
+  },
+  "Duration": {
+    "display_name": "FireRateSlowDuration_postfix",
+    "internal": "Duration"
+  },
+  "upgrade_lifestrike_gauntlets_desc": {
+    "display_name": "Your next <span class=\\",
+    "internal": "upgrade_lifestrike_gauntlets_desc"
+  },
+  "><br><br>This heal is {s:NonHeroHealPct}% effective vs non-heroes. <br>Cooldown is {s:LightMeleeCooldownMult}x as long for Light Melee hits.</span>": {
+    "display_name": "BonusMeleeSpeed_prefix",
+    "internal": "><br><br>This heal is {s:NonHeroHealPct}% effective vs non-heroes. <br>Cooldown is {s:LightMeleeCooldownMult}x as long for Light Melee hits.</span>"
+  },
+  "Heal on Melee Hit": {
+    "display_name": "LifestealHealPercent_label",
+    "internal": "Heal on Melee Hit"
+  },
+  "upgrade_chain_lightning_desc": {
+    "display_name": "Your bullets have a chance to <span class=\\",
+    "internal": "upgrade_chain_lightning_desc"
+  },
+  "GalvanicBuffDuration_label": {
+    "display_name": "Duration",
+    "internal": "GalvanicBuffDuration_label"
+  },
+  "GalvanicBuffDuration_postvalue_label": {
+    "display_name": "Duration",
+    "internal": "GalvanicBuffDuration_postvalue_label"
+  },
+  "GalvanicBuffDuration_postfix": {
+    "display_name": "s",
+    "internal": "GalvanicBuffDuration_postfix"
+  },
+  "upgrade_targeted_silence_desc": {
+    "display_name": "Launch an expanding projectile which <span class=\\",
+    "internal": "upgrade_targeted_silence_desc"
+  },
+  ">Silence does not interrupt channeling abilities.</span>": {
+    "display_name": "ResistReductionDuration_label",
+    "internal": ">Silence does not interrupt channeling abilities.</span>"
+  },
+  "Resist Reduction Duration": {
+    "display_name": "ResistReductionDuration_postfix",
+    "internal": "Resist Reduction Duration"
+  },
+  "upgrade_proc_silence_desc": {
+    "display_name": "Your bullets build up to a <span class=\\",
+    "internal": "upgrade_proc_silence_desc"
+  },
+  ">{s:ImmunityDuration}s</span> after silence expires.": {
+    "display_name": "upgrade_proc_silence_debuff_desc",
+    "internal": ">{s:ImmunityDuration}s</span> after silence expires."
+  },
+  ">outgoing spirit damage</span>.": {
+    "display_name": "proc_silence_buildup",
+    "internal": ">outgoing spirit damage</span>."
+  },
+  "Silence Building...": {
+    "display_name": "modifier_citadel_silence_proc_tech_damage_reduction",
+    "internal": "Silence Building..."
+  },
+  "upgrade_silencer_active": {
+    "display_name": "For the next {s:AbilityDuration}s, <span class=\\",
+    "internal": "upgrade_silencer_active"
+  },
+  "upgrade_slowing_bullets_desc": {
+    "display_name": "Your bullets build up a <span class=\\",
+    "internal": "upgrade_slowing_bullets_desc"
+  },
+  ">Movement Slow</span> on enemies.": {
+    "display_name": "upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base",
+    "internal": ">Movement Slow</span> on enemies."
+  },
+  "upgrade_inhibitor_desc": {
+    "display_name": "Your bullets build up to reduce the target's <span class=\\",
+    "internal": "upgrade_inhibitor_desc"
+  },
+  ">healing reduction</span>.": {
+    "display_name": "LeechHealOnKill_prefix",
+    "internal": ">healing reduction</span>."
+  },
+  "Damage Penalty": {
+    "display_name": "OutgoingDamagePenaltyPercent_postfix",
+    "internal": "Damage Penalty"
+  },
+  "upgrade_bullet_armor_reduction_aura_desc": {
+    "display_name": "Reduces nearby enemies' <span class=\\",
+    "internal": "upgrade_bullet_armor_reduction_aura_desc"
+  },
+  "upgrade_dps_aura_active_desc": {
+    "display_name": "Provides <span class=\\",
+    "internal": "upgrade_dps_aura_active_desc"
+  },
+  ">Minions</span> get double value.": {
+    "display_name": "upgrade_dps_aura_desc",
+    "internal": ">Minions</span> get double value."
+  },
+  ">Bullet Resist</span> to nearby friendly units.": {
+    "display_name": "modifier_dps_aura_active",
+    "internal": ">Bullet Resist</span> to nearby friendly units."
+  },
+  "Heroic Active": {
+    "display_name": "modifier_dps_aura_player",
+    "internal": "Heroic Active"
+  },
+  "BonusBaseDamage_label": {
+    "display_name": "Base Bullet and Melee Damage",
+    "internal": "BonusBaseDamage_label"
+  },
+  "BonusBaseDamage_postfix": {
+    "display_name": "%",
+    "internal": "BonusBaseDamage_postfix"
+  },
+  "upgrade_warp_stone_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_warp_stone_desc"
+  },
+  ">Bullet Resist</span>.": {
+    "display_name": "upgrade_greater_withering_whip_debuff",
+    "internal": ">Bullet Resist</span>."
+  },
+  "Teleport Range": {
+    "display_name": "WarpStoneRange_postfix",
+    "internal": "Teleport Range"
+  },
+  "m": {
+    "display_name": "MagicCarpetShieldDuration_label",
+    "internal": "m"
+  },
+  "Buff Duration": {
+    "display_name": "CasterBuffDuration_postfix",
+    "internal": "Buff Duration"
+  },
+  "s": {
+    "display_name": "CooldownReductionOnProc_prefix",
+    "internal": "s"
+  },
+  "upgrade_tech_damage_pulse_desc": {
+    "display_name": "Periodically deals {g:citadel_inline_attribute:'SpiritDamage'} to the closest two enemies nearby.",
+    "internal": "upgrade_tech_damage_pulse_desc"
+  },
+  "upgrade_magic_burst_desc": {
+    "display_name": "Charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, causing abilities dealing more than <span class=\\",
+    "internal": "upgrade_magic_burst_desc"
+  },
+  ">{s:MinimumDamage}</span> damage to deal additional damage.": {
+    "display_name": "MagicBurstDamage_label",
+    "internal": ">{s:MinimumDamage}</span> damage to deal additional damage."
+  },
+  "Bonus Damage": {
+    "display_name": "MagicBurstDamage_postvalue_label",
+    "internal": "Bonus Damage"
+  },
+  "upgrade_magic_shock_desc": {
+    "display_name": "Charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, causing abilities dealing more than <span class=\\",
+    "internal": "upgrade_magic_shock_desc"
+  },
+  ">Ignores Spirit Resistance.</span>": {
+    "display_name": "MagicShockDamage_label",
+    "internal": ">Ignores Spirit Resistance.</span>"
+  },
+  "Current Health Bonus Damage": {
+    "display_name": "MagicShockDamage_postfix",
+    "internal": "Current Health Bonus Damage"
+  },
+  "upgrade_tech_bleed_desc": {
+    "display_name": "Imbue an ability with <span class=\\",
+    "internal": "upgrade_tech_bleed_desc"
+  },
+  "upgrade_toxic_bullets_desc": {
+    "display_name": "Your bullets build up a <span class=\\",
+    "internal": "upgrade_toxic_bullets_desc"
+  },
+  ">Healing Reduction</span> on the bleeding target.": {
+    "display_name": "upgrade_toxic_bullets_buildup",
+    "internal": ">Healing Reduction</span> on the bleeding target."
+  },
+  "Toxic building...": {
+    "display_name": "upgrade_bleeding_bullets_buildup",
+    "internal": "Toxic building..."
+  },
+  "Serrated building...": {
+    "display_name": "modifier_item_burning_bullets_damageovertime",
+    "internal": "Serrated building..."
+  },
+  "Bleeding": {
+    "display_name": "upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage",
+    "internal": "Bleeding"
+  },
+  "upgrade_weighted_shots_desc": {
+    "display_name": "Your bullets build up a <span class=\\",
+    "internal": "upgrade_weighted_shots_desc"
+  },
+  "upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base": {
+    "display_name": "Slowed",
+    "internal": "upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"
+  },
+  "upgrade_tech_overflow_desc": {
+    "display_name": "Gain bonus <span class=\\",
+    "internal": "upgrade_tech_overflow_desc"
+  },
+  ">charging up</span> when shooting enemy heroes.": {
+    "display_name": "modifier_tech_overflow_building",
+    "internal": ">charging up</span> when shooting enemy heroes."
+  },
+  "Spiritual Overflow Building...": {
+    "display_name": "OverflowTechPower_label",
+    "internal": "Spiritual Overflow Building..."
+  },
+  "Spirit Power": {
+    "display_name": "shifting_veil_bonus",
+    "internal": "Spirit Power"
+  },
+  "upgrade_ricochet_desc": {
+    "display_name": "Your bullets will <span class=\\",
+    "internal": "upgrade_ricochet_desc"
+  },
+  ">dealing a percentage of the original damage.</span>": {
+    "display_name": "upgrade_aerial_supremacy_passive",
+    "internal": ">dealing a percentage of the original damage.</span>"
+  },
+  "Ricochet Targets": {
+    "display_name": "RicochetDamagePercent_label",
+    "internal": "Ricochet Targets"
+  },
+  "Ricochet Damage": {
+    "display_name": "RicochetDamagePercent_postfix",
+    "internal": "Ricochet Damage"
+  },
+  "%": {
+    "display_name": "RespawnTime_prefix",
+    "internal": "%"
+  },
+  "Ricochet Range": {
+    "display_name": "RicochetRadius_postfix",
+    "internal": "Ricochet Range"
+  },
+  "Model Scale": {
+    "display_name": "ModelScaleGrowthTooltip_postfix",
+    "internal": "Model Scale"
+  },
+  "Shrink Duration": {
+    "display_name": "ShrinkDuration_postfix",
+    "internal": "Shrink Duration"
+  },
+  "Base Health": {
+    "display_name": "BonusBaseHealth_postfix",
+    "internal": "Base Health"
+  },
+  "upgrade_close_range_desc": {
+    "display_name": "Deal additional <span class=\\",
+    "internal": "upgrade_close_range_desc"
+  },
+  ">close range</span> to your target.": {
+    "display_name": "upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base",
+    "internal": ">close range</span> to your target."
+  },
+  "upgrade_long_range_desc": {
+    "display_name": "Deal additional <span class=\\",
+    "internal": "upgrade_long_range_desc"
+  },
+  "upgrade_crackshot_desc": {
+    "display_name": "Your next bullet deals bonus {g:citadel_inline_attribute:'SpiritDamage'}.",
+    "internal": "upgrade_crackshot_desc"
+  },
+  "ProcBonusMagicDamage_prefix": {
+    "display_name": "{s:sign}",
+    "internal": "ProcBonusMagicDamage_prefix"
+  },
+  "ProcBonusMagicDamage_label": {
+    "display_name": "Spirit Damage",
+    "internal": "ProcBonusMagicDamage_label"
+  },
+  "ProcBonusMagicDamage_postvalue_label": {
+    "display_name": "Spirit Damage",
+    "internal": "ProcBonusMagicDamage_postvalue_label"
+  },
+  "upgrade_ethereal_bullets_desc": {
+    "display_name": "Your imbued ability charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, and <span class=\\",
+    "internal": "upgrade_ethereal_bullets_desc"
+  },
+  ">bullets deal {g:citadel_inline_attribute:'BonusSpiritDamage'}</span> based on your Spirit Power.": {
+    "display_name": "BulletsBonusMagicDamage_label",
+    "internal": ">bullets deal {g:citadel_inline_attribute:'BonusSpiritDamage'}</span> based on your Spirit Power."
+  },
+  "Base Bullet Damage": {
+    "display_name": "BulletsBonusMagicDamage_prefix",
+    "internal": "Base Bullet Damage"
+  },
+  "upgrade_medic_bullets_desc": {
+    "display_name": "Your next bullet will <span class=\\",
+    "internal": "upgrade_medic_bullets_desc"
+  },
+  ">heal</span> you based on what target you hit.": {
+    "display_name": "HealFromHero_label",
+    "internal": ">heal</span> you based on what target you hit."
+  },
+  "Healing From Heroes": {
+    "display_name": "HealFromNPC_label",
+    "internal": "Healing From Heroes"
+  },
+  "Healing From NPCs / Orbs": {
+    "display_name": "HealFromNPC_postvalue_label",
+    "internal": "Healing From NPCs / Orbs"
+  },
+  "upgrade_close_quarter_combat_desc": {
+    "display_name": "When in <span class=\\",
+    "internal": "upgrade_close_quarter_combat_desc"
+  },
+  "upgrade_headshot_booster_desc": {
+    "display_name": "Your next <span class=\\",
+    "internal": "upgrade_headshot_booster_desc"
+  },
+  "upgrade_headshot_booster2_desc": {
+    "display_name": "Landing a <span class=\\",
+    "internal": "upgrade_headshot_booster2_desc"
+  },
+  "upgrade_sharpshooter_desc": {
+    "display_name": "Deal additional <span class=\\",
+    "internal": "upgrade_sharpshooter_desc"
+  },
+  "upgrade_headhunter_desc": {
+    "display_name": "Your next <span class=\\",
+    "internal": "upgrade_headhunter_desc"
+  },
+  ">headshot</span> against an enemy Hero deals {g:citadel_inline_attribute:'BonusWeaponDamage'}, {g:citadel_inline_attribute:'Heal'} you, and briefly grants {g:citadel_inline_attribute:'BonusMoveSpeed'}.": {
+    "display_name": "HealPercentPerHeadshot_label",
+    "internal": ">headshot</span> against an enemy Hero deals {g:citadel_inline_attribute:'BonusWeaponDamage'}, {g:citadel_inline_attribute:'Heal'} you, and briefly grants {g:citadel_inline_attribute:'BonusMoveSpeed'}."
+  },
+  "Heal Per Headshot": {
+    "display_name": "BaseHealOnHeadshot_postvalue_label",
+    "internal": "Heal Per Headshot"
+  },
+  "upgrade_spellslinger_headshots_part1_desc": {
+    "display_name": "Your bullets apply a debuff that reduces the <span class=\\",
+    "internal": "upgrade_spellslinger_headshots_part1_desc"
+  },
+  ">Spirit Lifesteal</span> against them.": {
+    "display_name": "ShreddersTechAmp_label",
+    "internal": ">Spirit Lifesteal</span> against them."
+  },
+  ">Spirit Resist</span> further.": {
+    "display_name": "SpiritPowerGainPct_label",
+    "internal": ">Spirit Resist</span> further."
+  },
+  "Spirit Resist on Headshot": {
+    "display_name": "SpellSlingerHeadshots_SpiritShredPerStack_postfix",
+    "internal": "Spirit Resist on Headshot"
+  },
+  "upgrade_banshee_slugs_headshots_desc": {
+    "display_name": "Landing a <span class=\\",
+    "internal": "upgrade_banshee_slugs_headshots_desc"
+  },
+  "upgrade_berserker_desc": {
+    "display_name": "Your <span class=\\",
+    "internal": "upgrade_berserker_desc"
+  },
+  "upgrade_fervor_passive": {
+    "display_name": "While you are <span class=\\",
+    "internal": "upgrade_fervor_passive"
+  },
+  ">below {s:LowHealthThreshold}% health</span>, you gain stat bonuses for a duration and existing debuffs on you are reduced.": {
+    "display_name": "FervorTechResist_postfix",
+    "internal": ">below {s:LowHealthThreshold}% health</span>, you gain stat bonuses for a duration and existing debuffs on you are reduced."
+  },
+  "Frenzied": {
+    "display_name": "FervorBulletResist_label",
+    "internal": "Frenzied"
+  },
+  "Bullet Resist": {
+    "display_name": "BuffBulletResist_postfix",
+    "internal": "Bullet Resist"
+  },
+  "upgrade_tech_defense_shredders_desc": {
+    "display_name": "Your bullets apply a debuff that reduces the <span class=\\",
+    "internal": "upgrade_tech_defense_shredders_desc"
+  },
+  "Spirit Amp": {
+    "display_name": "MagicAmp_postfix",
+    "internal": "Spirit Amp"
+  },
+  "upgrade_hollow_point_rounds_desc": {
+    "display_name": "When you are <span class=\\",
+    "internal": "upgrade_hollow_point_rounds_desc"
+  },
+  "upgrade_pristine_emblem_desc": {
+    "display_name": "Your attacks have additional <span class=\\",
+    "internal": "upgrade_pristine_emblem_desc"
+  },
+  ">enemies above {s:EnemyLifeThreshold}% health</span>.": {
+    "display_name": "BaseAttackDamagePercentBonus_label",
+    "internal": ">enemies above {s:EnemyLifeThreshold}% health</span>."
+  },
+  "Weapon Damage": {
+    "display_name": "BonusBaseWeaponDamageTaken_postfix",
+    "internal": "Weapon Damage"
+  },
+  "upgrade_glass_cannon_desc": {
+    "display_name": "Each hero kill grants <span class=\\",
+    "internal": "upgrade_glass_cannon_desc"
+  },
+  ">permanent Fire Rate</span> (up to a max of {s:MaxStacks} times). Death results in the loss of 1 stack.": {
+    "display_name": "GlassCannon_SlowPercent_label",
+    "internal": ">permanent Fire Rate</span> (up to a max of {s:MaxStacks} times). Death results in the loss of 1 stack."
+  },
+  "Bullet Slow Proc": {
+    "display_name": "GlassCannon_SlowPercent_postfix",
+    "internal": "Bullet Slow Proc"
+  },
+  "upgrade_fury_trance_active": {
+    "display_name": "Grants <span class=\\",
+    "internal": "upgrade_fury_trance_active"
+  },
+  "upgrade_surging_power_active": {
+    "display_name": "Grants <span class=\\",
+    "internal": "upgrade_surging_power_active"
+  },
+  ">Ammo</span>. This added Ammo is not limited by your max magazine size.": {
+    "display_name": "ActiveBonusLifesteal_label",
+    "internal": ">Ammo</span>. This added Ammo is not limited by your max magazine size."
+  },
+  "Bullet Lifesteal": {
+    "display_name": "ActiveBonusLifesteal_postfix",
+    "internal": "Bullet Lifesteal"
+  },
+  "upgrade_siphon_bullets_desc_passive2": {
+    "display_name": "Your bullets temporarily <span class=\\",
+    "internal": "upgrade_siphon_bullets_desc_passive2"
+  },
+  ">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.": {
+    "display_name": "HealthSteal_label",
+    "internal": ">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires."
+  },
+  "Max HP Steal Per Bullet": {
+    "display_name": "SiphonBullets_HealthStealPctHero_label",
+    "internal": "Max HP Steal Per Bullet"
+  },
+  "Max HP Steal": {
+    "display_name": "SiphonBullets_HealthStealPctHero_postfix",
+    "internal": "Max HP Steal"
+  },
+  "BonusReloadSpeed_label": {
+    "display_name": "Reload Time",
+    "internal": "BonusReloadSpeed_label"
+  },
+  "BonusReloadSpeed_postvalue_label": {
+    "display_name": "Reload Time",
+    "internal": "BonusReloadSpeed_postvalue_label"
+  },
+  "BonusReloadSpeed_Postfix": {
+    "display_name": "%",
+    "internal": "BonusReloadSpeed_Postfix"
+  },
+  "OverdriveClipDuration_Postfix": {
+    "display_name": "s",
+    "internal": "OverdriveClipDuration_Postfix"
+  },
+  "BurstFireShotsFromClipPercent_Postfix": {
+    "display_name": "%",
+    "internal": "BurstFireShotsFromClipPercent_Postfix"
+  },
+  "BonusHeadshotDamage_label": {
+    "display_name": "Bonus Headshot Damage",
+    "internal": "BonusHeadshotDamage_label"
+  },
+  "BonusHeadshotDamage_postvalue_label": {
+    "display_name": "Bonus Headshot Damage",
+    "internal": "BonusHeadshotDamage_postvalue_label"
+  },
+  "BonusHeadshotDamage_postfix": {
+    "display_name": "%",
+    "internal": "BonusHeadshotDamage_postfix"
+  },
+  "BaseBonusWeaponPower_prefix": {
+    "display_name": "+",
+    "internal": "BaseBonusWeaponPower_prefix"
+  },
+  "upgrade_boxing_glove_desc": {
+    "display_name": "Your <span class=\\",
+    "internal": "upgrade_boxing_glove_desc"
+  },
+  "Disarm Duration": {
+    "display_name": "DisarmDuration_postfix",
+    "internal": "Disarm Duration"
+  },
+  "Melee Hit Heal": {
+    "display_name": "LifestealHealPercent_postfix",
+    "internal": "Melee Hit Heal"
+  },
+  "Melee Lifesteal": {
+    "display_name": "MeleeLifesteal_postfix",
+    "internal": "Melee Lifesteal"
+  },
+  "SpinUpTime_postfix": {
+    "display_name": "s",
+    "internal": "SpinUpTime_postfix"
+  },
+  "InitialFireRateDecrease_prefix": {
+    "display_name": "-",
+    "internal": "InitialFireRateDecrease_prefix"
+  },
+  "InitialFireRateDecrease_postfix": {
+    "display_name": "%",
+    "internal": "InitialFireRateDecrease_postfix"
+  },
+  "MaxFireRateIncrease_prefix": {
+    "display_name": "+",
+    "internal": "MaxFireRateIncrease_prefix"
+  },
+  "MaxFireRateIncrease_postfix": {
+    "display_name": "%",
+    "internal": "MaxFireRateIncrease_postfix"
+  },
+  "BonusReloadTime_postfix": {
+    "display_name": "s",
+    "internal": "BonusReloadTime_postfix"
+  },
+  "StationaryRecoilReduction_postfix": {
+    "display_name": "%",
+    "internal": "StationaryRecoilReduction_postfix"
+  },
+  "StationaryWeaponPower_prefix": {
+    "display_name": "+",
+    "internal": "StationaryWeaponPower_prefix"
+  },
+  "CasterHealthPercent_postfix": {
+    "display_name": "%",
+    "internal": "CasterHealthPercent_postfix"
+  },
+  "upgrade_burst_fire_desc": {
+    "display_name": "Briefly gain <span class=\\",
+    "internal": "upgrade_burst_fire_desc"
+  },
+  "upgrade_intensifying_clip_desc": {
+    "display_name": "Increases <span class=\\",
+    "internal": "upgrade_intensifying_clip_desc"
+  },
+  ">Weapon Damage</span> as you continuously fire your weapon.": {
+    "display_name": "BaseAttackDamagePercentAtMaxDuration_label",
+    "internal": ">Weapon Damage</span> as you continuously fire your weapon."
+  },
+  "Max Weapon Damage": {
+    "display_name": "BaseAttackDamagePercentAtMaxDuration_postfix",
+    "internal": "Max Weapon Damage"
+  },
+  "Time for Max Damage": {
+    "display_name": "ShootDurationForMax_postfix",
+    "internal": "Time for Max Damage"
+  },
+  "upgrade_reinforcing_casings_desc": {
+    "display_name": "Grants <span class=\\",
+    "internal": "upgrade_reinforcing_casings_desc"
+  },
+  ">Each shot can only grant one stack.</span>": {
+    "display_name": "MaxArmorStacks_label",
+    "internal": ">Each shot can only grant one stack.</span>"
+  },
+  "Max Bullet Resist": {
+    "display_name": "MaxArmorStacks_postfix",
+    "internal": "Max Bullet Resist"
+  },
+  "Bullet Resist per Stack": {
+    "display_name": "BulletResistPerStack_postfix",
+    "internal": "Bullet Resist per Stack"
+  },
+  "Stack Duration": {
+    "display_name": "SplitShotWeaponDuration_prefix",
+    "internal": "Stack Duration"
+  },
+  "upgrade_critshot_desc": {
+    "display_name": "Your bullets have a chance to be empowered, causing them to deal <span class=\\",
+    "internal": "upgrade_critshot_desc"
+  },
+  ">Bonus damage cannot Crit.</span>": {
+    "display_name": "CritDamagePercent_prefix",
+    "internal": ">Bonus damage cannot Crit.</span>"
+  },
+  "Bonus Weapon Damage": {
+    "display_name": "CritDamagePercent_postfix",
+    "internal": "Bonus Weapon Damage"
+  },
+  "upgrade_veil_walker_desc": {
+    "display_name": "Walking through a <span class=\\",
+    "internal": "upgrade_veil_walker_desc"
+  },
+  ">Move Speed</span>.": {
+    "display_name": "VeilWalker_MoveSpeed_label",
+    "internal": ">Move Speed</span>."
+  },
+  "Invis Move Speed": {
+    "display_name": "VeilWalker_MoveSpeed_postfix",
+    "internal": "Invis Move Speed"
+  },
+  "Heal": {
+    "display_name": "VeilWalker_Heal_postfix",
+    "internal": "Heal"
+  },
+  "upgrade_glass_cannon2_desc": {
+    "display_name": "Each hero kill grants <span class=\\",
+    "internal": "upgrade_glass_cannon2_desc"
+  },
+  "upgrade_split_shot": {
+    "display_name": "Split Shot",
+    "internal": "upgrade_split_shot"
+  },
+  "upgrade_split_shot_desc": {
+    "display_name": "Make your weapon fire <span class=\\",
+    "internal": "upgrade_split_shot_desc"
+  },
+  ">Targets can only be hit once per multishot.</span>": {
+    "display_name": "upgrade_split_shot_desc_02",
+    "internal": ">Targets can only be hit once per multishot.</span>"
+  },
+  "Splitshot Multi-Hit Bonus": {
+    "display_name": "SpecialShotsBonusFireRate_label",
+    "internal": "Splitshot Multi-Hit Bonus"
+  },
+  "Fire Rate During Multishots": {
+    "display_name": "SpecialShotsBonusFireRate_postfix",
+    "internal": "Fire Rate During Multishots"
+  },
+  "SplitShotWeaponDuration_postfix": {
+    "display_name": "s",
+    "internal": "SplitShotWeaponDuration_postfix"
+  },
+  "upgrade_blood_tribute_desc": {
+    "display_name": "Toggle: Continually sacrifice Health to improve {g:citadel_inline_attribute:'FireRate'}, <span class=\\",
+    "internal": "upgrade_blood_tribute_desc"
+  },
+  "upgrade_non_player_bonus_sacrifice": {
+    "display_name": "Cultlist Sacrifice",
+    "internal": "upgrade_non_player_bonus_sacrifice"
+  },
+  "upgrade_non_player_bonus_sacrifice_desc": {
+    "display_name": "Target an enemy NPC and consume it for <span class=\\",
+    "internal": "upgrade_non_player_bonus_sacrifice_desc"
+  },
+  "upgrade_capacitor": {
+    "display_name": "Capacitor",
+    "internal": "upgrade_capacitor"
+  },
+  "upgrade_capacitor_desc": {
+    "display_name": "Launch a projectile that deals <span class=\\",
+    "internal": "upgrade_capacitor_desc"
+  },
+  "upgrade_enchanted_holsters": {
+    "display_name": "Enchanted Holsters",
+    "internal": "upgrade_enchanted_holsters"
+  },
+  "upgrade_enchanted_holsters_desc": {
+    "display_name": "While in-combat whenever you cast an ability or item, gain a stacking buff that improves fire rate and reload speed. <br><span class=\\",
+    "internal": "upgrade_enchanted_holsters_desc"
+  },
+  "upgrade_weapon_backstabber": {
+    "display_name": "Stalker",
+    "internal": "upgrade_weapon_backstabber"
+  },
+  "upgrade_weapon_backstabber_desc": {
+    "display_name": "Dealing {g:citadel_inline_attribute:'WeaponDamage'} at close range opens a wound and grants you {g:citadel_inline_attribute:'BonusMoveSpeed'}. <br><br>Wounded enemies take {g:citadel_inline_attribute:'SpiritDPS'}, have reduced {g:citadel_inline_attribute:'BulletResist'}, and are revealed <span class=\\",
+    "internal": "upgrade_weapon_backstabber_desc"
+  },
+  ">through walls</span>.": {
+    "display_name": "BackstabberRadius_label",
+    "internal": ">through walls</span>."
+  },
+  "Bonus Radius": {
+    "display_name": "BackstabberRadius_prefix",
+    "internal": "Bonus Radius"
+  },
+  "BackstabberRadius_postfix": {
+    "display_name": "m",
+    "internal": "BackstabberRadius_postfix"
+  },
+  "ProcRadius_label": {
+    "display_name": "Close Range",
+    "internal": "ProcRadius_label"
+  },
+  "ProcRadius_postvalue_label": {
+    "display_name": "Close Range",
+    "internal": "ProcRadius_postvalue_label"
+  },
+  "ProcRadius_postfix": {
+    "display_name": "m",
+    "internal": "ProcRadius_postfix"
+  },
+  "upgrade_express_shot": {
+    "display_name": "Express Shot",
+    "internal": "upgrade_express_shot"
+  },
+  "upgrade_express_shot_desc": {
+    "display_name": "Your next attack will <span class=\\",
+    "internal": "upgrade_express_shot_desc"
+  },
+  ">increased damage</span> and velocity. This attack consumes extra ammo.": {
+    "display_name": "ProcAmmoConsumed_label",
+    "internal": ">increased damage</span> and velocity. This attack consumes extra ammo."
+  },
+  "Extra Ammo Consumed": {
+    "display_name": "ProcAmmoConsumed_postfix",
+    "internal": "Extra Ammo Consumed"
+  },
+  "upgrade_melee_charge_desc": {
+    "display_name": "Your next <span class=\\",
+    "internal": "upgrade_melee_charge_desc"
+  },
+  ">deals increased damage</span>.": {
+    "display_name": "MeleeDistanceScale_label",
+    "internal": ">deals increased damage</span>."
+  },
+  "Heavy Melee Distance": {
+    "display_name": "MeleeDistanceScale_prefix",
+    "internal": "Heavy Melee Distance"
+  },
+  "Bonus Heavy Damage": {
+    "display_name": "BonusHeavyMeleeDamage_postfix",
+    "internal": "Bonus Heavy Damage"
+  },
+  "upgrade_crushing_fists": {
+    "display_name": "Crushing Fists",
+    "internal": "upgrade_crushing_fists"
+  },
+  "upgrade_crushing_fists_desc": {
+    "display_name": "Your <span class=\\",
+    "internal": "upgrade_crushing_fists_desc"
+  },
+  ">stunned</span>.": {
+    "display_name": "notification_crushing_fists_stun",
+    "internal": ">stunned</span>."
+  },
+  "upgrade_mystic_regeneration": {
+    "display_name": "Mystic Regeneration",
+    "internal": "upgrade_mystic_regeneration"
+  },
+  "upgrade_mystic_regeneration_desc": {
+    "display_name": "Dealing {g:citadel_inline_attribute:'SpiritDamage'} to enemy Heroes grants you Bonus {g:citadel_inline_attribute:'Regen'}. Stacks when dealing damage to different heroes.",
+    "internal": "upgrade_mystic_regeneration_desc"
+  },
+  "NonHeroAbilityLifestealTooltipOnly_postfix": {
+    "display_name": "%",
+    "internal": "NonHeroAbilityLifestealTooltipOnly_postfix"
+  },
+  "upgrade_magic_vulnerability_desc": {
+    "display_name": "When an enemy takes {g:citadel_inline_attribute:'SpiritDamage'}, they have their {g:citadel_inline_attribute:'SpiritResist'} reduced.",
+    "internal": "upgrade_magic_vulnerability_desc"
+  },
+  "upgrade_healbane_desc": {
+    "display_name": "Your {g:citadel_inline_attribute:'SpiritDamage'} applies <span class=\\",
+    "internal": "upgrade_healbane_desc"
+  },
+  ">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal.": {
+    "display_name": "HealOnKill_label",
+    "internal": ">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal."
+  },
+  "Heal On Hero Kill": {
+    "display_name": "HealOnKill_postvalue_label",
+    "internal": "Heal On Hero Kill"
+  },
+  "upgrade_magic_slow_desc": {
+    "display_name": "When the target takes {g:citadel_inline_attribute:'SpiritDamage'}, they have their <span class=\\",
+    "internal": "upgrade_magic_slow_desc"
+  },
+  "upgrade_escalating_exposure_desc": {
+    "display_name": "Dealing {g:citadel_inline_attribute:'SpiritDamage'} applies a stacking <span class=\\",
+    "internal": "upgrade_escalating_exposure_desc"
+  },
+  ">Spirit Amp</span> that increases your {g:citadel_inline_attribute:'SpiritDamage'} to the target.": {
+    "display_name": "EscalatingExposureProcCooldown_label",
+    "internal": ">Spirit Amp</span> that increases your {g:citadel_inline_attribute:'SpiritDamage'} to the target."
+  },
+  "Max Frequency Per Target": {
+    "display_name": "EscalatingExposureProcCooldown_postfix",
+    "internal": "Max Frequency Per Target"
+  },
+  "Spirit Resist On Spirit Damage": {
+    "display_name": "EscalatingExposureTechArmorDamageReduction_postfix",
+    "internal": "Spirit Resist On Spirit Damage"
+  },
+  "upgrade_magic_reach_desc": {
+    "display_name": "Imbue an ability to increase its <span class=\\",
+    "internal": "upgrade_magic_reach_desc"
+  },
+  "upgrade_tech_range_desc": {
+    "display_name": "Increases the <span class=\\",
+    "internal": "upgrade_tech_range_desc"
+  },
+  "upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base": {
+    "display_name": "Slowed",
+    "internal": "upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"
+  },
+  "upgrade_magic_tempo_desc": {
+    "display_name": "Imbue an ability to reduce its <span class=\\",
+    "internal": "upgrade_magic_tempo_desc"
+  },
+  "upgrade_cooldown_reduction_desc": {
+    "display_name": "Reduces the <span class=\\",
+    "internal": "upgrade_cooldown_reduction_desc"
+  },
+  "upgrade_transcendent_cooldown_desc": {
+    "display_name": "Reduces the <span class=\\",
+    "internal": "upgrade_transcendent_cooldown_desc"
+  },
+  "upgrade_extra_charge_desc": {
+    "display_name": "Adds one to your ability max <span class=\\",
+    "internal": "upgrade_extra_charge_desc"
+  },
+  ">charges</span>.": {
+    "display_name": "BonusSpiritForChargedAbilities_prefix",
+    "internal": ">charges</span>."
+  },
+  "Bonus Spirit Power for Charged Abilities": {
+    "display_name": "BonusSpiritForChargedAbilities_postvalue_label",
+    "internal": "Bonus Spirit Power for Charged Abilities"
+  },
+  "CooldownReductionOnChargedAbilities_label": {
+    "display_name": "Cooldown Reduction For Charged Abilities",
+    "internal": "CooldownReductionOnChargedAbilities_label"
+  },
+  "CooldownReductionOnChargedAbilities_postvalue_label": {
+    "display_name": "Cooldown Reduction For Charged Abilities",
+    "internal": "CooldownReductionOnChargedAbilities_postvalue_label"
+  },
+  "CooldownReductionOnChargedAbilities_postfix": {
+    "display_name": "%",
+    "internal": "CooldownReductionOnChargedAbilities_postfix"
+  },
+  "CooldownReductionOnChargedAbilities_prefix": {
+    "display_name": "+",
+    "internal": "CooldownReductionOnChargedAbilities_prefix"
+  },
+  "upgrade_thermal_detonator_desc": {
+    "display_name": "Throw a flask that explodes on contact, creating an area that does increasing {g:citadel_inline_attribute:'SpiritDamage'} <span class=\\",
+    "internal": "upgrade_thermal_detonator_desc"
+  },
+  ">Bullet Resist</span>.<br><br>{s:NonHeroReductionPercent}% less effective vs non-heroes.": {
+    "display_name": "BonusBaseWeaponDamageTaken_prefix",
+    "internal": ">Bullet Resist</span>.<br><br>{s:NonHeroReductionPercent}% less effective vs non-heroes."
+  },
+  "upgrade_fleetfoot_boots_active_desc": {
+    "display_name": "Gain bonus <span class=\\",
+    "internal": "upgrade_fleetfoot_boots_active_desc"
+  },
+  ">Slow Resistance</span>.": {
+    "display_name": "upgrade_fleetfoot_boots_passive_desc",
+    "internal": ">Slow Resistance</span>."
+  },
+  "upgrade_kinetic_sash_desc": {
+    "display_name": "When you <span class=\\",
+    "internal": "upgrade_kinetic_sash_desc"
+  },
+  "upgrade_arcane_surge_desc": {
+    "display_name": "After you <span class=\\",
+    "internal": "upgrade_arcane_surge_desc"
+  },
+  ">Spirit Power</span>.": {
+    "display_name": "BonusChannelTechPower_prefix",
+    "internal": ">Spirit Power</span>."
+  },
+  "Arcane Surge!": {
+    "display_name": "modifier_arcane_surge_ability",
+    "internal": "Arcane Surge!"
+  },
+  "Ability Surged!": {
+    "display_name": "ArcaneSurgeWindow_label",
+    "internal": "Ability Surged!"
+  },
+  "Cast Window": {
+    "display_name": "ArcaneSurgeWindow_postfix",
+    "internal": "Cast Window"
+  },
+  "upgrade_active_reload_desc": {
+    "display_name": "While reloading, pressing {g:citadel_binding:'Reload'} during the highlighted portion will <span class=\\",
+    "internal": "upgrade_active_reload_desc"
+  },
+  "upgrade_containment_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_containment_desc"
+  },
+  "upgrade_spirit_sap_desc": {
+    "display_name": "Target an enemy to <span class=\\",
+    "internal": "upgrade_spirit_sap_desc"
+  },
+  "upgrade_focus_lens_desc": {
+    "display_name": "Target an enemy to <span class=\\",
+    "internal": "upgrade_focus_lens_desc"
+  },
+  ">all damage dealt</span> during the silence gets applied to the target when the silence wears off.": {
+    "display_name": "PercentDamage_label",
+    "internal": ">all damage dealt</span> during the silence gets applied to the target when the silence wears off."
+  },
+  "Damage On Expire": {
+    "display_name": "PercentDamage_postfix",
+    "internal": "Damage On Expire"
+  },
+  "upgrade_withering_whip_desc": {
+    "display_name": "Target an enemy to reduce their <span class=\\",
+    "internal": "upgrade_withering_whip_desc"
+  },
+  ">Bullet Resistance</span>.": {
+    "display_name": "modifier_withering_whip_debuff",
+    "internal": ">Bullet Resistance</span>."
+  },
+  "-Fire Rate": {
+    "display_name": "MagicAmp_label",
+    "internal": "-Fire Rate"
+  },
+  "upgrade_greater_withering_whip_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_greater_withering_whip_desc"
+  },
+  "upgrade_self_bubble_desc": {
+    "display_name": "You enter a void state and become <span class=\\",
+    "internal": "upgrade_self_bubble_desc"
+  },
+  ">Activation cancels any active ability.</span>": {
+    "display_name": "ShiftingVeil_channel_desc",
+    "internal": ">Activation cancels any active ability.</span>"
+  },
+  "Invulnerable": {
+    "display_name": "ShiftingVeilDuration_label",
+    "internal": "Invulnerable"
+  },
+  "Bonus Spirit Duration": {
+    "display_name": "BonusSpiritDuration_postfix",
+    "internal": "Bonus Spirit Duration"
+  },
+  "{s:sign}": {
+    "display_name": "upgrade_eldritch_shot_desc",
+    "internal": "{s:sign}"
+  },
+  "upgrade_rescue_beam_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_rescue_beam_desc"
+  },
+  ">Pull</span> the target towards you. Can be self-cast.": {
+    "display_name": "SelfModifier_postfix",
+    "internal": ">Pull</span> the target towards you. Can be self-cast."
+  },
+  "upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base": {
+    "display_name": "Slowed",
+    "internal": "upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"
+  },
+  "upgrade_ability_refresher_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_ability_refresher_desc"
+  },
+  "upgrade_cold_front_desc": {
+    "display_name": "Release an expanding ice blast that deals {g:citadel_inline_attribute:'SpiritDamage'} and <span class=\\",
+    "internal": "upgrade_cold_front_desc"
+  },
+  "upgrade_arctic_blast_desc": {
+    "display_name": "Release an expanding ice blast that deals {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\\",
+    "internal": "upgrade_arctic_blast_desc"
+  },
+  ">stamina regen frozen</span>": {
+    "display_name": "ArcticBlastSlowDuration_label",
+    "internal": ">stamina regen frozen</span>"
+  },
+  "Slow Duration": {
+    "display_name": "ArcticBlastSlowDuration_postfix",
+    "internal": "Slow Duration"
+  },
+  "Frozen Bonus Damage": {
+    "display_name": "ArcticBlastPercentDamage_postfix",
+    "internal": "Frozen Bonus Damage"
+  },
+  "upgrade_target_stun_desc": {
+    "display_name": "Apply a <span class=\\",
+    "internal": "upgrade_target_stun_desc"
+  },
+  "upgrade_aoe_root_active": {
+    "display_name": "Throw a <span class=\\",
+    "internal": "upgrade_aoe_root_active"
+  },
+  "upgrade_glitch_desc": {
+    "display_name": "Curses an enemy - <span class=\\",
+    "internal": "upgrade_glitch_desc"
+  },
+  ">Removes all non-ultimate buffs</span>.": {
+    "display_name": "modifier_glitch_debuff",
+    "internal": ">Removes all non-ultimate buffs</span>."
+  },
+  "upgrade_bullet_resist_shredder_desc": {
+    "display_name": "Reduces <span class=\\",
+    "internal": "upgrade_bullet_resist_shredder_desc"
+  },
+  ">Bullet Resist</span> on enemies when you deal {g:citadel_inline_attribute:'SpiritDamage'}.": {
+    "display_name": "upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder",
+    "internal": ">Bullet Resist</span> on enemies when you deal {g:citadel_inline_attribute:'SpiritDamage'}."
+  },
+  "upgrade_ability_power_shard_active": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_ability_power_shard_active"
+  },
+  "upgrade_arcane_extension_desc": {
+    "display_name": "Imbue an ability to increase its <span class=\\",
+    "internal": "upgrade_arcane_extension_desc"
+  },
+  "upgrade_imbued_duration_extender_desc": {
+    "display_name": "Increases the <span class=\\",
+    "internal": "upgrade_imbued_duration_extender_desc"
+  },
+  "upgrade_diviners_kevlar_desc": {
+    "display_name": "Upon casting an <span class=\\",
+    "internal": "upgrade_diviners_kevlar_desc"
+  },
+  "Channel Duration": {
+    "display_name": "MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix",
+    "internal": "Channel Duration"
+  },
+  "upgrade_infuser_desc": {
+    "display_name": "Gain <span class=\\",
+    "internal": "upgrade_infuser_desc"
+  },
+  "upgrade_acolytes_glove_desc": {
+    "display_name": "When you perform a <span class=\\",
+    "internal": "upgrade_acolytes_glove_desc"
+  },
+  "><br><br>Cooldown is {s:LightMeleeCooldownMult}x longer for Light Melee hits.</span>": {
+    "display_name": "SpiritDamage_label",
+    "internal": "><br><br>Cooldown is {s:LightMeleeCooldownMult}x longer for Light Melee hits.</span>"
+  },
+  "Spirit Damage": {
+    "display_name": "SpiritDamage_postvalue_label",
+    "internal": "Spirit Damage"
+  },
+  "upgrade_spirit_snatch_desc": {
+    "display_name": "When you perform a <span class=\\",
+    "internal": "upgrade_spirit_snatch_desc"
+  },
+  "><br><br>Effects are reduced by {s:LightMeleeReduction}% for Light Melee hits.</span>": {
+    "display_name": "SpiritSnatch_TechArmorSteal_label",
+    "internal": "><br><br>Effects are reduced by {s:LightMeleeReduction}% for Light Melee hits.</span>"
+  },
+  "Spirit Resist Steal": {
+    "display_name": "SpiritSnatch_TechArmorSteal_postfix",
+    "internal": "Spirit Resist Steal"
+  },
+  "Spirit Power Steal": {
+    "display_name": "SpiritSnatch_TechPowerSteal_postvalue_label",
+    "internal": "Spirit Power Steal"
+  },
+  "upgrade_magic_clarity_desc": {
+    "display_name": "On ability or item use, gain a <span class=\\",
+    "internal": "upgrade_magic_clarity_desc"
+  },
+  ">Spirit</span> bonus to that ability.": {
+    "display_name": "ClarityBonusSpirit_prefix",
+    "internal": ">Spirit</span> bonus to that ability."
+  },
+  "upgrade_magic_storm_desc": {
+    "display_name": "Imbue an ability with <span class=\\",
+    "internal": "upgrade_magic_storm_desc"
+  },
+  "upgrade_suppressor_desc": {
+    "display_name": "When you deal {g:citadel_inline_attribute:'SpiritDamage'} to enemies, you also reduce their <span class=\\",
+    "internal": "upgrade_suppressor_desc"
+  },
+  ">Fire Rate</span>.": {
+    "display_name": "suppressor_debuff",
+    "internal": ">Fire Rate</span>."
+  },
+  "upgrade_quick_silver_desc": {
+    "display_name": "Your imbued ability charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, and <span class=\\",
+    "internal": "upgrade_quick_silver_desc"
+  },
+  "upgrade_resonant_healing_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_resonant_healing_desc"
+  },
+  ">Movement Speed</span> for a short duration when you cast an ability.": {
+    "display_name": "HealingPerCast_Label",
+    "internal": ">Movement Speed</span> for a short duration when you cast an ability."
+  },
+  "Healing on Ability Cast": {
+    "display_name": "HealingPerCast_postvalue_label",
+    "internal": "Healing on Ability Cast"
+  },
+  "upgrade_magic_carpet_desc": {
+    "display_name": "Summon a Magic Carpet that will <span class=\\",
+    "internal": "upgrade_magic_carpet_desc"
+  },
+  "><br>Cannot use abilities while the carpet is being summoned.</span>": {
+    "display_name": "modifier_summon_magiccarpet",
+    "internal": "><br>Cannot use abilities while the carpet is being summoned.</span>"
+  },
+  "Summoning Magic Carpet": {
+    "display_name": "MagicCarpetMoveSpeed_prefix",
+    "internal": "Summoning Magic Carpet"
+  },
+  "Bonus Fly Speed": {
+    "display_name": "MagicCarpetMoveSpeed_postfix",
+    "internal": "Bonus Fly Speed"
+  },
+  "Shield Duration": {
+    "display_name": "MagicCarpetShieldDuration_postfix",
+    "internal": "Shield Duration"
+  },
+  "upgrade_superacolytes_glove_desc": {
+    "display_name": "After dealing an accumulated <span class=\\",
+    "internal": "upgrade_superacolytes_glove_desc"
+  },
+  ">{s:StoredSpiritDamage} spirit damage</span>.": {
+    "display_name": "StoredSpiritDamage_label",
+    "internal": ">{s:StoredSpiritDamage} spirit damage</span>."
+  },
+  "Stored Spirit Damage": {
+    "display_name": "upgrade_superacolytes_glove/modifier_superacoloytes_glove",
+    "internal": "Stored Spirit Damage"
+  },
+  "upgrade_spirit_burn_desc": {
+    "display_name": "Dealing significant {g:citadel_inline_attribute:'SpiritDamage'} to an enemy within {s:DamageThresholdDuration}s causes an explosion dealing damage and a burn to nearby enemies. While burning, enemies take damage over time and receive reduced healing.<br><span class=\\",
+    "internal": "upgrade_spirit_burn_desc"
+  },
+  ">Deals half-damage and has half-cooldown on non-heroes.</span>": {
+    "display_name": "MinDPS_label",
+    "internal": ">Deals half-damage and has half-cooldown on non-heroes.</span>"
+  },
+  "Minimum DPS": {
+    "display_name": "MinDPS_postvalue_label",
+    "internal": "Minimum DPS"
+  },
+  "upgrade_ultimate_burst_desc": {
+    "display_name": "Damage from your ultimate applies a {g:citadel_inline_attribute:'Stun'} and deals {g:citadel_inline_attribute:'BonusSpiritDamage'} after a short delay.</span>",
+    "internal": "upgrade_ultimate_burst_desc"
+  },
+  "upgrade_ultimate_burst_upgrade": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_ultimate_burst_upgrade"
+  },
+  ">Mystic Slow effects</span>": {
+    "display_name": "upgrade_ultimate_burst_hint",
+    "internal": ">Mystic Slow effects</span>"
+  },
+  ">This effect can only trigger once per target per ultimate.</span>": {
+    "display_name": "LightningScrollMysticSlow_label",
+    "internal": ">This effect can only trigger once per target per ultimate.</span>"
+  },
+  "Move Speed on Spirit Damage": {
+    "display_name": "LightningScrollMysticSlow_prefix",
+    "internal": "Move Speed on Spirit Damage"
+  },
+  "-": {
+    "display_name": "LightningScrollMysticSlow_postfix",
+    "internal": "-"
+  },
+  "Delay Before Effect": {
+    "display_name": "DelayBeforeStun_postfix",
+    "internal": "Delay Before Effect"
+  },
+  "Max Health Damage": {
+    "display_name": "MaxHealthDamage_postfix",
+    "internal": "Max Health Damage"
+  },
+  "Current Health Damage": {
+    "display_name": "CurrentHealthDamage_postfix",
+    "internal": "Current Health Damage"
+  },
+  "Ultimate Spirit Power": {
+    "display_name": "UltimateTechPower_postvalue_label",
+    "internal": "Ultimate Spirit Power"
+  },
+  "upgrade_corpse_explosion_desc": {
+    "display_name": "Kills or assists cause an <span class=\\",
+    "internal": "upgrade_corpse_explosion_desc"
+  },
+  ">explosion</span> where the victim dies. Kills against heroes have greater radius and damage.": {
+    "display_name": "HeroMultiplier_label",
+    "internal": ">explosion</span> where the victim dies. Kills against heroes have greater radius and damage."
+  },
+  "Hero Explosion Multiplier": {
+    "display_name": "HeroMultiplier_postfix",
+    "internal": "Hero Explosion Multiplier"
+  },
+  "upgrade_goose_egg_desc": {
+    "display_name": "Gain <span class=\\",
+    "internal": "upgrade_goose_egg_desc"
+  },
+  ">souls over time</span>, as long as you are alive.": {
+    "display_name": "upgrade_goose_egg_active_desc",
+    "internal": ">souls over time</span>, as long as you are alive."
+  },
+  ">Gain a permanent buff per {s:BonusBuffsPerGold} Souls accrued when hatched.": {
+    "display_name": "upgrade_goose_egg_stacklabel",
+    "internal": ">Gain a permanent buff per {s:BonusBuffsPerGold} Souls accrued when hatched."
+  },
+  "Souls To Gain": {
+    "display_name": "GoldPerMinute_postvalue_label",
+    "internal": "Souls To Gain"
+  },
+  "Souls per Minute": {
+    "display_name": "StackingGoldPerMinute_postvalue_label",
+    "internal": "Souls per Minute"
+  },
+  "Soul Value per Minute": {
+    "display_name": "SellBonusSouls_label",
+    "internal": "Soul Value per Minute"
+  },
+  "SellBonusSouls_postvalue_label": {
+    "display_name": "Sell Bonus Souls:",
+    "internal": "SellBonusSouls_postvalue_label"
+  },
+  "SellBonusSouls_postvalue_prefix": {
+    "display_name": "{g:citadel_inline_attribute:'SoulsIcon'}",
+    "internal": "SellBonusSouls_postvalue_prefix"
+  },
+  "upgrade_health_stimpak_desc": {
+    "display_name": "Grant <span class=\\",
+    "internal": "upgrade_health_stimpak_desc"
+  },
+  "upgrade_shrink_ray_desc": {
+    "display_name": "Reduces <span class=\\",
+    "internal": "upgrade_shrink_ray_desc"
+  },
+  "upgrade_guardian_ward_desc": {
+    "display_name": "Provide the target with a <span class=\\",
+    "internal": "upgrade_guardian_ward_desc"
+  },
+  "upgrade_divine_barrier_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_divine_barrier_desc"
+  },
+  "upgrade_restorative_locket_active_desc": {
+    "display_name": "When an enemy uses an ability within {s:Radius}m range from you, store one <span class=\\",
+    "internal": "upgrade_restorative_locket_active_desc"
+  },
+  ">up to {s:MaxStaminaRestore} stamina</span> based on how many stacks you have.": {
+    "display_name": "HealPerStack_label",
+    "internal": ">up to {s:MaxStaminaRestore} stamina</span> based on how many stacks you have."
+  },
+  "Heal Per Stack": {
+    "display_name": "MinStaminaRestore_label",
+    "internal": "Heal Per Stack"
+  },
+  "Min Stamina Restore": {
+    "display_name": "MaxStaminaRestore_label",
+    "internal": "Min Stamina Restore"
+  },
+  "Max Stamina Restore": {
+    "display_name": "HealPerStack_postvalue_label",
+    "internal": "Max Stamina Restore"
+  },
+  "upgrade_cheat_death_unkillable_passive": {
+    "display_name": "When you would take lethal damage, instead become <span class=\\",
+    "internal": "upgrade_cheat_death_unkillable_passive"
+  },
+  ">reduced healing</span>.": {
+    "display_name": "DeathImmunityDuration_label",
+    "internal": ">reduced healing</span>."
+  },
+  "Death Immunity Duration": {
+    "display_name": "DeathImmunityDuration_postfix",
+    "internal": "Death Immunity Duration"
+  },
+  "Damage Reduction": {
+    "display_name": "DeathImmunityDamageReduction_postfix",
+    "internal": "Damage Reduction"
+  },
+  "upgrade_healing_booster_desc": {
+    "display_name": "Increases the effectiveness of your <span class=\\",
+    "internal": "upgrade_healing_booster_desc"
+  },
+  "upgrade_debuff_reducer_desc": {
+    "display_name": "Reduces the <span class=\\",
+    "internal": "upgrade_debuff_reducer_desc"
+  },
+  "upgrade_reduce_debuff_duration_active_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_reduce_debuff_duration_active_desc"
+  },
+  ">Cannot be used while Stunned or Slept.</span>": {
+    "display_name": "HealOnActivate_label",
+    "internal": ">Cannot be used while Stunned or Slept.</span>"
+  },
+  "HP Healed On Activate": {
+    "display_name": "damage_reduction_postfix",
+    "internal": "HP Healed On Activate"
+  },
+  "upgrade_rupture_desc": {
+    "display_name": "Inflict <span class=\\",
+    "internal": "upgrade_rupture_desc"
+  },
+  ">damage over time</span> to a target, dealing damage based on their current health.<br>Decay's damage is non-lethal and does not apply item procs.": {
+    "display_name": "HealReductionDuration_label",
+    "internal": ">damage over time</span> to a target, dealing damage based on their current health.<br>Decay's damage is non-lethal and does not apply item procs."
+  },
+  "Heal Reduction Duration": {
+    "display_name": "HealReductionDuration_postfix",
+    "internal": "Heal Reduction Duration"
+  },
+  "upgrade_discord_desc": {
+    "display_name": "Apply <span class=\\",
+    "internal": "upgrade_discord_desc"
+  },
+  ">{g:citadel_inline_attribute:'SpiritIcon'}damage</span> to enemies proportional to their max health. <br>Can be self cast.": {
+    "display_name": "MaxHealthPercentAsDPS_label",
+    "internal": ">{g:citadel_inline_attribute:'SpiritIcon'}damage</span> to enemies proportional to their max health. <br>Can be self cast."
+  },
+  "Max Health per second": {
+    "display_name": "MaxHealthPercentAsDPS_postfix",
+    "internal": "Max Health per second"
+  },
+  "upgrade_chonky_desc": {
+    "display_name": "After not taking damage for a period, gain health regen.",
+    "internal": "upgrade_chonky_desc"
+  },
+  "upgrade_chonky_high_health_passive_desc": {
+    "display_name": "When you are <span class=\\",
+    "internal": "upgrade_chonky_high_health_passive_desc"
+  },
+  "upgrade_damage_recycler_desc": {
+    "display_name": "Reduces the effect of enemy applied <span class=\\",
+    "internal": "upgrade_damage_recycler_desc"
+  },
+  "Max HP Heal On Kill": {
+    "display_name": "LeechHealOnKill_postfix",
+    "internal": "Max HP Heal On Kill"
+  },
+  "upgrade_personal_rejuvenator_desc": {
+    "display_name": "Respawns the hero at the spot they died.",
+    "internal": "upgrade_personal_rejuvenator_desc"
+  },
+  "RespawnDelay_postfix": {
+    "display_name": "s",
+    "internal": "RespawnDelay_postfix"
+  },
+  "SpawnTimePenalty_prefix": {
+    "display_name": "+",
+    "internal": "SpawnTimePenalty_prefix"
+  },
+  "SpawnTimePenalty_label": {
+    "display_name": "Increased Respawn Time",
+    "internal": "SpawnTimePenalty_label"
+  },
+  "SpawnTimePenalty_postvalue_label": {
+    "display_name": "Increased Respawn Time",
+    "internal": "SpawnTimePenalty_postvalue_label"
+  },
+  "SpawnTimePenalty_postfix": {
+    "display_name": "s",
+    "internal": "SpawnTimePenalty_postfix"
+  },
+  "upgrade_phantom_strike_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_phantom_strike_desc"
+  },
+  ">Disarm</span>.": {
+    "display_name": "PhantomStrikeDebuffDuration_label",
+    "internal": ">Disarm</span>."
+  },
+  "Debuff Duration": {
+    "display_name": "PhantomStrikeDebuffDuration_postfix",
+    "internal": "Debuff Duration"
+  },
+  "upgrade_rebirth_passive": {
+    "display_name": "If you die, after {s:RespawnDelay}s you will <span class=\\",
+    "internal": "upgrade_rebirth_passive"
+  },
+  "upgrade_return_fire_desc": {
+    "display_name": "Automatically <span class=\\",
+    "internal": "upgrade_return_fire_desc"
+  },
+  ">fire a bullet</span> towards any attacker who damages you with their abilities or weapon.": {
+    "display_name": "ActiveFireRate_label",
+    "internal": ">fire a bullet</span> towards any attacker who damages you with their abilities or weapon."
+  },
+  "Fire Rate": {
+    "display_name": "ActiveFireRate_postfix",
+    "internal": "Fire Rate"
+  },
+  "upgrade_metal_skin_desc": {
+    "display_name": "Become <span class=\\",
+    "internal": "upgrade_metal_skin_desc"
+  },
+  ">immune to bullets</span>.": {
+    "display_name": "AbilityApplyDelay_postfix",
+    "internal": ">immune to bullets</span>."
+  },
+  "upgrade_regenerating_bullet_shield_desc": {
+    "display_name": "While you are <span class=\\",
+    "internal": "upgrade_regenerating_bullet_shield_desc"
+  },
+  "upgrade_magic_shield_desc": {
+    "display_name": "While you are <span class=\\",
+    "internal": "upgrade_magic_shield_desc"
+  },
+  "upgrade_weapon_shielding": {
+    "display_name": "Weapon Shielding",
+    "internal": "upgrade_weapon_shielding"
+  },
+  "upgrade_weapon_shielding_desc": {
+    "display_name": "Gain a <span class=\\",
+    "internal": "upgrade_weapon_shielding_desc"
+  },
+  ">Barrier</span> whenever you take significant {g:citadel_inline_attribute:'WeaponDamage'} from enemy Heroes in a small time frame.": {
+    "display_name": "DamageWindow_label",
+    "internal": ">Barrier</span> whenever you take significant {g:citadel_inline_attribute:'WeaponDamage'} from enemy Heroes in a small time frame."
+  },
+  "Time Frame": {
+    "display_name": "DamageWindow_postfix",
+    "internal": "Time Frame"
+  },
+  "upgrade_spirit_bubble": {
+    "display_name": "Spirit Bubble",
+    "internal": "upgrade_spirit_bubble"
+  },
+  "upgrade_spirit_bubble_desc": {
+    "display_name": "Gain a <span class=\\",
+    "internal": "upgrade_spirit_bubble_desc"
+  },
+  "upgrade_grit": {
+    "display_name": "Grit",
+    "internal": "upgrade_grit"
+  },
+  "upgrade_grit_desc": {
+    "display_name": "Gain a <span class=\\",
+    "internal": "upgrade_grit_desc"
+  },
+  "upgrade_unstoppable_desc": {
+    "display_name": "Temporarily suppress <span class=\\",
+    "internal": "upgrade_unstoppable_desc"
+  },
+  "upgrade_colossus_desc": {
+    "display_name": "Grow <span class=\\",
+    "internal": "upgrade_colossus_desc"
+  },
+  ">dash speed</span>.": {
+    "display_name": "BuffBulletResist_label",
+    "internal": ">dash speed</span>."
+  },
+  "Spirit Resist": {
+    "display_name": "BuffTechResist_postfix",
+    "internal": "Spirit Resist"
+  },
+  "upgrade_melee_rebuttal_desc": {
+    "display_name": "On a successful <span class=\\",
+    "internal": "upgrade_melee_rebuttal_desc"
+  },
+  "upgrade_counterspell_desc": {
+    "display_name": "Your next parry <span class=\\",
+    "internal": "upgrade_counterspell_desc"
+  },
+  ">protects you from the damage and effects of enemy abilities and items</span>. On a successful spell parry {g:citadel_inline_attribute:'Heal'} and gain {g:citadel_inline_attribute:'MoveSpeed'} and {g:citadel_inline_attribute:'Spirit'}.": {
+    "display_name": "ParrySuccessHealPercentage_label",
+    "internal": ">protects you from the damage and effects of enemy abilities and items</span>. On a successful spell parry {g:citadel_inline_attribute:'Heal'} and gain {g:citadel_inline_attribute:'MoveSpeed'} and {g:citadel_inline_attribute:'Spirit'}."
+  },
+  "Damage Parried as Heal": {
+    "display_name": "ParrySuccessHealPercentage_postfix",
+    "internal": "Damage Parried as Heal"
+  },
+  "upgrade_tech_purge_desc": {
+    "display_name": "When below <span class=\\",
+    "internal": "upgrade_tech_purge_desc"
+  },
+  ">{s:HealthThreshold}% health</span>, gain additional Spirit Resist.": {
+    "display_name": "upgrade_improved_bullet_armor_desc",
+    "internal": ">{s:HealthThreshold}% health</span>, gain additional Spirit Resist."
+  },
+  "upgrade_spellbreaker_desc": {
+    "display_name": "The next instance of high {g:citadel_inline_attribute:'SpiritDamage'} you take is significantly reduced.",
+    "internal": "upgrade_spellbreaker_desc"
+  },
+  "SpiritDamageReductionProc_label": {
+    "display_name": "Spirit Damage Reduction",
+    "internal": "SpiritDamageReductionProc_label"
+  },
+  "SpiritDamageReductionProc_postvalue_label": {
+    "display_name": "Spirit Damage Reduction",
+    "internal": "SpiritDamageReductionProc_postvalue_label"
+  },
+  "SpiritDamageReductionProc_postfix": {
+    "display_name": "%",
+    "internal": "SpiritDamageReductionProc_postfix"
+  },
+  "upgrade_juggernaut_slow_desc": {
+    "display_name": "Enemies that shoot you have their <span class=\\",
+    "internal": "upgrade_juggernaut_slow_desc"
+  },
+  ">Fire Rate</span> slowed.": {
+    "display_name": "FireRateSlowDuration_label",
+    "internal": ">Fire Rate</span> slowed."
+  },
+  ">passive soul generation</span>. This effect stacks and persists through death.": {
+    "display_name": "StackingGoldPerMinute_label",
+    "internal": ">passive soul generation</span>. This effect stacks and persists through death."
+  },
+  "upgrade_upgrade_auto_cleanse_desc": {
+    "display_name": "The next <span class=\\",
+    "internal": "upgrade_upgrade_auto_cleanse_desc"
+  },
+  "upgrade_superior_stamina_passive": {
+    "display_name": "Allows an additional use of <span class=\\",
+    "internal": "upgrade_superior_stamina_passive"
+  },
+  "upgrade_cardio_calibrator_desc": {
+    "display_name": "Reduces the effect of enemy <span class=\\",
+    "internal": "upgrade_cardio_calibrator_desc"
+  },
+  "upgrade_health_nova_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_health_nova_desc"
+  },
+  "upgrade_cloaking_device_active_desc": {
+    "display_name": "Become <span class=\\",
+    "internal": "upgrade_cloaking_device_active_desc"
+  },
+  ">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed.": {
+    "display_name": "upgrade_cloaking_device_active_ambush_desc",
+    "internal": ">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed."
+  },
+  ">Melee Damage</span>.": {
+    "display_name": "modifier_cloaking_device_active_stealth",
+    "internal": ">Melee Damage</span>."
+  },
+  "Shadow Weave - Stealth": {
+    "display_name": "modifier_cloaking_device_active_ambush",
+    "internal": "Shadow Weave - Stealth"
+  },
+  "Shadow Weave - Ambush": {
+    "display_name": "AmbushBonusTechPower_prefix",
+    "internal": "Shadow Weave - Ambush"
+  },
+  "Ambush Spirit Power": {
+    "display_name": "AmbushBonusFireRate_prefix",
+    "internal": "Ambush Spirit Power"
+  },
+  "Ambush Fire Rate": {
+    "display_name": "AmbushBonusFireRate_postfix",
+    "internal": "Ambush Fire Rate"
+  },
+  "Ambush Melee Damage": {
+    "display_name": "AmbushBonusMeleeDamage_postfix",
+    "internal": "Ambush Melee Damage"
+  },
+  "Ambush Duration": {
+    "display_name": "AmbushDuration_postfix",
+    "internal": "Ambush Duration"
+  },
+  "Stealth Duration": {
+    "display_name": "StealthDuration_postfix",
+    "internal": "Stealth Duration"
+  },
+  "Spot Radius": {
+    "display_name": "SpottedRadius_postfix",
+    "internal": "Spot Radius"
+  },
+  "upgrade_rocket_booster_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_rocket_booster_desc"
+  },
+  ">Cannot be used for {s:InterruptCooldown}s if attacked by enemy Hero.</span>": {
+    "display_name": "upgrade_rocket_booster_drop_down",
+    "internal": ">Cannot be used for {s:InterruptCooldown}s if attacked by enemy Hero.</span>"
+  },
+  "SpiritStealDuration_postfix": {
+    "display_name": "s",
+    "internal": "SpiritStealDuration_postfix"
+  },
+  "upgrade_vex_barrier_desc": {
+    "display_name": "Gain a <span class=\\",
+    "internal": "upgrade_vex_barrier_desc"
+  },
+  "upgrade_spellshield_desc": {
+    "display_name": "Block the next {g:citadel_inline_attribute:'SpiritDamage'} or <span class=\\",
+    "internal": "upgrade_spellshield_desc"
+  },
+  ">Debuff</span>, preventing its effects. Only regenerates outside of combat.": {
+    "display_name": "upgrade_spellshield_shield",
+    "internal": ">Debuff</span>, preventing its effects. Only regenerates outside of combat."
+  },
+  "Anti-Spirit Sigil": {
+    "display_name": "upgrade_spellshield/modifier_spellshield_linger_buff",
+    "internal": "Anti-Spirit Sigil"
+  },
+  "Hexafoil Ward Broken!": {
+    "display_name": "SpellShieldFlavorText_label",
+    "internal": "Hexafoil Ward Broken!"
+  },
+  "Label!": {
+    "display_name": "SpellShieldFlavorText_postvalue_label",
+    "internal": "Label!"
+  },
+  "upgrade_heal_on_level_desc": {
+    "display_name": "When you receive a <span class=\\",
+    "internal": "upgrade_heal_on_level_desc"
+  },
+  ">heal</span>.": {
+    "display_name": "upgrade_heal_on_level_buff",
+    "internal": ">heal</span>."
+  },
+  "Heal On Level": {
+    "display_name": "HealOnlevelHealAmount_label",
+    "internal": "Heal On Level"
+  },
+  "Heal Amount": {
+    "display_name": "upgrade_heal_on_level/heal_on_level_buff",
+    "internal": "Heal Amount"
+  },
+  "upgrade_absorbing_armor_desc": {
+    "display_name": "Taking heavy hits of {g:citadel_inline_attribute:'SpiritDamage'} from an enemy reduces a <span class=\\",
+    "internal": "upgrade_absorbing_armor_desc"
+  },
+  "upgrade_healbuff_desc": {
+    "display_name": "Applying {g:citadel_inline_attribute:'Heal'} to yourself or an ally grants the target {g:citadel_inline_attribute:'BonusFireRate'} and {g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\\",
+    "internal": "upgrade_healbuff_desc"
+  },
+  "upgrade_infinitemagazine_desc": {
+    "display_name": "Gain <span class=\\",
+    "internal": "upgrade_infinitemagazine_desc"
+  },
+  "upgrade_aprounds_desc": {
+    "display_name": "Your Bullets have a chance to become unavoidable, <span class=\\",
+    "internal": "upgrade_aprounds_desc"
+  },
+  "upgrade_deflecting_armor_desc": {
+    "display_name": "Gain a chance to either deflect incoming bullets, preventing all {g:citadel_inline_attribute:'WeaponDamage'} or prevent all <span class=\\",
+    "internal": "upgrade_deflecting_armor_desc"
+  },
+  ">on-hit effects</span> from bullets.": {
+    "display_name": "DeflectionPercent_label",
+    "internal": ">on-hit effects</span> from bullets."
+  },
+  "Deflection Percent": {
+    "display_name": "DeflectionPercent_postfix",
+    "internal": "Deflection Percent"
+  },
+  "On-Hit Prevention Percent": {
+    "display_name": "BulletProcDeflectionPercent_postfix",
+    "internal": "On-Hit Prevention Percent"
+  },
+  "upgrade_shadow_step_desc": {
+    "display_name": "<span class=\\",
+    "internal": "upgrade_shadow_step_desc"
+  },
+  "upgrade_shadow_step_passive_desc": {
+    "display_name": "Periodically deals {g:citadel_inline_attribute:'SpiritDamage'} to all nearby enemies.",
+    "internal": "upgrade_shadow_step_passive_desc"
+  },
+  "upgrade_haunting_scream_desc": {
+    "display_name": "Launch an expanding projectile which <span class=\\",
+    "internal": "upgrade_haunting_scream_desc"
+  },
+  ">Curses</span> enemies for a short duration.": {
+    "display_name": "upgrade_apex_combat_desc",
+    "internal": ">Curses</span> enemies for a short duration."
+  },
+  ">Air Dash</span> before landing.": {
+    "display_name": "upgrade_infinite_rounds_desc",
+    "internal": ">Air Dash</span> before landing."
+  },
+  "upgrade_bulletshredimbue_desc": {
+    "display_name": "Imbue an ability with increased <span class=\\",
+    "internal": "upgrade_bulletshredimbue_desc"
+  },
+  "upgrade_rechargingbullets_desc": {
+    "display_name": "Dealing significant {g:citadel_inline_attribute:'WeaponDamage'} replenishes a charge for <span class=\\",
+    "internal": "upgrade_rechargingbullets_desc"
+  },
+  ">each of your charged abilities</span>.": {
+    "display_name": "CooldownReductionOnProc_postvalue_label",
+    "internal": ">each of your charged abilities</span>."
+  },
+  "Cooldown Reduction": {
+    "display_name": "CooldownReductionOnProc_postfix",
+    "internal": "Cooldown Reduction"
+  },
+  "upgrade_icarus_wings_desc": {
+    "display_name": "When Airborne, You deal more damage and take reduced damage. Allows <span class=\\",
+    "internal": "upgrade_icarus_wings_desc"
+  },
+  ">unlimited</span> Air Dash and Jumping.": {
+    "display_name": "upgrade_mystical_piano_desc",
+    "internal": ">unlimited</span> Air Dash and Jumping."
+  },
+  "After a short delay, enemies in the target area will be stunned and have their stamina depleted. After the stun they will be temporarily dazed.": {
+    "display_name": "upgrade_nullification_aura_desc",
+    "internal": "After a short delay, enemies in the target area will be stunned and have their stamina depleted. After the stun they will be temporarily dazed."
+  },
+  "Removes any positive buffs and prevents stamina usage and healing effects on enemies.": {
+    "display_name": "upgrade_nullification_aura_deathdamage_desc",
+    "internal": "Removes any positive buffs and prevents stamina usage and healing effects on enemies."
+  },
+  "Deals heavy spirit damage upon your death.": {
+    "display_name": "upgrade_celestial_guidance_desc",
+    "internal": "Deals heavy spirit damage upon your death."
+  },
+  "Applies an extremely powerful cleanse that replenishes your allies globally.": {
+    "display_name": "upgrade_eternal_gift_desc",
+    "internal": "Applies an extremely powerful cleanse that replenishes your allies globally."
+  },
+  "Periodically gain a random permanent stat buff.": {
+    "display_name": "upgrade_eternal_gift_respawn_desc",
+    "internal": "Periodically gain a random permanent stat buff."
+  },
+  "Reduces your next death's respawn timer.": {
+    "display_name": "upgrade_patrons_blessing_desc",
+    "internal": "Reduces your next death's respawn timer."
+  },
+  "Provides yourself and allies with a powerful spirit focused aura. Has reduced values on allies.": {
+    "display_name": "upgrade_patrons_blessing_proc_desc",
+    "internal": "Provides yourself and allies with a powerful spirit focused aura. Has reduced values on allies."
+  },
+  ">Damage</span> to an enemy Hero within {s:DamageThresholdDuration}s causes you to heal yourself and nearby allies.": {
+    "display_name": "AllyPercentage_postvalue_label",
+    "internal": ">Damage</span> to an enemy Hero within {s:DamageThresholdDuration}s causes you to heal yourself and nearby allies."
+  },
+  "Ally Percentage": {
+    "display_name": "AllyPercentage_postfix",
+    "internal": "Ally Percentage"
+  },
+  "Respawn Time": {
+    "display_name": "RespawnTime_postfix",
+    "internal": "Respawn Time"
+  },
+  "Your next bullet applies a powerful debuff reducing the enemy's damage output, healing and movement speed. It also deals {g:citadel_inline_attribute:'BonusSpiritDamage'} based on the targets current Health. <br><br>The bullet is larger and penetrates through targets.": {
+    "display_name": "upgrade_cloak_of_opportunity_desc",
+    "internal": "Your next bullet applies a powerful debuff reducing the enemy's damage output, healing and movement speed. It also deals {g:citadel_inline_attribute:'BonusSpiritDamage'} based on the targets current Health. <br><br>The bullet is larger and penetrates through targets."
+  },
+  ">Barrier</span> and bonus {g:citadel_inline_attribute:'MoveSpeed'}": {
+    "display_name": "upgrade_runed_gauntlets_desc",
+    "internal": ">Barrier</span> and bonus {g:citadel_inline_attribute:'MoveSpeed'}"
+  },
+  "Everytime you land a heavy melee, your existing cooldowns get reduced.": {
+    "display_name": "upgrade_runed_gauntlets_parry_desc",
+    "internal": "Everytime you land a heavy melee, your existing cooldowns get reduced."
+  },
+  "Pierces through parry.": {
+    "display_name": "upgrade_electric_slippers_desc",
+    "internal": "Pierces through parry."
+  },
+  "><br><br>Cooldown is per target.</span>": {
+    "display_name": "upgrade_shadow_strike_desc",
+    "internal": "><br><br>Cooldown is per target.</span>"
+  },
+  ">untargetable and invincible</span> for a short duration, during which lasers blast out and rotate around you.": {
+    "display_name": "upgrade_unstable_concoction_desc",
+    "internal": ">untargetable and invincible</span> for a short duration, during which lasers blast out and rotate around you."
+  },
+  ">{s:RespawnTimeMod}%</span>.": {
+    "display_name": "upgrade_shivas_bracelet_desc",
+    "internal": ">{s:RespawnTimeMod}%</span>."
+  },
+  ">damage over time</span>.": {
+    "display_name": "upgrade_omnicharge_pendant_desc",
+    "internal": ">damage over time</span>."
+  },
+  ">Bonus Ability Charges</span>. Already charged abilities receive more bonus charges.": {
+    "display_name": "upgrade_omnicharge_pendant_charges",
+    "internal": ">Bonus Ability Charges</span>. Already charged abilities receive more bonus charges."
+  },
+  "cosmetic_item_snowball": {
+    "display_name": "Snowball",
+    "internal": "cosmetic_item_snowball"
+  },
+  "cosmetic_item_snowball_desc": {
+    "display_name": "Throw snowballs at your friends and enemies. Distance and other properties improve as you make progress in the <span class=\\",
+    "internal": "cosmetic_item_snowball_desc"
+  },
+  ">Throwing a Snowball at an ally won't inflict damage and will reset its cooldown.</span>": {
+    "display_name": "SnowballSpeed_label",
+    "internal": ">Throwing a Snowball at an ally won't inflict damage and will reset its cooldown.</span>"
+  },
+  "Throw Speed": {
+    "display_name": "SnowballSpeed_postvalue_label",
+    "internal": "Throw Speed"
+  },
+  "Velocity": {
+    "display_name": "SnowballSpeed_postfix",
+    "internal": "Velocity"
+  },
+  "m/s": {
+    "display_name": "SnowballCount_label",
+    "internal": "m/s"
+  },
+  "Snowballs Thrown": {
+    "display_name": "SnowballCount_postvalue_label",
+    "internal": "Snowballs Thrown"
+  },
+  "Projectiles": {
+    "display_name": "cosmetic_item_voting_poster",
+    "internal": "Projectiles"
+  }
+}

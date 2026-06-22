@@ -1,0 +1,76 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf64:version{c95f3434-dfef-4a35-9913-024beddb416a} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 5
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 200.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_scorch_mark.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_smoke_linger.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_directional_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_debris.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_refract.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_glow.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_burst.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_ring_dissolve.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_spikes.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_fireball_embellished.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_rays.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_directional_darks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_directional_color.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/airheart/airheart_rocket_explo_lensflare.vpcf"
+		},
+	]
+}

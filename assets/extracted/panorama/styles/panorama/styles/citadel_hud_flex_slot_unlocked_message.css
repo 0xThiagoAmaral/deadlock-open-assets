@@ -1,0 +1,68 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelFlexUnlockMessage
+{
+	horizontal-align: center;
+	vertical-align: top;
+	height: fit-children;
+	flow-children: down;
+	color: offWhite;
+	margin: 15px;
+}
+
+#ExtraSlotContainer
+{
+	padding: 20px 50px;
+	border-radius: 50px;
+	color: offWhite;
+	background-color: offBlack&aa;
+	flow-children: down;
+	border: 3px solid offBlack&ee;
+}
+
+CitadelFlexUnlockMessage Label
+{
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.FlexSlotUnlockedLabel
+{
+	font-weight: bold;
+	font-size: 32px;
+	font-family: oracle;
+}
+
+.FlexSlotMessage
+{
+	color: offWhite&ee;
+}
+
+.FlexSlotObjectiveName
+{
+	color: offWhite;
+	font-weight: bold;
+}
+
+#VanguardMsg
+{
+	horizontal-align: center;
+	background-color: offBlack&ee;
+	border-radius: 0px 0px 50px 50px;
+	visibility: collapse;
+}
+
+#VanguardMsg Label
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 30px;
+	font-family: block;
+	text-transform: uppercase;
+}
+
+.isVanguardInterval #VanguardMsg
+{
+	visibility: collapse;
+}
+

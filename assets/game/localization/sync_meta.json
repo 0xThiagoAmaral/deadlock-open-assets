@@ -1,0 +1,19 @@
+{
+  "fetched_at": "2026-06-22T17:25:58.432562",
+  "source": "SteamTracking/GameTracking-Deadlock",
+  "files": {
+    "citadel_heroes_english.txt": {
+      "path": "assets/game/localization/citadel_heroes_english.txt",
+      "bytes": 391826
+    },
+    "citadel_mods_english.txt": {
+      "path": "assets/game/localization/citadel_mods_english.txt",
+      "bytes": 67664
+    },
+    "citadel_main_english.txt": {
+      "path": "assets/game/localization/citadel_main_english.txt",
+      "bytes": 289834
+    }
+  },
+  "items_parsed": 451
+}

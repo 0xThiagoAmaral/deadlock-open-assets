@@ -1,0 +1,106 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelHeroGrid
+{
+	width: fit-children;
+	height: fit-children;
+	horizontal-align: center;
+	flow-children: down;
+	min-width: 1600px;
+	max-width: 1600px;
+}
+
+.MainContainer
+{
+	horizontal-align: center;
+}
+
+#HeroesContainer
+{
+	flow-children: right-wrap;
+	width: fit-children;
+	max-width: 100%;
+	padding: 35px 30px 30px 30px;
+	horizontal-align: center;
+	overflow: squish scroll;
+}
+
+#HeroesContainerRecommended
+{
+	flow-children: down;
+	overflow: noclip;
+}
+
+#HeroesTitle
+{
+	horizontal-align: center;
+	margin-top: 80px;
+	width: 100%;
+	flow-children: down;
+	text-align: center;
+}
+
+CitadelHeroPickerContextMenu #HeroesTitle
+{
+	margin-top: 0px;
+}
+
+.PageTitle Label
+{
+	horizontal-align: center;
+}
+
+.hideRecommendations
+{
+	visibility: collapse;
+}
+
+.heroRow
+{
+	flow-children: right;
+	horizontal-align: left;
+	overflow: noclip;
+}
+
+CitadelHeroGrid CitadelHeroCard
+{
+	margin: 5px;
+	ui-scale: 105%;
+}
+
+#RecommendedTitle
+{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "CriteriaCF";
+	margin: 0px 0px 10px 0px;
+	color: brandGreen;
+	visibility: collapse;
+}
+
+.citadel_show_recommended_heroes #RecommendedTitle
+{
+	visibility: visible;
+}
+
+.citadel_show_recommended_heroes CitadelHeroGrid #HeroesContainerRecommended CitadelHeroCard
+{
+	ui-scale: 139%;
+}
+
+.citadel_show_recommended_heroes CitadelHeroGrid #HeroesContainer CitadelHeroCard
+{
+	ui-scale: 110%;
+}
+
+.citadel_show_recommended_heroes #HeroesContainer
+{
+	margin-top: 30px;
+}
+
+#ShowHeroLabsCheckbox
+{
+	margin-left: 30px;
+}
+

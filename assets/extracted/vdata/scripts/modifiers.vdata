@@ -1,0 +1,926 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CModifierVData"
+	modifier_citadel_in_fountain = 
+	{
+		_class = "modifier_citadel_in_fountain"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_hero_upgrade_bonuses = 
+	{
+		_class = "modifier_hero_upgrade_bonuses"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_PERMANENT|MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_bIsHidden = true
+	}
+	modifier_citadel_stunned = 
+	{
+		_class = "modifier_citadel_stunned"
+		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+		m_strSmallIconCssClass = "stunned"
+	}
+	modifier_citadel_stunned_no_cc_diminish = 
+	{
+		_class = "modifier_citadel_stunned"
+		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+		m_strSmallIconCssClass = "stunned"
+		_base = "modifier_citadel_stunned"
+		m_bDurationReducibleByCrowdControlDiminish = false
+		m_sLocalizationName = "modifier_citadel_stunned"
+	}
+	modifier_citadel_knockdown = 
+	{
+		_class = "modifier_citadel_knockdown"
+		m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
+		m_strSmallIconCssClass = "stunned"
+		m_bKeepMaximumDurationOnRefresh = true
+		m_flGravityScale = 2.0
+		m_cameraSequenceCreated = 
+		{
+			m_vecDistanceOperations = 
+			[
+				{
+					m_eCameraOperation = "k_ECameraOp_Lerp"
+					m_bLerpEndAtDefault = false
+					m_flLerpEnd = 300.0
+					m_flLerpBias = 0.508
+					m_flLerpDuration = 0.5
+				},
+				{
+					m_eCameraOperation = "k_ECameraOp_Maintain"
+					m_flMaintainDuration = 5.0
+				},
+			]
+			m_vecFOVOperations = 
+			[
+				{
+					m_eCameraOperation = "k_ECameraOp_Lerp"
+					m_bLerpEndAtDefault = false
+					m_flLerpEnd = 80.0
+					m_flLerpDuration = 0.15
+				},
+				{
+					m_eCameraOperation = "k_ECameraOp_Lerp"
+					m_flLerpBias = 0.8
+					m_flLerpDuration = 0.15
+				},
+			]
+		}
+		m_cameraSequenceGetUp = 
+		{
+			m_vecDistanceOperations = 
+			[
+				{
+					m_eCameraOperation = "k_ECameraOp_Lerp"
+					m_flLerpDuration = 0.25
+					m_flLerpBias = 0.702
+					m_bLerpStartAtCurrent = true
+					m_flLerpStart = 0.0
+				},
+			]
+		}
+		m_flGetUpSeqDuration = 0.25
+		m_satColorOutline = [ 255, 255, 255, 0 ]
+		m_flDesatAmount = 1.0
+		m_satColorDesat = [ 118, 85, 85 ]
+	}
+	modifier_life_steal = 
+	{
+		_class = "modifier_life_steal"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_MULTIPLE"
+	}
+	modifier_life_steal_watcher = 
+	{
+		_class = "modifier_life_steal_watcher"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_PERMANENT|MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+	}
+	modifier_delayed_apply = 
+	{
+		_class = "modifier_delayed_apply"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_bIsHidden = true
+	}
+	modifier_boss_invuln = 
+	{
+		_class = "modifier_boss_invuln"
+		m_ShieldParticle = resource_name:"particles/trooper/tier1_boss_invulerability_shield.vpcf"
+	}
+	modifier_zipline_speed_trooper_first_wave = 
+	{
+		_class = "modifier_zipline_speed"
+		m_flPercentageMultiplierEnd = 33.3333
+		m_flRampUpTime = 0
+	}
+	modifier_zipline_speed_trooper_reinforcement = 
+	{
+		_class = "modifier_zipline_speed"
+		m_flPercentageMultiplierEnd = 100
+		m_flRampUpTime = 0
+	}
+	modifier_zipline_speed_player_generator_kill = 
+	{
+		_class = "modifier_zipline_speed"
+		m_flPercentageMultiplierEnd = 140
+		m_flRampUpTime = 3
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_MULTIPLE|MODIFIER_ATTRIBUTE_PERMANENT|MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+	}
+	modifier_control_point_capturer_aura = 
+	{
+		_class = "modifier_control_point_capturer_aura"
+		m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO_ENEMY"
+		m_iAuraSearchFlags = "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE | CITADEL_UNIT_TARGET_FLAG_NO_INVIS"
+		m_modifierProvidedByAura = subclass:
+		{
+			_class = "modifier_control_point_capturer_aura_target"
+			_my_subclass_name = "modifier_control_point_capturer_aura_target"
+		}
+	}
+	modifier_control_point_blocker_aura = 
+	{
+		_class = "modifier_control_point_blocker_aura"
+		m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
+		m_iAuraSearchFlags = "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE | CITADEL_UNIT_TARGET_FLAG_NO_INVIS"
+		m_modifierProvidedByAura = subclass:
+		{
+			_class = "modifier_control_point_blocker_aura_target"
+			_my_subclass_name = "modifier_control_point_blocker_aura_target"
+		}
+	}
+	modifier_idol_pickup_aura = 
+	{
+		_class = "modifier_base_aura"
+		m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+		m_modifierProvidedByAura = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "aura_target"
+			m_bIsHidden = true
+			m_nEnabledStateMask = "MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_PICKING_UP_IDOL"
+		}
+		m_bIsHidden = true
+		m_flAuraRadius = 70.0
+		m_nEnabledStateMask = "MODIFIER_STATE_IS_MELEE_TARGET"
+		m_sStartSound = soundevent:""
+		m_sAmbientLoopingSound = soundevent:""
+	}
+	modifier_citadel_idol_return = 
+	{
+		_class = "modifier_citadel_idol_return"
+		m_nEnabledStateMask = "MODIFIER_STATE_RETURN_IDOL_AREA"
+		m_bIsHidden = true
+	}
+	modifier_citadel_in_shoptunnel_amber = 
+	{
+		_class = "modifier_citadel_in_shoptunnel"
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_SHOPTUNNEL_AMBER"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+	}
+	modifier_citadel_in_shoptunnel_sapphire = 
+	{
+		_class = "modifier_citadel_in_shoptunnel"
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_SHOPTUNNEL_SAPPHIRE"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+	}
+	modifier_rejuv_pickup_aura = 
+	{
+		_class = "modifier_item_pickup_aura"
+		m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+		m_strParticleEffect = resource_name:"particles/environment/rejuv_ambient.vpcf"
+		m_modifierProvidedByAura = subclass:
+		{
+			_class = "modifier_item_pickup_aura_target"
+			_my_subclass_name = "aura_target"
+			m_bIsHidden = true
+			m_PickupTimerModifier = subclass:
+			{
+				_class = "modifier_item_pickup_timer"
+				_my_subclass_name = "timer"
+				m_bReverseHudProgressBar = true
+				m_bIsHidden = false
+				m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
+				m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+				m_eDebuffType = "MODIFIER_DEBUFF_NO"
+				m_bDurationReducible = false
+			}
+			m_PickupTimer = 1.5
+			m_bDurationCanBeTimeScaled = false
+			m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		}
+		m_bIsHidden = true
+		m_flAuraRadius = 70.0
+		m_iAuraSearchFlags = "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE"
+		m_eDebuffType = "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY"
+	}
+	citadel_modifier_teleport = 
+	{
+		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bDurationReducible = false
+		m_SpeedBonusModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "bonus_speed"
+			m_strParticleStatusEffect = resource_name:"particles/abilities/kali/kali_speed_boost_buff.vpcf"
+			m_flDuration = 5.0
+			m_vecScriptValues = 
+			[
+				{
+					m_eModifierValue = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+					m_value = 118.11
+				},
+			]
+			m_strHudMessageText = "#TeleporterBonus"
+			m_bIsHidden = true
+		}
+	}
+	citadel_modifier_hideout_teleport = 
+	{
+		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bDurationReducible = false
+	}
+	modifier_neutral_gold_pickup_aura = 
+	{
+		_class = "modifier_item_pickup_aura"
+		m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+		m_strParticleEffect = resource_name:"particles/generic/neutral_gold_pickup_aura.vpcf"
+		m_IsFrozenParticle = resource_name:"particles/environment/rejuv_frozen_model.vpcf"
+		m_modifierProvidedByAura = subclass:
+		{
+			_class = "modifier_item_pickup_aura_target"
+			_my_subclass_name = "aura_target"
+			m_bIsHidden = true
+			m_PickupTimerModifier = subclass:
+			{
+				_class = "modifier_item_pickup_timer"
+				_my_subclass_name = "timer"
+				m_bReverseHudProgressBar = true
+				m_bIsHidden = false
+				m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
+				m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+				m_sEndSound = soundevent:""
+				m_bDurationReducible = false
+			}
+			m_PickupTimer = 0.75
+		}
+		m_bIsHidden = true
+		m_flAuraRadius = 70.0
+	}
+	modifier_early_gold_pickup_aura = 
+	{
+		_class = "modifier_item_pickup_aura"
+		m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+		m_strParticleEffect = resource_name:"particles/items/crate_light_pillar.vpcf"
+		m_modifierProvidedByAura = subclass:
+		{
+			_class = "modifier_item_pickup_aura_target"
+			_my_subclass_name = "aura_target"
+			m_bIsHidden = true
+			m_PickupTimerModifier = subclass:
+			{
+				_class = "modifier_item_pickup_timer"
+				_my_subclass_name = "timer"
+				m_bReverseHudProgressBar = true
+				m_bIsHidden = false
+				m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
+				m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+				m_bDurationReducible = false
+			}
+			m_PickupTimer = 2.0
+		}
+		m_bIsHidden = true
+		m_flAuraRadius = 70.0
+	}
+	modifier_citadel_disarmed = 
+	{
+		_class = "modifier_citadel_disarmed"
+		m_strParticleStatusEffect = resource_name:"particles/generic/generic_disarmed.vpcf"
+		m_sLocalizationName = "MODIFIER_STATE_DISARMED"
+		m_strHudMessageText = "#modifier_citadel_disarmed"
+		m_strSmallIconCssClass = "disarm_proc"
+		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+	}
+	modifier_citadel_idol_walkback = 
+	{
+		_class = "modifier_citadel_idol_walkback"
+		m_flStopDistance = 1574.8
+		m_flWaitTimeLimit = 13.0
+		m_flFastSpeed = 700.0
+		m_flVerticalOffset = 0.0
+		m_flTolerance = 20.0
+		m_IdleParticle = resource_name:"particles/generic/idol_pickup_aura.vpcf"
+		m_RunningParticle = resource_name:"particles/generic/idol_pickup_aura_running.vpcf"
+		m_BiasEffectPositive = resource_name:"particles/generic/idol_pickup_indicator.vpcf"
+		m_BiasEffectNegative = resource_name:"particles/generic/idol_pickup_indicator_enemy.vpcf"
+		m_sAmbientLoopingSound = soundevent:""
+		m_WalkingLoopSound = soundevent:"Soul.Urn.Walking.Lp"
+		m_IdlingLoopSound = soundevent:"Soul.Urn.Idling.Lp"
+	}
+	modifier_hero_testing_damage_aura = 
+	{
+		_class = "modifier_hero_testing_damage_aura"
+		m_strParticleEffect = resource_name:"particles/npc/tier2boss/tier2boss_barrage_explosion_ground.vpcf"
+		m_flAuraRadius = 50.0
+		m_modifierProvidedByAura = subclass:
+		{
+			_my_subclass_name = "modifier_hero_testing_damage_aura"
+			_class = "modifier_hero_testing_damage_auradebuff"
+			m_bIsHidden = true
+		}
+		m_iAuraSearchType = "CITADEL_UNIT_TARGET_ALL"
+	}
+	modifier_hide_health = 
+	{
+		_class = "modifier_base"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_nEnabledStateMask = "MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN"
+		m_eDrawOverheadStatus = "OVERHEAD_DRAW_NEVER"
+		m_bIsHidden = true
+	}
+	midboss_modifier_damage_resistance = 
+	{
+		_class = "modifier_damage_resistance"
+		m_flDamageResistancePerSecond = 35
+		m_flTickInterval = 0.05
+		m_flDamageResistanceBonusPerGameMinute = 5
+	}
+	modifier_citadel_in_shop = 
+	{
+		_class = "modifier_base"
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_SHOP"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_nAmbientLoopingSoundRecipients = "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER"
+		m_bIsHidden = true
+		m_sAmbientLoopingSound = soundevent:""
+	}
+	modifier_debug_is_visible_to_enemy_team = 
+	{
+		_class = "modifier_debug_is_visible_to_enemy_team"
+		m_sLocalizationName = "Debug - On Enemy Minimap"
+		m_eDebuffType = "MODIFIER_DEBUFF_YES"
+	}
+	modifier_citadel_power_generator = 
+	{
+		_class = "modifier_citadel_power_generator"
+		m_EffectToTitan = resource_name:"particles/npc/tier3boss/tier3_boss_generator_beam.vpcf"
+	}
+	modifier_tier2boss_laser_charge = 
+	{
+		_class = "modifier_tier2boss_laser_charge"
+	}
+	modifier_tier2boss_electric_beam = 
+	{
+		_class = "modifier_tier2boss_electric_beam"
+	}
+	modifier_t3boss_phase1 = 
+	{
+		_class = "modifier_t3boss_phase1"
+	}
+	modifier_tier3_damage_pulse = 
+	{
+		_class = "modifier_tier3_damage_pulse"
+	}
+	modifier_tier3_boss_invuln = 
+	{
+		_class = "modifier_tier3_boss_invuln"
+	}
+	modifier_citadel_can_damage_tier3phase2_boss = 
+	{
+		_class = "modifier_citadel_can_damage_tier3phase2_boss"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE"
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_TIER3_PHASE2_BOSS_PIT"
+	}
+	modifier_player_disconnected = 
+	{
+		_class = "modifier_player_disconnected"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_PERMANENT"
+	}
+	modifier_citadel_in_friendly_base = 
+	{
+		_class = "modifier_base_server_only"
+		_base = ""
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_FRIENDLY_BASE"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+	}
+	modifier_citadel_in_enemy_base = 
+	{
+		_class = "modifier_base_server_only"
+		_base = ""
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_ENEMY_BASE | MODIFIER_STATE_TITAN_LASER_VALID_TARGET"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+	}
+	modifier_citadel_in_mid_boss_temple = 
+	{
+		_class = "modifier_base_server_only"
+		_base = ""
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_MID_BOSS_TEMPLE"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+	}
+	modifier_obscured_by_steam = 
+	{
+		_class = "modifier_obscured"
+		m_strScreenParticleEffect = resource_name:"particles/modifiers/obscured_by_steam_screen.vpcf"
+		m_nEnabledStateMask = ""
+		m_strParticleEffect = resource_name:""
+		m_strParticleStatusEffect = resource_name:"particles/status_fx/status_fx_obscured_by_steam.vpcf"
+		m_vecScriptValues = [  ]
+		m_vecScriptEventHandlers = [  ]
+		m_eDebuffType = "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY"
+		m_flRevealDuration = 1.0
+		m_flHideDuration = 1.0
+	}
+	modifier_barrier_tracker = 
+	{
+		_class = "modifier_barrier_tracker"
+		m_bIsHidden = true
+		m_flShieldImpactEffectDuration = 1.5
+		m_flDecayPause = 5
+		m_flDecayRate = 60
+		m_flTickRate = 0.5
+		m_WeaponImpactParticle = resource_name:"particles/items/bullet_shield_impact.vpcf"
+		m_TechImpactParticle = resource_name:"particles/upgrades/tech_shield_impact.vpcf"
+		m_ShieldBreakParticle = resource_name:"particles/upgrades/bullet_shield_impact_break.vpcf"
+		m_BarrierCreateParticle = resource_name:"particles/upgrades/barrier_buff_start.vpcf"
+		m_ShieldBreakSound = soundevent:"StatusEffects.ShieldBreak"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_PERMANENT | MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_strShieldRefreshSound = soundevent:"Player.Barrier.Refresh"
+	}
+	modifier_low_health_glow = 
+	{
+		_class = "modifier_low_health_glow"
+		m_bIsHidden = true
+		m_GlowParticle = resource_name:"particles/status_fx/status_fx_last_hit.vpcf"
+	}
+	modifier_trigger_push = 
+	{
+		_class = "modifier_trigger_push"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_speed_boost = 
+	{
+		_class = "modifier_citadel_speed_boost"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_eDebuffType = "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY"
+		m_flMoveSpeedBoost = 70.0
+		m_strParticleEffect = resource_name:"particles/generic/sprint.vpcf"
+	}
+	modifier_force_duck = 
+	{
+		_class = "modifier_base"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_nEnabledStateMask = "MODIFIER_STATE_DUCKING_FORCED"
+		m_bAllowApplicationPrediction = false
+	}
+	modifier_in_tunnel = 
+	{
+		_class = "modifier_base"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_nEnabledStateMask = "MODIFIER_STATE_INVALID_TELEPORT_TARGET | MODIFIER_STATE_DROP_IDOL | MODIFIER_STATE_IN_TUNNEL"
+		m_bAllowApplicationPrediction = false
+	}
+	modifier_no_teleport = 
+	{
+		_class = "modifier_base"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_nEnabledStateMask = "MODIFIER_STATE_INVALID_TELEPORT_TARGET"
+		m_bAllowApplicationPrediction = false
+	}
+	modifier_near_climbable_rope = 
+	{
+		_class = "modifier_near_climbable_rope"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE"
+		m_flEnableStateTime = 0.15
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_citadel_cheater_curse = 
+	{
+		_class = "modifier_citadel_cheater_curse"
+		m_CursedModel = resource_name:"models/abilities/pocket_frog_small.vmdl"
+	}
+	modifier_inside_interior_small = 
+	{
+		_class = "modifier_base"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE"
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_SMALL_INTERIOR_SPACE"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_inside_interior_medium = 
+	{
+		_class = "modifier_base"
+		m_bIsHidden = true
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE"
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_MEDIUM_INTERIOR_SPACE"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_escalating_exposure_tech_armor_debuff = 
+	{
+		_class = "modifier_base"
+		m_bIsHidden = true
+		m_strSmallIconCssClass = "escalating_exposure"
+		m_strParticleEffect = resource_name:"particles/upgrades/tech_resist_debuff.vpcf"
+		m_bDurationAffectedByEffectiveness = true
+		m_eDrawOverheadStatus = "OVERHEAD_DRAW_NEVER"
+		m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+		[
+			"TechArmorDamageReduction",
+		]
+	}
+	modifier_citadel_pulldown_to_ground = 
+	{
+		_class = "modifier_citadel_pulldown_to_ground"
+		m_bIsHidden = true
+	}
+	modifier_citadel_no_catapult = 
+	{
+		_class = "modifier_citadel_no_catapult"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_sLocalizationName = "silencer_immune"
+		m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
+		m_strSmallIconCssClass = "silence_immunity"
+		m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_HEALTHBAR"
+		m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
+	}
+	modifier_citadel_delayed_catapult_launch = 
+	{
+		_class = "modifier_citadel_delayed_catapult_launch"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_sLocalizationName = "modifier_citadel_delayed_catapult_launch"
+		m_strSmallIconCssClass = "extra_stamina_pickup"
+		m_bReverseHudProgressBar = true
+		m_bIsHidden = false
+		m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
+		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+	}
+	modifier_citadel_catapult_damage_watcher = 
+	{
+		_class = "modifier_citadel_catapult_damage_watcher"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+		m_flDuration = 0.9
+		m_StunModifier = subclass:
+		{
+			_class = "modifier_citadel_catapult_damage_stun"
+			_my_subclass_name = "modifier_citadel_catapult_damage_stun"
+			m_bIsHidden = true
+			m_flStunDurationOnLand = 0.2
+			m_flDamageHealthPct = 15
+			m_SlowModifier = subclass:
+			{
+				_class = "modifier_slow_base"
+				_my_subclass_name = "modifier_citadel_catapult_damage_slow"
+				m_bIsHidden = true
+				m_flDuration = 2.0
+				m_vecScriptValues = 
+				[
+					{
+						m_eModifierValue = "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
+						m_value = 30.0
+					},
+				]
+			}
+		}
+	}
+	modifier_citadel_halloween_mask = 
+	{
+		_class = "modifier_citadel_halloween_mask"
+		m_nNumMasks = 4
+		m_HalloweenMask = resource_name:"particles/event/halloween/halloween_mask.vpcf"
+	}
+	modifier_citadel_unstick = 
+	{
+		_class = "modifier_citadel_unstick"
+		m_bIsHidden = false
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_flDuration = 4.0
+		m_sStartSound = soundevent:"Teleport.Enter"
+		m_sExpiredSound = soundevent:""
+		m_nAmbientLoopingSoundRecipients = "MODIFIER_SOUND_RECIPIENT_ALWAYS"
+		m_sAmbientLoopingSound = soundevent:"Teleport.Buildup"
+		m_sFailureSound = soundevent:"Player.Negative.Interact"
+		m_sSuccessSound = soundevent:"Teleport.Appear"
+	}
+	modifier_bodygroup_choice = 
+	{
+		_class = "modifier_bodygroup_choice"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_citadel_in_hideout_map = 
+	{
+		_class = "modifier_citadel_in_hideout_map"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_citadel_in_hideout_zone = 
+	{
+		_class = "modifier_citadel_in_hideout_zone"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_citadel_hideout_intro = 
+	{
+		_class = "modifier_citadel_hideout_intro"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_preIntroCamera = 
+		{
+			m_sCameraEntityName = "pre_intro_camera"
+			m_flTransitionOutDuration = 4.5
+		}
+		m_introCamera = 
+		{
+			m_sCameraEntityName = "intro_camera"
+			m_flTransitionInDuration = 0.5
+			m_flTransitionOutDuration = 2.0
+		}
+	}
+	modifier_citadel_hideout_intro_exit = 
+	{
+		_class = "modifier_citadel_hideout_intro_exit"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+	}
+	modifier_citadel_hideout_in_menu = 
+	{
+		_class = "modifier_citadel_hideout_in_menu"
+		m_bIsHidden = true
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_cameraSequenceCreated = 
+		{
+			m_vecDistanceOperations = 
+			[
+				{
+					m_eCameraOperation = "k_ECameraOp_Spring"
+					m_flSpringStrength = 0.0
+					m_bSpringToDefault = false
+					m_flSpringTarget = 100.0
+				},
+				{
+					m_eCameraOperation = "k_ECameraOp_Maintain"
+				},
+			]
+			m_vecHorizOffsetOperations = 
+			[
+				{
+					m_eCameraOperation = "k_ECameraOp_Spring"
+					m_flSpringStrength = 0.0
+					m_bSpringToDefault = false
+					m_flSpringTarget = 100.0
+				},
+				{
+					m_eCameraOperation = "k_ECameraOp_Maintain"
+				},
+			]
+			m_vecVertOffsetOperations = 
+			[
+				{
+					m_eCameraOperation = "k_ECameraOp_Spring"
+					m_flSpringStrength = 0.0
+					m_bSpringToDefault = false
+					m_flSpringTarget = 100.0
+				},
+				{
+					m_eCameraOperation = "k_ECameraOp_Maintain"
+				},
+			]
+		}
+	}
+	modifier_nearby_ally_resist = 
+	{
+		_class = "modifier_nearby_ally_resist"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_flNearbyAllyResistRange = 1181.1
+		m_flResistValues = 
+		[
+			0, 30, 50, 70,
+			90,
+		]
+	}
+	modifier_citadel_trooper_in_enemy_base_resist = 
+	{
+		_class = "modifier_citadel_trooper_in_enemy_base_resist"
+		m_flDamageReductionForTroopers = 35.0
+	}
+	modifier_combat_status_bullet_hit = 
+	{
+		_class = "modifier_combat_status_bullet_hit"
+		m_nEnabledStateMask = "MODIFIER_STATE_IN_COMBAT_BULLET_HIT"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+	}
+	modifier_combat_status = 
+	{
+		_class = "modifier_combat_status"
+		m_flBulletHitSlowPct = 20
+	}
+	modifier_crowd_control_diminish_watcher = 
+	{
+		_class = "modifier_crowd_control_diminish_watcher"
+		m_flModifierWindow = 9.0
+		m_flReductionPerModifier = 15.0
+		m_flMaxReduction = 35.0
+	}
+	modifier_street_brawl_round_start_zipline_boost = 
+	{
+		_class = "modifier_zipline_boost"
+		m_strSmallIconCssClass = "zipline_speed_pickup"
+		m_strParticleEffect = resource_name:"particles/upgrades/zipline_mastery_landing_buff.vpcf"
+		m_sLocalizationName = "zipline_boost"
+		m_nEnabledStateMask = "MODIFIER_STATE_USING_ZIPLINE_BOOST"
+		m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_BOTTOM_LEFT"
+		m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
+		m_flDuration = 8.0
+		m_flRampUpTime = 8.0
+		m_flPercentageSpeedIncreaseRampFrom = 100.0
+		m_flPercentageSpeedIncreaseRampTo = 0.0
+		m_cameraSequenceStartBoost = 
+		{
+			m_vecFOVOperations = 
+			[
+				{
+					m_flApproachTarget = 40.0
+					m_flApproachSpeed = 10.0
+					m_flApproachMinDuration = 1.0
+					m_bLerpEndAtDefault = false
+					m_flLerpEnd = 110.0
+					m_flLerpBias = 0.75
+					m_flLerpDuration = 1.0
+					m_eCameraOperation = "k_ECameraOp_Lerp"
+				},
+				{
+					m_eCameraOperation = "k_ECameraOp_Maintain"
+				},
+			]
+			m_vecDistanceOperations = 
+			[
+				{
+					m_flApproachSpeed = 60.0
+					m_flApproachTarget = 1000.0
+					m_flApproachMinDuration = 1.0
+					m_bLerpEndAtDefault = false
+					m_flLerpEnd = 200.0
+					m_flLerpDuration = 1.0
+					m_eCameraOperation = "k_ECameraOp_Lerp"
+				},
+				{
+					m_eCameraOperation = "k_ECameraOp_Maintain"
+				},
+			]
+			m_vecTargetPosOperations = [  ]
+		}
+		m_sStartSound = soundevent:"Gameplay.World.Zipline.Speed.Boost.Start"
+	}
+	modifier_cinematic_intro_player = 
+	{
+		_class = "modifier_cinematic_intro_player"
+		m_bIsHidden = true
+		m_bAllowApplicationPrediction = false
+		m_nEnabledStateMask = "MODIFIER_STATE_CINEMATIC_INTRO | MODIFIER_STATE_ZIPLINE_LOCKED"
+		m_flZiplineStartDelayDuration = 7.25
+		m_vecIntroCameraSequenceAmber = 
+		[
+			{
+				m_sCameraEntityName = "intro_camera_amber_1"
+				m_flDuration = 7.5
+				m_flTransitionTime = 7.5
+			},
+			{
+				m_sCameraEntityName = "intro_camera_amber_2"
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
+			},
+		]
+		m_vecIntroCameraSequenceSapphire = 
+		[
+			{
+				m_sCameraEntityName = "intro_camera_sapphire_1"
+				m_flDuration = 7.5
+				m_flTransitionTime = 7.5
+			},
+			{
+				m_sCameraEntityName = "intro_camera_sapphire_2"
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
+			},
+		]
+		m_flPostProcessingFadeInTime = 0.0
+		m_flPostProcessingHoldTime = 2.0
+		m_flPostProcessingFadeOutTime = 5.0
+		m_vecPostProcessEffects = 
+		[
+			{
+				m_eState = "PostProcState_MatchIntro"
+				m_flHoldTime = 2.0
+				m_flFadeOutTime = 5.0
+			},
+		]
+	}
+	modifier_cinematic_intro_npc = 
+	{
+		_class = "modifier_base"
+		m_bIsHidden = true
+		m_bAllowApplicationPrediction = false
+		m_nEnabledStateMask = "MODIFIER_STATE_CINEMATIC_INTRO"
+	}
+	modifier_cinematic_intro_shrine = 
+	{
+		_class = "modifier_cinematic_intro_shrine"
+		m_bIsHidden = true
+		m_bAllowApplicationPrediction = false
+		m_nEnabledStateMask = "MODIFIER_STATE_CINEMATIC_INTRO"
+	}
+	modifier_pause_unpause = 
+	{
+		_class = "modifier_pause_unpause"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+	}
+	modifier_street_brawl_intro_player = 
+	{
+		_class = "modifier_cinematic_intro_player"
+		m_bIsHidden = true
+		m_bAllowApplicationPrediction = false
+		m_flZiplineStartDelayDuration = 7.25
+		m_bTeamSpecificCameras = true
+		m_vecIntroCameraSequenceAmber = 
+		[
+			{
+				m_sCameraEntityName = "intro_camera_amber_1"
+				m_flDuration = 5.75
+				m_flTransitionTime = 5.75
+			},
+			{
+				m_sCameraEntityName = "intro_camera_amber_2"
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
+			},
+		]
+		m_vecIntroCameraSequenceSapphire = 
+		[
+			{
+				m_sCameraEntityName = "intro_camera_sapphire_1"
+				m_flDuration = 5.75
+				m_flTransitionTime = 5.75
+			},
+			{
+				m_sCameraEntityName = "intro_camera_sapphire_2"
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
+			},
+		]
+		m_flDuration = 8.0
+		m_vecPostProcessEffects = 
+		[
+			{
+				m_eState = "PostProcState_MatchIntro"
+				m_flHoldTime = 2.0
+				m_flFadeOutTime = 3.0
+			},
+			{
+				m_flStartDelay = 4.0
+				m_flFadeInTime = 0.75
+				m_flHoldTime = 0.5
+				m_flFadeOutTime = 2.0
+			},
+		]
+	}
+	modifier_streetbrawl_trooper = 
+	{
+		_class = "modifier_street_brawl_trooper"
+		m_nAttributes = "MODIFIER_ATTRIBUTE_PERMANENT | MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		m_bIsHidden = true
+	}
+	modifier_streetbrawl_buyphase_drafting = 
+	{
+		_class = "modifier_streetbrawl_phase"
+		m_nEnabledStateMask = "MODIFIER_STATE_INVULNERABLE | MODIFIER_STATE_TECH_UNTARGETABLE_BY_ENEMIES | MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN | MODIFIER_STATE_HIDE_CROSSHAIR | MODIFIER_STATE_HIDE_STAMINA | MODIFIER_STATE_HIDE_AMMO | MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_DASH_DISABLED | MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_SILENCED_HIDDEN | MODIFIER_STATE_SHOOTING_DISABLED | MODIFIER_STATE_COMMAND_RESTRICTED"
+		m_eValidStates = "ESBGS_Init | ESBGS_PreBuy | ESBGS_Buy"
+	}
+	modifier_streetbrawl_buyphase_finished = 
+	{
+		_class = "modifier_streetbrawl_phase"
+		m_nEnabledStateMask = "MODIFIER_STATE_ITEMS_DISABLED | MODIFIER_STATE_SILENCED_HIDDEN | MODIFIER_STATE_INVULNERABLE | MODIFIER_STATE_TECH_UNTARGETABLE_BY_ENEMIES | MODIFIER_STATE_SHOOTING_DISABLED | MODIFIER_STATE_ZIPLINE_DISABLED | MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN | MODIFIER_STATE_HIDE_CROSSHAIR | MODIFIER_STATE_HIDE_STAMINA | MODIFIER_STATE_HIDE_AMMO"
+		m_eValidStates = "ESBGS_Init | ESBGS_PreBuy | ESBGS_Buy"
+	}
+}

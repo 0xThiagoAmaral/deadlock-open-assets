@@ -1,0 +1,84 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf65:version{48e806a9-c210-4cd8-811a-38b5ef63b195} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 10
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 11
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_angOffset = [ -89.999992, -0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_wip/abrams/abrams.vmdl"
+				m_sequenceName = "tools_preview"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_SetSingleControlPointPosition"
+			m_nCP1 = 11
+			m_vecCP1Pos = [ 0.0, 0.0, 0.0 ]
+			m_transformInput = 
+			{
+				m_bUseOrientation = false
+			}
+			m_bSetOnce = true
+		},
+		{
+			_class = "C_OP_SetCPOrientationToPointAtCP"
+			m_nInputCP = 2
+			m_nOutputCP = 11
+			m_bPointAway = true
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_crossbow_projectile_impact_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_crossbow_projectile_impact_dust.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_crossbow_projectile_impact_flash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_crossbow_projectile_impact_debris.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_crossbow_projectile_impact_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_crossbow_projectile_impact_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_crossbow_projectile_impact_flash_detail.vpcf"
+		},
+	]
+}

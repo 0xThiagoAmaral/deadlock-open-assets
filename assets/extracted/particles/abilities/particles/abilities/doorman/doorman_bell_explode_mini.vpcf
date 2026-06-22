@@ -1,0 +1,55 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf63:version{a6e6a69e-52d3-4527-8b9c-ff3bb91aca3e} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 8
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 300.0, 300.0, 300.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_bell_explode_ground_projected.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_bell_explode_warp.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_bell_explode_streaks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_bell_explode_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_bell_explode_flash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_bell_explode_bits.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_bell_explode_model_wave.vpcf"
+		},
+	]
+}

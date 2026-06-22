@@ -1,0 +1,662 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelPostGameProgressMVP
+{
+	width: 100%;
+	height: 100%;
+}
+
+.MVPHeroContainer
+{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 1440px 100%;
+	background-img-opacity: 0.05;
+	background-position: left top;
+	opacity-mask: url("s2r://panorama/images/masks/wipe_horizontal_1024x512_psd.vtex");
+	opacity-mask-scale: cover;
+	opacity-mask-threshold: 100% 50%;
+	transform: translateX( 100px );
+	transition-property: opacity-mask, transform;
+	transition-duration: 1.0s;
+	transition-timing-function: linear, ease-in-out;
+}
+
+.ShowMVPHero .MVPHeroContainer
+{
+	opacity-mask-threshold: 0% 50%;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+.MVPHeroContainer #MVPHeroSpotlight
+{
+	width: 100%;
+	max-width: 1920px;
+	height: 100%;
+	horizontal-align: right;
+	margin-right: -100px;
+	opacity-mask: url("s2r://panorama/images/post_game/mvp_scene_psd.vtex");
+	transition-property: opacity, transform;
+	transition-duration: 0.3s;
+	transform: translateX( -600px );
+	transition-timing-function: ease-in-out;
+}
+
+.MVPTeam1 .MVPHeroContainer #MVPHeroSpotlight
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( copperFlat&00), to( copperFlat&03) );
+}
+
+.MVPTeam2 .MVPHeroContainer #MVPHeroSpotlight
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( steelFlat&00), to( steelFlat&03) );
+}
+
+.MVPBackground
+{
+	width: 100%;
+	height: 100%;
+}
+
+.MatchMode
+{
+	font-family: block;
+	font-size: 24px;
+	color: copperFlat&15;
+	margin: 20px 28px;
+	visibility: visible;
+	horizontal-align: right;
+	transition-property: opacity, transform;
+	transition-duration: 1.5s;
+	transition-delay: 6.5s;
+	transition-timing-function: ease-in-out;
+	opacity: 0.0;
+}
+
+.ShowMVPHero .MatchMode
+{
+	opacity: 1.0;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+#MatchID
+{
+	font-family: block;
+	font-size: 14px;
+	color: copperFlat&11;
+	margin: 48px 28px;
+	visibility: visible;
+	horizontal-align: right;
+	text-transform: uppercase;
+	z-index: 20;
+	transition-property: opacity, transform;
+	transition-duration: 1.5s;
+	transition-delay: 6.5s;
+	transition-timing-function: ease-in-out;
+	opacity: 0.0;
+}
+
+.ShowMVPHero #MatchID
+{
+	opacity: 1.0;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+.MVPDetails
+{
+	width: 1620px;
+	height: 1200px;
+	flow-children: none;
+	vertical-align: bottom;
+	horizontal-align: center;
+	overflow: noclip;
+}
+
+.MVPDetails .MVPTrophySet
+{
+	margin-top: 456px;
+	margin-left: -80px;
+	overflow: noclip;
+	pre-transform-rotate2d: -3deg;
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+	transition-delay: 2.0s;
+	transition-timing-function: ease-in-out;
+	flow-children: right;
+	opacity: 0.0;
+}
+
+.ShowMVPHero .MVPDetails .MVPTrophySet
+{
+	opacity: 1.0;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+.MVPDetails .MVPTitle
+{
+	font-size: 72px;
+	text-align: left;
+	color:eggshell;
+	margin-top: 20px;
+	font-family: oracle;
+	font-weight: bold;
+	text-shadow: 0px 0px 20 #070707;
+	opacity-mask: url("s2r://panorama/images/post_game/hero_logo_mask_psd.vtex") 0.2;
+	opacity-mask-scale: 100% 100%;
+	padding: 4px;
+}
+
+.MVPDetails .MVPTrophy
+{
+	background-image: url("s2r://panorama/images/post_game/mvp_trophy.vsvg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	horizontal-align: left;
+	brightness: 1.9;
+	saturation: 0.9;
+	opacity: 1;
+	width: 180px;
+	height: 240px;
+	img-shadow: 0px 0px 4px #00000088;
+	ui-scale: 50%;
+}
+
+.MVPDetails .Icon
+{
+	width: 64px;
+	height: 64px;
+	vertical-align: bottom;
+	horizontal-align: right;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 70%;
+	border-radius: 64px;
+	wash-color: offWhite;
+	pre-transform-rotate2d: -3deg;
+	margin-bottom: 22px;
+	margin-right: -22px;
+	margin-left: 4px;
+	visibility: collapse;
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+	transition-delay: 3.0s;
+	transition-timing-function: ease-in-out;
+	opacity: 0.0;
+}
+
+.ShowMVPHero .MVPDetails .Icon
+{
+	opacity: 1.0;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+.MVPDetails #MVPAccolades
+{
+	flow-children: down;
+	horizontal-align: center;
+	margin-bottom: 16px;
+	visibility: collapse;
+}
+
+.MVPDetails #MVPAwards
+{
+	ignore-parent-flow: true;
+	flow-children: down;
+	horizontal-align: left;
+	vertical-align: top;
+	margin-top: 568px;
+}
+
+.MVPDetails #MVPAwards CitadelPostGameAward:nth-child(1)
+{
+	margin-left: 0px;
+}
+
+.MVPDetails #MVPAwards CitadelPostGameAward:nth-child(2)
+{
+	margin-left: 20px;
+}
+
+.MVPDetails #MVPAwards CitadelPostGameAward:nth-child(3)
+{
+	margin-left: 40px;
+}
+
+.MVPDetails #MVPAwards CitadelPostGameAward:nth-child(4)
+{
+	margin-left: 60px;
+}
+
+.MVPDetails #MVPAwards CitadelPostGameAward:nth-child(5)
+{
+	margin-left: 80px;
+}
+
+.MVPDetails .MVPPlayerIdentity
+{
+	width: 100%;
+	height: 440px;
+	flow-children: down;
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+	transition-delay: 1.0s;
+	transition-timing-function: ease-in-out;
+	vertical-align: bottom;
+	opacity: 0.0;
+	transform: translateY( 20px );
+}
+
+.ShowMVPHero .MVPDetails .MVPPlayerIdentity
+{
+	opacity: 1.0;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+.MVPDetails .PlayerInfo
+{
+	flow-children: down;
+	width: 280px;
+	height: 300px;
+	horizontal-align: center;
+	vertical-align: bottom;
+}
+
+.MVPDetails #MVPHeroLogo
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+	opacity-mask: url("s2r://panorama/images/post_game/hero_logo_mask_psd.vtex") 0.8;
+	opacity-mask-scale: 100% 100%;
+	min-width: 400px;
+	max-width: 600px;
+	height: 160px;
+}
+
+.MVPDetails .MVPPlayedBy
+{
+	horizontal-align: center;
+	text-align: center;
+	font-size: 20px;
+	font-family: oracle;
+	color: offWhite&10;
+	font-weight: light;
+	margin: 4px 0px 4px 0px;
+}
+
+.MVPDetails #MVPPlayerName
+{
+	horizontal-align: center;
+}
+
+.MVPDetails #MVPPlayerName Label
+{
+	text-align: center;
+	font-size: 28px;
+	font-family: oracle;
+	color: offWhite;
+	margin-top: -8px;
+	tooltip-position: bottom;
+}
+
+.MVPDetails #MVPCommendButton
+{
+	horizontal-align: center;
+	margin-top: 4px;
+}
+
+.MVPTeam1 .Icon
+{
+	background-image: url("s2r://panorama/images/post_game/nav_icon_team1_png.vtex");
+	wash-color: team1Color;
+	img-shadow: 0px 0px 10px #000000cc;
+}
+
+.MVPTeam2 .Icon
+{
+	background-image: url("s2r://panorama/images/post_game/nav_icon_team2_png.vtex");
+	wash-color: team2Color;
+	img-shadow: 0px 0px 10px #000000cc;
+}
+
+#HonorableMentions
+{
+	horizontal-align: right;
+	flow-children: right;
+	vertical-align: center;
+	margin-right: 120px;
+}
+
+.KeyPlayerTrophySet
+{
+	flow-children: right;
+	width: 360px;
+	margin-top: 140px;
+	margin-right: 80px;
+	horizontal-align: right;
+	pre-transform-rotate2d: -3deg;
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+	transition-delay: 6.0s;
+	transition-timing-function: ease-in-out;
+	opacity: 0.0;
+}
+
+.ShowMVPHero .KeyPlayerTrophySet
+{
+	opacity: 0.7;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+.KeyPlayerTrophySet .KeyPlayerHeader
+{
+	font-size: 36px;
+	width: 200px;
+	height: 40px;
+	text-overflow: shrink;
+	font-weight: bold;
+	vertical-align: center;
+	margin-top: 8px;
+	margin-left: -4px;
+	opacity-mask: url("s2r://panorama/images/post_game/hero_logo_mask_psd.vtex") 0.8;
+	opacity-mask-scale: 100% 100%;
+	font-family: oracle;
+	color: goldenLightShine;
+	text-shadow: 0px 0px 0px 12 black;
+	padding: 2px 0px 0px 0px;
+	letter-spacing: 1px;
+	brightness: 0.96;
+}
+
+.KeyPlayerTrophySet .KeyPlayerTrophy
+{
+	background-image: url("s2r://panorama/images/post_game/key_player_trophy.vsvg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	width: 80px;
+	height: 120px;
+	img-shadow: 0px 0px 4px #00000088;
+	horizontal-align: right;
+	ui-scale: 80%;
+	saturation: 0.96;
+}
+
+.MVPHonorableMention
+{
+	transition-property: opacity, transform;
+	transition-duration: 0.2s;
+	opacity: 0.0;
+	transform: translateY( 20px );
+}
+
+.MVPHonorableMention.ShowHonorableMention
+{
+	opacity: 1.0;
+	transform: none;
+	transition-duration: 0.0s;
+}
+
+.MVPHonorableMention .MainContents
+{
+	width: 248px;
+	height: 800px;
+	vertical-align: top;
+	ui-scale: 86%;
+	padding: 12px;
+	opacity-mask: url("s2r://panorama/images/post_game/mvp_fade_psd.vtex");
+	background-image: url("s2r://panorama/images/post_game/key_player_bg_01.vsvg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 78%;
+	background-img-opacity: 0.4;
+	background-position: center top;
+}
+
+.MVPHonorableMention:nth-child(2) .MainContents
+{
+	background-image: url("s2r://panorama/images/post_game/key_player_bg_02.vsvg");
+}
+
+.MVPHonorableMention:nth-child(1) .KeyPlayerForeground
+{
+	opacity-mask: url("s2r://panorama/images/post_game/card_hero_mask_04_png.vtex");
+}
+
+.MVPHonorableMention:nth-child(2) .KeyPlayerForeground
+{
+	opacity-mask: url("s2r://panorama/images/post_game/card_hero_mask_06_png.vtex");
+}
+
+.MVPHonorableMention .KeyPlayerForeground
+{
+	width: 100%;
+	height: 100%;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #00000000 ), color-stop( 0.76, #00000033 ), color-stop( 0.82, #000000dd ), to( #000000 ) );
+}
+
+.MVPHonorableMention.Team1 .HeroFrame #HeroScenePanel
+{
+	background-color: copperFlat&08;
+}
+
+.MVPHonorableMention.Team2 .HeroFrame #HeroScenePanel
+{
+	background-color: steelFlat&08;
+}
+
+.MVPHonorableMention .Icon
+{
+	width: 64px;
+	height: 64px;
+	vertical-align: top;
+	horizontal-align: right;
+	margin-top: 40px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 96%;
+	background-color: #00000001;
+	overflow: noclip;
+}
+
+.MVPHonorableMention.Team1 .Icon
+{
+	background-image: url("s2r://panorama/images/post_game/nav_icon_team1_png.vtex");
+	wash-color: team1Color;
+	img-shadow: 0px 0px 10px #000000cc;
+}
+
+.MVPHonorableMention.Team2 .Icon
+{
+	background-image: url("s2r://panorama/images/post_game/nav_icon_team2_png.vtex");
+	wash-color: team2Color;
+	img-shadow: 0px 0px 10px #000000cc;
+}
+
+.MVPHonorableMention .HeroFrame
+{
+	width: 100%;
+	height: 820px;
+	pre-transform-scale2d: 0.8;
+	vertical-align: top;
+	horizontal-align: center;
+	margin-top: -96px;
+	overflow: noclip;
+	padding: 4px;
+	padding-top: 20px;
+}
+
+.MVPHonorableMention .HeroFrame #HeroScenePanel
+{
+	width: 100%;
+	height: 100%;
+	saturation: 0.8;
+	opacity-mask-scale: 100% 100%;
+}
+
+.MVPHonorableMention:nth-child(1) #HeroScenePanel
+{
+	opacity-mask: url("s2r://panorama/images/post_game/card_hero_mask_04_png.vtex");
+}
+
+.MVPHonorableMention:nth-child(2) #HeroScenePanel
+{
+	opacity-mask: url("s2r://panorama/images/post_game/card_hero_mask_06_png.vtex");
+}
+
+.MVPHonorableMention .Footer
+{
+	flow-children: down;
+	width: 100%;
+	vertical-align: bottom;
+	margin-bottom: 44px;
+	ui-scale: 90%;
+}
+
+.MVPHonorableMention .Footer .PlayedBy
+{
+	color: offWhite&10;
+	horizontal-align: center;
+	text-align: center;
+	font-family: oracle;
+	margin: 0px 0px 4px 0px;
+	font-size: 20px;
+}
+
+.MVPHonorableMention .Footer #PlayerName
+{
+	horizontal-align: center;
+}
+
+.MVPHonorableMention .Footer #PlayerName Label
+{
+	margin-top: -4px;
+	color: offWhite;
+	text-align: center;
+	font-family: oracle;
+	font-size: 24px;
+	horizontal-align: center;
+	max-width: 240px;
+	text-overflow: shrink;
+	height: 32px;
+	tooltip-position: bottom;
+}
+
+.MVPHonorableMention .Footer .CommendButton
+{
+	horizontal-align: center;
+	margin-top: 12px;
+}
+
+.MVPHonorableMention #Accolades
+{
+	flow-children: down;
+	vertical-align: bottom;
+	margin-bottom: 180px;
+}
+
+.MVPHonorableMention #Accolades CitadelPostGameProgressAccolade
+{
+	opacity: 0.0;
+	transform: none;
+}
+
+.MVPHonorableMention #Awards
+{
+	flow-children: down;
+	vertical-align: bottom;
+	margin-bottom: 180px;
+	ui-scale: 90%;
+}
+
+.KeyPlayerIdentity
+{
+	height: 80px;
+	width: 100%;
+	vertical-align: top;
+	horizontal-align: center;
+	pre-transform-rotate2d: -3deg;
+	margin-top: 0px;
+	margin-left: -32px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 80%;
+	background-img-opacity: 0.9;
+	padding: 4px 4px 4px 4px;
+	visibility: collapse;
+}
+
+.KeyPlayerIdentity .KeyPlayerTitle
+{
+	font-size: 22px;
+	font-family: oracle;
+	color: goldenLightShine;
+	text-shadow: 0px 0px 0px 12 black;
+	padding: 12px 0px 0px 72px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	vertical-align: center;
+	text-overflow: shrink;
+	transition-property: opacity, transform;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.KeyPlayerIdentity #HeroLogo
+{
+	ui-scale: 32%;
+	vertical-align: bottom;
+	horizontal-align: center;
+	opacity-mask: url("s2r://panorama/images/post_game/hero_logo_mask_psd.vtex");
+	opacity-mask-scale: 100% 100%;
+	wash-color: goldenLight&cc;
+	height: 200px;
+	visibility: collapse;
+}
+
+.CommendButton
+{
+	width: 40px;
+	height: 40px;
+	background-color: #ffffff04;
+	border-radius: 50%;
+	pre-transform-scale2d: 0.9;
+	box-shadow: 1px 1px 12px #00000033;
+	tooltip-position: bottom;
+	transition-property: brightness, pre-transform-scale2d;
+	transition-duration: 0.08s;
+	transition-timing-function: ease-in-out;
+}
+
+.CommendButton:disabled
+{
+	opacity: 0.0;
+}
+
+.CommendButton:hover
+{
+	pre-transform-scale2d: 1;
+	brightness: 1.3;
+}
+
+.CommendButton:active
+{
+	pre-transform-scale2d: 0.9;
+	brightness: 1.3;
+	sound: "UI.CommendConfirmation";
+}
+
+.CommendButton .commendIcon
+{
+	vertical-align: middle;
+}
+

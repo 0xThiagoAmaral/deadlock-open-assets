@@ -1,0 +1,58 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_flConstantRadius = 20.0
+	m_ConstantColor = [ 80, 87, 102, 255 ]
+	m_nConstantSequenceNumber = 8
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 10
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 11
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/grey_talon/grey_talon_owl.vmdl"
+				m_sequenceName = "ability_ult_climbing_flight"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_owl_trail_sparkle.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_proj_trail_long.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_proj_trail.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_proj_model_glow.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_proj_trail_left.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/archer/archer_guided_arrow_proj_trail_right.vpcf"
+		},
+	]
+}

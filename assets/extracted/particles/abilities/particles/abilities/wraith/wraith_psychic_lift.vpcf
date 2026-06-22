@@ -1,0 +1,72 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 3.0, 1.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/atlas_detective_v2/atlas_detective.vmdl"
+				m_sequenceName = "bindpose"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_StopAfterCPDuration"
+			m_flDuration = 
+			{
+				m_nType = "PF_TYPE_CONTROL_POINT_COMPONENT"
+				m_nControlPoint = 2
+				m_nVectorComponent = 0
+				m_nMapType = "PF_MAP_TYPE_MULT"
+				m_flMultFactor = 1.0
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/wraith/wraith_psychic_lift_dust.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/wraith/wraith_psychic_lift_rocks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/wraith/wraith_psychic_lift_ground.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/wraith/wraith_psychic_lift_chains.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/wraith/wraith_psychic_lift_overhead.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/wraith/wraith_psychic_lift_magic.vpcf"
+		},
+	]
+}

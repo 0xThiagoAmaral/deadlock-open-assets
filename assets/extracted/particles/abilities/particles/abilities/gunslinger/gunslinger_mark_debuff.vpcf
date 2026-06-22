@@ -1,0 +1,37 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/astro/astro.vmdl"
+				m_sequenceName = "bindpose"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/gunslinger/gunslinger_mark_debuff_flames.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/astro/astro_marksman_debuff_flash.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/gunslinger/gunslinger_mark_debuff_symbol.vpcf"
+		},
+	]
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "project": "umblock",
+  "game": "Deadlock",
+  "last_updated": "2026-06-22",
+  "root": "assets/",
+  "sources": {
+    "game": {
+      "heroes": {
+        "path": "game/heroes.json",
+        "description": "Roster completo (38 heróis), binds Q/F/C/E, abilities, verified flags",
+        "agents": ["a0", "a0.5", "a1", "a3", "a4", "a5"]
+      },
+      "items": {
+        "path": "game/items.json",
+        "description": "173 itens com tier, cost, category, function",
+        "agents": ["a0.5", "a1", "a3", "a4"]
+      },
+      "economy": {
+        "path": "game/economy.json",
+        "description": "Economia de almas, fases, lane orbs, counter-building",
+        "agents": ["a0.5", "a1", "a3"]
+      },
+      "knowledge_base": {
+        "path": "game/knowledge_base.json",
+        "description": "Stats e cooldowns extraídos de vdata (patch atual)",
+        "agents": ["a0", "a0.5", "a3"]
+      },
+      "images_manifest": {
+        "path": "game/images_manifest.json",
+        "description": "Catálogo de ícones Deadlock: panorama + PNG local (images/deadlock/)",
+        "agents": ["a4", "a7"]
+      }
+    },
+    "images": {
+      "deadlock": {
+        "path": "images/deadlock/",
+        "description": "PNGs de heróis, abilities e UI para overlays (paridade Dota2)",
+        "agents": ["a4", "a7"]
+      },
+      "shared_ui": {
+        "path": "images/MenuIcons/",
+        "description": "Ícones UI compartilhados Dota2+Deadlock",
+        "agents": ["a7"]
+      }
+    },
+    "vdata": {
+      "abilities": {
+        "path": "vdata/abilities.vdata",
+        "description": "Dump nativo de abilities (KeyValues)",
+        "agents": ["a0"]
+      },
+      "heroes": {
+        "path": "vdata/heroes.vdata",
+        "description": "Dump nativo de heróis (KeyValues)",
+        "agents": ["a0"]
+      }
+    },
+    "docs": {
+      "builds_index": {
+        "path": "docs/builds/index.md",
+        "description": "Índice de builds Umbrella Edition",
+        "agents": ["a1", "a3"]
+      },
+      "research": {
+        "path": "docs/research/pesquisa.md",
+        "description": "Pesquisa de meta e mecânicas",
+        "agents": ["a1", "a3"]
+      },
+      "api": {
+        "path": "docs/api/",
+        "description": "Referência completa da API Umbrella (60 arquivos .lua)",
+        "agents": ["a2", "a4", "a5", "a7"]
+      },
+      "agents": {
+        "path": "docs/agents/",
+        "description": "Regras internas, integração Hermes, prompts DeepSeek",
+        "agents": ["a1", "a6"]
+      }
+    },
+    "reference": {
+      "deadlock_open_data": {
+        "path": "reference/deadlock-open-data/",
+        "description": "Repo comunitário com JSON por herói e raw vdata",
+        "agents": ["a0", "a0.5"]
+      }
+    },
+    "extension": {
+      "umbrella_vscode": {
+        "path": "extension/",
+        "description": "Extensão VSCode Umbrella (plugin, dist)",
+        "agents": []
+      }
+    },
+    "extracted": {
+      "manifest": {
+        "path": "extracted/manifest.json",
+        "description": "Dump completo do VPK — stats e catalogo de extracao",
+        "agents": ["a0", "a0.5", "a1", "a3", "a4"]
+      },
+      "knowledge": {
+        "path": "extracted/catalog/deadlock_knowledge.json",
+        "description": "Catalogo enriquecido DeepSeek — particles, abilities, tool routes",
+        "agents": ["a0.5", "a1", "a3", "a4", "a7"]
+      },
+      "particles": {
+        "path": "extracted/particles/abilities/",
+        "description": "Particulas de abilities decompiladas (.vpcf)",
+        "agents": ["a1", "a3", "a4"]
+      },
+      "particles_index": {
+        "path": "extracted/indexes/particles_index.json",
+        "description": "Indice de 9000+ particulas por heroi",
+        "agents": ["a1", "a3", "a4"]
+      },
+      "panorama_ui": {
+        "path": "extracted/panorama/",
+        "description": "Layout e styles Panorama decompilados",
+        "agents": ["a4", "a7"]
+      }
+    }
+  },
+  "api_priority_files": [
+    "hero_lib.lua",
+    "Menu.lua",
+    "CUserCmd.lua",
+    "callback.lua",
+    "entity_list.lua",
+    "entity.lua",
+    "player_pawn.lua",
+    "RenderV2.lua",
+    "panorama.lua",
+    "trace.lua",
+    "utils.lua",
+    "enums.lua",
+    "http.lua"
+  ],
+  "legacy_paths": {
+    "heroes_deadlock.json": "game/heroes.json",
+    "itens_deadlock.json": "game/items.json",
+    "economia_deadlock.json": "game/economy.json",
+    "ai_knowledge_base.json": "game/knowledge_base.json",
+    "data/docs/umbrella_api": "docs/api",
+    "data/docs/Builds Index.md": "docs/builds/index.md"
+  }
+}

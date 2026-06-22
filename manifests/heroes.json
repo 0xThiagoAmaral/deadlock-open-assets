@@ -1,0 +1,1805 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-06-22T17:24:28.752919",
+  "count": 73,
+  "bind_map": {
+    "Q": {
+      "slot": 1,
+      "enum": "ESlot_Signature_1",
+      "mask": "IN_ABILITY1"
+    },
+    "F": {
+      "slot": 2,
+      "enum": "ESlot_Signature_2",
+      "mask": "IN_ABILITY2"
+    },
+    "C": {
+      "slot": 3,
+      "enum": "ESlot_Signature_3",
+      "mask": "IN_ABILITY3"
+    },
+    "E": {
+      "slot": 4,
+      "enum": "ESlot_Signature_4",
+      "mask": "IN_ABILITY4"
+    }
+  },
+  "heroes": {
+    "bull": {
+      "id": "bull",
+      "display_name": "Abrams",
+      "internal_names": [
+        "atlas",
+        "abrams",
+        "hero_abrams"
+      ],
+      "codename": null,
+      "role": "Tank / brawler — sustain e CC corpo a corpo",
+      "tags": [
+        "Tank",
+        "Brawler",
+        "Bull-Headed"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Siphon Life",
+          "summary": "Dreno de vida em cone frontal (lifesteal)"
+        },
+        "F": {
+          "name": "Shoulder Charge",
+          "summary": "Investida; stun se bater na parede"
+        },
+        "C": {
+          "name": "Infernal Resilience",
+          "summary": "Passiva — regenera parte do dano recebido"
+        },
+        "E": {
+          "name": "Seismic Impact",
+          "summary": "Salto aéreo — smash AoE com stun"
+        }
+      },
+      "verified": true
+    },
+    "apollo": {
+      "id": "apollo",
+      "display_name": "Apollo",
+      "internal_names": [
+        "fencer",
+        "apollo",
+        "hero_apollo"
+      ],
+      "codename": "fencer",
+      "role": "Assassino finesse — mobilidade e riposte",
+      "tags": [
+        "Finesse",
+        "Mobility",
+        "A Cut Above"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Disengaging Sigil",
+          "summary": "Sigilo de desengajamento / dano"
+        },
+        "F": {
+          "name": "Riposte",
+          "summary": "Contra-ataque defensivo"
+        },
+        "C": {
+          "name": "Flawless Advance",
+          "summary": "Avanço ofensivo"
+        },
+        "E": {
+          "name": "Itani Lo Sahn",
+          "summary": "Ult — sequência de esgrima"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/apollo.png",
+        "path_mm": "images/deadlock/heroes_minimap/apollo.png",
+        "path_card": "images/deadlock/heroes_card/apollo.png"
+      }
+    },
+    "bebop": {
+      "id": "bebop",
+      "display_name": "Bebop",
+      "internal_names": [
+        "bebop",
+        "hero_bebop"
+      ],
+      "codename": "bebop",
+      "role": "Brawler hook — uppercut e hyper beam",
+      "tags": [
+        "Hook",
+        "Bomb",
+        "Punch"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Exploding Uppercut",
+          "summary": "Uppercut explosivo"
+        },
+        "F": {
+          "name": "Sticky Bomb",
+          "summary": "Bomba grudente"
+        },
+        "C": {
+          "name": "Grapple Arm",
+          "summary": "Gancho / pull"
+        },
+        "E": {
+          "name": "Hyper Beam",
+          "summary": "Feixe contínuo de dano"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/bebop.png",
+        "path_mm": "images/deadlock/heroes_minimap/bebop.png",
+        "path_card": "images/deadlock/heroes_card/bebop.png"
+      }
+    },
+    "billy": {
+      "id": "billy",
+      "display_name": "Billy",
+      "internal_names": [
+        "punkgoat",
+        "billy",
+        "hero_billy"
+      ],
+      "codename": "punkgoat",
+      "role": "Brawler CC — batida, ram e chain",
+      "tags": [
+        "Punk",
+        "Chaotic",
+        "G.O.A.T."
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Bashdown",
+          "summary": "Slam no chão — pull + shockwave knockup"
+        },
+        "F": {
+          "name": "Rising Ram",
+          "summary": "Charge head-first — lança inimigo no ar"
+        },
+        "C": {
+          "name": "Blasted",
+          "summary": "Passiva wrecked + ativo amp de dano de arma"
+        },
+        "E": {
+          "name": "Chain Gang",
+          "summary": "Correntes — bloqueia movimento e puxa AoE"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/billy.png",
+        "path_mm": "images/deadlock/heroes_minimap/billy.png",
+        "path_card": "images/deadlock/heroes_card/billy.png"
+      }
+    },
+    "nano": {
+      "id": "nano",
+      "display_name": "Calico",
+      "internal_names": [
+        "calico",
+        "hero_calico"
+      ],
+      "codename": null,
+      "role": "Assassina sombras — burst e posse Ava",
+      "tags": [
+        "Tricksy",
+        "Slippery",
+        "Burst Damage"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Gloom Bombs",
+          "summary": "Bombas sombrias em área"
+        },
+        "F": {
+          "name": "Leaping Slash",
+          "summary": "Dash + slash circular; heal se acertar"
+        },
+        "C": {
+          "name": "Ava",
+          "summary": "Possui gato Ava — stealth no minimap, sem atacar"
+        },
+        "E": {
+          "name": "Return to Shadows",
+          "summary": "Untargetable + dano AoE ao entrar/sair das sombras"
+        }
+      },
+      "verified": true
+    },
+    "celestial": {
+      "id": "celestial",
+      "display_name": "Celeste",
+      "internal_names": [
+        "celeste",
+        "hero_celeste"
+      ],
+      "codename": null,
+      "role": "Marksman performer — luz e debuffs",
+      "tags": [
+        "Performer",
+        "Disruptive",
+        "Dazzling"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Light Eater",
+          "summary": "Consome/absorve luz — dano espiritual"
+        },
+        "F": {
+          "name": "Dazzling Trick",
+          "summary": "Truque ofuscante / controle"
+        },
+        "C": {
+          "name": "Radiant Daggers",
+          "summary": "Adagas radiantes"
+        },
+        "E": {
+          "name": "Shining Wonder",
+          "summary": "Ult — espetáculo AoE"
+        }
+      },
+      "verified": true
+    },
+    "doorman": {
+      "id": "doorman",
+      "display_name": "The Doorman",
+      "internal_names": [
+        "doorman",
+        "hero_doorman"
+      ],
+      "codename": "doorman",
+      "role": "Mystic controle mapa — portas e hotel",
+      "tags": [
+        "Disorienting",
+        "Map Control",
+        "Mind Games"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Call Bell",
+          "summary": "Sino — chama / marca alvos"
+        },
+        "F": {
+          "name": "Doorway",
+          "summary": "Portal entre duas portas"
+        },
+        "C": {
+          "name": "Luggage Cart",
+          "summary": "Carrinho de bagagem — controle de área"
+        },
+        "E": {
+          "name": "Hotel Guest",
+          "summary": "Ult — convidado do hotel (banish/isolamento)"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/doorman.png",
+        "path_mm": "images/deadlock/heroes_minimap/doorman.png",
+        "path_card": "images/deadlock/heroes_card/doorman.png"
+      }
+    },
+    "drifter": {
+      "id": "drifter",
+      "display_name": "Drifter",
+      "internal_names": [
+        "drifter",
+        "hero_drifter"
+      ],
+      "codename": "drifter",
+      "role": "Assassino isolamento — mark + blink atrás do alvo",
+      "tags": [
+        "Stalker",
+        "Bloodthirsty",
+        "Cruel"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Rend",
+          "summary": "Swipe melee em cone; bônus espiritual em curta distância"
+        },
+        "F": {
+          "name": "Stalker's Mark",
+          "summary": "Marca bleed — reativar teleporta atrás do alvo. NÃO é teleporte livre."
+        },
+        "C": {
+          "name": "Bloodscent",
+          "summary": "Passiva — dano amplificado vs heróis isolados; stacks permanentes"
+        },
+        "E": {
+          "name": "Eternal Night",
+          "summary": "Escuridão AoE — reduz visão inimiga; sprint + procs espirituais"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/drifter.png",
+        "path_mm": "images/deadlock/heroes_minimap/drifter.png",
+        "path_card": "images/deadlock/heroes_card/drifter.png"
+      }
+    },
+    "venator": {
+      "id": "venator",
+      "display_name": "Dynamo",
+      "internal_names": [
+        "priest",
+        "dynamo",
+        "hero_dynamo"
+      ],
+      "codename": "priest",
+      "role": "Mystic suporte — aurora e buraco negro",
+      "tags": [
+        "Teamplay",
+        "Initiator",
+        "Clutch"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Kinetic Pulse",
+          "summary": "Pulso cinético"
+        },
+        "F": {
+          "name": "Quantum Entanglement",
+          "summary": "Entrelaçamento — link com aliado"
+        },
+        "C": {
+          "name": "Rejuvenating Aurora",
+          "summary": "Aura de cura/regeneração"
+        },
+        "E": {
+          "name": "Singularity",
+          "summary": "Ult — buraco negro que puxa inimigos"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/venator.png",
+        "path_mm": "images/deadlock/heroes_minimap/venator.png",
+        "path_card": "images/deadlock/heroes_card/venator.png"
+      }
+    },
+    "graves": {
+      "id": "graves",
+      "display_name": "Graves",
+      "internal_names": [
+        "graves",
+        "hero_graves"
+      ],
+      "codename": null,
+      "role": "Mystic necro — summons e negação de área",
+      "tags": [
+        "Morbid",
+        "Area Denial",
+        "Necromancer"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Jar of Dead",
+          "summary": "Passiva coleta mortes; ativo lança Deadheads espirituais"
+        },
+        "F": {
+          "name": "Grasping Hands",
+          "summary": "Muro de mãos — immobilize"
+        },
+        "C": {
+          "name": "Essence Theft",
+          "summary": "Arma rouba weapon damage e spirit resist do alvo"
+        },
+        "E": {
+          "name": "Borrowed Decree",
+          "summary": "Lápide invoca ghouls que explodem"
+        }
+      },
+      "verified": true
+    },
+    "ivy": {
+      "id": "ivy",
+      "display_name": "Grey Talon",
+      "internal_names": [
+        "tengu",
+        "orion",
+        "grey_talon",
+        "hero_grey_talon"
+      ],
+      "codename": "tengu",
+      "role": "Marksman sniper — longo alcance e armadilhas",
+      "tags": [
+        "Precision",
+        "Hunter",
+        "Area Denial"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Charged Shot",
+          "summary": "Flecha carregada perfurante"
+        },
+        "F": {
+          "name": "Rain of Arrows",
+          "summary": "Salto + glide aéreo com multishot. NÃO é teleporte."
+        },
+        "C": {
+          "name": "Spirit Snare",
+          "summary": "Armadilha: curse, silence, disarm"
+        },
+        "E": {
+          "name": "Guided Owl",
+          "summary": "Coruja controlável — stun + dano em área"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/ivy.png",
+        "path_mm": "images/deadlock/heroes_minimap/ivy.png",
+        "path_card": "images/deadlock/heroes_card/ivy.png"
+      }
+    },
+    "haze": {
+      "id": "haze",
+      "display_name": "Haze",
+      "internal_names": [
+        "haze",
+        "hero_haze"
+      ],
+      "codename": "haze",
+      "role": "Assassina stealth — sleep e bullet dance",
+      "tags": [
+        "Assassin",
+        "Stealthy",
+        "Lethal"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Sleep Dagger",
+          "summary": "Adaga — sleep"
+        },
+        "F": {
+          "name": "Smoke Bomb",
+          "summary": "Fumaça / stealth"
+        },
+        "C": {
+          "name": "Fixation",
+          "summary": "Fixação no alvo — tracking"
+        },
+        "E": {
+          "name": "Bullet Dance",
+          "summary": "Ult — dança de balas AoE (NÃO é Smoke Screen)"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/haze.png",
+        "path_mm": "images/deadlock/heroes_minimap/haze.png",
+        "path_card": "images/deadlock/heroes_card/haze.png"
+      }
+    },
+    "holliday": {
+      "id": "holliday",
+      "display_name": "Holliday",
+      "internal_names": [
+        "astro",
+        "holliday",
+        "hero_holliday"
+      ],
+      "codename": "astro",
+      "role": "Marksman crackshot — barris e laço",
+      "tags": [
+        "Crackshot",
+        "Explosive",
+        "Apprehender"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Powder Keg",
+          "summary": "Barril explosivo armável"
+        },
+        "F": {
+          "name": "Bounce Pad",
+          "summary": "Trampolim — lança heróis; stomp ao pousar"
+        },
+        "C": {
+          "name": "Crackshot",
+          "summary": "Headshots bônus + slow (sem falloff)"
+        },
+        "E": {
+          "name": "Spirit Lasso",
+          "summary": "Laço espiritual — stun e arrasta inimigo"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/holliday.png",
+        "path_mm": "images/deadlock/heroes_minimap/holliday.png",
+        "path_card": "images/deadlock/heroes_card/holliday.png"
+      }
+    },
+    "infernus": {
+      "id": "infernus",
+      "display_name": "Infernus",
+      "internal_names": [
+        "inferno",
+        "infernus",
+        "hero_infernus"
+      ],
+      "codename": "inferno",
+      "role": "Marksman arsonist — burn e dash horizontal",
+      "tags": [
+        "Arsonist",
+        "Explosive",
+        "Burn Rubber"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Napalm",
+          "summary": "Cone napalm — slow + amp de dano Infernus"
+        },
+        "F": {
+          "name": "Flame Dash",
+          "summary": "Dash de fogo com trilha queimando"
+        },
+        "C": {
+          "name": "Afterburn",
+          "summary": "Passiva — balas aplicam burn stackável"
+        },
+        "E": {
+          "name": "Concussive Combustion",
+          "summary": "Ult — bomba viva AoE stun (NÃO se chama Inferno)"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/infernus.png",
+        "path_mm": "images/deadlock/heroes_minimap/infernus.png",
+        "path_card": "images/deadlock/heroes_card/infernus.png"
+      }
+    },
+    "tengu": {
+      "id": "tengu",
+      "display_name": "Ivy",
+      "internal_names": [
+        "ivy",
+        "hero_ivy"
+      ],
+      "codename": null,
+      "role": "Marksman support — vinhas e air drop",
+      "tags": [
+        "Team-up",
+        "Disruptor",
+        "Rock Solid"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Entangling Thorns",
+          "summary": "Espinhos — root/slow"
+        },
+        "F": {
+          "name": "Kudzu Connection",
+          "summary": "Conexão com aliado — buff/link"
+        },
+        "C": {
+          "name": "Stone Form",
+          "summary": "Forma de pedra — defesa/tanque temporário"
+        },
+        "E": {
+          "name": "Air Drop",
+          "summary": "Ult — lança aliado ou bombardeio aéreo"
+        }
+      },
+      "verified": true
+    },
+    "kelvin": {
+      "id": "kelvin",
+      "display_name": "Kelvin",
+      "internal_names": [
+        "kelvin",
+        "hero_kelvin"
+      ],
+      "codename": "kelvin",
+      "role": "Brawler gelo — path e dome",
+      "tags": [
+        "Protector",
+        "Explorer",
+        "Ice Cold"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Frost Grenade",
+          "summary": "Granada de gelo — slow/freeze"
+        },
+        "F": {
+          "name": "Ice Path",
+          "summary": "Caminho de gelo — mobilidade"
+        },
+        "C": {
+          "name": "Arctic Beam",
+          "summary": "Feixe congelante contínuo"
+        },
+        "E": {
+          "name": "Frozen Shelter",
+          "summary": "Ult — domo de gelo protetor"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/kelvin.png",
+        "path_mm": "images/deadlock/heroes_minimap/kelvin.png",
+        "path_card": "images/deadlock/heroes_card/kelvin.png"
+      }
+    },
+    "spectre": {
+      "id": "spectre",
+      "display_name": "Lady Geist",
+      "internal_names": [
+        "ghost",
+        "lady_geist",
+        "hero_lady_geist"
+      ],
+      "codename": null,
+      "role": "Mystic lifesteal — troca de vida e malice",
+      "tags": [
+        "Lifesteal",
+        "Self Damage",
+        "Fatale"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Essence Bomb",
+          "summary": "Bomba espiritual AoE"
+        },
+        "F": {
+          "name": "Life Drain",
+          "summary": "Canaliza roubo de vida"
+        },
+        "C": {
+          "name": "Malice",
+          "summary": "Debuff ofensivo / amp de dano recebido"
+        },
+        "E": {
+          "name": "Soul Exchange",
+          "summary": "Ult — troca HP com alvo"
+        }
+      },
+      "verified": true
+    },
+    "lash": {
+      "id": "lash",
+      "display_name": "Lash",
+      "internal_names": [
+        "lash",
+        "hero_lash"
+      ],
+      "codename": "lash",
+      "role": "Assassino aéreo — grapple e death slam",
+      "tags": [
+        "Initiator",
+        "High Flying",
+        "Arrogant"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Ground Strike",
+          "summary": "Golpe ao solo AoE"
+        },
+        "F": {
+          "name": "Grapple",
+          "summary": "Gancho — puxa para alvo ou terreno"
+        },
+        "C": {
+          "name": "Flog",
+          "summary": "Chicote — slow/dano"
+        },
+        "E": {
+          "name": "Death Slam",
+          "summary": "Ult — slam aéreo single/multi target"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/lash.png",
+        "path_mm": "images/deadlock/heroes_minimap/lash.png",
+        "path_card": "images/deadlock/heroes_card/lash.png"
+      }
+    },
+    "mcginnis": {
+      "id": "mcginnis",
+      "display_name": "McGinnis",
+      "internal_names": [
+        "forge",
+        "mcginnis",
+        "hero_mcginnis"
+      ],
+      "codename": "mcginnis",
+      "role": "Mystic inventor — torretas e wall",
+      "tags": [
+        "Inventor",
+        "Support",
+        "Disruption"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Mini Turret",
+          "summary": "Torreta deployável"
+        },
+        "F": {
+          "name": "Medicinal Specter",
+          "summary": "Espectro curativo"
+        },
+        "C": {
+          "name": "Spectral Wall",
+          "summary": "Muro espectral bloqueando projéteis"
+        },
+        "E": {
+          "name": "Heavy Barrage",
+          "summary": "Ult — barragem de foguetes"
+        }
+      },
+      "verified": true
+    },
+    "mina": {
+      "id": "mina",
+      "display_name": "Mina",
+      "internal_names": [
+        "vampirebat",
+        "mina",
+        "hero_mina"
+      ],
+      "codename": "mina",
+      "role": "Marksman burst — mobilidade de morcego",
+      "tags": [
+        "Harasser",
+        "Nimble",
+        "Vexing"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Rake",
+          "summary": "Slash guarda-chuva espiritual; scale missing HP; heal on kill"
+        },
+        "F": {
+          "name": "Sanguine Retreat",
+          "summary": "Dispersa em morcegos — untargetable dash (NÃO Bat Blink)"
+        },
+        "C": {
+          "name": "Love Bites",
+          "summary": "Stacks de dano espiritual em hits"
+        },
+        "E": {
+          "name": "Nox Nostra",
+          "summary": "Ult — nuvem de morcegos silence (NÃO Nightfall)"
+        }
+      },
+      "verified": true
+    },
+    "mirage": {
+      "id": "mirage",
+      "display_name": "Mirage",
+      "internal_names": [
+        "mirage",
+        "hero_mirage"
+      ],
+      "codename": "mirage",
+      "role": "Assassino bodyguard — tornado e teleporte global",
+      "tags": [
+        "Bodyguard",
+        "Traveller",
+        "Focused"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Fire Scarabs",
+          "summary": "Escaravelhos — roubo max HP + bullet resist shred"
+        },
+        "F": {
+          "name": "Dust Devil",
+          "summary": "Tornado forward — lift + bullet evasion (NÃO Sandstorm)"
+        },
+        "C": {
+          "name": "Djinn's Mark",
+          "summary": "Multiplicador em hits; consume para burst espiritual"
+        },
+        "E": {
+          "name": "Traveler",
+          "summary": "Ult — teleporte via minimap para herói visível"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/mirage.png",
+        "path_mm": "images/deadlock/heroes_minimap/mirage.png",
+        "path_card": "images/deadlock/heroes_card/mirage.png"
+      }
+    },
+    "digger": {
+      "id": "digger",
+      "display_name": "Mo & Krill",
+      "internal_names": [
+        "krill",
+        "mo_and_krill",
+        "hero_mo_and_krill"
+      ],
+      "codename": null,
+      "role": "Brawler tag-team — burrow e combo ult",
+      "tags": [
+        "Tag-Team",
+        "Initiator",
+        "Burrower"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Scorn",
+          "summary": "Desprezo — debuff/dano"
+        },
+        "F": {
+          "name": "Burrow",
+          "summary": "Escava — mobilidade/stealth subterrâneo"
+        },
+        "C": {
+          "name": "Sand Blast",
+          "summary": "Rajada de areia — disarm/slow"
+        },
+        "E": {
+          "name": "Combo",
+          "summary": "Ult — sequência conjunta Mo+Krill single target"
+        }
+      },
+      "verified": true
+    },
+    "paige": {
+      "id": "paige",
+      "display_name": "Paige",
+      "internal_names": [
+        "bookworm",
+        "paige",
+        "hero_paige"
+      ],
+      "codename": "bookworm",
+      "role": "Mystic support — livros e plot armor",
+      "tags": [
+        "Helpful",
+        "Protector",
+        "Booksmart"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Bookwyrm",
+          "summary": "Dragão-livro — dano/controle"
+        },
+        "F": {
+          "name": "Plot Armor",
+          "summary": "Armadura narrativa — proteção aliada"
+        },
+        "C": {
+          "name": "Captivating Read",
+          "summary": "Leitura cativante — charm/focus"
+        },
+        "E": {
+          "name": "Rallying Charge",
+          "summary": "Ult — carga inspiradora AoE"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/paige.png",
+        "path_mm": "images/deadlock/heroes_minimap/paige.png",
+        "path_card": "images/deadlock/heroes_card/paige.png"
+      }
+    },
+    "paradox": {
+      "id": "paradox",
+      "display_name": "Paradox",
+      "internal_names": [
+        "chrono",
+        "paradox",
+        "hero_paradox"
+      ],
+      "codename": "chrono",
+      "role": "Marksman tactician — time wall e swap",
+      "tags": [
+        "Calculated",
+        "Disruptor",
+        "Tactician"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Pulse Grenade",
+          "summary": "Granada pulsante — slow + amp stacks"
+        },
+        "F": {
+          "name": "Time Wall",
+          "summary": "Muro para projéteis + time stop (NÃO Time Swap)"
+        },
+        "C": {
+          "name": "Kinetic Carbine",
+          "summary": "Tiro carregado — time stop no alvo"
+        },
+        "E": {
+          "name": "Paradoxical Swap",
+          "summary": "Ult — troca posição com inimigo"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/paradox.png",
+        "path_mm": "images/deadlock/heroes_minimap/paradox.png",
+        "path_card": "images/deadlock/heroes_card/paradox.png"
+      }
+    },
+    "synth": {
+      "id": "synth",
+      "display_name": "Pocket",
+      "internal_names": [
+        "pocket",
+        "hero_pocket"
+      ],
+      "codename": null,
+      "role": "Assassino trickster — frogs e affliction",
+      "tags": [
+        "Trickster",
+        "Burst Damage",
+        "Frogs"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Barrage",
+          "summary": "Rajada mágica"
+        },
+        "F": {
+          "name": "Flying Cloak",
+          "summary": "Capa voadora — mobilidade/fuga"
+        },
+        "C": {
+          "name": "Enchanter's Satchel",
+          "summary": "Maleta — utilidade/burst setup"
+        },
+        "E": {
+          "name": "Affliction",
+          "summary": "Ult — maldição AoE / briefcase burst"
+        }
+      },
+      "verified": true
+    },
+    "familiar": {
+      "id": "familiar",
+      "display_name": "Rem",
+      "internal_names": [
+        "rem",
+        "hero_rem"
+      ],
+      "codename": null,
+      "role": "Suporte tiny — helpers e naptime",
+      "tags": [
+        "Helpful",
+        "Tiny",
+        "zZzzZ"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Pillow Toss",
+          "summary": "Travesseiro — dano/knock"
+        },
+        "F": {
+          "name": "Tag Along",
+          "summary": "Acompanha aliado — link/mobilidade"
+        },
+        "C": {
+          "name": "Lil Helpers",
+          "summary": "Minions auxiliares"
+        },
+        "E": {
+          "name": "Naptime",
+          "summary": "Ult — sleep AoE"
+        }
+      },
+      "verified": true
+    },
+    "seven": {
+      "id": "seven",
+      "display_name": "Seven",
+      "internal_names": [
+        "gigawatt",
+        "seven",
+        "hero_seven"
+      ],
+      "codename": "gigawatt",
+      "role": "Mystic lightning — storm cloud AoE",
+      "tags": [
+        "High Voltage",
+        "Merciless",
+        "Area Denial"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Lightning Ball",
+          "summary": "Bola de relâmpago"
+        },
+        "F": {
+          "name": "Static Charge",
+          "summary": "Carga estática — setup elétrico"
+        },
+        "C": {
+          "name": "Power Surge",
+          "summary": "Surto de poder — amp elétrico"
+        },
+        "E": {
+          "name": "Storm Cloud",
+          "summary": "Ult — tempestade AoE persistente"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/seven.png",
+        "path_mm": "images/deadlock/heroes_minimap/seven.png",
+        "path_card": "images/deadlock/heroes_card/seven.png"
+      }
+    },
+    "calico": {
+      "id": "calico",
+      "display_name": "Shiv",
+      "internal_names": [
+        "nano",
+        "shiv",
+        "hero_shiv"
+      ],
+      "codename": "nano",
+      "role": "Brawler bleed — knives e killing blow",
+      "tags": [
+        "Rage",
+        "Bleed",
+        "Repeat"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Serrated Knives",
+          "summary": "Facas serrilhadas — bleed"
+        },
+        "F": {
+          "name": "Slice and Dice",
+          "summary": "Dash cortante"
+        },
+        "C": {
+          "name": "Bloodletting",
+          "summary": "Sangria — amp bleed/sustain"
+        },
+        "E": {
+          "name": "Killing Blow",
+          "summary": "Ult — execute burst melee"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/calico.png",
+        "path_mm": "images/deadlock/heroes_minimap/calico.png",
+        "path_card": "images/deadlock/heroes_card/calico.png"
+      }
+    },
+    "werewolf": {
+      "id": "werewolf",
+      "display_name": "Silver",
+      "internal_names": [
+        "silver",
+        "hero_silver"
+      ],
+      "codename": null,
+      "role": "Marksman feral — transformação lycan",
+      "tags": [
+        "Feral",
+        "Hot Mess",
+        "Transformation"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Slam Fire",
+          "summary": "Disparo slam — shotgun burst"
+        },
+        "F": {
+          "name": "Boot Kick",
+          "summary": "Chute — knockback/mobilidade"
+        },
+        "C": {
+          "name": "Entangling Bola",
+          "summary": "Bola — immobilize"
+        },
+        "E": {
+          "name": "Lycan Curse",
+          "summary": "Ult — transformação lobisomem"
+        }
+      },
+      "verified": true
+    },
+    "sinclair": {
+      "id": "sinclair",
+      "display_name": "Sinclair",
+      "internal_names": [
+        "magician",
+        "sinclair",
+        "hero_sinclair"
+      ],
+      "codename": "magician",
+      "role": "Mystic trickster — coelho e audience",
+      "tags": [
+        "Trickster",
+        "Copycat",
+        "Versatile"
+      ],
+      "complexity": 4,
+      "abilities": {
+        "Q": {
+          "name": "Vexing Bolt",
+          "summary": "Raio vexante — burst espiritual"
+        },
+        "F": {
+          "name": "Spectral Assistant",
+          "summary": "Assistente espectral"
+        },
+        "C": {
+          "name": "Rabbit Hex",
+          "summary": "Hex transforma em coelho"
+        },
+        "E": {
+          "name": "Audience Participation",
+          "summary": "Ult — participação da plateia AoE"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/sinclair.png",
+        "path_mm": "images/deadlock/heroes_minimap/sinclair.png",
+        "path_card": "images/deadlock/heroes_card/sinclair.png"
+      }
+    },
+    "priest": {
+      "id": "priest",
+      "display_name": "Venator",
+      "internal_names": [
+        "venator",
+        "hero_venator"
+      ],
+      "codename": null,
+      "role": "Marksman weapon carry — escala Weapon Damage, sem mobilidade",
+      "tags": [
+        "Devout",
+        "Arms Expert",
+        "Tactical"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Consecrating Grenade",
+          "summary": "Granada ricocheteia, dano de arma, queima, redução de cura"
+        },
+        "F": {
+          "name": "Gutshot",
+          "summary": "Shotgun knockback; stun + dano bônus se bater na parede. NÃO é teleporte."
+        },
+        "C": {
+          "name": "Hex-Lined Snap Trap",
+          "summary": "Armadilha: immobilize, reveal, dano espiritual"
+        },
+        "E": {
+          "name": "Ira Domini",
+          "summary": "3 estacas de besta; última abençoada (pure + execute low HP)"
+        }
+      },
+      "verified": true
+    },
+    "victor": {
+      "id": "victor",
+      "display_name": "Victor",
+      "internal_names": [
+        "frank",
+        "victor",
+        "hero_victor"
+      ],
+      "codename": "frank",
+      "role": "Brawler attrition — pain battery e reanimation",
+      "tags": [
+        "You",
+        "Can't",
+        "Kill Me"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Pain Battery",
+          "summary": "Acumula/sofre dano para liberar burst"
+        },
+        "F": {
+          "name": "Jumpstart",
+          "summary": "Impulso elétrico — mobilidade"
+        },
+        "C": {
+          "name": "Aura of Suffering",
+          "summary": "Aura de sofrimento — dano AoE"
+        },
+        "E": {
+          "name": "Shocking Reanimation",
+          "summary": "Ult — revives/reanima com choque"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/victor.png",
+        "path_mm": "images/deadlock/heroes_minimap/victor.png",
+        "path_card": "images/deadlock/heroes_card/victor.png"
+      }
+    },
+    "vindicta": {
+      "id": "vindicta",
+      "display_name": "Vindicta",
+      "internal_names": [
+        "hornet",
+        "vindicta",
+        "hero_vindicta"
+      ],
+      "codename": "hornet",
+      "role": "Marksman sniper aéreo — stake e assassinate",
+      "tags": [
+        "Sniper",
+        "Soaring",
+        "One Shot Kill"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Stake",
+          "summary": "Estaca — marca/dano à distância"
+        },
+        "F": {
+          "name": "Flight",
+          "summary": "Voo / mobilidade aérea"
+        },
+        "C": {
+          "name": "Crow Familiar",
+          "summary": "Corvo — visão/dano"
+        },
+        "E": {
+          "name": "Assassinate",
+          "summary": "Ult sniper — dano massivo single target"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_mm": "images/deadlock/heroes_minimap/vindicta.png",
+        "path_card": "images/deadlock/heroes_card/vindicta.png"
+      }
+    },
+    "pocket": {
+      "id": "pocket",
+      "display_name": "Viscous",
+      "internal_names": [
+        "synth",
+        "goo",
+        "viscous",
+        "hero_viscous"
+      ],
+      "codename": "synth",
+      "role": "Mystic goo — cube e goo ball",
+      "tags": [
+        "Evasive",
+        "Disruptor",
+        "Gooey"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Splatter",
+          "summary": "Respingo de gosma — slow/dano"
+        },
+        "F": {
+          "name": "The Cube",
+          "summary": "Cubo protetor — invulnerabilidade aliada"
+        },
+        "C": {
+          "name": "Puddle Punch",
+          "summary": "Soco na poça — knockup"
+        },
+        "E": {
+          "name": "Goo Ball",
+          "summary": "Ult — bola rolando — dano/controle"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/pocket.png",
+        "path_mm": "images/deadlock/heroes_minimap/pocket.png",
+        "path_card": "images/deadlock/heroes_card/pocket.png"
+      }
+    },
+    "vyper": {
+      "id": "vyper",
+      "display_name": "Vyper",
+      "internal_names": [
+        "viper",
+        "vyper",
+        "hero_vyper"
+      ],
+      "codename": "viper",
+      "role": "Assassino gunner — veneno e petrify",
+      "tags": [
+        "Gunner",
+        "Slippery",
+        "Rat-a-Tat"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Screwjab Dagger",
+          "summary": "Adaga — bleed/anti-heal"
+        },
+        "F": {
+          "name": "Lethal Venom",
+          "summary": "Veneno letal — debuff"
+        },
+        "C": {
+          "name": "Slither",
+          "summary": "Deslize — mobilidade baixa"
+        },
+        "E": {
+          "name": "Petrifying Bola",
+          "summary": "Ult — bola petrificante immobilize"
+        }
+      },
+      "verified": true
+    },
+    "warden": {
+      "id": "warden",
+      "display_name": "Warden",
+      "internal_names": [
+        "cop",
+        "warden",
+        "hero_warden"
+      ],
+      "codename": "warden",
+      "role": "Brawler initiator — flask e last stand",
+      "tags": [
+        "Initiator",
+        "Fearless",
+        "One Man Army"
+      ],
+      "complexity": 2,
+      "abilities": {
+        "Q": {
+          "name": "Alchemical Flask",
+          "summary": "Frasco — dano/slow AoE"
+        },
+        "F": {
+          "name": "Willpower",
+          "summary": "Força de vontade — resist/escudo"
+        },
+        "C": {
+          "name": "Binding Word",
+          "summary": "Palavra vinculante — silence/root"
+        },
+        "E": {
+          "name": "Last Stand",
+          "summary": "Ult — último suspiro tanky"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/warden.png",
+        "path_mm": "images/deadlock/heroes_minimap/warden.png",
+        "path_card": "images/deadlock/heroes_card/warden.png"
+      }
+    },
+    "wraith": {
+      "id": "wraith",
+      "display_name": "Wraith",
+      "internal_names": [
+        "wraith",
+        "hero_wraith"
+      ],
+      "codename": "wraith",
+      "role": "Marksman duelist — teleporte e telekinesis",
+      "tags": [
+        "Duelist",
+        "Isolator",
+        "Telekinetic"
+      ],
+      "complexity": 1,
+      "abilities": {
+        "Q": {
+          "name": "Card Trick",
+          "summary": "Cartas arremessáveis — poke/burst"
+        },
+        "F": {
+          "name": "Project Mind",
+          "summary": "Teletransporte para local alvo (ÚNICO teleporte livre do kit)"
+        },
+        "C": {
+          "name": "Full Auto",
+          "summary": "Buff fire rate — aliados próximos ganham metade"
+        },
+        "E": {
+          "name": "Telekinesis",
+          "summary": "Ult — lift stun + slam; silence e disarm depois"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/wraith.png",
+        "path_mm": "images/deadlock/heroes_minimap/wraith.png",
+        "path_card": "images/deadlock/heroes_card/wraith.png"
+      }
+    },
+    "yamato": {
+      "id": "yamato",
+      "display_name": "Yamato",
+      "internal_names": [
+        "yakuza",
+        "yamato",
+        "hero_yamato"
+      ],
+      "codename": "yamato",
+      "role": "Assassino duelist — shadow transformation invencível",
+      "tags": [
+        "Relentless",
+        "Acrobatics",
+        "Pursuer"
+      ],
+      "complexity": 3,
+      "abilities": {
+        "Q": {
+          "name": "Power Slash",
+          "summary": "Corte carregado — dano crescente"
+        },
+        "F": {
+          "name": "Flying Slash",
+          "summary": "Gancho — puxa para inimigo"
+        },
+        "C": {
+          "name": "Crimson Slash",
+          "summary": "Slash AoE — heal se acertar herói; slow fire rate"
+        },
+        "E": {
+          "name": "Shadow Transformation",
+          "summary": "Ult — invencível, refresh cooldowns, imortal temporário"
+        }
+      },
+      "verified": true,
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/yamato.png",
+        "path_mm": "images/deadlock/heroes_minimap/yamato.png",
+        "path_card": "images/deadlock/heroes_card/yamato.png"
+      }
+    },
+    "grey_talon": {
+      "id": "grey_talon",
+      "display_name": "Grey Talon",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/grey_talon.png",
+        "path_mm": "images/deadlock/heroes_minimap/grey_talon.png",
+        "path_card": "images/deadlock/heroes_card/grey_talon.png"
+      }
+    },
+    "abrams": {
+      "id": "abrams",
+      "display_name": "Abrams",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/abrams.png",
+        "path_mm": "images/deadlock/heroes_minimap/abrams.png",
+        "path_card": "images/deadlock/heroes_card/abrams.png"
+      }
+    },
+    "cadence": {
+      "id": "cadence",
+      "display_name": "Cadence",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/cadence.png",
+        "path_mm": "images/deadlock/heroes_minimap/cadence.png"
+      }
+    },
+    "mo_and_krill": {
+      "id": "mo_and_krill",
+      "display_name": "Mo And Krill",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/mo_and_krill.png",
+        "path_mm": "images/deadlock/heroes_minimap/mo_and_krill.png",
+        "path_card": "images/deadlock/heroes_card/mo_and_krill.png"
+      }
+    },
+    "druid": {
+      "id": "druid",
+      "display_name": "Druid",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/druid.png",
+        "path_mm": "images/deadlock/heroes_minimap/druid.png",
+        "path_card": "images/deadlock/heroes_card/druid.png"
+      }
+    },
+    "engineer": {
+      "id": "engineer",
+      "display_name": "Engineer",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/engineer.png",
+        "path_mm": "images/deadlock/heroes_minimap/engineer.png",
+        "path_card": "images/deadlock/heroes_card/engineer.png"
+      }
+    },
+    "rem": {
+      "id": "rem",
+      "display_name": "Rem",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/rem.png",
+        "path_mm": "images/deadlock/heroes_minimap/rem.png",
+        "path_card": "images/deadlock/heroes_card/rem.png"
+      }
+    },
+    "fortuna": {
+      "id": "fortuna",
+      "display_name": "Fortuna",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/fortuna.png",
+        "path_mm": "images/deadlock/heroes_minimap/fortuna.png",
+        "path_card": "images/deadlock/heroes_card/fortuna.png"
+      }
+    },
+    "genericperson": {
+      "id": "genericperson",
+      "display_name": "Genericperson",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/genericperson.png",
+        "path_mm": "images/deadlock/heroes_minimap/genericperson.png"
+      }
+    },
+    "graf": {
+      "id": "graf",
+      "display_name": "Graf",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/graf.png",
+        "path_mm": "images/deadlock/heroes_minimap/graf.png",
+        "path_card": "images/deadlock/heroes_card/graf.png"
+      }
+    },
+    "gunslinger": {
+      "id": "gunslinger",
+      "display_name": "Gunslinger",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/gunslinger.png",
+        "path_mm": "images/deadlock/heroes_minimap/gunslinger.png"
+      }
+    },
+    "kali": {
+      "id": "kali",
+      "display_name": "Kali",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/kali.png",
+        "path_mm": "images/deadlock/heroes_minimap/kali.png",
+        "path_card": "images/deadlock/heroes_card/kali.png"
+      }
+    },
+    "necro": {
+      "id": "necro",
+      "display_name": "Necro",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/necro.png",
+        "path_mm": "images/deadlock/heroes_minimap/necro.png",
+        "path_card": "images/deadlock/heroes_card/necro.png"
+      }
+    },
+    "operative": {
+      "id": "operative",
+      "display_name": "Operative",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/operative.png",
+        "path_mm": "images/deadlock/heroes_minimap/operative.png",
+        "path_card": "images/deadlock/heroes_card/operative.png"
+      }
+    },
+    "rutger": {
+      "id": "rutger",
+      "display_name": "Rutger",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/rutger.png",
+        "path_mm": "images/deadlock/heroes_minimap/rutger.png",
+        "path_card": "images/deadlock/heroes_card/rutger.png"
+      }
+    },
+    "shiv": {
+      "id": "shiv",
+      "display_name": "Shiv",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/shiv.png",
+        "path_mm": "images/deadlock/heroes_minimap/shiv.png",
+        "path_card": "images/deadlock/heroes_card/shiv.png"
+      }
+    },
+    "skyrunner": {
+      "id": "skyrunner",
+      "display_name": "Skyrunner",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/skyrunner.png",
+        "path_mm": "images/deadlock/heroes_minimap/skyrunner.png",
+        "path_card": "images/deadlock/heroes_card/skyrunner.png"
+      }
+    },
+    "slork": {
+      "id": "slork",
+      "display_name": "Slork",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/slork.png",
+        "path_mm": "images/deadlock/heroes_minimap/slork.png",
+        "path_card": "images/deadlock/heroes_card/slork.png"
+      }
+    },
+    "lady_geist": {
+      "id": "lady_geist",
+      "display_name": "Lady Geist",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/lady_geist.png",
+        "path_mm": "images/deadlock/heroes_minimap/lady_geist.png",
+        "path_card": "images/deadlock/heroes_card/lady_geist.png"
+      }
+    },
+    "dynamo": {
+      "id": "dynamo",
+      "display_name": "Dynamo",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/dynamo.png",
+        "path_mm": "images/deadlock/heroes_minimap/dynamo.png",
+        "path_card": "images/deadlock/heroes_card/dynamo.png"
+      }
+    },
+    "swan": {
+      "id": "swan",
+      "display_name": "Swan",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/swan.png",
+        "path_mm": "images/deadlock/heroes_minimap/swan.png",
+        "path_card": "images/deadlock/heroes_card/swan.png"
+      }
+    },
+    "targetdummy": {
+      "id": "targetdummy",
+      "display_name": "Targetdummy",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/targetdummy.png",
+        "path_mm": "images/deadlock/heroes_minimap/targetdummy.png"
+      }
+    },
+    "thumper": {
+      "id": "thumper",
+      "display_name": "Thumper",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/thumper.png",
+        "path_mm": "images/deadlock/heroes_minimap/thumper.png"
+      }
+    },
+    "tokamak": {
+      "id": "tokamak",
+      "display_name": "Tokamak",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/tokamak.png",
+        "path_mm": "images/deadlock/heroes_minimap/tokamak.png",
+        "path_card": "images/deadlock/heroes_card/tokamak.png"
+      }
+    },
+    "trapper": {
+      "id": "trapper",
+      "display_name": "Trapper",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/trapper.png",
+        "path_mm": "images/deadlock/heroes_minimap/trapper.png",
+        "path_card": "images/deadlock/heroes_card/trapper.png"
+      }
+    },
+    "unicorn": {
+      "id": "unicorn",
+      "display_name": "Unicorn",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/unicorn.png",
+        "path_mm": "images/deadlock/heroes_minimap/unicorn.png",
+        "path_card": "images/deadlock/heroes_card/unicorn.png"
+      }
+    },
+    "vampirebat": {
+      "id": "vampirebat",
+      "display_name": "Vampirebat",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/vampirebat.png",
+        "path_mm": "images/deadlock/heroes_minimap/vampirebat.png",
+        "path_card": "images/deadlock/heroes_card/vampirebat.png"
+      }
+    },
+    "vandal": {
+      "id": "vandal",
+      "display_name": "Vandal",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/vandal.png",
+        "path_mm": "images/deadlock/heroes_minimap/vandal.png",
+        "path_card": "images/deadlock/heroes_card/vandal.png"
+      }
+    },
+    "viscous": {
+      "id": "viscous",
+      "display_name": "Viscous",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/viscous.png",
+        "path_mm": "images/deadlock/heroes_minimap/viscous.png",
+        "path_card": "images/deadlock/heroes_card/viscous.png"
+      }
+    },
+    "silver": {
+      "id": "silver",
+      "display_name": "Silver",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/silver.png",
+        "path_mm": "images/deadlock/heroes_minimap/silver.png",
+        "path_card": "images/deadlock/heroes_card/silver.png"
+      }
+    },
+    "wrecker": {
+      "id": "wrecker",
+      "display_name": "Wrecker",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/wrecker.png",
+        "path_mm": "images/deadlock/heroes_minimap/wrecker.png",
+        "path_card": "images/deadlock/heroes_card/wrecker.png"
+      }
+    },
+    "yakuza": {
+      "id": "yakuza",
+      "display_name": "Yakuza",
+      "images": {
+        "path_sm": "images/deadlock/heroes_circle/yakuza.png",
+        "path_mm": "images/deadlock/heroes_minimap/yakuza.png"
+      }
+    },
+    "frog": {
+      "id": "frog",
+      "display_name": "Frog",
+      "images": {
+        "path_mm": "images/deadlock/heroes_minimap/frog.png"
+      }
+    },
+    "airheart": {
+      "id": "airheart",
+      "display_name": "Airheart",
+      "images": {
+        "path_card": "images/deadlock/heroes_card/airheart.png"
+      }
+    },
+    "werewolf_wolf": {
+      "id": "werewolf_wolf",
+      "display_name": "Werewolf Wolf",
+      "images": {
+        "path_card": "images/deadlock/heroes_card/werewolf_wolf.png"
+      }
+    }
+  }
+}

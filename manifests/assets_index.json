@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-06-22T17:24:28.799906",
+  "repository": "Deadlock Open Assets Hub",
+  "directories": {
+    "data": {
+      "path": "assets/game/",
+      "files": [
+        "heroes.json",
+        "items.json",
+        "economy.json",
+        "knowledge_base.json"
+      ]
+    },
+    "images": {
+      "path": "images/deadlock/",
+      "count": 1771,
+      "description": "Hero, ability, item, upgrade, and UI icons (PNG from VPK)"
+    },
+    "vdata": {
+      "path": "assets/vdata/",
+      "count": 76,
+      "description": "Decompiled game data (abilities, heroes, modifiers)"
+    },
+    "particles": {
+      "path": "assets/extracted/particles/abilities/",
+      "count": 9463,
+      "description": "Decompiled ability particle systems — large, use Git LFS or Releases"
+    },
+    "panorama": {
+      "path": "assets/extracted/panorama/",
+      "layout_count": 412,
+      "styles_count": 420,
+      "description": "Decompiled Panorama UI (XML layout + CSS)"
+    },
+    "indexes": {
+      "path": "assets/extracted/indexes/",
+      "description": "Particle, sound, and model path indexes"
+    },
+    "catalog": {
+      "path": "assets/extracted/catalog/local_index.json",
+      "description": "Cross-reference index (codenames, vdata summaries, particles)"
+    },
+    "tools": {
+      "path": "tools/",
+      "description": "VPK extraction and hub build pipeline"
+    }
+  }
+}

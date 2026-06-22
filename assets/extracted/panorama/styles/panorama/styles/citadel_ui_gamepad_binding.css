@@ -1,0 +1,41 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelGamePadBinding
+{
+	width: fit-children;
+	height: fit-children;
+	visibility: collapse;
+	width: fit-children;
+	height: fit-children;
+	flow-children: right;
+	vertical-align: middle;
+	horizontal-align: center;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+CitadelGamePadBinding .MultiBindSeparator
+{
+	width: fit-children;
+	height: fit-children;
+	margin: 0px 2px;
+	transform: translateY( 1px );
+	vertical-align: bottom;
+	text-align: center;
+}
+
+.hasControllerConnected CitadelGamePadBinding
+{
+	visibility: collapse;
+}
+
+.hasControllerConnected.isUsingController CitadelGamePadGlyph
+{
+	visibility: visible;
+}
+
+.ZooContainerPanel CitadelGamePadBinding
+{
+	visibility: visible;
+}
+

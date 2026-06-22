@@ -1,0 +1,70 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf64:version{c95f3434-dfef-4a35-9913-024beddb416a} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 0
+	m_flNoDrawTimeToGoToSleep = 12.0
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 6
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 240.0, 1.0, 1.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_ground_proj.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_refraction.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_sphere.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_sparks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_flame.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_flare.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_rays.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_detail.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_flashbang_explosion_bits.vpcf"
+		},
+	]
+}

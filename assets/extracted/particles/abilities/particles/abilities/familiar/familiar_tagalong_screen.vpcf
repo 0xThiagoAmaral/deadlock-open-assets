@@ -1,0 +1,67 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf64:version{c95f3434-dfef-4a35-9913-024beddb416a} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 40
+	m_flConstantRadius = 48.0
+	m_bScreenSpaceEffect = true
+	m_flConstantLifespan = 6.0
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_SetControlPointPositions"
+			m_bUseWorldLocation = true
+			m_vecCP4Pos = [ 90.0, -90.0, 5.0 ]
+			m_nCP4 = 5
+			m_vecCP3Pos = [ 90.0, 90.0, 5.0 ]
+			m_nCP3 = 4
+			m_vecCP2Pos = [ -90.0, 90.0, 5.0 ]
+			m_nCP2 = 3
+			m_vecCP1Pos = [ -90.0, -90.0, 5.0 ]
+			m_nCP1 = 2
+			m_flOpEndFadeOutTime = 0.1
+			m_flOpStartFadeOutTime = 0.1
+		},
+		{
+			_class = "C_OP_SetControlPointPositions"
+			m_bUseWorldLocation = true
+			m_nCP4 = 7
+			m_vecCP3Pos = [ -90.0, -90.0, 5.0 ]
+			m_nCP3 = 7
+			m_vecCP2Pos = [ -90.0, -90.0, 5.0 ]
+			m_nCP2 = 7
+			m_vecCP1Pos = [ -90.0, -90.0, 5.0 ]
+			m_nCP1 = 6
+			m_flOpEndFadeOutTime = 0.1
+			m_flOpStartFadeOutTime = 0.1
+			m_vecCP4Pos = [ -90.0, -90.0, 5.0 ]
+		},
+		{
+			_class = "C_OP_SetControlPointPositions"
+			m_bUseWorldLocation = true
+			m_nCP1 = 20
+			m_nCP2 = 20
+			m_nCP3 = 20
+			m_nCP4 = 20
+			m_vecCP1Pos = [ 0.0, 0.0, 0.0 ]
+			m_vecCP2Pos = [ 0.0, 0.0, 0.0 ]
+			m_vecCP3Pos = [ 0.0, 0.0, 0.0 ]
+			m_vecCP4Pos = [ 0.0, 0.0, 0.0 ]
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/familiar/familiar_tagalong_screen_top.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/familiar/familiar_tagalong_screen_bot.vpcf"
+		},
+	]
+}

@@ -1,0 +1,48 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 7
+	m_flConstantRadius = 50.0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 200.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/personal/luke/generic_pavement.vmdl"
+				m_groundType = "PET_GROUND_NONE"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_puddle_linger_proj.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_pool_linger_spray.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_pool_linger_mesh.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/viscous/viscous_puddle_linger_steam.vpcf"
+		},
+	]
+}

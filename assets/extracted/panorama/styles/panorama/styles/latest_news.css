@@ -1,0 +1,132 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelLatestNews
+{
+	flow-children: down;
+	width: 520px;
+	height: fit-children;
+	margin-right: 8px;
+	opacity: 0;
+	transform: translateY( 20px );
+	transition-property: opacity, transform, brightness;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in-out;
+	opacity-mask: url("s2r://panorama/images/main_menu/text_speckle_mask_main_psd.vtex");
+	opacity-mask-scale: 100% 100%;
+	animation-name: NewsFadeIn;
+	animation-duration: 22s;
+	animation-timing-function: ease-in;
+}
+
+CitadelLatestNews:hover
+{
+	brightness: 2.0;
+}
+
+CitadelLatestNews.HasNewsEntry:not(.NewsEntryAlreadySeen)
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+@keyframes 'NewsFadeIn'
+{
+	0%
+	{
+		opacity: 0;
+	}
+	
+	95%
+	{
+		opacity: 0;
+	}
+	
+	99%
+	{
+		opacity: 0.99;
+	}
+	
+	100%
+	{
+		opacity: 1;
+	}
+	
+}
+
+#NewsEntryImage
+{
+	width: 100%;
+	height: width-percentage( 56.25% );
+	visibility: collapse;
+}
+
+#NewsEntryInfo
+{
+	visibility: collapse;
+	flow-children: down;
+}
+
+#NewsEntryInfo .EntryTitle
+{
+	padding: 8px 16px 0px 16px;
+}
+
+#NewsEntryInfo .EntrySubtitle
+{
+	font-size: 14px;
+	color: #777;
+	padding: 4px 16px 8px 16px;
+}
+
+#CalloutHeader
+{
+	horizontal-align: right;
+}
+
+#CalloutHeader #CalloutTitle
+{
+	color: ominousGreen&cc;
+	font-family: block;
+	font-size: 28px;
+	line-height: 32px;
+	text-transform: uppercase;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.BindingRow
+{
+	flow-children: right;
+	width: fit-children;
+	height: 24px;
+	horizontal-align: right;
+	wash-color: deeplyOminousGreen;
+	opacity: 0.4;
+	saturation: 0.8;
+	vertical-align: bottom;
+}
+
+.BindingRow Label
+{
+	horizontal-align: right;
+	vertical-align: middle;
+	font-size: 20px;
+	font-family: block;
+	text-transform: uppercase;
+	color: offWhite&88;
+	margin-left: 6px;
+	padding-top: 1px;
+}
+
+.BindingRow CitadelBinding
+{
+	margin-left: 0px;
+	horizontal-align: right;
+	vertical-align: middle;
+}
+
+.BindingRow CitadelBinding Label
+{
+	font-size: 20px;
+}
+

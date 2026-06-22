@@ -1,0 +1,75 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+#player_teams_container
+{
+	width: 100%;
+	width: fit-children;
+	horizontal-align: center;
+	flow-children: right;
+	margin-top: 100px;
+}
+
+#team_neutral_container
+{
+	width: 100%;
+	max-width: 500px;
+	horizontal-align: center;
+}
+
+.team_container
+{
+	flow-children: up;
+	horizontal-align: center;
+	margin-top: 20px;
+}
+
+.gamemode_streetbrawl .team_container
+{
+	margin-top: 40px;
+}
+
+#team_neutral_container
+{
+	margin-top: 40px;
+}
+
+#shield_gen_container,#base_boss_container
+{
+	visibility: collapse;
+}
+
+.group_container
+{
+	width: fill-parent-flow(1.0);
+	width: fit-children;
+	flow-children: right;
+}
+
+#shield_gen_container
+{
+	max-width: 500px;
+	visibility: collapse;
+}
+
+#shield_gen_container.any_active
+{
+	visibility: visible;
+}
+
+#shield_gen_container .objective.is_active
+{
+	width: fill-parent-flow(1.0);
+	height: 50px;
+	margin-top: 70px;
+}
+
+#base_boss_container .objective.is_active
+{
+	width: 500px;
+}
+
+.gamemode_streetbrawl #shield_gen_container,.gamemode_streetbrawl #base_boss_container
+{
+	visibility: collapse;
+}
+

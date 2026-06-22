@@ -1,0 +1,44 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf63:version{a6e6a69e-52d3-4527-8b9c-ff3bb91aca3e} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_energy.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_dust.vpcf"
+			m_flDelay = 0.2
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_debris.vpcf"
+			m_flDelay = 0.2
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_beam.vpcf"
+			m_flDelay = 0.25
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_model_end.vpcf"
+			m_bEndCap = true
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_dust.vpcf"
+			m_bEndCap = true
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/doorman/doorman_hotel_elevator_beam_end.vpcf"
+			m_bEndCap = true
+		},
+	]
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+		},
+	]
+}

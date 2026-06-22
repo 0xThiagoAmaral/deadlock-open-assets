@@ -1,0 +1,87 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf65:version{48e806a9-c210-4cd8-811a-38b5ef63b195} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "shotgun_muzzle_fx"
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 2
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 393.0, 128.0, 0.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 5
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 1.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_wip/priest/priest.vmdl"
+				m_sequenceName = "models\\heroes_wip\\priest\\clips\\ability_knockback.vnmclip"
+				m_hitboxSetName = "default"
+				m_flPlaybackSpeed = 0.0
+				m_bSequenceNameIsAnimClipPath = true
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_RemapSpeedtoCP"
+			m_nInControlPointNumber = 1
+			m_nOutControlPointNumber = 5
+			m_flInputMin = 50.0
+			m_flInputMax = 100.0
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_projection.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_muzzle.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_embers.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_streaks.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_light_inner.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_muzzle_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/priest/priest_cone_aoe_trail_embers.vpcf"
+		},
+	]
+}

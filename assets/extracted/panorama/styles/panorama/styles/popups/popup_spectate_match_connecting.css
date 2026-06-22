@@ -1,0 +1,47 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+SpectateMatchConnecting
+{
+	flow-children: down;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 850px;
+	vertical-align: center;
+	horizontal-align: center;
+	background-color: #333333;
+	border-radius: 15px;
+	transition-property: transform, pre-transform-scale2d, opacity, background-color, height;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in;
+	transition-delay: 0.0s;
+	opacity: 1.0;
+	pre-transform-scale2d: 1.0;
+}
+
+.TitleContainer
+{
+	horizontal-align: center;
+}
+
+.Description
+{
+	horizontal-align: center;
+	flow-children: down;
+}
+
+.Spinner
+{
+	width: 60px;
+	height: 60px;
+	horizontal-align: center;
+	vertical-align: middle;
+	background-image: url("s2r://panorama/images/control_icons/spinner_png.vtex");
+	background-size: contain;
+	animation-name: RotateIcon;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	transition-property: opacity, pre-transform-rotate2d;
+	transition-duration: 0.3s;
+}
+

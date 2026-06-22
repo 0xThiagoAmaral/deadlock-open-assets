@@ -1,0 +1,71 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf64:version{c95f3434-dfef-4a35-9913-024beddb416a} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 4
+	m_flConstantRadius = 30.0
+	m_flConstantLifespan = 0.5
+	m_ConstantNormal = [ -1.0, 0.0, 0.0 ]
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 4
+	m_ConstantColor = [ 254, 195, 95, 255 ]
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 1.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 5
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "attach_sword_fx"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_wip/fencer/fencer.vmdl"
+				m_sequenceName = "models\\heroes_wip\\fencer\\clips\\melee_hit.vnmclip"
+				m_hitboxSetName = "default"
+				m_flPlaybackSpeed = 0.0
+				m_bSequenceNameIsAnimClipPath = true
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_light.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_cyl_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_symbols.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_magic.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_pommel.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/fencer/fencer_riposte_counter_proc_pommel_aura.vpcf"
+		},
+	]
+}

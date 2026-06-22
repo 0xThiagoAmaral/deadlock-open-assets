@@ -1,0 +1,48 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nMaxParticles = 0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "aim"
+					m_vecOffset = [ 0.0, 0.0, 30.0 ]
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes_staging/atlas_detective_v2/atlas_detective.vmdl"
+				m_sequenceName = "bindpose"
+				m_hitboxSetName = "default"
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/abilities/bebop/bebop_sticky_bomb_proj_glow.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/bebop/bebop_sticky_bomb_proj_model.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/bebop/bebop_sticky_bomb_proj_trail.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/bebop/bebop_sticky_bomb_proj_embers.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/bebop/bebop_sticky_bomb_proj_arming_rays.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/abilities/bebop/bebop_sticky_bomb_proj_flashes.vpcf"
+		},
+	]
+}

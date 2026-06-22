@@ -1,0 +1,327 @@
+/* Prettified by Source 2 Viewer 19.2.0.0 - https://valveresourceformat.github.io */
+
+CitadelPrivateLobbyPage
+{
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	flow-children: right;
+	background-color: #000000;
+	background-image: url("s2r://panorama/images/main_menu/background_nyc_cityscape_bw_psd.vtex");
+	background-img-opacity: 0.2;
+	background-size: cover;
+	background-position: left;
+	flow-children: right;
+}
+
+.MainHeader
+{
+	width: 100%;
+	flow-children: down;
+}
+
+.DashboardPage
+{
+	width: 100%;
+	flow-children: down;
+}
+
+#PartyCode
+{
+	horizontal-align: center;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.MainTitle
+{
+	horizontal-align: center;
+}
+
+.MainTitleText
+{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.MainBodyCtn
+{
+	height: 850px;
+	margin-top: 50px;
+	horizontal-align: center;
+	flow-children: right;
+	max-width: 1600px;
+	background-color: offBlack&aa;
+}
+
+#PlayersPanel
+{
+	flow-children: down;
+}
+
+.TeamContainer
+{
+	horizontal-align: center;
+	flow-children: right;
+	margin-top: 40px;
+	height: 610px;
+}
+
+.GameModeBrawl .TeamContainer
+{
+	height: 420px;
+}
+
+.OthersContainer
+{
+	margin-top: 5px;
+	height: fit-children;
+	horizontal-align: center;
+	flow-children: down;
+	width: 100%;
+}
+
+.LobbyButtons
+{
+	horizontal-align: center;
+	flow-children: right;
+	margin-bottom: 20px;
+}
+
+.LobbyButtons .SecondaryButton:hover
+{
+	sound: soundMainMenuHover;
+}
+
+.LobbyButtons .SecondaryButton:active
+{
+	sound: soundMainMenuActivate;
+}
+
+.LobbyActionButton
+{
+	margin: 0px 10px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid white;
+}
+
+.RandomLanes #ShuffleLanes
+{
+	visibility: collapse;
+}
+
+.TeamSlot
+{
+	height: 60px;
+	width: 480px;
+}
+
+.TeamListing
+{
+	height: fill-parent-flow(1.0);
+	overflow: squish scroll;
+	width: 100%;
+	flow-children: down;
+}
+
+.TeamCtn
+{
+	width: 430px;
+	flow-children: down;
+	margin: 20px;
+}
+
+.TeamTitle
+{
+	width: 100%;
+	background-color: black;
+	padding: 6px;
+}
+
+.TeamTitleText
+{
+	color: offWhite&90 font-size: 16px;
+	font-weight: bold;
+	horizontal-align: center;
+}
+
+.TeamAmber.TeamCtn .TeamTitle
+{
+	background-color: team1ColorDark;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.TeamSapphire.TeamCtn .TeamTitle
+{
+	background-color: team2ColorDark;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.TeamJoinButton
+{
+	border: 2px solid offWhite&30;
+	margin: 4px;
+	width: 100%;
+	border-radius: 50px;
+}
+
+.TeamJoinButton:hover
+{
+	border-color: yellow;
+}
+
+.TeamJoinButton:hover .TeamJoinText
+{
+	color: yellow;
+}
+
+.TeamJoinText
+{
+	color: offWhite;
+	horizontal-align: center;
+	max-width: 107px;
+	text-overflow: shrink;
+}
+
+.IsPlayerUnassigned #UnassignedJoin
+{
+	visibility: collapse;
+}
+
+.LaunchMatchCtn
+{
+	vertical-align: bottom;
+	horizontal-align: center;
+	flow-children: down;
+	margin-bottom: 90px;
+	ignore-parent-flow: true;
+}
+
+.PartyErrorText
+{
+	visibility: collapse;
+}
+
+.HasPrivateLobbyError .PartyErrorText
+{
+	visibility: visible;
+}
+
+.HasPrivateLobbyError #StartMatch
+{
+	visibility: collapse;
+}
+
+#StartMatch
+{
+	horizontal-align: center;
+	background-color: offWhite;
+	border: 2px solid offWhite;
+	border-radius: 5px;
+	padding: 6px 20px;
+}
+
+.StartMatchText
+{
+	color: offBlack;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#StartMatch:hover
+{
+	background-color: offBlack;
+}
+
+#StartMatch:hover .StartMatchText
+{
+	color: offWhite;
+}
+
+.Spectators
+{
+	width: 950px;
+	flow-children: down;
+	margin: 0px 20px;
+	horizontal-align: right;
+}
+
+#SpectatorListing
+{
+	flow-children: right-wrap;
+}
+
+#VersusText
+{
+	font-size: 40px;
+	vertical-align: center;
+}
+
+#LobbyInfo
+{
+	flow-children: down;
+	margin-right: 60px;
+	height: 100%;
+	background-color: offBlack;
+}
+
+.SettingsPanel
+{
+	flow-children: down;
+	width: 100%;
+	padding: 20px;
+}
+
+.SettingsHeader
+{
+	font-size: 42px;
+	font-weight: bold;
+	font-family: serif;
+}
+
+.SettingSubSection
+{
+	margin-top: 10px;
+	flow-children: down;
+	flow-children: right;
+}
+
+.SecondaryButton
+{
+	margin-left: 0px;
+}
+
+.SettingSubSectionHeader
+{
+	font-size: 20px;
+}
+
+.LaneSeparator
+{
+	width: 100%;
+	height: 20px;
+}
+
+.RandomLanes .LaneSeparator
+{
+	visibility: collapse;
+}
+
+.InviteIcon
+{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	opacity: 0.3;
+	margin: 0px 10px 0px 0px;
+	background-image: url("s2r://panorama/images/icons/icon_friends.vsvg");
+	background-size: contain;
+}
+
+.EvaluationBranch #ServerRegionDropdownSubSection
+{
+	visibility: collapse;
+}
+

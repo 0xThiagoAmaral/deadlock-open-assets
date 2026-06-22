@@ -1,0 +1,50 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_nInitialParticles = 1
+	m_nMaxParticles = 1
+	m_flConstantRadius = 0.0
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_StatusEffectCitadel"
+			m_nDetailCombo = "DETAIL_COMBO_ADD_SELF_ILLUM"
+			m_flSFXSDetailAmount = 2.0
+			m_flSFXSDetailScale = 50.0
+			m_flSFXNormalAmount = 1.0
+			m_flSFXSDetailScrollZ = 1.0
+			m_flSFXColorWarpAmount = 1.0
+			m_flSFXSDetailScrollX = 1.0
+			m_flSFXSScale = 80.0
+			m_flSFXSelfIllumAmount = 1.0
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_EndCapTimedDecay"
+			m_flDecayTime = 0.5
+		},
+		{
+			_class = "C_OP_LerpEndCapScalar"
+			m_flOutput = 0.0
+			m_nOpEndCapState = "PARTICLE_ENDCAP_ENDCAP_ON"
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderStatusEffectCitadel"
+			m_pTextureColorWarp = resource:"materials/models/statuseffects/colorwarp_item_view.vtex"
+			m_pTextureNormal = resource:"materials/particle/ice_surface_normal.vtex"
+			m_pTextureDetail = resource:"materials/models/statuseffects/dark_stone_status.vtex"
+		},
+	]
+}
