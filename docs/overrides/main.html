@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block extrahead %}
+{{ super() }}
+<meta property="og:type" content="website">
+<meta property="og:title" content="Deadlock Open Assets — #1 Open Data Hub">
+<meta property="og:description" content="1,771 PNG icons, 73 heroes, 173 items, 9,463 particles, vdata & JSON manifests. Free for modders, scripters & tool devs.">
+<meta property="og:url" content="https://0xthiagoamaral.github.io/deadlock-open-assets/">
+<meta property="og:image" content="https://raw.githubusercontent.com/0xThiagoAmaral/deadlock-open-assets/main/images/deadlock/heroes_circle/abrams.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Deadlock Open Assets Hub">
+<meta name="twitter:description" content="The most complete open Deadlock resource repo — icons, codenames, particles, manifests.">
+<meta name="description" content="Open Deadlock data hub for modders, script developers and tool creators. Heroes, items, upgrades, vdata, particles.">
+{% endblock %}
+{% block announce %}
+<div class="hub-announce">
+  <span>1,771 assets mapped</span>
+  <a href="https://github.com/0xThiagoAmaral/deadlock-open-assets" target="_blank" rel="noopener">★ Star on GitHub</a>
+  <a href="../for-developers/">For modders & scripters →</a>
+</div>
+{% endblock %}
