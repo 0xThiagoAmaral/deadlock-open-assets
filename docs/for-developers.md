@@ -11,16 +11,15 @@ Other Deadlock resources are scattered — wiki pages, partial open-data repos, 
 | Use | URL |
 |-----|-----|
 | **Site** | `https://0xthiagoamaral.github.io/deadlock-open-assets/` |
-| **Raw files** | `https://raw.githubusercontent.com/0xThiagoAmaral/deadlock-open-assets/main/` |
-| **Manifests** | `.../manifests/heroes.json` |
-| **Images** | `.../images/deadlock/heroes_circle/{hero}.png` |
+| **Raw manifests** | `https://raw.githubusercontent.com/0xThiagoAmaral/deadlock-open-assets/main/manifests/` |
+| **Images (LFS)** | `https://media.githubusercontent.com/media/0xThiagoAmaral/deadlock-open-assets/main/images/` |
 
 ## Lua / Umbrella scripts
 
 ### Load hero icon overlay
 
 ```lua
-local BASE = "https://raw.githubusercontent.com/0xThiagoAmaral/deadlock-open-assets/main/"
+local BASE = "https://media.githubusercontent.com/media/0xThiagoAmaral/deadlock-open-assets/main/"
 local icon = BASE .. "images/deadlock/heroes_circle/haze.png"
 -- Render.LoadImage(icon) or your framework's image loader
 ```

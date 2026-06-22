@@ -45,7 +45,7 @@
 === "Lua"
     ```lua
     -- Hero icon from repo CDN
-    local icon = "https://raw.githubusercontent.com/0xThiagoAmaral/deadlock-open-assets/main/images/deadlock/heroes_circle/haze.png"
+    local icon = "https://media.githubusercontent.com/media/0xThiagoAmaral/deadlock-open-assets/main/images/deadlock/heroes_circle/haze.png"
     ```
 
 === "Python"

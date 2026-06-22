@@ -17,26 +17,37 @@ venv/
 # Downloaded binaries (auto-fetched on first run)
 tools/Source2Viewer-CLI/
 
-# Dev / internal (keep in private umblock fork)
+# Dev / internal (keep in private fork only)
 super_team_umbrella/
 deadlock_scripts/
-localizer/
-assets/docs/agents/
-assets/docs/api/
-assets/docs/builds/
-assets/docs/research/
-assets/extension/
-assets/dump/
 deadlock_gui.json
+localizer/
+assets/docs/
+assets/manifest.json
 assets/JSON.lua
 assets/extracted/catalog/deadlock_knowledge.json
 LoaderKernel.dll
 UmbrellaLoader.exe
+UmblockExtractor.bat
 assets.zip
 trace.log
 *.exe
 *.dll
 *.zip
+
+# Umbrella / cheat UI assets (never publish)
+images/MenuIcons/
+images/ArcPanel/
+images/InvokerPanel/
+images/deadlock/ui/umbrellacorp*.png
+images/deadlock/heroes_square/
+
+# Secrets — NEVER commit
+deepseek.txt
+api_deepseek.txt
+*.env
+.env.*
+tools/extractor_config.json
 
 # IDE
 .idea/

@@ -3,6 +3,7 @@
 const HubBrowse = (() => {
   const REPO = "0xThiagoAmaral/deadlock-open-assets";
   const BRANCH = "main";
+  const MEDIA = `https://media.githubusercontent.com/media/${REPO}/${BRANCH}/`;
   const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/`;
   const SITE = "https://0xthiagoamaral.github.io/deadlock-open-assets/";
   const GITHUB = `https://github.com/${REPO}`;
@@ -22,6 +23,11 @@ const HubBrowse = (() => {
   }
 
   function imgUrl(path) {
+    if (!path) return null;
+    return MEDIA + path.replace(/^\//, "");
+  }
+
+  function rawUrl(path) {
     if (!path) return null;
     return RAW + path.replace(/^\//, "");
   }
@@ -156,9 +162,6 @@ const HubBrowse = (() => {
   function heroCard(c) {
     const path = c.imgPath || "";
     const img = c.img ? `<img src="${c.img}" alt="${c.name}" loading="lazy" onerror="this.classList.add('hub-img-fail')">` : '<div class="hub-img-placeholder"></div>';
-    const snippet = c.codename
-      ? `panorama/images/heroes/${c.codename}_sm_psd.vtex_c`
-      : `images/deadlock/heroes_circle/${c.id}.png`;
     return `
       <div class="asset-card asset-card-interactive" tabindex="0">
         ${img}
@@ -167,8 +170,9 @@ const HubBrowse = (() => {
         <div class="asset-card-id">${c.id}</div>
         ${actionBar([
           btn("PNG", path ? imgUrl(path) : ""),
+          btn("Raw", path ? rawUrl(path) : ""),
           btn("Path", path),
-          btn("VPK", snippet),
+          btn("VPK", c.codename ? `panorama/images/heroes/${c.codename}_sm_psd.vtex_c` : ""),
         ])}
       </div>`;
   }
@@ -209,22 +213,25 @@ const HubBrowse = (() => {
       const codenameKeys = new Set(Object.keys(codes.map || {}));
 
       let cards = Object.entries(data.heroes || {})
-        .filter(([id]) => !(codenameKeys.has(id) && id !== codes.map[id]))
+        .filter(([id]) => {
+          const mapped = (codes.map || {})[id];
+          if (mapped && mapped !== id && data.heroes[mapped]) return false;
+          return true;
+        })
         .map(([id, h]) => {
           const path = (h.images || {}).path_sm || null;
-          const reverseId = (codes.reverse || {})[id];
-          const codename = h.codename || (reverseId === id ? null : Object.entries(codes.map || {}).find(([, v]) => v === id)?.[0]);
+          const codename = (codes.reverse || {})[id] || null;
           return {
             id,
             name: h.display_name || id,
-            codename: codename || null,
-            meta: codename ? `codename: ${codename}` : "",
+            codename,
             imgPath: path,
             img: imgUrl(path),
             hasIcon: !!path,
           };
         })
-        .sort((a, b) => (b.hasIcon - a.hasIcon) || a.name.localeCompare(b.name));
+        .filter((c) => c.hasIcon)
+        .sort((a, b) => a.name.localeCompare(b.name));
 
       const render = (list) => renderGrid(gridId, list, heroCard);
       render(cards);

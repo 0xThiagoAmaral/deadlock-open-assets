@@ -4,9 +4,8 @@
   "last_updated": "2026-06-22",
   "root": "images/deadlock/",
   "usage": {
-    "menu_icons": "Use panorama_sm paths in Menu:Icon() — nativo do jogo",
-    "overlay_render": "Use local_circle/local_square com Render.LoadImage() ou LIB_RENDER.image()",
-    "shared_dota_ui": "images/MenuIcons/, images/ArcPanel/ — reutilizáveis entre Dota2 e Deadlock"
+    "menu_icons": "Use panorama_sm paths for in-game native icons",
+    "overlay_render": "Use local_circle paths via CDN or repo clone"
   },
   "panorama_prefixes": {
     "abilities": "panorama/images/hud/abilities/",
@@ -15,10 +14,7 @@
     "items_vitality": "panorama/images/items/vitality/",
     "upgrades_tech": "panorama/images/upgrades/mods_tech/"
   },
-  "shared_ui": [
-    "images/deadlock/ui/umbrellacorp.png",
-    "images/deadlock/ui/umbrellacorpmini.png"
-  ],
+  "shared_ui": [],
   "heroes": {
     "abrams": {
       "id": "abrams",
@@ -347,12 +343,5 @@
       "panorama_sm": "panorama/images/heroes/fencer_sm_psd.vtex_c",
       "abilities": {}
     }
-  },
-  "dota_parity_folders": {
-    "heroes_circle": "images/heroes_circle/ (Dota2) → images/deadlock/heroes_circle/",
-    "items_square": "images/items_square/ (Dota2) → images/deadlock/items/ (pendente)",
-    "MenuIcons": "images/MenuIcons/ (compartilhado)",
-    "DmgIndicator": "images/DmgIndicator/ (compartilhado — adaptar cores)",
-    "ArcPanel": "images/ArcPanel/ (compartilhado)"
   }
 }

@@ -70,8 +70,8 @@ images/deadlock/abilities/haze/ability_sleep_dagger.png
 images/deadlock/items/spirit/arcane_extension.png
 ```
 
-Resolve via CDN:
+Resolve via CDN (Git LFS images):
 
 ```
-https://cdn.jsdelivr.net/gh/0xThiagoAmaral/deadlock-open-assets@main/{path}
+https://media.githubusercontent.com/media/0xThiagoAmaral/deadlock-open-assets/main/{path}
 ```

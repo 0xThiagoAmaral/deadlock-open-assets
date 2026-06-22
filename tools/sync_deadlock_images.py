@@ -58,8 +58,6 @@ PANORAMA_PREFIXES = {
 }
 
 SHARED_UI = [
-    ("ArcPanel/umbrellacorp.png", "ui/umbrellacorp.png"),
-    ("ArcPanel/umbrellacorpmini.png", "ui/umbrellacorpmini.png"),
     ("watermark/watermark.png", "ui/watermark.png"),
 ]
 
@@ -137,20 +135,12 @@ def main():
         "last_updated": "2026-06-22",
         "root": "images/deadlock/",
         "usage": {
-            "menu_icons": "Use panorama_sm paths in Menu:Icon() — nativo do jogo",
-            "overlay_render": "Use local_circle/local_square com Render.LoadImage() ou LIB_RENDER.image()",
-            "shared_dota_ui": "images/MenuIcons/, images/ArcPanel/ — reutilizáveis entre Dota2 e Deadlock",
+            "menu_icons": "Use panorama_sm paths for in-game native icons",
+            "overlay_render": "Use local_circle paths with CDN or local PNG files",
         },
         "panorama_prefixes": PANORAMA_PREFIXES,
         "shared_ui": shared,
         "heroes": heroes,
-        "dota_parity_folders": {
-            "heroes_circle": "images/heroes_circle/ (Dota2) → images/deadlock/heroes_circle/",
-            "items_square": "images/items_square/ (Dota2) → images/deadlock/items/ (pendente)",
-            "MenuIcons": "images/MenuIcons/ (compartilhado)",
-            "DmgIndicator": "images/DmgIndicator/ (compartilhado — adaptar cores)",
-            "ArcPanel": "images/ArcPanel/ (compartilhado)",
-        },
     }
 
     MANIFEST_OUT.parent.mkdir(parents=True, exist_ok=True)

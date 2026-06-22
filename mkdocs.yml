@@ -58,7 +58,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/0xThiagoAmaral/deadlock-open-assets
   hub_version: "1.0.0"
-  cdn_base: "https://cdn.jsdelivr.net/gh/0xThiagoAmaral/deadlock-open-assets@main"
+  cdn_base: "https://media.githubusercontent.com/media/0xThiagoAmaral/deadlock-open-assets/main"
 
 extra_css:
   - stylesheets/extra.css
